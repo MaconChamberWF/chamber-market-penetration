@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chamber Market Penetration</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    :root {
+        color-scheme: dark;
+        --bg:         #0d0d0f;
+        --surface:    #141416;
+        --border:     #27272a;
+        --border-2:   #3f3f46;
+        --text:       #d4d4d8;
+        --text-muted: #898781;
+        --b:          #1baf7a;
+        --radius: 8px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+        min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    }
+    .page { max-width: 560px; padding: 40px 32px; }
+    .cover-label {
+        font-size: 0.65rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+        color: var(--b); margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
+    }
+    .cover-label::before { content:''; width:18px; height:2px; background:var(--b); border-radius:1px; }
+    h1 { font-size: 1.7rem; font-weight: 700; letter-spacing: -0.03em; color: #fff; margin-bottom: 4px; }
+    .subtitle { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 32px; }
+    .links { display: flex; flex-direction: column; gap: 12px; }
+    .link-card {
+        display: block; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+        padding: 16px 18px; text-decoration: none; color: var(--text); transition: border-color 0.15s;
+    }
+    .link-card:hover { border-color: var(--border-2); }
+    .link-card .title { font-size: 0.92rem; font-weight: 600; color: #fff; margin-bottom: 3px; }
+    .link-card .desc { font-size: 0.78rem; color: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<div class="page">
+    <div class="cover-label">Greater Macon Chamber</div>
+    <h1>Chamber Market Penetration</h1>
+    <p class="subtitle">Bibb County, GA</p>
+    <div class="links">
+        <a class="link-card" href="report/chamber-penetration-with-map.html">
+            <div class="title">Full Report + Map</div>
+            <div class="desc">Penetration metrics, industry breakdown, and the interactive investor-location map.</div>
+        </a>
+        <a class="link-card" href="report/chamber-penetration-overview.html">
+            <div class="title">Core Metrics Overview</div>
+            <div class="desc">Just the headline penetration rate and cleaning methodology, no map or industry table.</div>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

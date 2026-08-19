@@ -1,0 +1,23 @@
+# Raw chamber export -- contains personal PII (SSNs, personal phone/email,
+# birth dates) on the billing/main contacts. Never publish. The cleaned,
+# business-level derivative (data/members_clean.csv) is what's actually
+# used and published.
+data/Chamber investors dump.csv
+
+# JobsEQ vendor export (Data Explorer.xlsx) -- paid labor-market data,
+# not ours to redistribute. Cited by name in the report as a source,
+# but the raw file itself stays local.
+Data Explorer.xlsx
+
+# Microsoft Building Footprints -- 76MB, third-party geodata, and unused:
+# the map renders points, not building polygons (see build_map_data.py's
+# docstring for why that approach was abandoned).
+data/ms_footprints/
+
+# OS/editor cruft
+.DS_Store
+__pycache__/
+*.pyc
+
+# Claude Code session state, not project content
+.claude/

@@ -1,0 +1,407 @@
+<title>Chamber Penetration + Map</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    :root {
+        color-scheme: dark;
+        --bg:         #0d0d0f;
+        --surface:    #141416;
+        --surface-2:  #1c1c1f;
+        --border:     #27272a;
+        --border-2:   #3f3f46;
+        --text:       #d4d4d8;
+        --text-muted: #898781;
+        --a:          #6366f1;   /* Tier A — naive/raw */
+        --b:          #1baf7a;   /* Tier B — cleaned */
+        --b-dim:      rgba(27,175,122,0.14);
+        --warn:       #d95926;
+        --radius: 8px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 40px 32px 64px; }
+
+    .cover-label {
+        font-size: 0.65rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+        color: var(--a); margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
+    }
+    .cover-label::before { content:''; width:18px; height:2px; background:var(--a); border-radius:1px; }
+    h1 { font-size: 1.7rem; font-weight: 700; letter-spacing: -0.03em; color: #fff; margin-bottom: 4px; }
+    .subtitle { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 28px; }
+    .subtitle .sep { margin: 0 8px; color: var(--border-2); }
+
+    /* ── Hero stat ─────────────────────────────── */
+    .hero { display: flex; align-items: center; gap: 22px; background: var(--surface); border: 1px solid var(--b); border-radius: var(--radius); padding: 26px 30px; margin-bottom: 10px; }
+    .hero-value { font-size: 3.4rem; font-weight: 700; color: var(--b); letter-spacing: -0.03em; line-height: 1; font-variant-numeric: tabular-nums; }
+    .hero-text { font-size: 0.82rem; color: var(--text); max-width: 480px; }
+    .hero-text b { color: #fff; }
+    .hero-tag { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--b); margin-bottom: 6px; }
+
+    /* Real stacked fraction, not "÷" */
+    .frac { display: inline-flex; flex-direction: column; align-items: center; font-weight: 700; color: #fff; line-height: 1.3; font-variant-numeric: tabular-nums; vertical-align: middle; font-size: 1.05rem; }
+    .frac-num { border-bottom: 2px solid currentColor; padding: 0 5px 3px; }
+    .frac-den { padding: 3px 5px 0; }
+
+    .frac-row { display: inline-flex; align-items: center; gap: 10px; }
+
+    /* Same fraction shape, in words -- labels what the numeric fraction beside it means at a glance */
+    .frac-concept { font-weight: 600; color: var(--text-muted); font-variant-numeric: normal; font-size: 0.6rem; letter-spacing: 0.05em; text-transform: uppercase; padding-left: 10px; border-left: 1px solid var(--border-2); }
+    .frac-concept .frac-num { border-bottom: 1px solid currentColor; padding: 0 0 2px; }
+    .frac-concept .frac-den { padding: 2px 0 0; }
+
+    /* "Also true" secondary metric — quiet, lives in the notes dropdown now */
+    .hero.hero-b2 {
+        display: inline-flex; align-items: center; gap: 14px; background: transparent;
+        border: none; border-left: 3px solid var(--a); border-radius: 0;
+        padding: 2px 0 2px 16px; margin: 0;
+    }
+    .hero.hero-b2 .hero-value { font-size: 1.5rem; color: var(--a); }
+    .hero.hero-b2 .hero-tag { color: var(--a); margin-bottom: 2px; }
+    .hero.hero-b2 .frac { font-size: 0.78rem; color: var(--text-muted); }
+
+    .est-source { font-size: 0.76rem; color: var(--text-muted); margin-top: 8px; }
+    .est-source b { color: #fff; font-variant-numeric: tabular-nums; }
+
+    /* Headline card: big rate + fraction on top, cleaning trail along the bottom */
+    .opt-b-card { background: var(--surface); border: 1px solid var(--b); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 36px; }
+    .opt-b-top { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .opt-b-value {
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 3rem; font-weight: 600; color: var(--b); letter-spacing: -0.01em; line-height: 1; font-variant-numeric: tabular-nums;
+    }
+    .opt-b-tag { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--b); }
+    .opt-b-trail {
+        display: flex; align-items: center; gap: 8px; margin-top: 18px; padding-top: 16px;
+        border-top: 1px solid var(--border); font-size: 0.76rem; color: var(--text-muted); flex-wrap: wrap;
+    }
+    .opt-b-trail b { color: #fff; font-variant-numeric: tabular-nums; }
+    .opt-b-trail .sep { color: var(--border-2); }
+
+    .section-divider {
+        font-size: 0.64rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+        color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 12px; margin: 36px 0 16px;
+        display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    }
+    .section-divider .tag {
+        font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+        color: var(--warn); border: 1px solid var(--warn); border-radius: 20px; padding: 2px 8px;
+    }
+    .panel-sub { font-size: 0.76rem; color: var(--text-muted); margin-bottom: 14px; }
+    .omit-arrow-row { text-align: center; margin-top: 14px; }
+    .omit-arrow {
+        display: inline-flex; align-items: center; gap: 7px; cursor: pointer; user-select: none;
+        color: var(--text-muted); font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em;
+        text-transform: uppercase; padding: 6px 16px; border: 1px solid var(--border); border-radius: 20px;
+    }
+    .omit-arrow:hover { color: var(--text); border-color: var(--border-2); }
+    .omit-arrow .arrow-glyph { font-size: 0.62rem; }
+    .chart-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+
+    /* ── Matrix table ─────────────────────────────── */
+    table.matrix { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
+    table.matrix th {
+        text-align: left; padding: 8px 12px; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.07em;
+        text-transform: uppercase; color: var(--text-muted); border-bottom: 1px solid var(--border);
+    }
+    table.matrix th.num, table.matrix td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    table.matrix td { padding: 11px 12px; border-bottom: 1px solid var(--border); color: var(--text); }
+    table.matrix tr:last-child td { border-bottom: none; }
+    table.matrix tr.recommended { background: var(--b-dim); }
+    table.matrix tr.recommended td { color: #fff; font-weight: 700; }
+    table.matrix .star { color: var(--b); margin-left: 6px; }
+    table.matrix .tier-a { color: var(--a); font-weight: 600; }
+    table.matrix .tier-b { color: var(--b); font-weight: 600; }
+    table.matrix tr.row-omitted { display: none; }
+    table.matrix tr.row-omitted td { color: var(--text-muted) !important; opacity: 0.6; }
+
+    /* ── Funnel ───────────────────────────────────── */
+    .funnel-row { display: grid; grid-template-columns: 130px 1fr 60px; align-items: center; gap: 12px; margin-bottom: 5px; }
+    .funnel-label { font-size: 0.76rem; text-align: right; }
+    .funnel-track { height: 20px; background: var(--surface-2); border-radius: 4px; overflow: hidden; }
+    .funnel-fill { height: 100%; border-radius: 4px; }
+    .funnel-value { font-size: 0.8rem; font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
+    .funnel-delta { grid-column: 2/3; font-size: 0.68rem; color: var(--warn); margin: 2px 0 8px 4px; }
+
+    /* ── Methodology — plain doc/README style, not dashboard cards ── */
+    .method-grid { display: flex; flex-direction: column; gap: 30px; }
+    .method-card h3 {
+        font-size: 0.95rem; font-weight: 600; color: #fff;
+        padding-bottom: 8px; margin-bottom: 12px; border-bottom: 1px solid var(--border);
+    }
+    .method-card ul { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 10px 0 0; }
+    .method-card li { font-size: 0.82rem; line-height: 1.55; padding-left: 16px; position: relative; color: var(--text); }
+    .method-card li::before { content: '—'; position: absolute; left: 0; color: var(--text-muted); }
+    .method-card b { color: #fff; font-weight: 600; }
+
+    /* Formula block — a plain code fence, no chart, no color-coded result */
+    .formula {
+        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.82rem;
+        color: var(--text); background: var(--surface-2); border: 1px solid var(--border);
+        border-radius: 6px; padding: 10px 14px; display: block;
+    }
+    .formula b { color: #fff; }
+    .formula .fx-op { color: var(--text-muted); padding: 0 4px; }
+    .formula .fx-result { color: #fff; font-weight: 700; }
+
+    table.data-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin: 10px 0; }
+    table.data-table th {
+        text-align: left; padding: 6px 10px; font-size: 0.68rem; font-weight: 600;
+        color: var(--text-muted); border-bottom: 1px solid var(--border-2); white-space: nowrap;
+    }
+    table.data-table td { padding: 6px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    table.data-table tr:last-child td { border-bottom: none; }
+    table.data-table .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+    /* ── Map embed ─────────────────────────────────── */
+    .map-frame-wrap {
+        background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+        overflow: hidden; height: 780px; position: relative;
+    }
+    .map-frame-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
+    .map-fallback {
+        position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+        flex-direction: column; gap: 10px; padding: 30px; text-align: center; color: var(--text-muted); font-size: 0.8rem;
+    }
+    .map-fallback code { background: var(--surface-2); padding: 2px 6px; border-radius: 3px; }
+    .map-legend-hint { font-size: 0.72rem; color: var(--text-muted); margin-top: 10px; }
+    .map-legend-hint b { color: #fff; }
+
+    /* Click-to-activate gate: an embedded iframe can otherwise trap your
+       scroll (the browser doesn't reliably forward an unhandled wheel
+       event from inside an iframe back out to scroll this page). This
+       overlay sits in front of the iframe and simply absorbs mouse/wheel
+       input -- scrolling past it just scrolls the page normally -- until
+       you click once to hand control to the map underneath. */
+    .map-activate {
+        position: absolute; inset: 0; z-index: 2; cursor: pointer;
+        display: flex; align-items: center; justify-content: center;
+        background: rgba(13,13,15,0.45); transition: opacity 0.2s;
+    }
+    .map-activate span {
+        background: rgba(20,20,22,0.94); border: 1px solid var(--border-2); border-radius: 8px;
+        padding: 11px 18px; font-size: 0.82rem; font-weight: 600; color: #fff;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+    .map-activate.gone { opacity: 0; pointer-events: none; }
+
+    .footer { margin-top: 40px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 0.68rem; color: var(--text-muted); }
+    .footer code { background: var(--surface-2); padding: 1px 5px; border-radius: 3px; }
+
+    /* ── Info-icon hover tooltip ───────────────────── */
+    .info-icon {
+        display: inline-flex; align-items: center; justify-content: center;
+        width: 15px; height: 15px; border-radius: 50%; border: 1px solid var(--border-2);
+        color: var(--text-muted); font-size: 0.6rem; font-weight: 700; font-style: normal;
+        text-transform: none; letter-spacing: normal;
+        cursor: help; position: relative; margin-left: 6px; vertical-align: middle;
+    }
+    .info-icon .tooltip-box {
+        display: none; position: absolute; z-index: 10; bottom: calc(100% + 8px); left: 0;
+        width: 280px; background: var(--surface-2); color: var(--text);
+        border: 1px solid var(--border-2); border-radius: 6px; padding: 10px 12px;
+        font-size: 0.72rem; font-weight: 400; line-height: 1.45; text-align: left;
+        text-transform: none; letter-spacing: normal;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    .info-icon:hover .tooltip-box, .info-icon:focus .tooltip-box { display: block; }
+    .info-icon.align-right .tooltip-box { left: auto; right: 0; }
+    .info-icon .tooltip-box code { background: var(--surface); padding: 1px 4px; border-radius: 3px; }
+
+    /* ── Bottom notes accordion ────────────────────── */
+    details.notes { margin-top: 36px; border-top: 1px solid var(--border); padding-top: 4px; }
+    details.notes summary {
+        font-size: 0.64rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+        color: var(--text-muted); padding: 12px 0; cursor: pointer; list-style: none;
+        display: flex; align-items: center; gap: 8px;
+    }
+    details.notes summary::-webkit-details-marker { display: none; }
+    details.notes summary::before { content: '▸'; font-size: 0.7rem; }
+    details.notes[open] summary::before { content: '▾'; }
+    details.notes summary:hover { color: var(--text); }
+    details.notes .notes-body { padding-top: 12px; display: flex; flex-direction: column; gap: 20px; }
+    details.notes h4 {
+        font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+        color: var(--text-muted); margin-bottom: 8px;
+    }
+
+    @media (max-width: 780px) {
+        .page { padding: 24px 16px 48px; }
+        .hero { flex-direction: column; gap: 8px; }
+        .opt-b-trail { gap: 4px; }
+        .opt-b-top { align-items: flex-start; }
+        table.matrix { font-size: 0.76rem; }
+        .map-frame-wrap { height: 520px; }
+    }
+</style>
+
+<div class="page">
+
+    <div class="cover-label">Phase 1 + 2 + 3 · Penetration Metrics, Industry &amp; Map</div>
+    <h1>Chamber Market Penetration</h1>
+    <p class="subtitle">Greater Macon Chamber<span class="sep">·</span>Bibb County, GA<span class="sep">·</span>Aug 19, 2026</p>
+
+    <div class="opt-b-card">
+        <div class="opt-b-top">
+            <div>
+                <div class="opt-b-value">14.03%</div>
+                <div class="opt-b-tag">Headline rate</div>
+            </div>
+            <div style="text-align:right;">
+                <div class="frac-row">
+                    <span class="frac"><span class="frac-num">664</span><span class="frac-den">4,732</span></span>
+                    <span class="frac frac-concept"><span class="frac-num">investors</span><span class="frac-den">establishments</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="opt-b-trail">
+            <b>783</b> official investors <span class="sep">›</span>
+            <b>754</b> minus 29 non-covered <span class="sep">›</span>
+            <b>664</b> minus 90 out-of-county = the headline's numerator
+        </div>
+        <div class="est-source"><b>4,732</b> = every Bibb County business (JobsEQ, 2025Q4)</div>
+        <p class="panel-sub" style="margin-top:10px;">Headline rate = chamber members ÷ local industry establishments. Both sides leave out churches and government, so it's an apples-to-apples comparison — this is the number to quote.</p>
+    </div>
+
+    <!-- ── Industry ───────────────────────────────── -->
+    <div class="section-divider"><span>Industry Penetration<i class="info-icon">i<span class="tooltip-box">Per sector: chamber members ÷ JobsEQ establishments, matched via the chamber's own category (37 of 51 categories map cleanly, 8 needed a judgment call). 17 members in one ambiguous category, and all 12 members of a second, were individually sorted by hand rather than force-fit to one sector — see the Information row below and the omission note further down. 4 categories (57 members, 7.6%) still couldn't be matched at all. Full reasoning: <code>data/naics_crosswalk.json</code>.</span></i></span><span class="tag">Phase 2</span></div>
+    <div class="chart-wrap">
+        <table class="matrix">
+            <thead>
+                <tr><th>Sector</th><th class="num">Members</th><th class="num">County Establishments</th><th class="num">Penetration</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Arts, Entertainment, and Recreation</td><td class="num">29</td><td class="num">74</td><td class="num tier-b">39.19%</td></tr>
+                <tr><td>Finance and Insurance</td><td class="num">82</td><td class="num">273</td><td class="num tier-b">30.04%</td></tr>
+                <tr><td>Information<i class="info-icon">i<span class="tooltip-box">Includes real telecom/internet members — AT&amp;T, Cox, Comcast Business, Clearwave Fiber, Wire 3, T-Fiber, Accelecom, Public Service Telephone — individually sorted out from the chamber's combined "Utilities &amp; Internet Service Providers" category. Also includes 7 broadcasters/publishers individually sorted out from "Marketing &amp; Media" — three local TV stations, Macon Magazine, Georgia CEO, NotiVisión Georgia, Georgia Trust for Local News — rather than folded into that category's Advertising Services default. The other half of the utilities/ISP split (true utilities: Georgia Power, Central Georgia EMC, etc.) is the omitted Utilities row at the bottom of the table — toggle "Show omitted sectors" below to see it.</span></i></td><td class="num">15</td><td class="num">53</td><td class="num tier-b">28.30%</td></tr>
+                <tr><td>Construction</td><td class="num">69</td><td class="num">246</td><td class="num tier-b">28.05%</td></tr>
+                <tr><td>Manufacturing<i class="info-icon">i<span class="tooltip-box">5 members that a category-level match would have folded in here — 3 mining/aggregate companies, a hydroponic-agriculture grower, and a 3PL/warehousing company — were individually sorted out to their real sectors instead (see the Mining and Agriculture omitted rows below). What's left is genuine manufacturers only.</span></i></td><td class="num">38</td><td class="num">141</td><td class="num tier-b">26.95%</td></tr>
+                <tr><td>Educational Services</td><td class="num">27</td><td class="num">105</td><td class="num tier-b">25.71%</td></tr>
+                <tr><td>Professional, Scientific, and Technical Services</td><td class="num">106</td><td class="num">441</td><td class="num tier-b">24.04%</td></tr>
+                <tr><td>Real Estate and Rental and Leasing</td><td class="num">31</td><td class="num">206</td><td class="num tier-b">15.05%</td></tr>
+                <tr><td>Health Care and Social Assistance</td><td class="num">104</td><td class="num">698</td><td class="num tier-b">14.90%</td></tr>
+                <tr><td>Accommodation and Food Services</td><td class="num">64</td><td class="num">483</td><td class="num tier-b">13.25%</td></tr>
+                <tr><td>Administrative and Support and Waste Management and Remediation Services</td><td class="num">34</td><td class="num">290</td><td class="num tier-b">11.72%</td></tr>
+                <tr><td>Transportation and Warehousing</td><td class="num">16</td><td class="num">138</td><td class="num tier-b">11.59%</td></tr>
+                <tr><td>Wholesale Trade</td><td class="num">15</td><td class="num">183</td><td class="num tier-b">8.20%</td></tr>
+                <tr><td>Other Services (except Public Administration)</td><td class="num">19</td><td class="num">334</td><td class="num tier-b">5.69%</td></tr>
+                <tr><td>Retail Trade</td><td class="num">35</td><td class="num">745</td><td class="num tier-b">4.70%</td></tr>
+                <tr class="row-omitted"><td>Utilities</td><td class="num">7</td><td class="num">6</td><td class="num">116.67%</td></tr>
+                <tr class="row-omitted"><td>Mining, Quarrying, and Oil and Gas Extraction<i class="info-icon">i<span class="tooltip-box">3 mining/aggregate companies (Burgess Pigment, Atlanta Sand &amp; Supply, SCB Minerals) individually sorted out from "Industrial, Manufacturing &amp; Logistics," where a category-level match would have folded them into Manufacturing instead.</span></i></td><td class="num">3</td><td class="num">4</td><td class="num">75.00%</td></tr>
+                <tr class="row-omitted"><td>Agriculture, Forestry, Fishing and Hunting</td><td class="num">3</td><td class="num">12</td><td class="num">25.00%</td></tr>
+                <tr class="row-omitted"><td>Management of Companies and Enterprises</td><td class="num">0</td><td class="num">23</td><td class="num">0.00%</td></tr>
+                <tr class="row-omitted"><td>Public Administration<i class="info-icon">i<span class="tooltip-box">Zero regardless of base size: government members are excluded from every count in this study by design (see "Headline Rate" at the top), not omitted for a small sample like the other 4 greyed-out rows.</span></i></td><td class="num">0</td><td class="num">48</td><td class="num">0.00%</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="panel-sub" style="margin-top:10px;">County average (sectors shown): <b>15.48%</b>. Strongest: Arts/Entertainment, Finance, Information. Weakest: Retail, Other Services.</p>
+    <div class="omit-arrow-row">
+        <span class="omit-arrow" onclick="
+            const rows = document.querySelectorAll('.row-omitted');
+            const opening = this.getAttribute('data-open') !== 'true';
+            rows.forEach(r => r.style.display = opening ? 'table-row' : 'none');
+            this.setAttribute('data-open', opening);
+            this.querySelector('.arrow-glyph').textContent = opening ? '▾' : '▸';
+        "><span class="arrow-glyph">▸</span> 5 omitted sectors</span><i class="info-icon">i<span class="tooltip-box">Under 50 countywide establishments each — too small a base for a stable percentage. Public Administration reads 0% for a separate, unrelated reason: government members are excluded from every count in this study by design. Raw counts for all 20 sectors: <code>data/naics_penetration.json</code>.</span></i>
+    </div>
+
+    <!-- ── Map ─────────────────────────────────────── -->
+    <div class="section-divider"><span>Map — Investor Locations by Tier<i class="info-icon">i<span class="tooltip-box">One dot per chamber member, colored by tier — every county, not just Bibb. Click a legend row to isolate a tier, hover a dot for the name, zoom in to break up clusters.</span></i></span><span class="tag">Phase 3</span></div>
+    <div class="map-frame-wrap">
+        <iframe src="../map/chamber-map.html" title="Chamber investor buildings map" loading="lazy" allowfullscreen
+            onerror="this.style.display='none'; document.getElementById('map-fallback').style.display='flex';"></iframe>
+        <div class="map-fallback" id="map-fallback" style="display:none;">
+            Map didn't load in this frame — some browsers block a local file loading another local file inside an iframe.
+            Open it directly instead: <code>map/chamber-map.html</code>
+        </div>
+        <div class="map-activate" onclick="this.classList.add('gone')"><span>Click to activate the map</span></div>
+    </div>
+
+    <details class="notes">
+        <summary>Notes &amp; Methodology</summary>
+        <div class="notes-body">
+            <div>
+                <h4>A second, equally valid way to count this</h4>
+                <div class="hero hero-b2">
+                    <div class="hero-value">10.23%</div>
+                    <div>
+                        <div class="hero-tag">Also true</div>
+                        <div class="hero-text"><span class="frac"><span class="frac-num">687</span><span class="frac-den">6,713</span></span></div>
+                    </div>
+                </div>
+                <p class="panel-sub" style="margin-top:10px;">Also true = chamber members ÷ every business in the county (MBCIA's count), churches and government included on both sides — same members, just a bigger, looser denominator. Not the headline: JobsEQ's establishment count (4,732) already excludes most churches and government the same way this page's numerator does, an apples-to-apples match. Esri's total (6,713) doesn't make that cut and also folds in freelancers, home-based, and other looser listings, inflating the denominator without a matching adjustment on the numerator side.</p>
+            </div>
+            <div class="method-grid">
+                <div class="method-card">
+                    <h3>Membership Cleaning</h3>
+                    <div class="formula">783 <span class="fx-op">−</span> 29 non-covered <span class="fx-op">−</span> 90 out-of-county <span class="fx-op">=</span> <span class="fx-result">664</span></div>
+                    <ul>
+                        <li><b>Fact.</b> 783 = official investor count, per the chamber. No active/inactive filter applied.</li>
+                        <li><b>Fact.</b> Profile Status and Membership Level Name are the same field, not an active flag.</li>
+                        <li><b>Fact.</b> No individual/personal-contact rows in this export — all 783 are orgs.</li>
+                        <li><b>Judgment call.</b> Non-covered = Government + Places of Worship (29 rows), removed from every count on this page. Non-profits are kept in — every establishment source counts them too.</li>
+                        <li><b>Judgment call.</b> Multi-location listings (18 rows) not deduped — every denominator source counts each location separately too.</li>
+                        <li><b>Judgment call.</b> 10 blank-county rows resolved via zip whitelist; 5 still unresolved, excluded from the in-county cut.</li>
+                        <li><b>Judgment call.</b> <code>Profile Date Inactive</code> is set on 460/783 rows but unused here — worth confirming what it means in your workflow.</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <h3>Choosing the Denominator</h3>
+                    <table class="data-table">
+                        <thead><tr><th>Source</th><th>Value</th><th>Used in</th></tr></thead>
+                        <tbody>
+                            <tr><td>JobsEQ 2025Q4</td><td class="num">4,732</td><td>Headline rate</td></tr>
+                            <tr><td>Esri/Data Axle "2026"</td><td class="num">6,713</td><td>Also true</td></tr>
+                            <tr><td>CBP 2023</td><td class="num">4,147</td><td>Cross-check only</td></tr>
+                        </tbody>
+                    </table>
+                    <ul>
+                        <li><b>Fact.</b> JobsEQ 2025Q4: 4,732 covered-employment establishments, Bibb County, GA (FIPS 13021) — <code>Data Explorer.xlsx</code>, exported Aug 19, 2026.</li>
+                        <li><b>Fact.</b> CBP 2023: 4,147 employer establishments, Bibb County (Census County Business Patterns).</li>
+                        <li><b>Fact.</b> Esri/Data Axle "2026 Total Businesses": 6,713, via MBCIA's dashboard.</li>
+                        <li><b>Judgment call.</b> Esri's 6,713 geographic scope (Bibb-only vs. broader area) is assumed, not confirmed. JobsEQ and CBP are both explicitly Bibb-County-scoped. CBP is older than JobsEQ and isn't used as either headline's denominator.</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <h3>Industry Crosswalk</h3>
+                    <div class="formula">Sector Penetration <span class="fx-op">=</span> Sector Members <span class="fx-op">÷</span> Sector Establishments</div>
+                    <ul>
+                        <li><b>Fact.</b> Profile NAICS Codes is empty for 100% of rows — the chamber's own category taxonomy was used instead of official NAICS codes.</li>
+                        <li><b>Fact.</b> 51 chamber categories → 20 JobsEQ sectors: 37 map cleanly, 8 needed a judgment call, 2 categories (Utilities &amp; Internet, 17 members; Automotive, 12 members) resolved member-by-member, 4 categories (57 members, 7.6%) couldn't be matched at all.</li>
+                        <li><b>Judgment call.</b> JobsEQ's 20 sectors sum to 4,503, not 4,732 — a 229-establishment "Unclassified" gap it doesn't break out.</li>
+                        <li><b>Judgment call.</b> 5 sectors under 50 countywide establishments omitted from the ranked table — too small a base for a stable percentage. Toggle "omitted sectors" above to see them.</li>
+                        <li>Full crosswalk + reasoning: <code>data/naics_crosswalk.json</code>. Per-member overrides: <code>data/naics_member_overrides.json</code>.</li>
+                    </ul>
+                </div>
+
+                <div class="method-card">
+                    <h3>Geocoding the Map</h3>
+                    <div class="formula">729 <span class="fx-op">÷</span> 754 <span class="fx-op">=</span> <span class="fx-result">96.7%</span> geocoded</div>
+                    <ul>
+                        <li><b>Fact.</b> 8 recovered by hand, 25 stay unmatched (18 have no real address on file, 7 couldn't be found). Detail: <code>data/geocode_overrides.json</code>.</li>
+                        <li><b>Fact.</b> Kumho, Graphic Packaging, and YKK — all initially missing from the map — are now all correctly placed.</li>
+                        <li><b>Fact.</b> 2 of 729 geocoded points were wrong and are now fixed (0.3% error rate) — see table below. Found via a full audit: <code>scripts/audit_geocodes.py</code>.</li>
+                        <li><b>Judgment call.</b> Dots, not building outlines — outlines kept grabbing the wrong neighboring building.</li>
+                    </ul>
+                    <table class="data-table">
+                        <thead><tr><th>Business</th><th>Problem</th><th>Fix</th></tr></thead>
+                        <tbody>
+                            <tr><td>Z Beans Coffee</td><td>Chamber's own address on file was wrong</td><td>Moved to real address</td></tr>
+                            <tr><td>Holiday Inn Express Macon North</td><td>Census geocoder matched the wrong street</td><td>Moved to real address</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </details>
+
+    <div class="footer">
+        Source: <code>Chamber investors dump.csv</code> (783 rows) → <code>scripts/clean_members.py</code> → <code>scripts/compute_penetration.py</code>. Map: <code>scripts/geocode_members.py</code> (Census batch → Nominatim address → Nominatim business-name → manual overrides) → <code>scripts/build_map_data.py</code> (plain geocoded points, clustered client-side) → <code>map/chamber-map.html</code>. Industry: <code>Data Explorer.xlsx</code> (JobsEQ) → <code>data/naics_crosswalk.json</code> → <code>scripts/build_naics_crosswalk.py</code>.
+    </div>
+
+</div>

@@ -1,0 +1,784 @@
+Profile ID,Organization Name,Membership Level Name,Primary Listing Category,Profile County,Resolved County,Profile Zip Code,is_active,is_dup_by_address,is_additional_listing_tier,is_non_covered_category,is_in_county,is_tier_a,is_tier_b
+15,"Ackerman Wrecker Service, Inc.",Basic Membership,Automotive,Bibb,Bibb,31206,True,False,False,False,True,True,True
+18,Active Imaging Services LLC,Basic Membership,"Office Supplies, Furnishings & Equipment",Bibb,Bibb,31216,True,False,False,False,True,True,True
+32,"Air Compressor Sales, Inc.",Basic Membership,"Industrial, Manufacturing & Logistics",,Bibb (zip-inferred),31220,True,False,False,False,True,True,True
+35,Wesley Glen Ministries,Key Stakeholder,Non-Profit Organizations,Bibb,Bibb,31210,True,False,False,False,True,True,True
+37,"Akridge Realty, Inc.",Basic Membership,Real Estate,Bibb,Bibb,31206,True,False,False,False,True,True,True
+55,American Red Cross of Central Georgia,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,True,False,False,False,True,True,True
+56,American Service Industries,Business Catalyst,Cleaning & Janitorial Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+60,"Anderson, Walker & Reichert, LLP",Basic Membership,Legal Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+61,"Andrews, Hammock, & Powell, Inc.",Business Catalyst,Construction & Building Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+72,Appling Brothers Company,Business Catalyst,Construction & Building Services,Bibb,Bibb,31211,True,False,False,False,True,True,True
+86,Macon Coca-Cola Bottling Co.,Community Advocate,Distribution & Wholesale,Bibb,Bibb,31206,True,False,False,False,True,True,True
+88,Atlanta Gas Light Company,Community Advocate,Utilities & Internet Service Providers,Bibb,Bibb,31210,True,False,False,False,True,True,True
+113,Carol Bashuk Beltone Hearing Care Center,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+123,B & D Industrial,Community Advocate,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31201,True,False,False,False,True,True,True
+128,AT&T Store - Riverside,Additional Listing - Cornerstone (Unpaid),Shopping & Retail,Bibb,Bibb,31210,True,False,True,False,True,True,True
+140,Better Business Bureau,Community Partner,Non-Profit Organizations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+145,Macon-Bibb County Industrial Authority,Regional Influencer,Government,Bibb,Bibb,31201,True,False,False,True,True,True,False
+148,Middle Georgia Regional Commission (MGRC),Community Partner,Government,Bibb,Bibb,31206,True,False,False,True,True,True,False
+150,Macon-Bibb County Planning & Zoning Commission,Community Partner,Government,Bibb,Bibb,31206,True,False,False,True,True,True,False
+152,Bibb County School District,Business Catalyst,Education,Bibb,Bibb,31201,True,False,False,False,True,True,True
+199,Bibb Co. Department of Family and Children Services,Basic Membership,Government,Bibb,Bibb,31201,True,False,False,True,True,True,False
+201,Bibb Distributing Company,Regional Influencer,Distribution & Wholesale,Bibb,Bibb,31216,True,False,False,False,True,True,True
+202,Bibb Home Improvement Service,Basic Membership,Construction & Building Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+205,MidSouth Community Federal Credit Union,Business Catalyst,Banking,Bibb,Bibb,31210,True,False,False,False,True,True,True
+214,"Blake & Pendleton, Inc.",Business Catalyst,Commercial Suppliers,Bibb,Bibb,31201,True,False,False,False,True,True,True
+217,BTV Systems,Basic Membership,"Security Systems, Surveillance & Monitoring",Bibb,Bibb,31206,True,False,False,False,True,True,True
+218,Blue Bird Corporation,Leading Investor,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31210,True,False,False,False,True,True,True
+222,"Dr. Shawn Scott, D.D.S., LLC",Basic Membership,Healthcare - Vascular & Interventional,Bibb,Bibb,31210,True,False,False,False,True,True,True
+228,"Boy Scouts of America, Central Georgia Council",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31217,True,False,False,False,True,True,True
+229,Boys & Girls Clubs of Central Georgia,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+234,"Smith, Brown & Groover, Inc.",Basic Membership,Financial Services,Bibb,Bibb,31210,True,True,False,False,True,True,True
+239,Buford and Buford,Basic Membership,Legal Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+244,"Schuster Enterprises, Inc. dba Burger King",Basic Membership,Restaurants & Catering,Bibb,Bibb,31206,True,False,False,False,True,True,True
+246,Burgess Pigment Company,Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31204,True,False,False,False,True,True,True
+252,Butler Automotive Group,Economic Driver,Automotive,Bibb,Bibb,31210,True,False,False,False,True,True,True
+256,"Butler, Williams & Wyche, LLP",Basic Membership,Accounting Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+260,"C & H Bus Lines, Inc.",Basic Membership,Transportation,Bibb,Bibb,31201,True,False,False,False,True,True,True
+287,Carlyle Place,Basic Membership,Retirement & Senior Living,Bibb,Bibb,31210,True,False,False,False,True,True,True
+304,Central Georgia Electric Membership Corp.,Economic Driver,Utilities & Internet Service Providers,Bibb,Bibb,30233,True,False,False,False,True,True,True
+305,"Eye Center of Central Georgia, PC",Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+306,Central Georgia Cancer Care,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+307,Atrium Health Navicent Rehabilitation Hospital,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31210,True,False,True,False,True,True,True
+315,Cherokee Brick,Community Advocate,Construction & Building Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+336,Macon-Bibb County,Regional Influencer,Government,Bibb,Bibb,31201,True,False,False,True,True,True,False
+337,Macon-Bibb Economic & Community Development,Community Partner,Government,Bibb,Bibb,31201,True,True,False,True,True,True,False
+339,Clark Memorials,Basic Membership,Funeral & Burial Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+358,Community Foundation of Central Georgia,Business Catalyst,Foundations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+370,Courtyard by Marriott,Basic Membership,,Bibb,Bibb,31210,True,False,False,False,True,True,True
+373,Cox Communications,Leading Investor,Utilities & Internet Service Providers,Bibb,Bibb,31216,True,False,False,False,True,True,True
+386,C-W-C Macon,Basic Membership,Furniture & Interior Design,,Bibb (zip-inferred),31210,True,False,False,False,True,True,True
+421,Dismas Charities - Macon,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+432,The Douglass Theatre,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31201,True,False,False,False,True,True,True
+438,"Dunwody/Beeland Architects, Inc.",Economic Driver,"Architects, Engineers & Planners",Bibb,Bibb,31201,True,False,False,False,True,True,True
+441,"1842 Inn, LLC",Basic Membership,Lodging & Venues,Bibb,Bibb,31201,True,False,False,False,True,True,True
+444,Coldwell Banker Commercial Eberhardt & Barry,Basic Membership,Real Estate,Bibb,Bibb,31201,True,False,False,False,True,True,True
+476,"Family Counseling Center of Central Ga, Inc.",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+490,"Fickling & Company, Inc.",Economic Driver,Real Estate,Bibb,Bibb,31201,True,False,False,False,True,True,True
+494,"Fincher's Barbecue and Catering, Inc.",Business Catalyst,Restaurants & Catering,Bibb,Bibb,31211,True,False,False,False,True,True,True
+508,First Presbyterian Day School,Basic Membership,Education,Bibb,Bibb,31210,True,False,False,False,True,True,True
+510,Capital City Bank,Basic Membership,Banking,Bibb,Bibb,31201,True,False,False,False,True,True,True
+526,Fort Valley State University,Basic Membership,Education,Peach,Peach,31030,True,False,False,False,False,True,True
+550,Triple-S Steel of Georgia,Economic Driver,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,True,False,False,False,True,True,True
+554,Georgia Industrial Children's Home/Twin Cedars Inc,Basic Membership,Youth Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+557,Georgia Department of Labor,Basic Membership,Government,Bibb,Bibb,31204,True,False,False,True,True,True,False
+559,Georgia Employers' Association,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,True,False,False,False,True,True,True
+560,Georgia Farm Bureau,Leading Investor,Insurance,Bibb,Bibb,31210,True,False,False,False,True,True,True
+571,Georgia Power Company,Regional Influencer,Utilities & Internet Service Providers,Bibb,Bibb,31204,True,False,False,False,True,True,True
+573,Georgia Sports Hall of Fame,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31201,True,False,False,False,True,True,True
+581,"Terracon Consultants, Inc.",Business Catalyst,Construction & Building Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+583,GIGA Inc,Business Catalyst,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,True,True,False,False,True,True,True
+592,"Goodwill Industries of Middle Georgia, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31206,True,False,False,False,True,True,True
+597,GEICO,Key Stakeholder,Insurance,Bibb,Bibb,31295,True,False,False,False,True,True,True
+601,The Grand Opera House,Additional Listing - Cornerstone (Unpaid),"Arts, Entertainment & Attractions",Bibb,Bibb,31201,True,True,True,False,True,True,True
+614,Collins Manufacturing Company,Business Catalyst,Aerospace,Bibb,Bibb,31206,True,False,False,False,True,True,True
+623,H&H Soul Food,Additional Listing - Cornerstone (Unpaid),Restaurants & Catering,Bibb,Bibb,31201,True,False,True,False,True,True,True
+624,Piedmont Macon Medical Center,Regional Influencer,Health Care & Medical Services,Bibb,Bibb,31217,True,False,False,False,True,True,True
+627,Atrium Health Navicent Wound Care,Additional Listing - Cornerstone (Unpaid),Healthcare - Vascular & Interventional,Bibb,Bibb,31201,True,False,True,False,True,True,True
+631,Piedmont Macon North Hospital,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31210,True,False,True,False,True,True,True
+651,Fall Line Church,Basic Membership,Places of Worship,Bibb,Bibb,31206,True,False,False,True,True,True,False
+658,"Constangy, Brooks, Smith & Prophete, LLP",Basic Membership,Legal Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+659,"Hays Service, LLC",Business Catalyst,HVAC Service & Maintenance,Bibb,Bibb,31210,True,True,False,False,True,True,True
+660,Heart of Georgia Insurance Brokers,Basic Membership,Insurance,Bibb,Bibb,31201,True,False,False,False,True,True,True
+676,"Hofstadter & Associates, Inc.",Basic Membership,"Architects, Engineers & Planners",Bibb,Bibb,31210,True,False,False,False,True,True,True
+690,Housing Authority of Macon-Bibb County,Basic Membership,Government,Bibb,Bibb,31201,True,False,False,True,True,True,False
+693,"Howard, Moore & McDuffie, P.C.",Basic Membership,Accounting Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+699,Hudspeth Animal Hospital,Basic Membership,Veterinary & Pets,Bibb,Bibb,31204,True,False,False,False,True,True,True
+700,"Triple Point Engineering, Inc.",Basic Membership,"Architects, Engineers & Planners",Bibb,Bibb,31210,True,False,False,False,True,True,True
+702,"Hutchings Funeral Home, Inc.",Basic Membership,Funeral & Burial Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+705,Idle Hour Club,Economic Driver,Country Clubs & Golf Courses,Bibb,Bibb,31210,True,False,False,False,True,True,True
+719,"Internal Medicine Associates, P.C.",Economic Driver,Health Care & Medical Services,Bibb,Bibb,31217,True,False,False,False,True,True,True
+729,Mercedes Benz/Volvo/Subaru of Macon,Business Catalyst,Automotive,Bibb,Bibb,31210,True,False,False,False,True,True,True
+733,James Bates Brannan Groover LLP,Economic Driver,Legal Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+737,"Jean and Hall Florists, LLC",Basic Membership,Shopping & Retail,Bibb,Bibb,31201,True,False,False,False,True,True,True
+744,"Jones Cork, LLP",Community Advocate,Legal Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+745,"Ocmulgee Fields, Inc.",Basic Membership,Real Estate,Bibb,Bibb,31210,True,False,False,False,True,True,True
+755,"Kaybee of Macon, Inc.",Basic Membership,Shopping & Retail,Bibb,Bibb,31201,True,False,False,False,True,True,True
+758,"Cherry Blossom Festival, Macon GA International",Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31201,True,True,False,False,True,True,True
+762,Ken's Stereo Macon and Warner Robins,Basic Membership,Shopping & Retail,Bibb,Bibb,31204,True,False,False,False,True,True,True
+786,"Lamb & Braswell, LLC",Basic Membership,Accounting Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+798,"Bob Lewis & Associates, Inc.",Basic Membership,Real Estate,Bibb,Bibb,31201,True,False,False,False,True,True,True
+812,Lintech International,Business Catalyst,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,True,False,False,False,True,True,True
+831,"McNair, McLemore, Middlebrooks & Co., LLC",Community Advocate,Accounting Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+832,Visit Macon,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31201,True,False,False,False,True,True,True
+834,Middle Georgia Community Food Bank,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31217,True,False,False,False,True,True,True
+836,Macon Milledgeville Regional Habitat for Humanity,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31204,True,False,False,False,True,True,True
+839,The Arc Macon,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,True,False,False,False,True,True,True
+841,Beverage South of Macon,Economic Driver,Distribution & Wholesale,Bibb,Bibb,31216,True,False,False,False,True,True,True
+842,Macon-Bibb County Health Department,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+844,Macon Water Authority,Basic Membership,Utilities & Internet Service Providers,Bibb,Bibb,31201,True,False,False,False,True,True,True
+845,Macon-Bibb County Transit Authority,Basic Membership,Government,Bibb,Bibb,31206,True,False,False,True,True,True,False
+848,Middle Georgia Association of Realtors,Basic Membership,Real Estate,Bibb,Bibb,31204,True,False,False,False,True,True,True
+853,"SPP Investments, LLC",Basic Membership,Real Estate,Bibb,Bibb,31210,True,False,False,False,True,True,True
+858,Middle Georgia State University,Leading Investor,Education,Bibb,Bibb,31206,True,False,False,False,True,True,True
+860,"Graphic Packaging International, Inc.",Leading Investor,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,True,False,False,False,True,True,True
+865,Macon Magazine,Basic Membership,Marketing & Media,Bibb,Bibb,31201,True,False,False,False,True,True,True
+876,OrthoGeorgia,Community Advocate,Health Care & Medical Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+879,"MetroPower, Inc.",Business Catalyst,Electrical & Plumbing Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+883,"Macon Supply Company, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+885,Central Georgia Technical College,Leading Investor,Education,Bibb,Bibb,31206,True,False,False,False,True,True,True
+904,"Marshall Lumber Company, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+907,"Martin Snow, LLP",Business Catalyst,Legal Services,Bibb,Bibb,31202,True,False,False,False,True,True,True
+911,"Adams, Jordan & Herrington, P.C.",Basic Membership,Legal Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+912,"Mauldin & Jenkins, CPAs, LLC",Economic Driver,Accounting Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+913,Bert Maxwell Furniture Company,Basic Membership,Shopping & Retail,Bibb,Bibb,31201,True,False,False,False,True,True,True
+916,Atrium Health Navicent,Regional Influencer,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+918,Atrium Health Navicent Urgent Care Northwest,Additional Listing - Cornerstone (Unpaid),Healthcare - Vascular & Interventional,Bibb,Bibb,31210,True,False,True,False,True,True,True
+919,The Wellness Center,Additional Listing - Cornerstone (Unpaid),Self Care & Wellness,Bibb,Bibb,31210,True,False,True,False,True,True,True
+922,"Central Georgia Home Health Services, Inc.",Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31206,True,False,True,False,True,True,True
+925,"Navicent Health Foundation, Inc.",Basic Membership,Foundations,Bibb,Bibb,31210,True,False,False,False,True,True,True
+927,Macon-Bibb County Hospital Authority,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31201,True,False,True,False,True,True,True
+929,Atrium Health Navicent Business Office,Additional Listing - Cornerstone (Unpaid),Healthcare - Vascular & Interventional,Bibb,Bibb,31204,True,False,True,False,True,True,True
+930,Atrium Health Navicent Imaging & Laboratory,Additional Listing - Cornerstone (Unpaid),Healthcare - Vascular & Interventional,Bibb,Bibb,31204,True,False,True,False,True,True,True
+932,"Children's Hospital, Atrium Health Navicent",Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31201,True,False,True,False,True,True,True
+935,Scott's Health Mart Pharmacy #1,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+938,The Mentors Project of Bibb County,Basic Membership,Youth Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+939,River Edge Behavioral Health,Leading Investor,Health Care & Medical Services,Bibb,Bibb,31217,True,False,False,False,True,True,True
+940,Mercer University,Key Stakeholder,Education,Bibb,Bibb,31207,True,False,False,False,True,True,True
+941,Mercer Engineering Research Center,Additional Listing - Cornerstone (Unpaid),"Architects, Engineers & Planners",Houston,Houston,31088,True,False,True,False,False,True,True
+944,Merrill Lynch Wealth Management,Economic Driver,Financial Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+947,Methodist Home for Children & Youth,Basic Membership,Youth Services,Bibb,Bibb,31204,True,True,False,False,True,True,True
+958,"Middle Georgia Consortium, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31088,True,False,False,False,True,True,True
+959,"Girl Scouts of Historic GA, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31052,True,False,False,False,True,True,True
+974,Midwestern Industries,Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,True,False,False,False,True,True,True
+978,Minton Lawn & Garden,Basic Membership,Construction & Building Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+998,Mount De Sales Academy,Basic Membership,Education,Bibb,Bibb,31201,True,False,False,False,True,True,True
+999,Mulberry Street Investment Company,Basic Membership,Real Estate,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1001,"Murphey, Taylor & Ellis Comm. Real Estate",Basic Membership,Real Estate,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1007,Museum of Aviation Foundation,Basic Membership,"Arts, Entertainment & Attractions",Houston,Houston,31098,True,False,False,False,False,True,True
+1008,Museum of Arts & Sciences,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31210,True,False,False,False,True,True,True
+1010,The Mutual Financial Group,Basic Membership,Financial Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1015,Natalia's,Additional Listing - Cornerstone (Unpaid),Restaurants & Catering,Bibb,Bibb,31210,True,False,True,False,True,True,True
+1022,"NewTown Macon, Inc.",Community Advocate,Business & Economic Development,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1036,Ocmulgee Mounds National Historical Park,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31217,True,False,False,False,True,True,True
+1039,"NBP Engineers, Inc.",Business Catalyst,"Architects, Engineers & Planners",Bibb,Bibb,31210,True,False,False,False,True,True,True
+1068,"H2 Capital, Inc.",Basic Membership,Financial Services,Bibb,Bibb,31208,True,False,False,False,True,True,True
+1069,"Panaprint, Inc.",Basic Membership,"Signage, Promotional & Printing Services",Bibb,Bibb,31216,True,True,False,False,True,True,True
+1077,The Peyton Anderson Foundation,Regional Influencer,Foundations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1090,"Piedmont Construction Group, Inc.",Business Catalyst,Construction & Building Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1094,Pilot International,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1109,Freudenberg Performance Materials Macon,Economic Driver,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,True,False,False,False,True,True,True
+1117,Prince Service & Manufacturing,Regional Influencer,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,True,False,False,False,True,True,True
+1122,Public Service Telephone Co.,Business Catalyst,Utilities & Internet Service Providers,Taylor,Taylor,31076,True,False,False,False,False,True,True
+1127,"Pyles Plumbing & Utility Contractors, Inc.",Economic Driver,Electrical & Plumbing Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1137,"Raffield Tire Masters, Inc.",Business Catalyst,Automotive,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1146,Reeves Construction Company,Economic Driver,Construction & Building Services,Bibb,Bibb,31211,True,False,False,False,True,True,True
+1149,Residence Inn by Marriott,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1153,"Reynolds, Horne & Survant",Business Catalyst,Legal Services,Bibb,Bibb,31220,True,False,False,False,True,True,True
+1156,River North Country Club,Business Catalyst,Country Clubs & Golf Courses,Bibb,Bibb,31211,True,False,False,False,True,True,True
+1169,Robins Financial Credit Union,Community Advocate,Banking,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1181,Rutherford Trophies Inc.,Basic Membership,Shopping & Retail,Bibb,Bibb,31206,True,False,False,False,True,True,True
+1186,Saddle Creek Corporation,Economic Driver,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31217,True,False,False,False,True,True,True
+1187,St. Paul Apartments,Basic Membership,Retirement & Senior Living,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1200,SCANA Energy,Business Catalyst,Utilities & Internet Service Providers,,Unknown,30326,True,False,False,False,False,True,True
+1202,Schell Acoustical & Drywall Company,Basic Membership,Construction & Building Services,Bibb,Bibb,31211,True,False,False,False,True,True,True
+1208,"L. E. Schwartz & Son, Inc.",Community Advocate,Construction & Building Services,Bibb,Bibb,31206,True,True,False,False,True,True,True
+1211,Huntington Bank,Key Stakeholder,Banking,Bibb,Bibb,31210,True,True,False,False,True,True,True
+1213,Huntington Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31204,True,False,True,False,True,True,True
+1214,Huntington Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31211,True,False,True,False,True,True,True
+1215,Huntington Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31201,True,False,True,False,True,True,True
+1216,Huntington Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31216,True,False,True,False,True,True,True
+1228,Sheridan Construction,Leading Investor,Construction & Building Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1231,"Sheridan, Solomon & Associates, LLC",Basic Membership,Real Estate,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1232,"Midtowne Mortgage, LLC",Basic Membership,Financial Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1244,Smiley's Flea Market,Basic Membership,Shopping & Retail,Bibb,Bibb,31206,True,False,False,False,True,True,True
+1250,Snow's Memorial Chapel,Basic Membership,Funeral & Burial Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1252,AT&T,Community Advocate,Utilities & Internet Service Providers,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1260,Southern Safety Supply Company,Basic Membership,Commercial Suppliers,Bibb,Bibb,31206,True,False,False,False,True,True,True
+1261,Audio Visual Services,Basic Membership,Professional & Business Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+1283,Stratford Academy,Community Advocate,Education,Bibb,Bibb,31220,True,False,False,False,True,True,True
+1287,"Stone and Baxter, LLP",Basic Membership,Legal Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1292,The Summit Group,Basic Membership,Real Estate,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1300,FusionPoint,Basic Membership,"Information Technology, Solutions & Repair",Bibb,Bibb,31220,True,False,False,False,True,True,True
+1302,Tattnall Square Academy,Basic Membership,Education,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1307,"Dr. Larry V. Thigpen, D.D.S.",Basic Membership,Healthcare - Vascular & Interventional,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1308,Third Wave Digital,Basic Membership,Marketing & Media,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1310,Thornton Realty Company,Basic Membership,Real Estate,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1312,"Tidwell & Hilburn Insurance, Inc.",Basic Membership,Insurance,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1317,Trading Post Moving & Storage,Basic Membership,Moving & Storage,Bibb,Bibb,31206,True,True,False,False,True,True,True
+1321,Tri-County E.M.C.,Business Catalyst,Utilities & Internet Service Providers,Bibb,Bibb,31032,True,False,False,False,True,True,True
+1322,Triangle Chemical Company,Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31210,True,False,False,False,True,True,True
+1330,"Truck and Trailer of Macon, Inc.",Basic Membership,Automotive,Bibb,Bibb,31216,True,False,False,False,True,True,True
+1331,Truist Bank,Regional Influencer,Banking,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1333,Truist Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31204,True,False,True,False,True,True,True
+1334,Truist Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31204,True,False,True,False,True,True,True
+1336,Truist Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31210,True,False,True,False,True,True,True
+1340,Truist Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31211,True,False,True,False,True,True,True
+1341,Truist Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31206,True,False,True,False,True,True,True
+1344,Tubman African American Museum,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31201,True,False,False,False,True,True,True
+1346,21st Century Partnership,Community Partner,Business & Economic Development,Houston,Houston,31095,True,False,False,False,False,True,True
+1357,United Way of Central Georgia,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1367,Vineville United Methodist Church,Basic Membership,Places of Worship,Bibb,Bibb,31204,True,False,False,True,True,True,False
+1381,"FOX 24/ABC16 WGXA - Sinclair Communications, LLC",Business Catalyst,Marketing & Media,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1382,13 WMAZ - TV,Community Advocate,Marketing & Media,Bibb,Bibb,31211,True,False,False,False,True,True,True
+1384,WMGT 41NBC,Business Catalyst,Marketing & Media,Bibb,Bibb,31201,True,True,False,False,True,True,True
+1388,Oakbridge Insurance Agency,Economic Driver,Insurance,Bibb,Bibb,31201,True,False,False,False,True,True,True
+1389,"John R. Walker, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1393,Walsh Honda,Business Catalyst,Automotive,Bibb,Bibb,31206,True,False,False,False,True,True,True
+1394,Walthall Oil Company,Business Catalyst,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,True,True,False,False,True,True,True
+1396,"Warno-Cam Paint Company, Inc. - Benjamin Moore Paints",Basic Membership,Shopping & Retail,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1397,"Warren Associates, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1404,Wesleyan College,Community Advocate,Education,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1409,First Quality,Community Advocate,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,True,False,False,False,True,True,True
+1433,WM2A Architects,Basic Membership,"Architects, Engineers & Planners",Bibb,Bibb,31201,True,False,False,False,True,True,True
+1434,"Ambassador Personnel, Inc.",Basic Membership,Staffing & Employment,Bibb,Bibb,31210,True,False,False,False,True,True,True
+1437,78th Air Base Wing Public Affairs,Community Partner,Government,Houston,Houston,31098,True,False,False,True,False,True,False
+1443,YKK,Leading Investor,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31217,True,True,False,False,True,True,True
+1446,Butler Chevrolet,Basic Membership,Automotive,Bibb,Bibb,31204,True,False,False,False,True,True,True
+1561,"United States Congress, House of Representatives",Community Partner,Government,Houston,Houston,31088,True,False,False,True,False,True,False
+3149,"Adams, Hemingway, Wilson & Rutledge, LLC",Basic Membership,Legal Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+3280,"Builder Sales & Services, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+3306,Casteel Construction,Basic Membership,Construction & Building Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+3482,Mercer Medicine,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31208,True,False,True,False,True,True,True
+3495,First Presbyterian Church,Basic Membership,Places of Worship,Bibb,Bibb,31201,True,False,False,True,True,True,False
+3766,Donny's Propane Gas,Basic Membership,Utilities & Internet Service Providers,Bibb,Bibb,31210,True,False,False,False,True,True,True
+4023,Otis Redding Museum,Basic Membership,Foundations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+4082,Mr. Electric,Basic Membership,Electrical & Plumbing Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+4115,Jim Shaw's Seafood Restaurant,Additional Listing,Restaurants & Catering,Bibb,Bibb,31204,True,False,True,False,True,True,True
+4674,"Middle Georgia Graphic Resource, Inc",Basic Membership,"Signage, Promotional & Printing Services",Bibb,Bibb,31201,True,False,False,False,True,True,True
+5172,"Sphinx, Inc.",Basic Membership,"Signage, Promotional & Printing Services",Bibb,Bibb,31216,True,False,False,False,True,True,True
+8292,Renfroe Construction,Basic Membership,Construction & Building Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+8307,"Office Services Company of Macon, Inc.",Basic Membership,"Office Supplies, Furnishings & Equipment",Bibb,Bibb,31202,True,False,False,False,True,True,True
+8345,Piedmont Occupational Medicine,Economic Driver,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+8459,ENT Center of Central Georgia,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+8508,Central Georgia Health Network,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+8510,Grow,Basic Membership,Restaurants & Catering,Bibb,Bibb,31201,True,False,False,False,True,True,True
+8525,"Bashinski Fine Gems & Jewelry, Inc.",Business Catalyst,Shopping & Retail,Bibb,Bibb,31201,True,False,False,False,True,True,True
+8527,St. Peter Claver Catholic School,Basic Membership,Education,Bibb,Bibb,31204,True,False,False,False,True,True,True
+8534,"O'Mahony Insurance Agency, LLC",Basic Membership,Insurance,Bibb,Bibb,31204,True,False,False,False,True,True,True
+8580,"Mills Industrial Construction, Inc.",Basic Membership,Construction & Building Services,Wilkinson,Wilkinson,31090,True,False,False,False,False,True,True
+8595,"Greene & Associates, Inc",Basic Membership,Construction & Building Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+8663,Macon Tent Rentals,Basic Membership,Professional & Business Services,Bibb,Bibb,31217,True,False,False,False,True,True,True
+8678,Robins Financial Credit Union,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31216,True,False,True,False,True,True,True
+8762,Sonny's BBQ,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,True,False,False,False,True,True,True
+8875,Southern Trust,Business Catalyst,Insurance,Bibb,Bibb,31210,True,False,False,False,True,True,True
+8887,Law Offices of R. Lars Anderson,Basic Membership,Legal Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+8943,"Sellers Contracting Services, LLC",Business Catalyst,Construction & Building Services,Wilkinson,Wilkinson,31031,True,False,False,False,False,True,True
+9038,Georgia Department of Juvenile Justice,Community Partner,Government,,Unknown,30032,True,False,False,True,False,True,False
+9343,"The Sanford Company, Inc.",Basic Membership,Insurance,Bibb,Bibb,31210,True,False,False,False,True,True,True
+9451,"Patton Albertson & Miller, LLC",Basic Membership,Financial Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+9457,Macon Volunteer Clinic,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+9480,Historic Riverside Cemetery Conservancy,Basic Membership,Funeral & Burial Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+9490,"Pediatric Care of Macon, LLC",Basic Membership,Healthcare - Vascular & Interventional,Bibb,Bibb,31210,True,False,False,False,True,True,True
+9606,Layson Advisory Group,Community Advocate,Financial Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+9647,Northwestern Mutual Central Georgia,Business Catalyst,Financial Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+9939,Middle Georgia Regional Airport,Community Partner,Transportation,Bibb,Bibb,31216,True,False,False,False,True,True,True
+10144,Lullwater at Bass Apartments,Basic Membership,Apartments,Bibb,Bibb,31210,True,False,False,False,True,True,True
+10313,Macon Rehabilitation and Healthcare Center,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31217,True,False,False,False,True,True,True
+10349,SERVPRO of Macon,Basic Membership,Damage & Restoration Services,Bibb,Bibb,31217,True,False,False,False,True,True,True
+10364,Amanda Jane Salon,Basic Membership,Self Care & Wellness,Bibb,Bibb,31210,True,False,False,False,True,True,True
+10480,"Shred-cycle, Inc.",Basic Membership,Waste Management & Document Destruction Services,Lauren,Lauren,31027,True,False,False,False,False,True,True
+10482,Elite Flooring Contractors,Basic Membership,Construction & Building Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+10491,Regency Hospital Macon,Economic Driver,Health Care & Medical Services,Bibb,Bibb,31217,True,False,False,False,True,True,True
+10495,Shadow Sound Studio,Basic Membership,Marketing & Media,Bibb,Bibb,31201,True,False,False,False,True,True,True
+10521,John S. & James L. Knight Foundation,Basic Membership,Foundations,Bibb,Bibb,31201,True,False,False,False,True,True,True
+10534,Community Health Systems,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+10537,Vineville Internal Medicine,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+10786,The Progressive Group,Economic Driver,"Information Technology, Solutions & Repair",Bibb,Bibb,31210,True,False,False,False,True,True,True
+10885,Fish N' Pig,Basic Membership,Restaurants & Catering,Bibb,Bibb,31220,True,False,False,False,True,True,True
+10893,"Elite Environmental Services, Inc",Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+10916,MidSouth Community FCU,Additional Listing,Banking,Bibb,Bibb,31216,True,False,True,False,True,True,True
+10918,"Higginbotham Insurance Agency, Inc.",Basic Membership,Insurance,Bibb,Bibb,31204,True,False,False,False,True,True,True
+10919,Robins Financial Credit Union,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31210,True,False,True,False,True,True,True
+10927,Mayer Electric Supply,Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31201,True,False,False,False,True,True,True
+10932,"Russell G. O'Neal, MD. LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+10975,"Jack's Saw Shop, Inc.",Basic Membership,Shopping & Retail,Bibb,Bibb,31220,True,False,False,False,True,True,True
+11026,Ace Hardware - Riverside,Basic Membership,Shopping & Retail,Bibb,Bibb,31210,True,False,False,False,True,True,True
+11027,Hilton Garden Inn,Basic Membership,Lodging & Venues,Bibb,Bibb,31204,True,False,False,False,True,True,True
+11035,"California Cereal Products, Inc",Business Catalyst,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,True,False,False,False,True,True,True
+11107,Nichiha USA,Economic Driver,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,True,False,False,False,True,True,True
+11114,"SP Design Group, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31206,True,True,False,False,True,True,True
+11116,Griffin Animal Hospital,Basic Membership,Veterinary & Pets,Bibb,Bibb,31206,True,False,False,False,True,True,True
+11193,Rookery,Additional Listing - Cornerstone (Unpaid),Restaurants & Catering,Bibb,Bibb,31201,True,True,True,False,True,True,True
+11337,MBG Office Systems,Basic Membership,"Office Supplies, Furnishings & Equipment",Bibb,Bibb,31204,True,False,False,False,True,True,True
+11354,Center Parc Credit Union,Basic Membership,Banking,Bibb,Bibb,31210,True,False,False,False,True,True,True
+11364,"Georgia Aquarium, Inc",Basic Membership,"Arts, Entertainment & Attractions",Fulton,Fulton,30313,True,False,False,False,False,True,True
+11393,SD Polymers,Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,True,False,False,False,True,True,True
+11479,Capitol Theatre Macon,Additional Listing - Cornerstone (Unpaid),"Arts, Entertainment & Attractions",Bibb,Bibb,31201,True,True,True,False,True,True,True
+11491,American Pride Bank,Community Advocate,Banking,Bibb,Bibb,31204,True,False,False,False,True,True,True
+11494,Choice Premiums,Basic Membership,"Signage, Promotional & Printing Services",Bibb,Bibb,31201,True,False,False,False,True,True,True
+11542,SA Recycling,Basic Membership,Waste Management & Document Destruction Services,Bibb,Bibb,31206,True,False,False,False,True,True,True
+11545,First Choice Primary Care,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+11563,Office of the Chapter 13 Trustee,Basic Membership,Government,Bibb,Bibb,31201,True,False,False,True,True,True,False
+11564,Hotel Management & Consulting,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,True,False,False,False,True,True,True
+11574,ABC Supply Co. Inc.,Basic Membership,Construction & Building Services,Bibb,Bibb,31216,True,False,False,False,True,True,True
+11617,AT&T Store - Mercer University,Additional Listing - Cornerstone (Unpaid),Shopping & Retail,Bibb,Bibb,31204,True,False,True,False,True,True,True
+11679,Fountain of Juice,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,True,False,False,False,True,True,True
+11699,Candlewood Suites,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,True,True,False,False,True,True,True
+11701,Homewood Suites by Hilton,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,True,False,False,False,True,True,True
+11732,Macon Marriott City Center,Economic Driver,Lodging & Venues,Bibb,Bibb,31217,True,False,False,False,True,True,True
+11777,Stifel Nicolaus Company,Basic Membership,Financial Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+11783,Robins Financial Credit Union,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31201,True,False,True,False,True,True,True
+11852,Two Men And A Truck,Basic Membership,Moving & Storage,Bibb,Bibb,31220,True,False,False,False,True,True,True
+11865,ServiceMaster of Middle GA,Basic Membership,Damage & Restoration Services,Bibb,Bibb,31088,True,False,False,False,True,True,True
+11956,Magnolia Manor,Basic Membership,Retirement & Senior Living,Bibb,Bibb,31204,True,False,False,False,True,True,True
+11964,"The Big House Foundation, Inc.",Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31204,True,False,False,False,True,True,True
+37237,Parrish Construction Group,Leading Investor,Construction & Building Services,Houston,Houston,31069,True,False,False,False,False,True,True
+37417,Mercer Advisors,Basic Membership,Financial Services,Bibb,Bibb,31210,True,False,False,False,True,True,True
+37512,SpringHill Suites by Marriott,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,True,False,False,False,True,True,True
+37539,Bug House Pest Control,Basic Membership,Pest Control & Exterminating Services,Bibb,Bibb,31204,True,False,False,False,True,True,True
+37645,Jani-King of Macon,Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+37665,Clark General Dentistry Center,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,True,False,False,False,True,True,True
+37712,MidSouth Community FCU,Additional Listing,Banking,Bibb,Bibb,31204,True,False,True,False,True,True,True
+37803,Miller-Motte College,Basic Membership,Education,Bibb,Bibb,31210,True,False,False,False,True,True,True
+56034,Habersham Enterprises,Business Catalyst,Marketing & Media,Bibb,Bibb,31201,False,False,False,False,True,True,True
+56040,"Central Georgia CASA, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,False,False,False,False,True,True,True
+56053,Excess Incorporated,Basic Membership,Automotive,Twiggs,Twiggs,31020,False,False,False,False,False,True,True
+56082,Communities In Schools of Central Georgia,Basic Membership,Education,Bibb,Bibb,31201,False,False,False,False,True,True,True
+56270,Robins Regional Chamber,Community Partner,Non-Profit Organizations,Houston,Houston,31093,False,False,False,False,False,True,True
+56297,American Pride Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31210,False,False,True,False,True,True,True
+56315,M&R Marketing Group,Basic Membership,Marketing & Media,Bibb,Bibb,31201,False,False,False,False,True,True,True
+56678,"Spivey Pope Green, LLC",Basic Membership,Legal Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+56788,Texas Roadhouse,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+56817,UGA Small Business Development Center,Community Partner,Business & Economic Development,Bibb,Bibb,31210,False,False,False,False,True,True,True
+56827,Macon Urban Ministries,Basic Membership,Marketing & Media,Bibb,Bibb,31204,False,False,False,False,True,True,True
+56839,Sunbelt Credit,Basic Membership,Financial Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+57067,48th Infantry Brigade Combat Team/GA Army National Guard,Community Partner,Government,Bibb,Bibb,31211,False,False,False,True,True,True,False
+57075,Renasant Bank,Community Advocate,Banking,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57129,MidSouth Community FCU,Additional Listing,Banking,Bibb,Bibb,31210,False,False,True,False,True,True,True
+57175,Keep Macon-Bibb Beautiful Commission,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+57197,GMFS Mortgage,Basic Membership,Financial Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57222,Total Computer Solutions,Economic Driver,"Information Technology, Solutions & Repair",Houston,Houston,31088,False,False,False,False,False,True,True
+57277,Raymond James,Basic Membership,Financial Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57312,Tractor Supply Co. Distribution Center,Leading Investor,Distribution & Wholesale,Bibb,Bibb,31216,False,False,False,False,True,True,True
+57361,B. Turners Macon Mall,Basic Membership,Shopping & Retail,Bibb,Bibb,31206,False,False,False,False,True,True,True
+57413,"Mo.s Cleaning Services, Inc",Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+57422,"Historic Macon Foundation, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+57462,Air Conditioning Specialist Inc.,Basic Membership,HVAC Service & Maintenance,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57517,Dovetail,Additional Listing - Cornerstone (Unpaid),Restaurants & Catering,Bibb,Bibb,31201,False,False,True,False,True,True,True
+57572,Harley-Davidson of Macon,Basic Membership,Automotive,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57597,Acres & Oak Kitchen,Community Advocate,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57606,Wembly at Overlook Apartments,Basic Membership,Apartments,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57614,NECCO,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57786,Apparel Authority,Community Advocate,"Signage, Promotional & Printing Services",Bibb,Bibb,31204,False,False,False,False,True,True,True
+57894,"All-State Electrical Contractors, LLC",Leading Investor,Electrical & Plumbing Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+57982,"United States Congress, House of Representatives",Community Partner,Government,Bibb,Bibb,31201,False,False,False,True,True,True,False
+58017,"Rescom Cabinets, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+58039,All Wired Up,Basic Membership,"Security Systems, Surveillance & Monitoring",Monroe,Monroe,31029,False,False,False,False,False,True,True
+58052,Huntington Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31210,False,False,True,False,True,True,True
+58090,Meals On Wheels of Middle Georgia,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31211,False,False,False,False,True,True,True
+58104,A-COM Integrated Solutions,Basic Membership,"Security Systems, Surveillance & Monitoring",Bibb,Bibb,31210,False,False,False,False,True,True,True
+58202,Adams Law Firm,Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+58307,Georgia CEO,Community Partner,Marketing & Media,Dougherty,Dougherty,31707,False,False,False,False,False,True,True
+58346,The Bohemian Den,Basic Membership,Shopping & Retail,Bibb,Bibb,31201,False,False,False,False,True,True,True
+58393,"Sullivan Forestry Consultants, Inc.",Basic Membership,Agriculture,Sumter,Sumter,31709,False,False,False,False,False,True,True
+58592,Huntington Bank,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31210,False,False,True,False,True,True,True
+58635,"Macon Medical Group, PC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+58686,The Rockefeller Law Center,Basic Membership,Legal Services,Houston,Houston,31088,False,False,False,False,False,True,True
+58738,"Buzzell Plumbing, Heating & AC, Inc.",Basic Membership,Electrical & Plumbing Services,Houston,Houston,31201,False,False,False,False,False,True,True
+58747,Pellicano Construction,Economic Driver,Construction & Building Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+58753,SourceOne Insurance and Benefits Group,Basic Membership,Insurance,Bibb,Bibb,31210,False,False,False,False,True,True,True
+58754,Morris Bank,Basic Membership,Banking,Jones,Jones,31210,False,False,False,False,False,True,True
+58780,Wilson Bryant Air Conditioning,Business Catalyst,HVAC Service & Maintenance,Bibb,Bibb,31201,False,False,False,False,True,True,True
+58798,"All Care Home Health, LLC",Community Advocate,Health Care & Medical Services,Bibb,Bibb,31216,False,False,False,False,True,True,True
+58860,Zaxby's of Middle GA,Business Catalyst,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+58873,Macon Film Festival,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31202,False,False,False,False,True,True,True
+59035,The Academy For Classical Education,Leading Investor,Education,Bibb,Bibb,31210,False,False,False,False,True,True,True
+59061,Ameris Bank,Business Catalyst,Banking,Bibb,Bibb,31216,False,False,False,False,True,True,True
+59368,Five Star Credit Union,Economic Driver,Banking,Bibb,Bibb,31210,False,False,False,False,True,True,True
+59576,Premier Staffing Unlimited,Basic Membership,Staffing & Employment,Bibb,Bibb,31216,False,False,False,False,True,True,True
+59669,"Mr. Chips, Inc.",Economic Driver,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31217,False,False,False,False,True,True,True
+59680,The Next Level Community Development Center,Basic Membership,Youth Services,Bibb,Bibb,31216,False,False,False,False,True,True,True
+59701,"Portable Air and Power, LLC",Basic Membership,HVAC Service & Maintenance,Crawford,Crawford,31008,False,False,False,False,False,True,True
+59710,"Kumho Tire Georgia, Inc.",Community Advocate,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,False,False,False,False,True,True,True
+59739,"Forest Hills Church, Inc.",Basic Membership,Places of Worship,Bibb,Bibb,31210,False,False,False,True,True,True,False
+59750,Lisenby & Associates,Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+59948,"ShuBee, Inc.",Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,False,False,False,False,True,True,True
+60047,Margarita's Mexican Grill - Mercer Village,Basic Membership,Restaurants & Catering,Bibb,Bibb,31206,False,False,False,False,True,True,True
+60140,"Stafford Builders and Consultants, Inc.",Business Catalyst,Construction & Building Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+60257,"Grant's Tire & Auto, LLC",Basic Membership,Automotive,Bibb,Bibb,31204,False,False,False,False,True,True,True
+60262,SCORE Middle Georgia,Community Partner,Business & Economic Development,Bibb,Bibb,31201,False,False,False,False,True,True,True
+60296,"In-Fill Housing, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+60313,"Houston Transportation Solutions, LLC",Basic Membership,Transportation,Bibb,Bibb,31201,False,False,False,False,True,True,True
+60422,"Magda Law, LLC",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+60529,Bank of Dudley,Basic Membership,Banking,,Bibb (zip-inferred),31029,False,False,False,False,True,True,True
+60533,"Roland, Abbott and DeZoort Insurance Agency, LLC",Basic Membership,Insurance,Bibb,Bibb,31210,False,False,False,False,True,True,True
+60540,"Lifespan Wealth Management, Inc.",Basic Membership,Financial Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+60580,"Seay Felton, LLC",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+60585,Clearwave Fiber,Business Catalyst,Utilities & Internet Service Providers,Bibb,Bibb,31210,False,False,False,False,True,True,True
+60661,"Physician Consultants of Georgia, LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+60663,"Kristy Jones, CPA, LLC",Basic Membership,Accounting Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+60679,Kelvin Epps Painting Company,Basic Membership,Construction & Building Services,Peach,Peach,31008,False,False,False,False,False,True,True
+60722,"Cross Roads Recovery Ministries, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31204,False,False,False,False,True,True,True
+60743,Pin Strikes Family Entertainment Center,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31210,False,False,False,False,True,True,True
+60896,Planters First Bank,Business Catalyst,Banking,Bibb,Bibb,31210,False,False,False,False,True,True,True
+60900,Ocmulgee Brewpub,Additional Listing,Restaurants & Catering,Bibb,Bibb,31201,False,False,True,False,True,True,True
+60996,Brasserie Circa,Additional Listing,Restaurants & Catering,Bibb,Bibb,31210,False,False,True,False,True,True,True
+61195,Grant's Lounge,Additional Listing - Cornerstone (Unpaid),"Arts, Entertainment & Attractions",Bibb,Bibb,31201,False,False,True,False,True,True,True
+61210,Love's Travel Stops,Basic Membership,Shopping & Retail,Bibb,Bibb,31216,False,False,False,False,True,True,True
+61288,Archway Transitional Care Center,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+61445,"Buzzell, Welsh & Hill, LLP",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+61503,Community Health Care Systems,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+61516,Builders First Source,Basic Membership,Construction & Building Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+61528,"Specialized Information Environments, Inc. (dba SPINEN, Inc.)",Key Stakeholder,"Information Technology, Solutions & Repair",Bibb,Bibb,31206,False,False,False,False,True,True,True
+61535,"Riverside Imaging Specialist, LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+61551,Turning Point Accounting & Financial Services,Basic Membership,Accounting Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+61555,Freeman Cabinets,Basic Membership,Construction & Building Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+61609,U-Save-It Pharmacy,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+61612,Macon Bacon,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31201,False,False,False,False,True,True,True
+61628,"Langford Allergy, LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+61652,"Mary Pinson, Inc.",Basic Membership,Shopping & Retail,Bibb,Bibb,31201,False,False,False,False,True,True,True
+61679,Optim Neurosurgery,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+61745,"Gateway Development Center, Inc.",Basic Membership,Real Estate,Jones,Jones,31032,False,False,False,False,False,True,True
+61765,Amici Macon,Basic Membership,Restaurants & Catering,Bibb,Bibb,31204,False,False,False,False,True,True,True
+61769,Mid Georgia MLS,Basic Membership,Real Estate,Bibb,Bibb,31204,False,False,False,False,True,True,True
+61774,Georgia Artisan,Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31206,False,False,False,False,True,True,True
+61907,Spillers Orthodontics,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+61912,Synovus,Community Advocate,Banking,Bibb,Bibb,31210,False,False,False,False,True,True,True
+61944,Kelly Tours Inc.,Business Catalyst,Professional & Business Services,Bibb,Bibb,31202,False,False,False,False,True,True,True
+62003,Dunwody Design Development,Basic Membership,Furniture & Interior Design,Bibb,Bibb,31201,False,False,False,False,True,True,True
+62031,"Tifiko Enterprise, LLC",Basic Membership,Real Estate,Bibb,Bibb,31221,False,False,False,False,True,True,True
+62083,"Pi-Tech, Inc.",Basic Membership,"Architects, Engineers & Planners",Bibb,Bibb,31210,False,False,False,False,True,True,True
+62085,Z Beans Coffee,Basic Membership,Restaurants & Catering,Bibb,Bibb,31206,False,False,False,False,True,True,True
+62124,"Irving Consumer Products, Inc.",Community Advocate,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,False,False,False,False,True,True,True
+62163,"Skin Care Physicians of GA, PC",Business Catalyst,Healthcare - Vascular & Interventional,Bibb,Bibb,31217,False,False,False,False,True,True,True
+62188,ICB Construction Group,Basic Membership,Construction & Building Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+62205,YKK AP America Inc.,Community Advocate,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,False,False,False,False,True,True,True
+62314,Holiday Inn Express Macon North,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,False,False,False,False,True,True,True
+62344,"ClaytonCarter, LLC, CPA",Basic Membership,Accounting Services,Macon,Macon,31201,False,False,False,False,False,True,True
+62387,Middle Georgia Heart,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+62486,North Central Health District,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+62519,Air Temp Control,Basic Membership,HVAC Service & Maintenance,Bibb,Bibb,31216,False,False,False,False,True,True,True
+62663,Next Step Recovery Ministries,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31216,False,False,False,False,True,True,True
+62670,Gordon State College,Basic Membership,Education,Lamar,Lamar,30204,False,False,False,False,False,True,True
+62722,"B. Monroe Salon, LLC",Business Catalyst,Self Care & Wellness,Bibb,Bibb,31210,False,False,False,False,True,True,True
+62740,Tyler Landress - State Farm,Basic Membership,Insurance,Bibb,Bibb,31206,False,False,False,False,True,True,True
+62885,"Southern Majority, LLC",Basic Membership,Marketing & Media,Bibb,Bibb,31201,False,False,False,False,True,True,True
+62927,Southeast Regional Technology Group,Basic Membership,"Information Technology, Solutions & Repair",Bibb,Bibb,31210,False,False,False,False,True,True,True
+62933,"Charles E. Cox, Jr. LLC Attorney at Law",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+62935,Quantum HC,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+62986,1st Franklin Financial Corp Macon #2,Additional Listing,Financial Services,Bibb,Bibb,31211,False,False,True,False,True,True,True
+63007,"White-Colbert, Judge Pamela",Basic Membership,Government,Bibb,Bibb,31201,False,False,False,True,True,True,False
+63009,Interstate Batteries of Greater Georgia,Basic Membership,Automotive,Bibb,Bibb,31220,False,False,False,False,True,True,True
+63017,Todd Mitchell - State Farm Insurance Agent,Basic Membership,Insurance,Bibb,Bibb,31204,False,False,False,False,True,True,True
+63036,"Northside Hospital Cancer Institute, Radiation Oncology",Community Advocate,Health Care & Medical Services,Bibb,Bibb,31217,False,False,False,False,True,True,True
+63069,Jones Glass Inc.,Basic Membership,Construction & Building Services,Bibb,Bibb,31216,False,False,False,False,True,True,True
+63115,Accounting Associates of Middle GA,Basic Membership,Accounting Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+63204,Advent Business Interiors,Basic Membership,"Office Supplies, Furnishings & Equipment",Bibb,Bibb,31220,False,False,False,False,True,True,True
+63271,O'Brien Heating and Air,Basic Membership,HVAC Service & Maintenance,Crawford,Crawford,31052,False,False,False,False,False,True,True
+63293,Florida Governors Council on Indian Affairs,Basic Membership,Non-Profit Organizations,Leon,Leon,32308,False,False,False,False,False,True,True
+63367,"The Sign Store Online, Inc",Business Catalyst,"Signage, Promotional & Printing Services",Bibb,Bibb,31201,False,False,False,False,True,True,True
+63379,PeoplesSouth Bank,Basic Membership,Banking,Bibb,Bibb,31211,False,False,False,False,True,True,True
+63384,Foothills Regional High School,Basic Membership,Education,Bibb,Bibb,31204,False,False,False,False,True,True,True
+63388,Macon Hardwood LLC,Basic Membership,Construction & Building Services,Monroe,Monroe,31046,False,False,False,False,False,True,True
+63421,"Grant & Cook Equipment, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31216,False,False,False,False,True,True,True
+63431,AREY Group,Business Catalyst,Real Estate,Bibb,Bibb,31201,False,False,False,False,True,True,True
+63442,"Hall Comprehensive Dentistry, L.L.C.",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+63450,Real Life Church,Basic Membership,Places of Worship,Bibb,Bibb,31211,False,False,False,True,True,True,False
+63535,EOS Worldwide,Leading Investor,Professional & Business Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+63536,Surcheros Fresh Mex,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+63578,Destiny Fitness,Basic Membership,Self Care & Wellness,Bibb,Bibb,31216,False,False,False,False,True,True,True
+64597,"Siding Supply, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+65621,"CB Smith & Associates, PC",Basic Membership,Accounting Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+65648,"Solomon Investments & Financial Planning, LLC",Business Catalyst,Financial Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+66684,"Ashley's Business Solutions, Inc.",Basic Membership,"Office Supplies, Furnishings & Equipment",Bibb,Bibb,31210,False,False,False,False,True,True,True
+66717,Superior Document Solutions,Basic Membership,"Office Supplies, Furnishings & Equipment",Bibb,Bibb,31210,False,False,False,False,True,True,True
+67813,ASTRE Wellness,Basic Membership,Self Care & Wellness,Bibb,Bibb,31210,False,False,False,False,True,True,True
+67832,Moonhanger Group,Leading Investor,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+67857,Brightmoor Hospice,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+67873,Tru by Hilton Macon North,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,False,False,False,False,True,True,True
+67909,Living Waters Full Gospel Ministries,Basic Membership,Places of Worship,Bibb,Bibb,31206,False,False,False,True,True,True,False
+67945,United States Senator Rev. Raphael Warnock,Community Partner,Government,,Unknown,30339,False,False,False,True,False,True,False
+67961,"Mobile Space Sales & Rental, LLC",Basic Membership,Automotive,Houston,Houston,31005,False,False,False,False,False,True,True
+67980,"Environmental Remedies, LLC",Basic Membership,Waste Management & Document Destruction Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+68000,Lowcountry Foundation Repair,Basic Membership,Construction & Building Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+68020,United States Senator Jon Ossoff,Community Partner,Government,Fulton,Fulton,30305,False,False,False,True,False,True,False
+68060,Kelly Education,Basic Membership,Staffing & Employment,Bibb,Bibb,31201,False,False,False,False,True,True,True
+68104,"Beyond The Bell, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,False,False,False,False,True,True,True
+68188,Hotel Forty Five,Business Catalyst,Lodging & Venues,Bibb,Bibb,31201,False,False,False,False,True,True,True
+68208,McCallum Metal Works,Basic Membership,Construction & Building Services,Bibb,Bibb,31220,False,False,False,False,True,True,True
+69241,"Towering Your Success, LLC",Basic Membership,Education,Bibb,Bibb,31201,False,False,False,False,True,True,True
+69314,"Cohens Consulting Services, LLC",Basic Membership,Professional & Business Services,Bibb,Bibb,31208,False,False,False,False,True,True,True
+69323,Century 21 Crowe Realty,Basic Membership,Real Estate,Bibb,Bibb,31204,False,False,False,False,True,True,True
+70335,The Miner Agency,Basic Membership,Marketing & Media,Houston,Houston,31088,False,False,False,False,False,True,True
+70486,Smash My Trash,Business Catalyst,Waste Management & Document Destruction Services,Bibb,Bibb,,False,False,False,False,True,True,True
+71555,Atlanta Sand & Supply Co.,Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31210,False,False,False,False,True,True,True
+71562,Fall Line Brewing Co.,Basic Membership,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+71576,Griggers Wealth Management,Basic Membership,Financial Services,Houston,Houston,31088,False,False,False,False,False,True,True
+71582,Windows Plus Inc,Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+71607,"Macon Golf Carts, LLC",Basic Membership,Shopping & Retail,Bibb,Bibb,31206,False,False,False,False,True,True,True
+71612,"Invision Technologies, LLC",Basic Membership,"Information Technology, Solutions & Repair",Bibb,Bibb,31204,False,False,False,False,True,True,True
+71618,"Liberty Disposal, Inc",Business Catalyst,Waste Management & Document Destruction Services,Houston,Houston,31005,False,False,False,False,False,True,True
+71644,"Adams Homes AEC, LLC",Basic Membership,Construction & Building Services,Henry,Henry,30253,False,False,False,False,False,True,True
+71662,Piedmont Urgent Care,Additional Listing - Cornerstone (Unpaid),Healthcare - Vascular & Interventional,Bibb,Bibb,31210,False,False,True,False,True,True,True
+71668,Liberty Technology,Basic Membership,"Information Technology, Solutions & Repair",Bibb,Bibb,31210,False,False,False,False,True,True,True
+71700,Luxe Park Apartments,Basic Membership,Apartments,Bibb,Bibb,31210,False,False,False,False,True,True,True
+71709,Colony Bank,Business Catalyst,Banking,Bibb,Bibb,31210,False,False,False,False,True,True,True
+71735,"Neal Weinberg, Attorney",Basic Membership,Legal Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+71743,"C & C Manufacturing, Inc.",Basic Membership,"Industrial, Manufacturing & Logistics",Bibb,Bibb,31216,False,False,False,False,True,True,True
+71750,"Christy Capital Management, Inc.",Business Catalyst,Financial Services,Bibb,Bibb,31220,False,False,False,False,True,True,True
+71782,Minuteman Press Macon,Basic Membership,"Signage, Promotional & Printing Services",Bibb,Bibb,31210,False,False,False,False,True,True,True
+71832,"Flint Building Company, LLC",Basic Membership,Construction & Building Services,Bibb,Bibb,31220,False,False,False,False,True,True,True
+71838,Oconee State Bank,Business Catalyst,Banking,Bibb,Bibb,31201,False,False,False,False,True,True,True
+72848,"Clark, Smith & Sizemore, LLC",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+72852,Piedmont Orthopedic OrthoAtlanta,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+72870,The Florrest Awakens LLC,Basic Membership,Lodging & Venues,Jasper,Jasper,31038,False,False,False,False,False,True,True
+72876,NotiVisión Georgia,Basic Membership,Marketing & Media,Houston,Houston,31088,False,False,False,False,False,True,True
+72878,Hawkinsville-Pulaski County Chamber of Commerce,Community Partner,Non-Profit Organizations,Pulaski,Pulaski,31036,False,False,False,False,False,True,True
+72906,"Muscogee Nation Businesses, LLC",Community Partner,Business & Economic Development,Okmulgee,Okmulgee,74447,False,False,False,False,False,True,True
+72916,Hollywood Farms,Basic Membership,Lodging & Venues,Twiggs,Twiggs,31044,False,False,False,False,False,True,True
+72926,The Woodward Hotel & Quill Cocktail Bar,Additional Listing - Cornerstone (Unpaid),Lodging & Venues,Bibb,Bibb,31201,False,False,True,False,True,True,True
+72928,Capricorn Sound Studios and Museum,Additional Listing - Cornerstone (Unpaid),"Arts, Entertainment & Attractions",Bibb,Bibb,31201,False,False,True,False,True,True,True
+72930,Creek Media LLC,Additional Listing,Marketing & Media,Bibb,Bibb,31208,False,False,True,False,True,True,True
+72938,AF Realty Group,Basic Membership,Real Estate,Houston,Houston,31069,False,False,False,False,False,True,True
+72963,Middle Georgia Regional Library,Basic Membership,Government,Bibb,Bibb,31201,False,False,False,True,True,True,False
+72971,"Cleaning General Janitorial Services, Inc.",Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+72975,Total Fuze Spine and Pain Center,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+72993,Riverside Storage,Basic Membership,Moving & Storage,Bibb,Bibb,31201,False,False,False,False,True,True,True
+74007,Budget Blinds of Warner Robins,Basic Membership,Shopping & Retail,Houston,Houston,31088,False,False,False,False,False,True,True
+74024,Macon Outdoor Power,Basic Membership,Shopping & Retail,Bibb,Bibb,31210,False,False,False,False,True,True,True
+74026,"Childress & Justice, LLC",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+74028,Hometown Occupational Medicine,Basic Membership,Health Care & Medical Services,Houston,Houston,31005,False,False,False,False,False,True,True
+74041,Bibb Mount Zion Baptist Church,Business Catalyst,Places of Worship,Bibb,Bibb,31216,False,False,False,True,True,True,False
+74054,Unified Defense,Additional Listing - Cornerstone (Unpaid),"Industrial, Manufacturing & Logistics",Peach,Peach,31008,False,False,True,False,False,True,True
+74057,Truss US,Additional Listing - Cornerstone (Unpaid),"Industrial, Manufacturing & Logistics",Peach,Peach,31008,False,False,True,False,False,True,True
+74058,Sweet Briar Gardens,Economic Driver,Commercial Landscaping,Peach,Peach,31008,False,False,False,False,False,True,True
+74061,Jamtek Electrical LLC,Basic Membership,"Security Systems, Surveillance & Monitoring",Bibb,Bibb,31204,False,False,False,False,True,True,True
+74073,"Prevailing Woman Ministries, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,False,False,False,False,True,True,True
+74079,Leah Yetter Photographer,Basic Membership,Professional & Business Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+74090,"Macon Bibb Economic Opportunity Council, Inc.",Business Catalyst,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+74096,"Middle Georgia Access to Justice Council, Inc.",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+74099,PruittHealth Hospice and Palliative Care of Macon,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+74106,"Bowman Hospitality, LLC",Basic Membership,Lodging & Venues,Bibb,Bibb,31210,False,False,False,False,True,True,True
+74113,551 Hospitality LLC,Basic Membership,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+74147,Masonic Home of Georgia,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31211,False,False,False,False,True,True,True
+74149,"Southern Center for Choice Theory, LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+74154,"SARA Ventures, Inc.",Basic Membership,Real Estate,Bibb,Bibb,31201,False,False,False,False,True,True,True
+74160,Miramar Raw Bar and Tapas,Additional Listing,Restaurants & Catering,Bibb,Bibb,31202,False,False,True,False,True,True,True
+74161,Grit's Cafe,Additional Listing,Restaurants & Catering,Bibb,Bibb,31029,False,False,True,False,True,True,True
+75161,"Advanced Dental Arts, LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+75165,Highland Hills Baptist Church,Basic Membership,Places of Worship,Bibb,Bibb,31211,False,False,False,True,True,True,False
+75167,Taco Mac,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+75185,Greens Home Repair LLC,Basic Membership,Construction & Building Services,Bibb,Bibb,31052,False,False,False,False,True,True,True
+75240,Ocmulgee National Park and Preserve Initiative,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+75296,JPMorgan Chase,Basic Membership,Financial Services,,Unknown,30326,False,False,False,False,False,True,True
+75298,"Oliver's Corner Bistro, LLC",Basic Membership,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+75313,ITVantix,Basic Membership,"Information Technology, Solutions & Repair",Bibb,Bibb,31088,False,False,False,False,True,True,True
+75387,Fresh Air Bar-B-Que,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+75389,Dab's Inc.,Basic Membership,Restaurants & Catering,Bibb,Bibb,31216,False,False,False,False,True,True,True
+75391,Zebulon Park Health and Rehabilitation,Basic Membership,Healthcare - Vascular & Interventional,Bibb,Bibb,31210,False,False,False,False,True,True,True
+75393,Rhythm & Rally Sports & Events,Business Catalyst,"Arts, Entertainment & Attractions",Bibb,Bibb,31206,False,False,False,False,True,True,True
+75398,Roberts Academy at Mercer University,Additional Listing - Cornerstone (Unpaid),Education,Bibb,Bibb,31201,False,False,True,False,True,True,True
+75417,"Harmon & Harmon Realtors, Inc.",Basic Membership,Real Estate,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76424,Stardust Consulting LLC,Basic Membership,Professional & Business Services,Peach,Peach,31030,False,False,False,False,False,True,True
+76428,First Baptist Church,Basic Membership,Places of Worship,Bibb,Bibb,31201,False,False,False,True,True,True,False
+76430,Heart of Georgia Hospice,Basic Membership,Health Care & Medical Services,Houston,Houston,31088,False,False,False,False,False,True,True
+76436,Stetson-Hatcher School of Business,Additional Listing - Cornerstone (Unpaid),Education,Bibb,Bibb,31207,False,False,True,False,True,True,True
+76440,First Street Ace Hardware,Additional Listing,Shopping & Retail,Bibb,Bibb,31201,False,False,True,False,True,True,True
+76443,"Diamond Odell Jude, MD LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+76470,"Snowco General Contractors, Inc.",Basic Membership,Construction & Building Services,Wilkinson,Wilkinson,31054,False,False,False,False,False,True,True
+76493,Big Hair Productions,Business Catalyst,Marketing & Media,Bibb,Bibb,31208,False,False,False,False,True,True,True
+76507,Noland Law Firm LLC,Basic Membership,Legal Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76515,"Gonzales Cleaning Services, LLC",Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+76522,Ricky Heath Plumbing LLC,Basic Membership,HVAC Service & Maintenance,Bibb,Bibb,31204,False,False,False,False,True,True,True
+76524,Turner Job Corps,Community Advocate,Education,Dougherty,Dougherty,31705,False,False,False,False,False,True,True
+76534,"Logistics & Generation Technology Services, LLC",Economic Driver,Aerospace,Bibb,Bibb,31216,False,False,False,False,True,True,True
+76537,"Macon Hope, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+76546,Reliable Heating & Air,Leading Investor,HVAC Service & Maintenance,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76575,Ark Roofing LLC,Basic Membership,Roofing,Bibb,Bibb,31046,False,False,False,False,True,True,True
+76580,Steel Forest Range and Academy LLC,Basic Membership,Shopping & Retail,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76618,Comcast Business,Basic Membership,Utilities & Internet Service Providers,,Unknown,30339,False,False,False,False,False,True,True
+76635,Holistic Healing Resources,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76639,OVG - The Macon Centreplex & Atrium Health Amphitheater,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31217,False,False,False,False,True,True,True
+76641,"Netrock Technologies, LLC",Basic Membership,"Information Technology, Solutions & Repair",Bibb,Bibb,31208,False,False,False,False,True,True,True
+76647,Georgia Trust for Local News,Basic Membership,Marketing & Media,Bibb,Bibb,31201,False,False,False,False,True,True,True
+76668,Georgia College & State University,Business Catalyst,Education,Baldwin,Baldwin,31061,False,False,False,False,False,True,True
+76679,Macon Me Wander,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31211,False,False,False,False,True,True,True
+76683,"Robison Venture Group, LLC",Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76690,Gilbert's Prom and Formalwear,Basic Membership,Shopping & Retail,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76703,"WiReD Technology, LLC",Basic Membership,"Information Technology, Solutions & Repair",Henry,Henry,30253,False,False,False,False,False,True,True
+76707,Ocmulgee Physicians LLC,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+76711,"Lesley Myrick Art + Design, LLC",Basic Membership,Furniture & Interior Design,Bibb,Bibb,31201,False,False,False,False,True,True,True
+76716,315 LLC,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76724,"Nu-Way Weiners, Inc.",Business Catalyst,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+76728,"Stroud Industries, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+76733,"BrightFarms, Inc",Leading Investor,"Industrial, Manufacturing & Logistics",Bibb,Bibb,30135,False,False,False,False,True,True,True
+76747,"Technical College System of Georgia, Office of Workforce Development",Business Catalyst,Government,Henry,Henry,30345,False,False,False,True,False,True,False
+76765,CoreSouth Systems LLC,Basic Membership,"Information Technology, Solutions & Repair",Bibb,Bibb,31206,False,False,False,False,True,True,True
+76776,Heart City Marketing,Basic Membership,Marketing & Media,Houston,Houston,31088,False,False,False,False,False,True,True
+77784,TJ Sutter - State Farm,Basic Membership,Insurance,Bibb,Bibb,31204,False,False,False,False,True,True,True
+77790,Northside Animal Hospital,Basic Membership,Veterinary & Pets,Bibb,Bibb,31210-4863,False,False,False,False,True,True,True
+77792,"Three Rivers Area Health Education Center, Inc.",Basic Membership,Non-Profit Organizations,Muscogee,Muscogee,31901,False,False,False,False,False,True,True
+77797,"Pawn Max, Inc",Basic Membership,Financial Services,Bibb,Bibb,31206,False,False,False,False,True,True,True
+77799,"Clark & Clark Law Group, LLC",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+77812,Zebulon475.Inc,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+77830,Nomad Capital,Basic Membership,Moving & Storage,Bibb,Bibb,31210,False,False,False,False,True,True,True
+77833,John Wesley Villas,Business Catalyst,Retirement & Senior Living,Bibb,Bibb,31220,False,False,False,False,True,True,True
+77840,"LongBridge Macon, LLC",Basic Membership,Apartments,Bibb,Bibb,31210,False,False,False,False,True,True,True
+77844,"Rash Investors, LLC",Business Catalyst,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+77864,"Rosas Management, LLC",Basic Membership,Restaurants & Catering,Bibb,Bibb,31204,False,False,False,False,True,True,True
+77907,Lamar Advertising,Basic Membership,Marketing & Media,Bibb,Bibb,31210,False,False,False,False,True,True,True
+77909,Law Office of Christi James LLC,Basic Membership,Legal Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+77913,"Realty Unlimited, LLC",Basic Membership,Real Estate,Bibb,Bibb,31210,False,False,False,False,True,True,True
+77915,Shred Monster LLC,Basic Membership,Waste Management & Document Destruction Services,Monroe,Monroe,31046,False,False,False,False,False,True,True
+77917,Out Fox Professional Solution,Basic Membership,Transportation,Bibb,Bibb,31216,False,False,False,False,True,True,True
+77931,"Lazarus - 2, LLC",Basic Membership,Shopping & Retail,Bibb,Bibb,31204,False,False,False,False,True,True,True
+77966,Lowe Electric Supply,Economic Driver,Construction & Building Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+77970,Brodie Law Group,Basic Membership,Legal Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78001,Najera Design + Marketing,Basic Membership,Marketing & Media,Monroe,Monroe,31046,False,False,False,False,False,True,True
+78069,"Ballard Benefits Group, LLC",Business Catalyst,Insurance,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78083,"Childs & Curreli, LLC",Basic Membership,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78115,Albany State University/Child Care Resource and Referral of SWGA,Basic Membership,Education,Dougherty,Dougherty,31707,False,False,False,False,False,True,True
+78117,"HWH of Macon, LLC",Basic Membership,Self Care & Wellness,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78127,Macon Sweet Treats LLC,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78130,"Spearman Investments, Inc.",Leading Investor,Business & Economic Development,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78132,Sleep in Heavenly Peace,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31221,False,False,False,False,True,True,True
+78146,Skipper Family Farms,Basic Membership,Agriculture,Bibb,Bibb,31216,False,False,False,False,True,True,True
+78148,AllenSelfCo,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31210,False,False,False,False,True,True,True
+78150,FBC Macon LLC,Economic Driver,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78153,1st Franklin Financial Corp - Macon 1,Basic Membership,Financial Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78157,Going to Macon to Get the Bacon LLC,Basic Membership,Waste Management & Document Destruction Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78160,"Georgia Pulmonary Institute, LLC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78167,Accelecom,Basic Membership,Utilities & Internet Service Providers,Fulton,Fulton,30328,False,False,False,False,False,True,True
+78171,Ramaker,Basic Membership,"Architects, Engineers & Planners",Dane,Dane,53704,False,False,False,False,False,True,True
+78188,Onelife Fitness,Basic Membership,Self Care & Wellness,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78201,Rex Supply,Business Catalyst,Cleaning & Janitorial Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78219,Synovus,Additional Listing - Cornerstone (Unpaid),Banking,Bibb,Bibb,31201,False,False,True,False,True,True,True
+78220,Synovus,Additional Listing - Cornerstone (Unpaid),Banking,,Bibb (zip-inferred),31088,False,False,True,False,True,True,True
+78221,Synovus,Additional Listing - Cornerstone (Unpaid),Banking,Houston,Houston,31088,False,False,True,False,False,True,True
+78235,Macon GA Caregiving LLC,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78240,Pet Party Palace,Basic Membership,Veterinary & Pets,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78267,Magnolia Claim Management,Basic Membership,Insurance,Monroe,Monroe,31029,False,False,False,False,False,True,True
+78271,Ashah Photography,Business Catalyst,Professional & Business Services,Bibb,Bibb,31211,False,False,False,False,True,True,True
+78273,"Still Waters Professional Counseling Services, Inc",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78283,Crofutt Careers and Consulting LLC,Basic Membership,Staffing & Employment,Houston,Houston,31093,False,False,False,False,False,True,True
+78286,GoRound Media,Additional Listing,Marketing & Media,Monroe,Monroe,31046,False,False,True,False,False,True,True
+78312,Baldwin Communication Solutions LLC,Basic Membership,"Security Systems, Surveillance & Monitoring",Henry,Henry,30248,False,False,False,False,False,True,True
+78317,"eco-X.travel, LLC",Basic Membership,Professional & Business Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78321,Elizabeth Schorr & Co.,Basic Membership,Marketing & Media,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78324,Boss Salon Suites LLC,Basic Membership,Self Care & Wellness,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78359,Ocmulgee Mounds Association,Additional Listing,Non-Profit Organizations,,Bibb (zip-inferred),31217,False,False,True,False,True,True,True
+78361,Alex's PC Solutions LLC,Community Advocate,"Information Technology, Solutions & Repair",Bibb,Bibb,31201,False,False,False,False,True,True,True
+78368,Hardcore Storage Solutions,Basic Membership,"Industrial, Manufacturing & Logistics",Cobb,Cobb,30080,False,False,False,False,False,True,True
+78370,"Gordon Animal Clinic, Inc",Basic Membership,Veterinary & Pets,Wilkinson,Wilkinson,31031,False,False,False,False,False,True,True
+78374,Wimberly Treadwell Designs,Basic Membership,"Architects, Engineers & Planners",Bibb,Bibb,31201,False,False,False,False,True,True,True
+78377,Baker Roofing Company,Basic Membership,Roofing,Chatham,Chatham,31408,False,False,False,False,False,True,True
+78379,America's Home Place,Basic Membership,Construction & Building Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78402,Dream SAJ Corporation,Basic Membership,Restaurants & Catering,Bibb,Bibb,31206,False,False,False,False,True,True,True
+78411,Cherry Street Energy,Community Advocate,Utilities & Internet Service Providers,Fulton,Fulton,30318,False,False,False,False,False,True,True
+78416,"Macon Bibb Citizen Advocacy, Inc",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78426,Sweet Affairz LLC,Basic Membership,Restaurants & Catering,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78430,The Loaves and Fishes Ministry of Macon,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78437,"JBW Installations, Inc.",Basic Membership,Construction & Building Services,Bibb,Bibb,31052,False,False,False,False,True,True,True
+78447,"AngHubb Georgia Properties, LLC",Basic Membership,Lodging & Venues,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78450,Marketing USA and Civic Swag,Basic Membership,Marketing & Media,Baldwin,Baldwin,31061,False,False,False,False,False,True,True
+78452,Covenant Plumbing,Basic Membership,Electrical & Plumbing Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78455,Caring Transitions of Macon,Business Catalyst,Retirement & Senior Living,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78458,105holidayllc,Basic Membership,Apartments,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78470,Longleaf Distilling Co.,Basic Membership,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78478,Liset's Accessories LLC,Basic Membership,Shopping & Retail,Houston,Houston,31093,False,False,False,False,False,True,True
+78488,Theatre Macon,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31201,False,False,False,False,True,True,True
+78504,Rooted & Rounded Wellness LLC,Business Catalyst,Self Care & Wellness,Bibb,Bibb,31220,False,False,False,False,True,True,True
+78516,Macon Women's Health,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78526,"Robins, Eskew, Smith & Jordan",Basic Membership,Accounting Services,Henry,Henry,30253,False,False,False,False,False,True,True
+78530,Gilmer Warehouse,Leading Investor,Distribution & Wholesale,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78535,MAC.BID,Basic Membership,Shopping & Retail,Bibb,Bibb,31206,False,False,False,False,True,True,True
+78538,Georgia Cancer Specialists - Macon,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31217,False,False,True,False,True,True,True
+78539,The Imaging Center of Warner Robins,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31093,False,False,True,False,True,True,True
+78541,Macon Northside PET,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31201,False,False,True,False,True,True,True
+78543,OrthoGeorgia Orthopaedic Urgent Care Warner Robins,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Houston,Houston,31088,False,False,True,False,False,True,True
+78544,OrthoGeorgia Bone Health Clinic,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31210,False,False,True,False,True,True,True
+78545,OrthoGeorgia Orthopaedic Urgent Care Macon,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31210,False,False,True,False,True,True,True
+78549,Goodrich Flooring Solutions,Economic Driver,Construction & Building Services,Bibb,Bibb,31211,False,False,False,False,True,True,True
+78564,Mr. Davis Lawn Service LLC,Basic Membership,Commercial Landscaping,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78566,Nicky's Janitorial Service LLC,Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31217,False,False,False,False,True,True,True
+78568,YourHealth Macon,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78576,Alternative Youth Services,Basic Membership,Youth Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78578,Macon Drinks LLC,Basic Membership,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78595,AnchorPoint Retirement,Basic Membership,Retirement & Senior Living,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78600,PBK,Community Advocate,"Architects, Engineers & Planners",Spalding,Spalding,30223,False,False,False,False,False,True,True
+78602,Piedmont Macon Primary Care at Charter Blvd.,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31210,False,False,True,False,True,True,True
+78612,"George S. Stefanis, MD, PC",Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78620,Dream Clean Housekeeping Company LLC,Basic Membership,Cleaning & Janitorial Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78622,Pruitt Place Peake Assisted and Independent Living,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78633,Pruitt Healthcare,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78639,ACE I Access to Capital for Entrepreneurs,Business Catalyst,Financial Services,Tift,Tift,31794,False,False,False,False,False,True,True
+78646,Get Busy Living Inc,Basic Membership,Self Care & Wellness,Bibb,Bibb,31216,False,False,False,False,True,True,True
+78671,FreeUP Storage,Basic Membership,Moving & Storage,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78676,Gallagher Benefit Services,Basic Membership,Insurance,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78681,Merle Norman and Day Spa,Basic Membership,Shopping & Retail,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78683,DHM Macon LP,Business Catalyst,Real Estate,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78688,Katherine L McArthur LLC,Basic Membership,Legal Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78690,"Whole Child - Whole World School, Inc.",Basic Membership,Education,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78699,Robin Gatti Photography,Business Catalyst,Professional & Business Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78701,Spark By Hilton Macon North,Basic Membership,Lodging & Venues,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78733,Storage Sense - Macon,Basic Membership,Moving & Storage,Bibb,Bibb,31206,False,False,False,False,True,True,True
+78735,"DKH Entertainment, LLC",Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31210,False,False,False,False,True,True,True
+78738,St. Joseph's Catholic School,Basic Membership,Education,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78740,"Affordable Plumbing Solutions, Inc",Basic Membership,Electrical & Plumbing Services,Houston,Houston,31069,False,False,False,False,False,True,True
+78744,"SCB Minerals, LLC",Basic Membership,"Industrial, Manufacturing & Logistics",Macon,Macon,31068,False,False,False,False,False,True,True
+78756,ReFrame Weight Loss & Wellness Inc.,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78758,"Carter Engineering Group, LLC",Basic Membership,Professional & Business Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78760,Boost Web Studio,Basic Membership,Marketing & Media,Bibb,Bibb,31220,False,False,False,False,True,True,True
+78764,"PAMG, Inc.",Basic Membership,"Signage, Promotional & Printing Services",Bibb,Bibb,31206,False,False,False,False,True,True,True
+78772,TownePlace Suites Macon - Mercer University,Basic Membership,Lodging & Venues,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78774,Qalam wa Lawh,Basic Membership,Education,Bibb,Bibb,31217,False,False,False,False,True,True,True
+78777,Piedmont Macon Primary Care at Bass Rd.,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31210,False,False,True,False,True,True,True
+78782,Julie Dominy Floral Artistry,Basic Membership,Shopping & Retail,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78784,Macon-Bibb Employees Credit Union,Basic Membership,Banking,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78786,Wanna Tuft Studios,Micro Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31021,False,False,False,False,True,True,True
+78793,"Bey and Associates, LLC",Community Advocate,Legal Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78795,"Macon AIM, Inc",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78801,Westhill Macon,Business Catalyst,Retirement & Senior Living,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78807,Emory Healthcare Warner Robins,Basic Membership,Health Care & Medical Services,Houston,Houston,31093,False,False,False,False,False,True,True
+78813,Ballard Construction Group,Basic Membership,Construction & Building Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78815,Inees’s Faithful Steps Learning Center,Micro Membership,Education,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78818,Pharmacy Bar LLC,Basic Membership,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78845,Conner Gun Supply,Basic Membership,Shopping & Retail,Houston,Houston,31088,False,False,False,False,False,True,True
+78857,Sculpting Choices LLC,Basic Membership,Youth Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78860,CGR Credit Union,Business Catalyst,Banking,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78862,"Crisis Line & Safe House of Central Georgia, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78866,Ronald McDonald House Charities of Central Georgia,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78873,Eiszner & Kelly Restaurants LLC,Business Catalyst,Restaurants & Catering,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78875,"Our Gift to You, LLC",Community Advocate,Health Care & Medical Services,Bibb,Bibb,31220,False,False,False,False,True,True,True
+78877,Stokes Land Management,Business Catalyst,Commercial Landscaping,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78889,"Steve's Corner Cafe, Inc",Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78891,Denali Surveying,Basic Membership,"Architects, Engineers & Planners",Bibb,Bibb,31210,False,False,False,False,True,True,True
+78922,Blue Chip Branding & Headshots,Basic Membership,Marketing & Media,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78929,Blue Chip Custom Website Design,Additional Listing,Marketing & Media,Bibb,Bibb,31204,False,False,True,False,True,True,True
+78946,NAG Enterprise Group,Economic Driver,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78948,"Partners Benefit Group, LLC",Basic Membership,Insurance,Crisp,Crisp,31015,False,False,False,False,False,True,True
+78950,Wire 3,Business Catalyst,Utilities & Internet Service Providers,Volusia,Volusia,32114,False,False,False,False,False,True,True
+78953,"Cornerstone Academy of Art and Design, Inc.",Business Catalyst,Education,Bibb,Bibb,31201-1412,False,False,False,False,True,True,True
+78957,The Darby & Munroe Private Family Foundation,Basic Membership,Foundations,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78959,Dental Care Center of Macon Inc.,Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+78963,"Knowles Engineering and Consulting, LLC",Basic Membership,"Architects, Engineers & Planners",Bibb,Bibb,31210,False,False,False,False,True,True,True
+78964,Big City Tax LLC. JJ,Business Catalyst,Financial Services,Bibb,Bibb,31220,False,False,False,False,True,True,True
+78966,MJR Solutions,Basic Membership,Roofing,Meriwether,Meriwether,31816,False,False,False,False,False,True,True
+78969,"Big Brothers Big Sisters of the Heart of Georgia, Inc.",Basic Membership,Non-Profit Organizations,Bibb,Bibb,31217,False,False,False,False,True,True,True
+78971,Piedmont Primary Care at Macon Medical,Additional Listing - Cornerstone (Unpaid),Health Care & Medical Services,Bibb,Bibb,31217,False,False,True,False,True,True,True
+78974,Orangetheory Fitness,Basic Membership,Self Care & Wellness,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78976,TwelveStone Infusion Center,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78978,Sweet Eleanor's Divine Desserts,Additional Listing,Restaurants & Catering,Bibb,Bibb,31201,False,False,True,False,True,True,True
+78984,"Goshen and Burns Enterprises, Inc",Economic Driver,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+78988,Highland Pointe,Business Catalyst,Real Estate,Bibb,Bibb,31216,False,False,False,False,True,True,True
+78994,Cassidy Dental Associates,Basic Membership,Health Care & Medical Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+78996,MFA Program Management,Economic Driver,Professional & Business Services,Shelby,Shelby,38120,False,False,False,False,False,True,True
+79000,T-Fiber by T-Mobile,Basic Membership,Utilities & Internet Service Providers,Bibb,Bibb,31210,False,False,False,False,True,True,True
+79002,"GO Above Security, LLC",Business Catalyst,"Security Systems, Surveillance & Monitoring",Newton,Newton,30016,False,False,False,False,False,True,True
+79010,Salvation Army (Macon Corps),Basic Membership,Non-Profit Organizations,Bibb,Bibb,31206,False,False,False,False,True,True,True
+79013,Neel's Lofts Operating LLC,Basic Membership,Real Estate,Bibb,Bibb,31201,False,False,False,False,True,True,True
+79015,Rebecca Moody Coaching,Basic Membership,Self Care & Wellness,Monroe,Monroe,31029,False,False,False,False,False,True,True
+79021,Direct Auto Insurance,Basic Membership,Insurance,Bibb,Bibb,31211,False,False,False,False,True,True,True
+79024,Leonard USA,Business Catalyst,Moving & Storage,Bibb,Bibb,31206,False,False,False,False,True,True,True
+79028,"Amwaste of Georgia, LLC",Community Advocate,Waste Management & Document Destruction Services,Monroe,Monroe,31029,False,False,False,False,False,True,True
+79030,"MJM Consolidated Services, Inc.",Micro Membership,Professional & Business Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+79037,The Waste Basket,Basic Membership,Waste Management & Document Destruction Services,Bibb,Bibb,31201,False,False,False,False,True,True,True
+79041,"Autism Behavioral Institute, LLC",Business Catalyst,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+79047,Rebel Fox,Basic Membership,Marketing & Media,Allegheny,Allegheny,16046,False,False,False,False,False,True,True
+79052,EDWARD Transportation and Media Consulting LLC,Basic Membership,Transportation,Camden,Camden,31565,False,False,False,False,False,True,True
+79067,Andalusia,Additional Listing - Cornerstone (Paid),Restaurants & Catering,Bibb,Bibb,31201,False,False,True,False,True,True,True
+79092,Kinder Morgan,Key Stakeholder,Utilities & Internet Service Providers,Harris,Harris,77002,False,False,False,False,False,True,True
+79096,MVP Physio Dr. LLC,Economic Driver,Health Care & Medical Services,Bibb,Bibb,31210,False,False,False,False,True,True,True
+79098,Alzheimer's Disease and Related Disorders Association,Basic Membership,Non-Profit Organizations,Bibb,Bibb,31210,False,False,False,False,True,True,True
+79102,KDD Smash LLC,Basic Membership,"Arts, Entertainment & Attractions",Bibb,Bibb,31220,False,False,False,False,True,True,True
+79107,Crawlspace Medic of Macon,Basic Membership,Construction & Building Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+79112,Groome Transportation of Georgia LLC,Basic Membership,Transportation,Bibb,Bibb,31210,False,False,False,False,True,True,True
+79115,The King Firm,Basic Membership,Legal Services,Macon,Macon,31201,False,False,False,False,False,True,True
+79117,"S&ME, Inc.",Basic Membership,"Architects, Engineers & Planners",Gwinnett,Gwinnett,30096,False,False,False,False,False,True,True
+79119,House Cocktails,Basic Membership,Restaurants & Catering,Bibb,Bibb,31201-2736,False,False,False,False,True,True,True
+79128,The Dress Bar,Business Catalyst,Shopping & Retail,Bibb,Bibb,31201,False,False,False,False,True,True,True
+79130,"Nick Schnyder Law Firm, LLC",Basic Membership,Legal Services,Bibb,Bibb,31204,False,False,False,False,True,True,True
+79140,TwentyOne Macon,Basic Membership,Restaurants & Catering,Bibb,Bibb,31210,False,False,False,False,True,True,True
+79150,Hawk Injury Law,Basic Membership,,Bibb,Bibb,31210,False,False,False,False,True,True,True

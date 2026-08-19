@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chamber Members Map</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<script src="vendor/maplibre-gl.js"></script>
+<style>
+    :root {
+        --bg: #0d0d0f;
+        --surface: #141416;
+        --border: #27272a;
+        --text: #d4d4d8;
+        --text-muted: #898781;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    /* overflow: hidden is load-bearing, not decorative -- without it, an
+       absolutely-positioned element (the hover popup below) that happens
+       to extend past the edge of the viewport makes the document
+       scrollable, which adds a scrollbar that steals a few px from the
+       map's layout box on every hover/unhover -- a resize feedback loop
+       that reads as the whole map "shaking". */
+    html, body { height: 100%; overflow: hidden; }
+    body {
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--bg); color: var(--text);
+    }
+    #map { position: absolute; inset: 0; }
+
+    .panel {
+        position: absolute; left: 12px; bottom: 12px; z-index: 5;
+        background: rgba(20,20,22,0.92);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 12px 14px;
+        font-size: 0.76rem;
+        color: var(--text);
+        line-height: 1.7;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+        max-width: 240px;
+        max-height: calc(100vh - 24px);
+        display: flex;
+        flex-direction: column;
+    }
+    .panel-title {
+        font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+        color: var(--text-muted); margin-bottom: 6px;
+    }
+    .mode-tabs { display: flex; gap: 4px; margin-bottom: 8px; }
+    .mode-tab {
+        flex: 1; text-align: center; padding: 4px 6px; border-radius: 5px; cursor: pointer;
+        font-size: 0.66rem; font-weight: 600; color: var(--text-muted);
+        border: 1px solid var(--border); user-select: none;
+    }
+    .mode-tab:hover { color: var(--text); }
+    .mode-tab.active { background: rgba(255,255,255,0.09); color: #fff; border-color: rgba(255,255,255,0.2); }
+    .legend-list { overflow-y: auto; overflow-x: hidden; flex: 1 1 auto; min-height: 0; }
+    .legend-list.hidden { display: none; }
+    .legend-row {
+        display: flex; align-items: center; gap: 7px; cursor: pointer; user-select: none;
+        padding: 2px 4px; margin: 0 -4px; border-radius: 4px; transition: background 0.1s;
+    }
+    .legend-row:hover { background: rgba(255,255,255,0.06); }
+    .legend-row.inactive { opacity: 0.35; }
+    .legend-swatch { width: 11px; height: 11px; border-radius: 3px; flex-shrink: 0; }
+    /* Every label sitting inside a flex row (legend rows, the buildings
+       toggle, the boundary key) gets this: flex items default to
+       min-width:auto, which refuses to shrink narrower than the text's
+       widest unbroken word and can push content past the panel's
+       max-width instead of wrapping. min-width:0 + overflow-wrap makes
+       wrapping the actual fallback instead of overflow. */
+    .wrap-label { flex: 1 1 auto; min-width: 0; overflow-wrap: break-word; }
+    .legend-hint { font-size: 0.62rem; color: var(--text-muted); margin: 2px 0 4px; font-style: italic; }
+    .legend-toggle-all {
+        font-size: 0.64rem; color: var(--text-muted); cursor: pointer; user-select: none;
+        text-decoration: underline; text-underline-offset: 2px;
+        padding: 2px 4px; margin: 0 -4px 2px;
+    }
+    .legend-toggle-all:hover { color: #fff; }
+    .legend-sub { font-size: 0.66rem; color: var(--text-muted); margin-top: 8px; }
+    .toggle-row {
+        display: flex; align-items: center; gap: 7px; margin-top: 10px; padding-top: 10px;
+        border-top: 1px solid var(--border); cursor: pointer; user-select: none;
+    }
+    .toggle-row input { accent-color: #2a78d6; flex-shrink: 0; }
+    .boundary-key { display: flex; align-items: center; gap: 7px; margin-top: 6px; }
+    .boundary-swatch { width: 16px; height: 3px; background: #ffcc33; border-radius: 2px; flex-shrink: 0; }
+
+    .chamber-popup {
+        background: rgba(20,20,22,0.95); color: #fff; border: 1px solid rgba(255,255,255,0.15);
+        font-size: 0.78rem; padding: 5px 9px; border-radius: 5px; pointer-events: none;
+        position: absolute; z-index: 6; white-space: normal; max-width: 220px; line-height: 1.35;
+        display: none;
+    }
+
+    /* Click-to-enable scroll-zoom: a plain scroll over the map does
+       nothing until you click it once -- so scrolling past the map on
+       a page it's embedded in never gets captured. This small badge
+       says so up front instead of the map just silently ignoring input;
+       it fades out for good once scroll-zoom is enabled. */
+    .scroll-badge {
+        position: absolute; right: 12px; bottom: 12px; z-index: 5;
+        background: rgba(20,20,22,0.82); border: 1px solid var(--border); border-radius: 20px;
+        padding: 5px 11px; font-size: 0.68rem; color: var(--text); pointer-events: none;
+        transition: opacity 0.3s; opacity: 1;
+    }
+    .scroll-badge.gone { opacity: 0; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+<div class="chamber-popup" id="chamber-popup"></div>
+<div class="scroll-badge" id="scroll-badge">Click the map to enable scroll-zoom</div>
+
+<script>
+// Ordinal ramp matching the chamber penetration report for visual
+// consistency across every deliverable in this study.
+const CHAMBER_BUCKET_COLOR = {
+    tier1_micro_basic: "#b7d3f6",
+    tier2_catalyst: "#6da7ec",
+    tier3_community: "#2a78d6",
+    tier4_regional_stakeholder: "#1c5cab",
+    tier5_driver_investor: "#184f95",
+    additional_listing: "#9085e9",
+};
+const CHAMBER_BUCKET_LABEL = {
+    tier1_micro_basic: "Micro / Basic Membership",
+    tier2_catalyst: "Business Catalyst",
+    tier3_community: "Community Advocate / Partner",
+    tier4_regional_stakeholder: "Regional Influencer / Key Stakeholder",
+    tier5_driver_investor: "Economic Driver / Leading Investor",
+    additional_listing: "Additional listing (extra location/brand)",
+};
+// MapLibre "match" expression: pairs of [value, output] then a fallback.
+const FILL_COLOR_EXPR = ["match", ["get", "bucket"],
+    ...Object.entries(CHAMBER_BUCKET_COLOR).flat(),
+    "#ffffff",
+];
+
+// Industry-color mode: 2-digit NAICS code -> color/label, same crosswalk
+// scripts/build_naics_crosswalk.py used for the report's industry table
+// (see scripts/build_map_data.py, which resolves each point's "sector"
+// property via that same script's resolve_sector() -- one source of
+// truth, not a second guess at classification). Ordered by how many
+// members are actually in each sector so the legend reads
+// largest-to-smallest, same convention as the report table.
+const SECTOR_COLOR = {
+    "62": "#E15759", // Health Care and Social Assistance
+    "54": "#4E79A7", // Professional, Scientific, and Technical Services
+    "52": "#59A14F", // Finance and Insurance
+    "23": "#F28E2B", // Construction
+    "72": "#B07AA1", // Accommodation and Food Services
+    "31": "#76B7B2", // Manufacturing
+    "44": "#EDC948", // Retail Trade
+    "53": "#FF9DA7", // Real Estate and Rental and Leasing
+    "56": "#9C755F", // Administrative and Support and Waste Management and Remediation Services
+    "71": "#FFBE7D", // Arts, Entertainment, and Recreation
+    "61": "#A0CBE8", // Educational Services
+    "81": "#8CD17D", // Other Services (except Public Administration)
+    "48": "#D37295", // Transportation and Warehousing
+    "42": "#F1CE63", // Wholesale Trade
+    "51": "#86BCB6", // Information
+    "22": "#B6992D", // Utilities
+    "21": "#79706E", // Mining, Quarrying, and Oil and Gas Extraction
+    "11": "#D4A017", // Agriculture, Forestry, Fishing and Hunting
+    "unclassified": "#8a8f98",
+};
+const SECTOR_LABEL = {
+    "62": "Health Care & Social Assistance",
+    "54": "Professional, Scientific & Technical",
+    "52": "Finance & Insurance",
+    "23": "Construction",
+    "72": "Accommodation & Food Services",
+    "31": "Manufacturing",
+    "44": "Retail Trade",
+    "53": "Real Estate & Rental/Leasing",
+    "56": "Admin, Support & Waste Mgmt.",
+    "71": "Arts, Entertainment & Recreation",
+    "61": "Educational Services",
+    "81": "Other Services",
+    "48": "Transportation & Warehousing",
+    "42": "Wholesale Trade",
+    "51": "Information",
+    "22": "Utilities",
+    "21": "Mining & Quarrying",
+    "11": "Agriculture, Forestry & Fishing",
+    "unclassified": "Unclassified (see report)",
+};
+const INDUSTRY_FILL_COLOR_EXPR = ["match", ["get", "sector"],
+    ...Object.entries(SECTOR_COLOR).flat(),
+    "#ffffff",
+];
+
+// A plain point per chamber member -- see scripts/build_map_data.py's
+// module docstring for why this isn't building-footprint polygons anymore.
+// (Filename/variable name kept from the building-matching version rather
+// than renamed everywhere; content is now points.)
+const CHAMBER_MEMBERS_GEOJSON = __CHAMBER_BUILDINGS_GEOJSON__;
+const COUNTY_BOUNDARY_GEOJSON = __COUNTY_BOUNDARY_GEOJSON__;
+
+const map = new maplibregl.Map({
+    container: "map",
+    style: "https://tiles.openfreemap.org/styles/liberty",
+    center: [-83.625, 32.833],
+    zoom: 11,
+});
+map.addControl(new maplibregl.NavigationControl(), "top-left");
+// Native browser Fullscreen API, wrapped by MapLibre's own control --
+// handles the enter/exit icon swap and Escape-to-exit for free.
+map.addControl(new maplibregl.FullscreenControl(), "top-left");
+
+// Which tiers/sectors are currently shown -- both start as "all of them".
+// Filtering re-filters the SOURCE data (via setData) rather than using a
+// per-layer `filter` expression -- simpler to reason about and cheap at
+// this data size (729 points). Two independent active-sets are kept (one
+// per mode) so switching modes doesn't lose whatever filter was applied
+// in the other one.
+let colorMode = "tier"; // "tier" | "industry"
+let activeBuckets = new Set(Object.keys(CHAMBER_BUCKET_COLOR));
+let activeSectors = new Set(Object.keys(SECTOR_COLOR));
+function filteredMembersGeoJSON() {
+    const prop = colorMode === "tier" ? "bucket" : "sector";
+    const activeSet = colorMode === "tier" ? activeBuckets : activeSectors;
+    return {
+        type: "FeatureCollection",
+        features: CHAMBER_MEMBERS_GEOJSON.features.filter((f) => activeSet.has(f.properties[prop])),
+    };
+}
+
+map.on("load", () => {
+    // No clustering -- tried it (first aggressive, then tuned way down),
+    // but even tuned down it still hid the shape of how members are
+    // actually distributed, e.g. a string of dots following I-75
+    // collapsing into an anonymous number instead of reading as a
+    // highway corridor. Plain dots at every zoom instead.
+    map.addSource("chamber-members", {
+        type: "geojson", data: filteredMembersGeoJSON(),
+    });
+    map.addSource("county-boundary", { type: "geojson", data: COUNTY_BOUNDARY_GEOJSON });
+
+    // Bold county boundary: a wider dark halo under a bright, saturated
+    // line reads clearly against both the light basemap and darker
+    // green/water areas -- a single thin line disappeared against some
+    // basemap colors in testing.
+    map.addLayer({
+        id: "county-boundary-halo", type: "line", source: "county-boundary",
+        paint: { "line-color": "#1a1400", "line-width": 6, "line-opacity": 0.5 },
+    });
+    map.addLayer({
+        id: "county-boundary-line", type: "line", source: "county-boundary",
+        paint: { "line-color": "#ffcc33", "line-width": 3 },
+    });
+
+    // Fixed-pixel circle at each member's geocoded point --
+    // deliberately NOT a building-footprint polygon. That was tried
+    // (point-in-polygon and nearest-building matching against Microsoft
+    // Building Footprints, then an OSM-name-search pass to fix cases it
+    // got wrong) and dropped: even after the OSM fix, some businesses
+    // still matched the wrong, larger neighboring building, and there's
+    // no ceiling on that short of matching every building perfectly. A
+    // dot has no "size" to get wrong, so the whole failure mode goes
+    // away. Stays visible at any zoom (a building polygon would be
+    // sub-pixel zoomed out regardless of match accuracy); a white halo
+    // ring keeps it legible against light and dark basemap areas alike.
+    map.addLayer({
+        id: "chamber-members-halo", type: "circle", source: "chamber-members",
+        paint: { "circle-radius": 5, "circle-color": "#ffffff", "circle-opacity": 0.9 },
+    });
+    map.addLayer({
+        id: "chamber-members-dot", type: "circle", source: "chamber-members",
+        paint: { "circle-radius": 3.5, "circle-color": FILL_COLOR_EXPR },
+    });
+
+    console.log(`chamber map: rendered ${CHAMBER_MEMBERS_GEOJSON.features.length} member points`);
+
+    // ---- hover tooltip ----
+    const popup = document.getElementById("chamber-popup");
+    const hoverLayers = ["chamber-members-dot", "chamber-members-halo"];
+    map.on("mousemove", (e) => {
+        const hits = map.queryRenderedFeatures(e.point, { layers: hoverLayers });
+        if (hits.length) {
+            const p = hits[0].properties;
+            const label = colorMode === "tier"
+                ? (CHAMBER_BUCKET_LABEL[p.bucket] || p.bucket)
+                : (SECTOR_LABEL[p.sector] || p.sector);
+            popup.textContent = `${p.name} — ${label}`;
+            popup.style.display = "block";
+            // Clamp to the viewport instead of just offsetting from the
+            // cursor -- with wrapping now on (see .chamber-popup), a long
+            // name can still grow tall/wide enough near an edge to poke
+            // past it; flipping to the other side of the cursor there
+            // keeps it fully on-screen without ever re-triggering page
+            // overflow (belt-and-suspenders alongside `overflow: hidden`
+            // on html/body).
+            const pw = popup.offsetWidth, ph = popup.offsetHeight;
+            let left = e.originalEvent.clientX + 14;
+            let top = e.originalEvent.clientY + 14;
+            if (left + pw > window.innerWidth) left = e.originalEvent.clientX - pw - 14;
+            if (top + ph > window.innerHeight) top = e.originalEvent.clientY - ph - 14;
+            popup.style.left = left + "px";
+            popup.style.top = top + "px";
+            map.getCanvas().style.cursor = "pointer";
+        } else {
+            popup.style.display = "none";
+            map.getCanvas().style.cursor = "";
+        }
+    });
+
+    // ---- tier filtering: click a legend row to toggle that tier. ----
+    document.querySelectorAll(".legend-row[data-bucket]").forEach((row) => {
+        row.addEventListener("click", () => {
+            const bucket = row.dataset.bucket;
+            if (activeBuckets.has(bucket)) activeBuckets.delete(bucket);
+            else activeBuckets.add(bucket);
+            row.classList.toggle("inactive", !activeBuckets.has(bucket));
+            syncToggleAllLabel(tierToggleAllEl, activeBuckets);
+            if (colorMode === "tier") map.getSource("chamber-members").setData(filteredMembersGeoJSON());
+        });
+    });
+
+    // ---- industry mode: legend rows are built here (not hand-written in
+    // the HTML) straight from SECTOR_COLOR/SECTOR_LABEL, so the map's
+    // legend can never drift out of sync with the color expression. Same
+    // click-to-isolate behavior as the tier legend above. ----
+    const industryLegendEl = document.getElementById("industry-legend");
+    const industryToggleAllEl = document.createElement("div");
+    industryToggleAllEl.className = "legend-toggle-all";
+    industryToggleAllEl.id = "industry-toggle-all";
+    industryToggleAllEl.textContent = "Clear all";
+    industryLegendEl.appendChild(industryToggleAllEl);
+    for (const code of Object.keys(SECTOR_COLOR)) {
+        const row = document.createElement("div");
+        row.className = "legend-row";
+        row.dataset.sector = code;
+        row.innerHTML = `<span class="legend-swatch" style="background:${SECTOR_COLOR[code]}"></span><span class="wrap-label">${SECTOR_LABEL[code]}</span>`;
+        industryLegendEl.appendChild(row);
+    }
+    document.querySelectorAll(".legend-row[data-sector]").forEach((row) => {
+        row.addEventListener("click", () => {
+            const sector = row.dataset.sector;
+            if (activeSectors.has(sector)) activeSectors.delete(sector);
+            else activeSectors.add(sector);
+            row.classList.toggle("inactive", !activeSectors.has(sector));
+            syncToggleAllLabel(industryToggleAllEl, activeSectors);
+            if (colorMode === "industry") map.getSource("chamber-members").setData(filteredMembersGeoJSON());
+        });
+    });
+
+    // ---- "Clear all" / "Show all": lets someone start from a blank map
+    // and click individual rows back on one at a time, rather than
+    // having to click every row off by hand first. The label always
+    // names the action the click performs: whenever nothing in that
+    // mode is currently shown it reads "Show all" (restores every
+    // value); otherwise -- full or any partial selection -- it reads
+    // "Clear all" (empties the set). ----
+    const tierToggleAllEl = document.getElementById("tier-toggle-all");
+    function syncToggleAllLabel(toggleEl, activeSet) {
+        toggleEl.textContent = activeSet.size === 0 ? "Show all" : "Clear all";
+    }
+    function wireToggleAll(toggleEl, activeSet, allValues, rowSelector, propName) {
+        toggleEl.addEventListener("click", () => {
+            const turningOn = activeSet.size === 0;
+            activeSet.clear();
+            if (turningOn) allValues.forEach((v) => activeSet.add(v));
+            document.querySelectorAll(rowSelector).forEach((row) => {
+                row.classList.toggle("inactive", !activeSet.has(row.dataset[propName]));
+            });
+            syncToggleAllLabel(toggleEl, activeSet);
+            if ((propName === "bucket" && colorMode === "tier") || (propName === "sector" && colorMode === "industry")) {
+                map.getSource("chamber-members").setData(filteredMembersGeoJSON());
+            }
+        });
+    }
+    wireToggleAll(tierToggleAllEl, activeBuckets, Object.keys(CHAMBER_BUCKET_COLOR), ".legend-row[data-bucket]", "bucket");
+    wireToggleAll(industryToggleAllEl, activeSectors, Object.keys(SECTOR_COLOR), ".legend-row[data-sector]", "sector");
+
+    // ---- mode switch: swaps which property drives circle-color, which
+    // legend list is visible, and re-filters the source against whichever
+    // active-set belongs to the new mode. ----
+    const TIER_SUBTITLE = "Each dot marks a chamber member's geocoded business location, colored by investment tier, and stays visible at any zoom. Hover a dot for the business name, click a legend row above to isolate that tier, or uncheck \"Show all buildings\" to hide the basemap's ordinary buildings.";
+    const INDUSTRY_SUBTITLE = "Each dot marks a chamber member's geocoded business location, colored by industry sector (2-digit NAICS), and stays visible at any zoom. Hover a dot for the business name, click a legend row above to isolate that sector, or uncheck \"Show all buildings\" to hide the basemap's ordinary buildings.";
+    const tabTier = document.getElementById("mode-tab-tier");
+    const tabIndustry = document.getElementById("mode-tab-industry");
+    const tierLegendEl = document.getElementById("tier-legend");
+    const legendSubEl = document.getElementById("legend-sub-text");
+    function setColorMode(mode) {
+        if (mode === colorMode) return;
+        colorMode = mode;
+        tabTier.classList.toggle("active", mode === "tier");
+        tabIndustry.classList.toggle("active", mode === "industry");
+        tierLegendEl.classList.toggle("hidden", mode !== "tier");
+        industryLegendEl.classList.toggle("hidden", mode !== "industry");
+        legendSubEl.textContent = mode === "tier" ? TIER_SUBTITLE : INDUSTRY_SUBTITLE;
+        map.setPaintProperty("chamber-members-dot", "circle-color", mode === "tier" ? FILL_COLOR_EXPR : INDUSTRY_FILL_COLOR_EXPR);
+        map.getSource("chamber-members").setData(filteredMembersGeoJSON());
+    }
+    tabTier.addEventListener("click", () => setColorMode("tier"));
+    tabIndustry.addEventListener("click", () => setColorMode("industry"));
+
+    // ---- buildings-visibility toggle: only real vector tiles can do this
+    // at all -- a raster basemap is baked pixels with nothing to hide.
+    // OpenFreeMap's Liberty style has exactly two building layers
+    // (confirmed by inspecting the style JSON directly), both toggled
+    // together. ----
+    const BUILDING_LAYER_IDS = ["building", "building-3d"];
+    document.getElementById("buildings-toggle").addEventListener("change", (e) => {
+        const visibility = e.target.checked ? "visible" : "none";
+        for (const id of BUILDING_LAYER_IDS) {
+            if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visibility);
+        }
+    });
+
+    // Fit to the member points on load, but only ones within ~100km of
+    // Macon -- a few members geocode to real, legitimate addresses
+    // hundreds/thousands of km away (confirmed by inspection: corporate
+    // HQ/billing addresses on file rather than a real local presence --
+    // Kinder Morgan's Houston TX HQ, a Wisconsin engineering firm, etc.).
+    // They're still in the data and reachable by panning out, but a
+    // fitBounds over literally everything would zoom out to the whole
+    // eastern US by default and make the real Macon-area cluster this map
+    // is actually for nearly invisible.
+    const MACON = [-83.625, 32.833];
+    const FIT_RADIUS_KM = 100;
+    function haversineKm(a, b) {
+        const R = 6371, toRad = (d) => d * Math.PI / 180;
+        const dLat = toRad(b[1] - a[1]), dLon = toRad(b[0] - a[0]);
+        const s = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(a[1])) * Math.cos(toRad(b[1])) * Math.sin(dLon / 2) ** 2;
+        return 2 * R * Math.asin(Math.sqrt(s));
+    }
+    const bounds = new maplibregl.LngLatBounds();
+    let any = false;
+    for (const f of CHAMBER_MEMBERS_GEOJSON.features) {
+        const c = f.geometry.coordinates;
+        if (haversineKm(MACON, c) <= FIT_RADIUS_KM) { bounds.extend(c); any = true; }
+    }
+    if (any) map.fitBounds(bounds, { padding: 60, maxZoom: 13 });
+
+    // ---- Click-to-enable scroll-zoom: starts disabled, so a plain
+    // scroll over the map does nothing at all (and doesn't eat the
+    // page's scroll -- the classic "embedded map traps your scroll"
+    // problem, since this map is embedded in the report's iframe).
+    // The first click or touch anywhere on the map enables it
+    // permanently -- after that it's a completely normal map, no
+    // modifier key needed on every scroll (tried requiring Ctrl/Cmd
+    // held down for every scroll; too much friction for too little
+    // benefit).
+    const canvasContainer = map.getCanvasContainer();
+    const mapContainer = map.getContainer();
+    const scrollBadge = document.getElementById("scroll-badge");
+    map.scrollZoom.disable();
+    function enableScrollZoom() {
+        map.scrollZoom.enable();
+        scrollBadge.classList.add("gone");
+        mapContainer.removeEventListener("mousedown", enableScrollZoom);
+        mapContainer.removeEventListener("touchstart", enableScrollZoom);
+    }
+    mapContainer.addEventListener("mousedown", enableScrollZoom);
+    mapContainer.addEventListener("touchstart", enableScrollZoom);
+
+    // Tracked from here (not inside the idle setup below, which only runs
+    // once the map's first "idle" event fires) so the very first time the
+    // cursor is already resting on the map isn't missed -- mouseenter
+    // only fires on a fresh transition, not retroactively once a late
+    // listener shows up.
+    let mouseOverMap = false;
+    mapContainer.addEventListener("mouseenter", () => { mouseOverMap = true; });
+    mapContainer.addEventListener("mouseleave", () => { mouseOverMap = false; });
+
+    // ---- Idle animation: once the fitted view settles, a barely-visible
+    // drift within a small radius of "home" starts after a quiet period,
+    // so the map doesn't just sit dead when nobody's touched it -- and
+    // stops the instant anyone actually interacts with it. Skipped if
+    // the user has zoomed away from the default view (they're clearly
+    // looking at something specific by then).
+    //
+    // Also paused for as long as the cursor is anywhere over the map,
+    // not just on a real interaction: without this, hovering a dot with
+    // the mouse held still (reading its name) let the idle drift keep
+    // running underneath -- the point you were hovering would ease out
+    // from under a stationary cursor, the hit-test would flicker on and
+    // off nearby dots, and the tooltip would jump around. Looked like
+    // the map itself was shaking.
+    map.once("idle", () => {
+        const idleHome = map.getCenter();
+        const idleZoom = map.getZoom();
+        const IDLE_DELAY_MS = 6000;
+        const IDLE_STEP_MS = 16000;
+        const IDLE_RADIUS_DEG = 0.006;
+        let idleTimer = null;
+        let idleActive = false;
+
+        function stopIdle() { idleActive = false; clearTimeout(idleTimer); }
+        function scheduleIdle() {
+            stopIdle();
+            if (mouseOverMap) return;
+            idleTimer = setTimeout(beginIdle, IDLE_DELAY_MS);
+        }
+        function beginIdle() {
+            if (mouseOverMap) return;
+            if (Math.abs(map.getZoom() - idleZoom) > 1) { idleTimer = setTimeout(beginIdle, IDLE_DELAY_MS); return; }
+            idleActive = true;
+            idleStep();
+        }
+        function idleStep() {
+            if (!idleActive) return;
+            const angle = Math.random() * Math.PI * 2;
+            const r = IDLE_RADIUS_DEG * (0.4 + Math.random() * 0.6);
+            map.easeTo({
+                center: [idleHome.lng + Math.cos(angle) * r, idleHome.lat + Math.sin(angle) * r * 0.75],
+                duration: IDLE_STEP_MS,
+                easing: (t) => t,
+            });
+            idleTimer = setTimeout(idleStep, IDLE_STEP_MS);
+        }
+        ["mousedown", "wheel", "touchstart", "dragstart", "dblclick"].forEach((evt) => {
+            canvasContainer.addEventListener(evt, () => {
+                if (idleActive) map.stop();
+                scheduleIdle();
+            });
+        });
+        mapContainer.addEventListener("mouseenter", () => {
+            if (idleActive) map.stop();
+            stopIdle();
+        });
+        mapContainer.addEventListener("mouseleave", scheduleIdle);
+        scheduleIdle();
+    });
+});
+</script>
+
+<div class="panel">
+    <div class="panel-title">Chamber of Commerce investors</div>
+    <div class="mode-tabs">
+        <div class="mode-tab active" id="mode-tab-tier">Tier</div>
+        <div class="mode-tab" id="mode-tab-industry">Industry</div>
+    </div>
+    <div class="legend-hint">Click a row to isolate/hide it</div>
+
+    <div class="legend-list" id="tier-legend">
+        <div class="legend-toggle-all" id="tier-toggle-all">Clear all</div>
+        <div class="legend-row" data-bucket="tier1_micro_basic"><span class="legend-swatch" style="background:#b7d3f6"></span><span class="wrap-label">Micro / Basic Membership</span></div>
+        <div class="legend-row" data-bucket="tier2_catalyst"><span class="legend-swatch" style="background:#6da7ec"></span><span class="wrap-label">Business Catalyst</span></div>
+        <div class="legend-row" data-bucket="tier3_community"><span class="legend-swatch" style="background:#2a78d6"></span><span class="wrap-label">Community Advocate / Partner</span></div>
+        <div class="legend-row" data-bucket="tier4_regional_stakeholder"><span class="legend-swatch" style="background:#1c5cab"></span><span class="wrap-label">Regional Influencer / Key Stakeholder</span></div>
+        <div class="legend-row" data-bucket="tier5_driver_investor"><span class="legend-swatch" style="background:#184f95"></span><span class="wrap-label">Economic Driver / Leading Investor</span></div>
+        <div class="legend-row" data-bucket="additional_listing"><span class="legend-swatch" style="background:#9085e9"></span><span class="wrap-label">Additional listing (extra location/brand)</span></div>
+    </div>
+    <div class="legend-list hidden" id="industry-legend"></div>
+
+    <div class="boundary-key"><span class="boundary-swatch"></span><span class="wrap-label">Bibb County boundary</span></div>
+    <label class="toggle-row">
+        <input type="checkbox" id="buildings-toggle" checked>
+        <span class="wrap-label">Show all buildings (basemap)</span>
+    </label>
+    <div class="legend-sub" id="legend-sub-text">Each dot marks a chamber member's geocoded business location, colored by investment tier, and stays visible at any zoom. Hover a dot for the business name, click a legend row above to isolate that tier, or uncheck "Show all buildings" to hide the basemap's ordinary buildings.</div>
+</div>
+
+</body>
+</html>

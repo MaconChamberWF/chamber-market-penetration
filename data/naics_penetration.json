@@ -1,0 +1,460 @@
+{
+  "jobseq_source": "Data Explorer.xlsx (JobsEQ, Bibb County, GA -- Industry Data, Covered Employment, 2025Q4)",
+  "jobseq_total_establishments": 4732,
+  "jobseq_sector_sum": 4503,
+  "jobseq_unclassified_gap": 229,
+  "tier_b_total": 754,
+  "tier_b_classified": 697,
+  "tier_b_member_overrides_applied": 45,
+  "tier_b_unclassifiable": 57,
+  "county_avg_penetration_pct": 15.48,
+  "sectors": [
+    {
+      "naics_code": "54",
+      "sector_label": "Professional, Scientific, and Technical Services",
+      "members": 106,
+      "county_establishments": 441,
+      "penetration_pct": 24.04,
+      "vs_county_avg_pct": 8.56
+    },
+    {
+      "naics_code": "62",
+      "sector_label": "Health Care and Social Assistance",
+      "members": 104,
+      "county_establishments": 698,
+      "penetration_pct": 14.9,
+      "vs_county_avg_pct": -0.58
+    },
+    {
+      "naics_code": "52",
+      "sector_label": "Finance and Insurance",
+      "members": 82,
+      "county_establishments": 273,
+      "penetration_pct": 30.04,
+      "vs_county_avg_pct": 14.56
+    },
+    {
+      "naics_code": "23",
+      "sector_label": "Construction",
+      "members": 69,
+      "county_establishments": 246,
+      "penetration_pct": 28.05,
+      "vs_county_avg_pct": 12.57
+    },
+    {
+      "naics_code": "72",
+      "sector_label": "Accommodation and Food Services",
+      "members": 64,
+      "county_establishments": 483,
+      "penetration_pct": 13.25,
+      "vs_county_avg_pct": -2.23
+    },
+    {
+      "naics_code": "31",
+      "sector_label": "Manufacturing",
+      "members": 38,
+      "county_establishments": 141,
+      "penetration_pct": 26.95,
+      "vs_county_avg_pct": 11.47
+    },
+    {
+      "naics_code": "44",
+      "sector_label": "Retail Trade",
+      "members": 35,
+      "county_establishments": 745,
+      "penetration_pct": 4.7,
+      "vs_county_avg_pct": -10.78
+    },
+    {
+      "naics_code": "56",
+      "sector_label": "Administrative and Support and Waste Management and Remediation Services",
+      "members": 34,
+      "county_establishments": 290,
+      "penetration_pct": 11.72,
+      "vs_county_avg_pct": -3.75
+    },
+    {
+      "naics_code": "53",
+      "sector_label": "Real Estate and Rental and Leasing",
+      "members": 31,
+      "county_establishments": 206,
+      "penetration_pct": 15.05,
+      "vs_county_avg_pct": -0.43
+    },
+    {
+      "naics_code": "71",
+      "sector_label": "Arts, Entertainment, and Recreation",
+      "members": 29,
+      "county_establishments": 74,
+      "penetration_pct": 39.19,
+      "vs_county_avg_pct": 23.71
+    },
+    {
+      "naics_code": "61",
+      "sector_label": "Educational Services",
+      "members": 27,
+      "county_establishments": 105,
+      "penetration_pct": 25.71,
+      "vs_county_avg_pct": 10.24
+    },
+    {
+      "naics_code": "81",
+      "sector_label": "Other Services (except Public Administration)",
+      "members": 19,
+      "county_establishments": 334,
+      "penetration_pct": 5.69,
+      "vs_county_avg_pct": -9.79
+    },
+    {
+      "naics_code": "48",
+      "sector_label": "Transportation and Warehousing",
+      "members": 16,
+      "county_establishments": 138,
+      "penetration_pct": 11.59,
+      "vs_county_avg_pct": -3.88
+    },
+    {
+      "naics_code": "51",
+      "sector_label": "Information",
+      "members": 15,
+      "county_establishments": 53,
+      "penetration_pct": 28.3,
+      "vs_county_avg_pct": 12.82
+    },
+    {
+      "naics_code": "42",
+      "sector_label": "Wholesale Trade",
+      "members": 15,
+      "county_establishments": 183,
+      "penetration_pct": 8.2,
+      "vs_county_avg_pct": -7.28
+    },
+    {
+      "naics_code": "22",
+      "sector_label": "Utilities",
+      "members": 7,
+      "county_establishments": 6,
+      "penetration_pct": 116.67,
+      "vs_county_avg_pct": 101.19
+    },
+    {
+      "naics_code": "11",
+      "sector_label": "Agriculture, Forestry, Fishing and Hunting",
+      "members": 3,
+      "county_establishments": 12,
+      "penetration_pct": 25.0,
+      "vs_county_avg_pct": 9.52
+    },
+    {
+      "naics_code": "21",
+      "sector_label": "Mining, Quarrying, and Oil and Gas Extraction",
+      "members": 3,
+      "county_establishments": 4,
+      "penetration_pct": 75.0,
+      "vs_county_avg_pct": 59.52
+    },
+    {
+      "naics_code": "55",
+      "sector_label": "Management of Companies and Enterprises",
+      "members": 0,
+      "county_establishments": 23,
+      "penetration_pct": 0.0,
+      "vs_county_avg_pct": -15.48
+    },
+    {
+      "naics_code": "92",
+      "sector_label": "Public Administration",
+      "members": 0,
+      "county_establishments": 48,
+      "penetration_pct": 0.0,
+      "vs_county_avg_pct": -15.48
+    }
+  ],
+  "unclassified_members": [
+    {
+      "id": "35",
+      "name": "Wesley Glen Ministries",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "55",
+      "name": "American Red Cross of Central Georgia",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "140",
+      "name": "Better Business Bureau",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "228",
+      "name": "Boy Scouts of America, Central Georgia Council",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "229",
+      "name": "Boys & Girls Clubs of Central Georgia",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "358",
+      "name": "Community Foundation of Central Georgia",
+      "category": "Foundations"
+    },
+    {
+      "id": "370",
+      "name": "Courtyard by Marriott",
+      "category": "(blank)"
+    },
+    {
+      "id": "421",
+      "name": "Dismas Charities - Macon",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "559",
+      "name": "Georgia Employers' Association",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "592",
+      "name": "Goodwill Industries of Middle Georgia, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "834",
+      "name": "Middle Georgia Community Food Bank",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "836",
+      "name": "Macon Milledgeville Regional Habitat for Humanity",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "839",
+      "name": "The Arc Macon",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "925",
+      "name": "Navicent Health Foundation, Inc.",
+      "category": "Foundations"
+    },
+    {
+      "id": "958",
+      "name": "Middle Georgia Consortium, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "959",
+      "name": "Girl Scouts of Historic GA, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "1022",
+      "name": "NewTown Macon, Inc.",
+      "category": "Business & Economic Development"
+    },
+    {
+      "id": "1077",
+      "name": "The Peyton Anderson Foundation",
+      "category": "Foundations"
+    },
+    {
+      "id": "1094",
+      "name": "Pilot International",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "1346",
+      "name": "21st Century Partnership",
+      "category": "Business & Economic Development"
+    },
+    {
+      "id": "1357",
+      "name": "United Way of Central Georgia",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "4023",
+      "name": "Otis Redding Museum",
+      "category": "Foundations"
+    },
+    {
+      "id": "10521",
+      "name": "John S. & James L. Knight Foundation",
+      "category": "Foundations"
+    },
+    {
+      "id": "56040",
+      "name": "Central Georgia CASA, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "56270",
+      "name": "Robins Regional Chamber",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "56817",
+      "name": "UGA Small Business Development Center",
+      "category": "Business & Economic Development"
+    },
+    {
+      "id": "57175",
+      "name": "Keep Macon-Bibb Beautiful Commission",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "57422",
+      "name": "Historic Macon Foundation, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "57614",
+      "name": "NECCO",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "58090",
+      "name": "Meals On Wheels of Middle Georgia",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "60262",
+      "name": "SCORE Middle Georgia",
+      "category": "Business & Economic Development"
+    },
+    {
+      "id": "60296",
+      "name": "In-Fill Housing, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "60722",
+      "name": "Cross Roads Recovery Ministries, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "62663",
+      "name": "Next Step Recovery Ministries",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "63293",
+      "name": "Florida Governors Council on Indian Affairs",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "68104",
+      "name": "Beyond The Bell, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "72878",
+      "name": "Hawkinsville-Pulaski County Chamber of Commerce",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "72906",
+      "name": "Muscogee Nation Businesses, LLC",
+      "category": "Business & Economic Development"
+    },
+    {
+      "id": "74073",
+      "name": "Prevailing Woman Ministries, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "74090",
+      "name": "Macon Bibb Economic Opportunity Council, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "74147",
+      "name": "Masonic Home of Georgia",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "75240",
+      "name": "Ocmulgee National Park and Preserve Initiative",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "76537",
+      "name": "Macon Hope, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "77792",
+      "name": "Three Rivers Area Health Education Center, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78130",
+      "name": "Spearman Investments, Inc.",
+      "category": "Business & Economic Development"
+    },
+    {
+      "id": "78132",
+      "name": "Sleep in Heavenly Peace",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78359",
+      "name": "Ocmulgee Mounds Association",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78416",
+      "name": "Macon Bibb Citizen Advocacy, Inc",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78430",
+      "name": "The Loaves and Fishes Ministry of Macon",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78795",
+      "name": "Macon AIM, Inc",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78862",
+      "name": "Crisis Line & Safe House of Central Georgia, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78866",
+      "name": "Ronald McDonald House Charities of Central Georgia",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "78957",
+      "name": "The Darby & Munroe Private Family Foundation",
+      "category": "Foundations"
+    },
+    {
+      "id": "78969",
+      "name": "Big Brothers Big Sisters of the Heart of Georgia, Inc.",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "79010",
+      "name": "Salvation Army (Macon Corps)",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "79098",
+      "name": "Alzheimer's Disease and Related Disorders Association",
+      "category": "Non-Profit Organizations"
+    },
+    {
+      "id": "79150",
+      "name": "Hawk Injury Law",
+      "category": "(blank)"
+    }
+  ]
+}

@@ -1,0 +1,6815 @@
+[
+  {
+    "id": "218",
+    "name": "Blue Bird Corporation",
+    "current_source": "census_batch",
+    "current_lat": 32.905905361091,
+    "current_lon": -83.68724245955,
+    "name_search_found": true,
+    "name_search_lat": 39.7432499,
+    "name_search_lon": -92.4885576,
+    "name_search_display_name": "Blue Bird Court, Macon, Macon County, Missouri, 63552, United States",
+    "distance_km": 1094.24
+  },
+  {
+    "id": "76716",
+    "name": "315 LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.87632775981,
+    "current_lon": -83.762042398213,
+    "name_search_found": true,
+    "name_search_lat": 33.9210617,
+    "name_search_lon": -83.3821273,
+    "name_search_display_name": "315, Macon Highway, Garden Hills, Athens, Clarke County, Georgia, 30606, United States",
+    "distance_km": 121.404
+  },
+  {
+    "id": "88",
+    "name": "Atlanta Gas Light Company",
+    "current_source": "census_batch",
+    "current_lat": 32.934155241961,
+    "current_lon": -83.722810835565,
+    "name_search_found": true,
+    "name_search_lat": 32.8031586,
+    "name_search_lon": -83.500773,
+    "name_search_display_name": "Atlanta Gas & Light Distribution, Dry Branch, Macon, Bibb County, Georgia, United States",
+    "distance_km": 25.342
+  },
+  {
+    "id": "1186",
+    "name": "Saddle Creek Corporation",
+    "current_source": "census_batch",
+    "current_lat": 32.795868134507,
+    "current_lon": -83.564488132025,
+    "name_search_found": true,
+    "name_search_lat": 32.9051097,
+    "name_search_lon": -83.7341145,
+    "name_search_display_name": "Saddle Creek Court, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 19.966
+  },
+  {
+    "id": "8678",
+    "name": "Robins Financial Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.743989403722,
+    "current_lon": -83.703922674077,
+    "name_search_found": true,
+    "name_search_lat": 32.8819168,
+    "name_search_lon": -83.6704283,
+    "name_search_display_name": "Robins Financial Credit Union, 2930, Riverside Drive, Thornwood, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 15.653
+  },
+  {
+    "id": "79067",
+    "name": "Andalusia",
+    "current_source": "census_batch",
+    "current_lat": 32.835521200158,
+    "current_lon": -83.629999208797,
+    "name_search_found": true,
+    "name_search_lat": 32.720471,
+    "name_search_lon": -83.6997799,
+    "name_search_display_name": "Andalusia Drive, Macon, Bibb County, Georgia, 31216, United States",
+    "distance_km": 14.36
+  },
+  {
+    "id": "510",
+    "name": "Capital City Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.834421513507,
+    "current_lon": -83.624010591277,
+    "name_search_found": true,
+    "name_search_lat": 32.7415055,
+    "name_search_lon": -83.7139486,
+    "name_search_display_name": "Capital City Bank, 6200, Skipper Road, Macon, Bibb County, Georgia, 31216, United States",
+    "distance_km": 13.32
+  },
+  {
+    "id": "76724",
+    "name": "Nu-Way Weiners, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.879815693161,
+    "current_lon": -83.760353388903,
+    "name_search_found": true,
+    "name_search_lat": 32.8368349,
+    "name_search_lon": -83.6303999,
+    "name_search_display_name": "Nu-Way Weiners, Cotton Avenue, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 13.045
+  },
+  {
+    "id": "62314",
+    "name": "Holiday Inn Express Macon North",
+    "current_source": "census_batch",
+    "current_lat": 32.838641848216,
+    "current_lon": -83.674658937247,
+    "name_search_found": true,
+    "name_search_lat": 32.9283835,
+    "name_search_lon": -83.7385658,
+    "name_search_display_name": "Holiday Inn Express & Suites Macon North, North Macon Street, Macon, Bibb County, Georgia, 31209, United States",
+    "distance_km": 11.627
+  },
+  {
+    "id": "1336",
+    "name": "Truist Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.879807071866,
+    "current_lon": -83.75875998491,
+    "name_search_found": true,
+    "name_search_lat": 32.8208252,
+    "name_search_lon": -83.6962449,
+    "name_search_display_name": "Truist, Bloomfield Road, Westview, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 8.782
+  },
+  {
+    "id": "10919",
+    "name": "Robins Financial Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.879937015616,
+    "current_lon": -83.760797463926,
+    "name_search_found": true,
+    "name_search_lat": 32.8819168,
+    "name_search_lon": -83.6704283,
+    "name_search_display_name": "Robins Financial Credit Union, 2930, Riverside Drive, Thornwood, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 8.442
+  },
+  {
+    "id": "1340",
+    "name": "Truist Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.855774128014,
+    "current_lon": -83.617492738195,
+    "name_search_found": true,
+    "name_search_lat": 32.8208252,
+    "name_search_lon": -83.6962449,
+    "name_search_display_name": "Truist, Bloomfield Road, Westview, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 8.321
+  },
+  {
+    "id": "1333",
+    "name": "Truist Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.886084550373,
+    "current_lon": -83.673298003635,
+    "name_search_found": true,
+    "name_search_lat": 32.8208252,
+    "name_search_lon": -83.6962449,
+    "name_search_display_name": "Truist, Bloomfield Road, Westview, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 7.566
+  },
+  {
+    "id": "1252",
+    "name": "AT&T",
+    "current_source": "census_batch",
+    "current_lat": 32.840873222707,
+    "current_lon": -83.635294447812,
+    "name_search_found": true,
+    "name_search_lat": 32.8193571,
+    "name_search_lon": -83.7118012,
+    "name_search_display_name": "AT&T, Presidential Parkway, Lumberhill, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 7.538
+  },
+  {
+    "id": "1169",
+    "name": "Robins Financial Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.826485760044,
+    "current_lon": -83.709723710789,
+    "name_search_found": true,
+    "name_search_lat": 32.8819168,
+    "name_search_lon": -83.6704283,
+    "name_search_display_name": "Robins Financial Credit Union, 2930, Riverside Drive, Thornwood, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 7.174
+  },
+  {
+    "id": "1331",
+    "name": "Truist Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.836608755869,
+    "current_lon": -83.62917630555,
+    "name_search_found": true,
+    "name_search_lat": 32.8208252,
+    "name_search_lon": -83.6962449,
+    "name_search_display_name": "Truist, Bloomfield Road, Westview, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 6.508
+  },
+  {
+    "id": "11783",
+    "name": "Robins Financial Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.83729933516,
+    "current_lon": -83.626537494129,
+    "name_search_found": true,
+    "name_search_lat": 32.8819168,
+    "name_search_lon": -83.6704283,
+    "name_search_display_name": "Robins Financial Credit Union, 2930, Riverside Drive, Thornwood, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 6.436
+  },
+  {
+    "id": "56297",
+    "name": "American Pride Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.870781139556,
+    "current_lon": -83.702555087817,
+    "name_search_found": true,
+    "name_search_lat": 32.8156532,
+    "name_search_lon": -83.7070777,
+    "name_search_display_name": "American Pride Bank, Bloomfield Village Drive, Christian Rest, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 6.144
+  },
+  {
+    "id": "11679",
+    "name": "Fountain of Juice",
+    "current_source": "census_batch",
+    "current_lat": 32.865006330889,
+    "current_lon": -83.692296792682,
+    "name_search_found": true,
+    "name_search_lat": 32.8326321,
+    "name_search_lon": -83.6512157,
+    "name_search_display_name": "Fountain of Juice, 1602, Montpelier Avenue, Unionville, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 5.262
+  },
+  {
+    "id": "1341",
+    "name": "Truist Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.798123733304,
+    "current_lon": -83.665871671844,
+    "name_search_found": true,
+    "name_search_lat": 32.8208252,
+    "name_search_lon": -83.6962449,
+    "name_search_display_name": "Truist, Bloomfield Road, Westview, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 3.799
+  },
+  {
+    "id": "315",
+    "name": "Cherokee Brick",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8142848,
+    "current_lon": -83.6361933,
+    "name_search_found": true,
+    "name_search_lat": 32.8028509,
+    "name_search_lon": -83.6352657,
+    "name_search_display_name": "Cherokee Brick & Tile, Tuft Springs Road, Stratton, Macon, Bibb County, Georgia, 31207, United States",
+    "distance_km": 1.274
+  },
+  {
+    "id": "1036",
+    "name": "Ocmulgee Mounds National Historical Park",
+    "current_source": "census_batch",
+    "current_lat": 32.84807341838,
+    "current_lon": -83.604493919286,
+    "name_search_found": true,
+    "name_search_lat": 32.837227,
+    "name_search_lon": -83.6018436,
+    "name_search_display_name": "Ocmulgee Mounds National Historical Park, 1207, Sanders, Macon, Bibb County, Georgia, 31217, United States",
+    "distance_km": 1.231
+  },
+  {
+    "id": "9939",
+    "name": "Middle Georgia Regional Airport",
+    "current_source": "census_batch",
+    "current_lat": 32.701868027485,
+    "current_lon": -83.651328505998,
+    "name_search_found": true,
+    "name_search_lat": 32.6938395,
+    "name_search_lon": -83.6480178,
+    "name_search_display_name": "Middle Georgia Regional Airport, Northwest Industrial Boulevard, Walden, Macon, Bibb County, Georgia, 31216, United States",
+    "distance_km": 0.945
+  },
+  {
+    "id": "56788",
+    "name": "Texas Roadhouse",
+    "current_source": "census_batch",
+    "current_lat": 32.929498702275,
+    "current_lon": -83.713976046306,
+    "name_search_found": true,
+    "name_search_lat": 32.9245811,
+    "name_search_lon": -83.7124051,
+    "name_search_display_name": "Texas Roadhouse, Riverside Drive, Arkwright, Macon, Bibb County, Georgia, 31209, United States",
+    "distance_km": 0.566
+  },
+  {
+    "id": "1443",
+    "name": "YKK",
+    "current_source": "census_batch",
+    "current_lat": 32.822114917412,
+    "current_lon": -83.537067617731,
+    "name_search_found": true,
+    "name_search_lat": 32.8205229,
+    "name_search_lon": -83.5428117,
+    "name_search_display_name": "YKK Americas, 3340, Macon, Bibb County, Georgia, 31217, United States",
+    "distance_km": 0.565
+  },
+  {
+    "id": "59710",
+    "name": "Kumho Tire Georgia, Inc.",
+    "current_source": "nominatim_address",
+    "current_lat": 32.7435832,
+    "current_lon": -83.6550431,
+    "name_search_found": true,
+    "name_search_lat": 32.7448588,
+    "name_search_lon": -83.649321,
+    "name_search_display_name": "Kumho Tire, Kumho Parkway, Rutland, Macon, Bibb County, Georgia, 31297, United States",
+    "distance_km": 0.554
+  },
+  {
+    "id": "705",
+    "name": "Idle Hour Club",
+    "current_source": "census_batch",
+    "current_lat": 32.869796137186,
+    "current_lon": -83.70813242231,
+    "name_search_found": true,
+    "name_search_lat": 32.8709895,
+    "name_search_lon": -83.703072,
+    "name_search_display_name": "Forsyth Road, Idle Hour Estates, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.491
+  },
+  {
+    "id": "526",
+    "name": "Fort Valley State University",
+    "current_source": "nominatim_address",
+    "current_lat": 32.5378047,
+    "current_lon": -83.895115,
+    "name_search_found": true,
+    "name_search_lat": 32.5336633,
+    "name_search_lon": -83.8950462,
+    "name_search_display_name": "Fort Valley State University, 1005, State University Drive, Fort Valley, Peach County, Georgia, 31030, United States",
+    "distance_km": 0.461
+  },
+  {
+    "id": "1404",
+    "name": "Wesleyan College",
+    "current_source": "census_batch",
+    "current_lat": 32.877556022329,
+    "current_lon": -83.718122158132,
+    "name_search_found": true,
+    "name_search_lat": 32.8734285,
+    "name_search_lon": -83.717734,
+    "name_search_display_name": "Wesleyan College, 4760, Forsyth Road, Wesleyan, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.46
+  },
+  {
+    "id": "631",
+    "name": "Piedmont Macon North Hospital",
+    "current_source": "census_batch",
+    "current_lat": 32.867578223169,
+    "current_lon": -83.693308866678,
+    "name_search_found": true,
+    "name_search_lat": 32.8714722,
+    "name_search_lon": -83.6944519,
+    "name_search_display_name": "Piedmont Macon North Hospital, 400, Charter Boulevard, Bellevue, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.446
+  },
+  {
+    "id": "1302",
+    "name": "Tattnall Square Academy",
+    "current_source": "census_batch",
+    "current_lat": 32.893017022559,
+    "current_lon": -83.718527068193,
+    "name_search_found": true,
+    "name_search_lat": 32.8907823,
+    "name_search_lon": -83.7219535,
+    "name_search_display_name": "Tattnall Square Academy, 111, Trojan Trail, Wesleyan Estates, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.405
+  },
+  {
+    "id": "597",
+    "name": "GEICO",
+    "current_source": "census_batch",
+    "current_lat": 32.810986937033,
+    "current_lon": -83.569233610577,
+    "name_search_found": true,
+    "name_search_lat": 32.8076186,
+    "name_search_lon": -83.5677759,
+    "name_search_display_name": "GEICO, Weaver Road, Smithsonia, Macon, Bibb County, Georgia, 31217, United States",
+    "distance_km": 0.399
+  },
+  {
+    "id": "1283",
+    "name": "Stratford Academy",
+    "current_source": "census_batch",
+    "current_lat": 32.860860744105,
+    "current_lon": -83.750952706568,
+    "name_search_found": true,
+    "name_search_lat": 32.8610642,
+    "name_search_lon": -83.7549984,
+    "name_search_display_name": "Stratford Academy, Peake Road, Macon, Bibb County, Georgia, 31220, United States",
+    "distance_km": 0.379
+  },
+  {
+    "id": "62124",
+    "name": "Irving Consumer Products, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.741129505592,
+    "current_lon": -83.643808399043,
+    "name_search_found": true,
+    "name_search_lat": 32.7401378,
+    "name_search_lon": -83.6401525,
+    "name_search_display_name": "Irving Consumer Products, Allen Road, Rutland, Macon, Bibb County, Georgia, 31216, United States",
+    "distance_km": 0.359
+  },
+  {
+    "id": "940",
+    "name": "Mercer University",
+    "current_source": "census_batch",
+    "current_lat": 32.825863252811,
+    "current_lon": -83.651702293643,
+    "name_search_found": true,
+    "name_search_lat": 32.8289341,
+    "name_search_lon": -83.6506702,
+    "name_search_display_name": "Mercer University, Mercer Road, Unionville, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.355
+  },
+  {
+    "id": "74147",
+    "name": "Masonic Home of Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.864488498935,
+    "current_lon": -83.637769894861,
+    "name_search_found": true,
+    "name_search_lat": 32.8668354,
+    "name_search_lon": -83.6402848,
+    "name_search_display_name": "Masonic Home of Georgia, Masonic Home Road, North Forest Hills, Highland Circle, Macon, Bibb County, Georgia, 31211, United States",
+    "distance_km": 0.351
+  },
+  {
+    "id": "858",
+    "name": "Middle Georgia State University",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8080807,
+    "current_lon": -83.7320853,
+    "name_search_found": true,
+    "name_search_lat": 32.8091578,
+    "name_search_lon": -83.7350392,
+    "name_search_display_name": "Middle Georgia State University, 100, University Parkway, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 0.301
+  },
+  {
+    "id": "78988",
+    "name": "Highland Pointe",
+    "current_source": "census_batch",
+    "current_lat": 32.736254120389,
+    "current_lon": -83.71940761446,
+    "name_search_found": true,
+    "name_search_lat": 32.7387888,
+    "name_search_lon": -83.719376,
+    "name_search_display_name": "Highland Pointe by Rocklyn Homes, Macon, Bibb County, Georgia, United States",
+    "distance_km": 0.282
+  },
+  {
+    "id": "78488",
+    "name": "Theatre Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.835001782034,
+    "current_lon": -83.626517977884,
+    "name_search_found": true,
+    "name_search_lat": 32.8366699,
+    "name_search_lon": -83.6285019,
+    "name_search_display_name": "Hargray Capitol Theatre, 382, 2nd Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.262
+  },
+  {
+    "id": "885",
+    "name": "Central Georgia Technical College",
+    "current_source": "census_batch",
+    "current_lat": 32.81426524694,
+    "current_lon": -83.690675935899,
+    "name_search_found": true,
+    "name_search_lat": 32.811982,
+    "name_search_lon": -83.6908706,
+    "name_search_display_name": "Central Georgia Technical College, 3300, Macon Tech Drive, Crestfield, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 0.255
+  },
+  {
+    "id": "1149",
+    "name": "Residence Inn by Marriott",
+    "current_source": "census_batch",
+    "current_lat": 32.905183238149,
+    "current_lon": -83.687130402496,
+    "name_search_found": true,
+    "name_search_lat": 32.906102,
+    "name_search_lon": -83.6895727,
+    "name_search_display_name": "Residence Inn Macon, 3900, Sheraton Drive, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.25
+  },
+  {
+    "id": "62670",
+    "name": "Gordon State College",
+    "current_source": "census_batch",
+    "current_lat": 33.047447568594,
+    "current_lon": -84.153457323357,
+    "name_search_found": true,
+    "name_search_lat": 33.0473397,
+    "name_search_lon": -84.150835,
+    "name_search_display_name": "Gordon State College, 419, College Drive, Barnesville, Lamar County, Georgia, 30204, United States",
+    "distance_km": 0.245
+  },
+  {
+    "id": "76668",
+    "name": "Georgia College & State University",
+    "current_source": "census_batch",
+    "current_lat": 33.080854061664,
+    "current_lon": -83.229354190915,
+    "name_search_found": true,
+    "name_search_lat": 33.08005,
+    "name_search_lon": -83.2318008,
+    "name_search_display_name": "Georgia College and State University, 231, West Hancock Street, Milledgeville, Baldwin County, Georgia, 31061, United States",
+    "distance_km": 0.245
+  },
+  {
+    "id": "1008",
+    "name": "Museum of Arts & Sciences",
+    "current_source": "census_batch",
+    "current_lat": 32.866772023339,
+    "current_lon": -83.695371457667,
+    "name_search_found": true,
+    "name_search_lat": 32.8648177,
+    "name_search_lon": -83.6951073,
+    "name_search_display_name": "Museum of Arts and Sciences, 4182, Forsyth Road, Bellevue, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.219
+  },
+  {
+    "id": "75167",
+    "name": "Taco Mac",
+    "current_source": "census_batch",
+    "current_lat": 32.925179221597,
+    "current_lon": -83.731406962563,
+    "name_search_found": true,
+    "name_search_lat": 32.9251203,
+    "name_search_lon": -83.733584,
+    "name_search_display_name": "Taco Mac, 5433, Bowman Road, Wesleyan Hills, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.203
+  },
+  {
+    "id": "67873",
+    "name": "Tru by Hilton Macon North",
+    "current_source": "census_batch",
+    "current_lat": 32.925408016229,
+    "current_lon": -83.740167810595,
+    "name_search_found": true,
+    "name_search_lat": 32.9267387,
+    "name_search_lon": -83.738813,
+    "name_search_display_name": "Tru by Hilton Macon North, 107, Providence Boulevard, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.195
+  },
+  {
+    "id": "1250",
+    "name": "Snow's Memorial Chapel",
+    "current_source": "census_batch",
+    "current_lat": 32.922583618601,
+    "current_lon": -83.740400964427,
+    "name_search_found": true,
+    "name_search_lat": 32.9235965,
+    "name_search_lon": -83.7388926,
+    "name_search_display_name": "Snow's Memorial Chapel, 1419, Bass Road, Woodcrest, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.18
+  },
+  {
+    "id": "1393",
+    "name": "Walsh Honda",
+    "current_source": "census_batch",
+    "current_lat": 32.814667831926,
+    "current_lon": -83.68396931254,
+    "name_search_found": true,
+    "name_search_lat": 32.8137742,
+    "name_search_lon": -83.6824407,
+    "name_search_display_name": "Walsh Honda, Paul Walsh Drive, Arlington Park, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 0.174
+  },
+  {
+    "id": "10885",
+    "name": "Fish N' Pig",
+    "current_source": "census_batch",
+    "current_lat": 32.831259354271,
+    "current_lon": -83.769928646901,
+    "name_search_found": true,
+    "name_search_lat": 32.8301915,
+    "name_search_lon": -83.7711886,
+    "name_search_display_name": "Fish N' Pig, 6420, Moseley Dixon Road, Christophers Cove, Macon, Bibb County, Georgia, 31220, United States",
+    "distance_km": 0.167
+  },
+  {
+    "id": "941",
+    "name": "Mercer Engineering Research Center",
+    "current_source": "census_batch",
+    "current_lat": 32.613766723696,
+    "current_lon": -83.687085959866,
+    "name_search_found": true,
+    "name_search_lat": 32.6127295,
+    "name_search_lon": -83.6858683,
+    "name_search_display_name": "Mercer Engineering Research Center, 135, Osigian Boulevard, Warner Robins, Houston County, Georgia, 31088, United States",
+    "distance_km": 0.162
+  },
+  {
+    "id": "571",
+    "name": "Georgia Power Company",
+    "current_source": "census_batch",
+    "current_lat": 32.817832513153,
+    "current_lon": -83.675285105918,
+    "name_search_found": true,
+    "name_search_lat": 32.8174406,
+    "name_search_lon": -83.6736917,
+    "name_search_display_name": "Georgia Power, Macon, Bibb County, Georgia, United States",
+    "distance_km": 0.155
+  },
+  {
+    "id": "11701",
+    "name": "Homewood Suites by Hilton",
+    "current_source": "census_batch",
+    "current_lat": 32.925972634026,
+    "current_lon": -83.737474886018,
+    "name_search_found": true,
+    "name_search_lat": 32.9271965,
+    "name_search_lon": -83.7382107,
+    "name_search_display_name": "Homewood Suites by Hilton Macon-North, 1514, Bass Road, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.152
+  },
+  {
+    "id": "560",
+    "name": "Georgia Farm Bureau",
+    "current_source": "census_batch",
+    "current_lat": 32.929058690345,
+    "current_lon": -83.730478166085,
+    "name_search_found": true,
+    "name_search_lat": 32.930127,
+    "name_search_lon": -83.7306738,
+    "name_search_display_name": "Georgia Farm Bureau Insurance, 1620, Bass Road, Macon, Bibb County, Georgia, 31209, United States",
+    "distance_km": 0.12
+  },
+  {
+    "id": "624",
+    "name": "Piedmont Macon Medical Center",
+    "current_source": "census_batch",
+    "current_lat": 32.845932457479,
+    "current_lon": -83.61802395696,
+    "name_search_found": true,
+    "name_search_lat": 32.8466491,
+    "name_search_lon": -83.6189641,
+    "name_search_display_name": "Piedmont Macon Medical Center, 350, Hospital Drive, Macon, Bibb County, Georgia, 31217, United States",
+    "distance_km": 0.119
+  },
+  {
+    "id": "11364",
+    "name": "Georgia Aquarium, Inc",
+    "current_source": "census_batch",
+    "current_lat": 33.76235385876,
+    "current_lon": -84.394783753091,
+    "name_search_found": true,
+    "name_search_lat": 33.7632675,
+    "name_search_lon": -84.3951173,
+    "name_search_display_name": "Georgia Aquarium, 225, Baker Street Northwest, Atlanta, Fulton County, Georgia, 30313, United States",
+    "distance_km": 0.106
+  },
+  {
+    "id": "11026",
+    "name": "Ace Hardware - Riverside",
+    "current_source": "census_batch",
+    "current_lat": 32.898644174292,
+    "current_lon": -83.683673321782,
+    "name_search_found": true,
+    "name_search_lat": 32.8988661,
+    "name_search_lon": -83.6846433,
+    "name_search_display_name": "Ace Hardware, 3600, Riverside Drive, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.094
+  },
+  {
+    "id": "432",
+    "name": "The Douglass Theatre",
+    "current_source": "census_batch",
+    "current_lat": 32.835350309921,
+    "current_lon": -83.624812739294,
+    "name_search_found": true,
+    "name_search_lat": 32.8354763,
+    "name_search_lon": -83.6257988,
+    "name_search_display_name": "The Douglass Theatre, 355, Martin Luther King Junior Boulevard, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.093
+  },
+  {
+    "id": "916",
+    "name": "Atrium Health Navicent",
+    "current_source": "census_batch",
+    "current_lat": 32.833119615795,
+    "current_lon": -83.636290487022,
+    "name_search_found": true,
+    "name_search_lat": 32.8338837,
+    "name_search_lon": -83.6358767,
+    "name_search_display_name": "Atrium Health Navicent Medical Center, 777, Hemlock Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.093
+  },
+  {
+    "id": "72906",
+    "name": "Muscogee Nation Businesses, LLC",
+    "current_source": "census_batch",
+    "current_lat": 35.613735121586,
+    "current_lon": -95.961860974727,
+    "name_search_found": true,
+    "name_search_lat": 35.6129572,
+    "name_search_lon": -95.9621275,
+    "name_search_display_name": "Muscogee Nation Businesses, South Wood Drive, Okmulgee, Okmulgee County, Oklahoma, 74447, United States",
+    "distance_km": 0.09
+  },
+  {
+    "id": "78772",
+    "name": "TownePlace Suites Macon - Mercer University",
+    "current_source": "census_batch",
+    "current_lat": 32.825643965052,
+    "current_lon": -83.654421918743,
+    "name_search_found": true,
+    "name_search_lat": 32.8251284,
+    "name_search_lon": -83.6550605,
+    "name_search_display_name": "TownePlace Suites Macon Mercer University, 1550, Mercer University Drive, Unionville, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 0.083
+  },
+  {
+    "id": "11491",
+    "name": "American Pride Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.815285550016,
+    "current_lon": -83.707750326096,
+    "name_search_found": true,
+    "name_search_lat": 32.8156532,
+    "name_search_lon": -83.7070777,
+    "name_search_display_name": "American Pride Bank, Bloomfield Village Drive, Christian Rest, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 0.075
+  },
+  {
+    "id": "11699",
+    "name": "Candlewood Suites",
+    "current_source": "census_batch",
+    "current_lat": 32.902998255306,
+    "current_lon": -83.682613111858,
+    "name_search_found": true,
+    "name_search_lat": 32.9032691,
+    "name_search_lon": -83.6818818,
+    "name_search_display_name": "Candlewood Suites Macon, 3957, River Place Drive, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.075
+  },
+  {
+    "id": "573",
+    "name": "Georgia Sports Hall of Fame",
+    "current_source": "census_batch",
+    "current_lat": 32.833892033561,
+    "current_lon": -83.624458492422,
+    "name_search_found": true,
+    "name_search_lat": 32.8344786,
+    "name_search_lon": -83.6245525,
+    "name_search_display_name": "Georgia Sports Hall of Fame, 301, Cherry Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.066
+  },
+  {
+    "id": "370",
+    "name": "Courtyard by Marriott",
+    "current_source": "census_batch",
+    "current_lat": 32.907322244621,
+    "current_lon": -83.689934074045,
+    "name_search_found": true,
+    "name_search_lat": 32.9072582,
+    "name_search_lon": -83.6906157,
+    "name_search_display_name": "Courtyard Macon, 3990, Sheraton Drive, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.064
+  },
+  {
+    "id": "11732",
+    "name": "Macon Marriott City Center",
+    "current_source": "census_batch",
+    "current_lat": 32.84228837993,
+    "current_lon": -83.617778052994,
+    "name_search_found": true,
+    "name_search_lat": 32.8428156,
+    "name_search_lon": -83.6180208,
+    "name_search_display_name": "Macon Marriott City Center, 240, Coliseum Drive, Macon, Bibb County, Georgia, 31217, United States",
+    "distance_km": 0.063
+  },
+  {
+    "id": "79092",
+    "name": "Kinder Morgan",
+    "current_source": "census_batch",
+    "current_lat": 29.758442000617,
+    "current_lon": -95.367495824586,
+    "name_search_found": true,
+    "name_search_lat": 29.7578893,
+    "name_search_lon": -95.3673868,
+    "name_search_display_name": "Kinder Morgan Building, 1001, Louisiana Street, Downtown, Houston, Harris County, Texas, 77002, United States",
+    "distance_km": 0.062
+  },
+  {
+    "id": "998",
+    "name": "Mount De Sales Academy",
+    "current_source": "census_batch",
+    "current_lat": 32.834271814236,
+    "current_lon": -83.63924961339,
+    "name_search_found": true,
+    "name_search_lat": 32.8343059,
+    "name_search_lon": -83.6399026,
+    "name_search_display_name": "Mount De Sales Academy, Columbus Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.061
+  },
+  {
+    "id": "58346",
+    "name": "The Bohemian Den",
+    "current_source": "census_batch",
+    "current_lat": 32.835729522454,
+    "current_lon": -83.627750001317,
+    "name_search_found": true,
+    "name_search_lat": 32.8357793,
+    "name_search_lon": -83.6283407,
+    "name_search_display_name": "Travis Jean Emporium + The Bohemian Den, 522, Cherry Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.055
+  },
+  {
+    "id": "8762",
+    "name": "Sonny's BBQ",
+    "current_source": "census_batch",
+    "current_lat": 32.879859026724,
+    "current_lon": -83.755183294715,
+    "name_search_found": true,
+    "name_search_lat": 32.8803082,
+    "name_search_lon": -83.7553798,
+    "name_search_display_name": "Sonny's BBQ, 5811, Zebulon Road, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.053
+  },
+  {
+    "id": "37512",
+    "name": "SpringHill Suites by Marriott",
+    "current_source": "census_batch",
+    "current_lat": 32.919801178796,
+    "current_lon": -83.706380545828,
+    "name_search_found": true,
+    "name_search_lat": 32.9193425,
+    "name_search_lon": -83.7065044,
+    "name_search_display_name": "SpringHill Suites Macon, 4630, Sheraton Drive, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.052
+  },
+  {
+    "id": "68188",
+    "name": "Hotel Forty Five",
+    "current_source": "census_batch",
+    "current_lat": 32.837140466388,
+    "current_lon": -83.629977692627,
+    "name_search_found": true,
+    "name_search_lat": 32.837144,
+    "name_search_lon": -83.6305187,
+    "name_search_display_name": "Hotel Forty Five, 401, Cotton Avenue, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.051
+  },
+  {
+    "id": "1334",
+    "name": "Truist Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.821001911561,
+    "current_lon": -83.695752192991,
+    "name_search_found": true,
+    "name_search_lat": 32.8208252,
+    "name_search_lon": -83.6962449,
+    "name_search_display_name": "Truist, Bloomfield Road, Westview, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 0.05
+  },
+  {
+    "id": "61765",
+    "name": "Amici Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.825628978347,
+    "current_lon": -83.653747518104,
+    "name_search_found": true,
+    "name_search_lat": 32.8252537,
+    "name_search_lon": -83.6540472,
+    "name_search_display_name": "Amici Cafe, 1510, Mercer University Drive, Unionville, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 0.05
+  },
+  {
+    "id": "490",
+    "name": "Fickling & Company, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": true,
+    "name_search_lat": 32.8380817,
+    "name_search_lon": -83.6273521,
+    "name_search_display_name": "Fickling & Company Building, 577, Mulberry Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.035
+  },
+  {
+    "id": "441",
+    "name": "1842 Inn, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.841898920823,
+    "current_lon": -83.637923220949,
+    "name_search_found": true,
+    "name_search_lat": 32.8419909,
+    "name_search_lon": -83.6382705,
+    "name_search_display_name": "1842 Inn, 353, College Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.034
+  },
+  {
+    "id": "8510",
+    "name": "Grow",
+    "current_source": "census_batch",
+    "current_lat": 32.844482800496,
+    "current_lon": -83.632143446933,
+    "name_search_found": true,
+    "name_search_lat": 32.8445451,
+    "name_search_lon": -83.6318093,
+    "name_search_display_name": "Grow fresh local food, Riverside Drive, Macon, Bibb County, Georgia, 31213, United States",
+    "distance_km": 0.032
+  },
+  {
+    "id": "8525",
+    "name": "Bashinski Fine Gems & Jewelry, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.846159789088,
+    "current_lon": -83.634960520918,
+    "name_search_found": true,
+    "name_search_lat": 32.8459183,
+    "name_search_lon": -83.6349283,
+    "name_search_display_name": "Bashinski Fine Gems & Jewelry, 1126, Riverside Drive, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.027
+  },
+  {
+    "id": "11479",
+    "name": "Capitol Theatre Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.836772585087,
+    "current_lon": -83.628768435449,
+    "name_search_found": true,
+    "name_search_lat": 32.8366699,
+    "name_search_lon": -83.6285019,
+    "name_search_display_name": "Hargray Capitol Theatre, 382, 2nd Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.027
+  },
+  {
+    "id": "60900",
+    "name": "Ocmulgee Brewpub",
+    "current_source": "census_batch",
+    "current_lat": 32.835572307066,
+    "current_lon": -83.629789154796,
+    "name_search_found": true,
+    "name_search_lat": 32.8354342,
+    "name_search_lon": -83.6295703,
+    "name_search_display_name": "Ocmulgee Brewpub, 484, 2nd Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.026
+  },
+  {
+    "id": "71562",
+    "name": "Fall Line Brewing Co.",
+    "current_source": "census_batch",
+    "current_lat": 32.833726927838,
+    "current_lon": -83.630708874687,
+    "name_search_found": true,
+    "name_search_lat": 32.8338945,
+    "name_search_lon": -83.6305338,
+    "name_search_display_name": "Fall Line Brewing Co., 567, Plum Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.025
+  },
+  {
+    "id": "75298",
+    "name": "Oliver's Corner Bistro, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.835455844407,
+    "current_lon": -83.629887177536,
+    "name_search_found": true,
+    "name_search_lat": 32.8353542,
+    "name_search_lon": -83.6296595,
+    "name_search_display_name": "Oliver's Corner Bistro, 496, 2nd Street, Macon, Bibb County, Georgia, 31201, United States",
+    "distance_km": 0.024
+  },
+  {
+    "id": "1015",
+    "name": "Natalia's",
+    "current_source": "nominatim_address",
+    "current_lat": 32.9273327,
+    "current_lon": -83.7369775,
+    "name_search_found": true,
+    "name_search_lat": 32.9273327,
+    "name_search_lon": -83.7369775,
+    "name_search_display_name": "Natalia's, 201, North Macon Street, Macon, Bibb County, Georgia, 31210, United States",
+    "distance_km": 0.0
+  },
+  {
+    "id": "11027",
+    "name": "Hilton Garden Inn",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8263493,
+    "current_lon": -83.6557234,
+    "name_search_found": true,
+    "name_search_lat": 32.8263493,
+    "name_search_lon": -83.6557234,
+    "name_search_display_name": "Hilton Garden Inn Macon / Mercer University, 1220, Stadium Drive, Unionville, Macon, Bibb County, Georgia, 31204, United States",
+    "distance_km": 0.0
+  },
+  {
+    "id": "860",
+    "name": "Graphic Packaging International, Inc.",
+    "current_source": "nominatim_name",
+    "current_lat": 32.7724363,
+    "current_lon": -83.6300755,
+    "name_search_found": true,
+    "name_search_lat": 32.7724363,
+    "name_search_lon": -83.6300755,
+    "name_search_display_name": "Graphic Packaging, Mead Road, Macon, Bibb County, Georgia, 31206, United States",
+    "distance_km": 0.0
+  },
+  {
+    "id": "15",
+    "name": "Ackerman Wrecker Service, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.810767742542,
+    "current_lon": -83.63095548412,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "18",
+    "name": "Active Imaging Services LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.724950364696,
+    "current_lon": -83.659409139382,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "32",
+    "name": "Air Compressor Sales, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.833928985008,
+    "current_lon": -83.742027049847,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "35",
+    "name": "Wesley Glen Ministries",
+    "current_source": "census_batch",
+    "current_lat": 32.847763377396,
+    "current_lon": -83.704534124824,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37",
+    "name": "Akridge Realty, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.788221045151,
+    "current_lon": -83.707750197071,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56",
+    "name": "American Service Industries",
+    "current_source": "census_batch",
+    "current_lat": 32.928585740668,
+    "current_lon": -83.70997363664,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60",
+    "name": "Anderson, Walker & Reichert, LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61",
+    "name": "Andrews, Hammock, & Powell, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.869720205603,
+    "current_lon": -83.697013384519,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72",
+    "name": "Appling Brothers Company",
+    "current_source": "census_batch",
+    "current_lat": 32.897702737376,
+    "current_lon": -83.595760884635,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "86",
+    "name": "Macon Coca-Cola Bottling Co.",
+    "current_source": "census_batch",
+    "current_lat": 32.782200252296,
+    "current_lon": -83.677914830215,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "113",
+    "name": "Carol Bashuk Beltone Hearing Care Center",
+    "current_source": "census_batch",
+    "current_lat": 32.85367856271,
+    "current_lon": -83.658506786215,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "123",
+    "name": "B & D Industrial",
+    "current_source": "census_batch",
+    "current_lat": 32.826395339226,
+    "current_lon": -83.614452345509,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "128",
+    "name": "AT&T Store - Riverside",
+    "current_source": "census_batch",
+    "current_lat": 32.923646972742,
+    "current_lon": -83.710965609177,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "140",
+    "name": "Better Business Bureau",
+    "current_source": "census_batch",
+    "current_lat": 32.835573719524,
+    "current_lon": -83.623567848447,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "152",
+    "name": "Bibb County School District",
+    "current_source": "census_batch",
+    "current_lat": 32.836662470997,
+    "current_lon": -83.626241856742,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "201",
+    "name": "Bibb Distributing Company",
+    "current_source": "census_batch",
+    "current_lat": 32.731006598083,
+    "current_lon": -83.655617241252,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "202",
+    "name": "Bibb Home Improvement Service",
+    "current_source": "census_batch",
+    "current_lat": 32.811140154962,
+    "current_lon": -83.660884818567,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "205",
+    "name": "MidSouth Community Federal Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.827672032544,
+    "current_lon": -83.72060380875,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "214",
+    "name": "Blake & Pendleton, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.832329862005,
+    "current_lon": -83.623377078808,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "217",
+    "name": "BTV Systems",
+    "current_source": "census_batch",
+    "current_lat": 32.786552125668,
+    "current_lon": -83.701597722704,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "222",
+    "name": "Dr. Shawn Scott, D.D.S., LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.893112818695,
+    "current_lon": -83.681655862833,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "228",
+    "name": "Boy Scouts of America, Central Georgia Council",
+    "current_source": "census_batch",
+    "current_lat": 32.801188898966,
+    "current_lon": -83.571746162831,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "234",
+    "name": "Smith, Brown & Groover, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.863529163232,
+    "current_lon": -83.69001773757,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "239",
+    "name": "Buford and Buford",
+    "current_source": "census_batch",
+    "current_lat": 32.845824800195,
+    "current_lon": -83.636074622706,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "244",
+    "name": "Schuster Enterprises, Inc. dba Burger King",
+    "current_source": "census_batch",
+    "current_lat": 32.808383763766,
+    "current_lon": -83.663093121318,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "246",
+    "name": "Burgess Pigment Company",
+    "current_source": "census_batch",
+    "current_lat": 32.848767998032,
+    "current_lon": -83.662384352962,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "252",
+    "name": "Butler Automotive Group",
+    "current_source": "census_batch",
+    "current_lat": 32.870940861424,
+    "current_lon": -83.702851123991,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "256",
+    "name": "Butler, Williams & Wyche, LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.93132978183,
+    "current_lon": -83.714484244414,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "260",
+    "name": "C & H Bus Lines, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.830976041071,
+    "current_lon": -83.629681267037,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "287",
+    "name": "Carlyle Place",
+    "current_source": "census_batch",
+    "current_lat": 32.879530245335,
+    "current_lon": -83.738626843487,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "304",
+    "name": "Central Georgia Electric Membership Corp.",
+    "current_source": "census_batch",
+    "current_lat": 33.285772379341,
+    "current_lon": -83.969085982478,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "305",
+    "name": "Eye Center of Central Georgia, PC",
+    "current_source": "census_batch",
+    "current_lat": 32.834706592369,
+    "current_lon": -83.646265345016,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "306",
+    "name": "Central Georgia Cancer Care",
+    "current_source": "census_batch",
+    "current_lat": 32.925233851899,
+    "current_lon": -83.731234425293,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "307",
+    "name": "Atrium Health Navicent Rehabilitation Hospital",
+    "current_source": "census_batch",
+    "current_lat": 32.893621841485,
+    "current_lon": -83.682913928364,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "339",
+    "name": "Clark Memorials",
+    "current_source": "census_batch",
+    "current_lat": 32.853365446442,
+    "current_lon": -83.677882240191,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "358",
+    "name": "Community Foundation of Central Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "373",
+    "name": "Cox Communications",
+    "current_source": "census_batch",
+    "current_lat": 32.726167311179,
+    "current_lon": -83.654732989257,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "386",
+    "name": "C-W-C Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.892210368697,
+    "current_lon": -83.678339630665,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "421",
+    "name": "Dismas Charities - Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.832275300706,
+    "current_lon": -83.632571189693,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "438",
+    "name": "Dunwody/Beeland Architects, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.835790928294,
+    "current_lon": -83.624342476716,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "444",
+    "name": "Coldwell Banker Commercial Eberhardt & Barry",
+    "current_source": "census_batch",
+    "current_lat": 32.84411193119,
+    "current_lon": -83.63175903041,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "476",
+    "name": "Family Counseling Center of Central Ga, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.835573719524,
+    "current_lon": -83.623567848447,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "494",
+    "name": "Fincher's Barbecue and Catering, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.852452187171,
+    "current_lon": -83.619478497084,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "508",
+    "name": "First Presbyterian Day School",
+    "current_source": "census_batch",
+    "current_lat": 32.87169192619,
+    "current_lon": -83.750215595258,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "550",
+    "name": "Triple-S Steel of Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.790905604838,
+    "current_lon": -83.650398894139,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "554",
+    "name": "Georgia Industrial Children's Home/Twin Cedars Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.84850906661,
+    "current_lon": -83.715757546008,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "559",
+    "name": "Georgia Employers' Association",
+    "current_source": "census_batch",
+    "current_lat": 32.905905361091,
+    "current_lon": -83.68724245955,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "581",
+    "name": "Terracon Consultants, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.845667461923,
+    "current_lon": -83.672819173714,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "583",
+    "name": "GIGA Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.706229546982,
+    "current_lon": -83.657068549078,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "601",
+    "name": "The Grand Opera House",
+    "current_source": "census_batch",
+    "current_lat": 32.838509271253,
+    "current_lon": -83.628564498107,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "614",
+    "name": "Collins Manufacturing Company",
+    "current_source": "census_batch",
+    "current_lat": 32.813086761189,
+    "current_lon": -83.630476077791,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "623",
+    "name": "H&H Soul Food",
+    "current_source": "census_batch",
+    "current_lat": 32.835745518699,
+    "current_lon": -83.63456999747,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "627",
+    "name": "Atrium Health Navicent Wound Care",
+    "current_source": "census_batch",
+    "current_lat": 32.835543147678,
+    "current_lon": -83.635498729802,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "658",
+    "name": "Constangy, Brooks, Smith & Prophete, LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.905905361091,
+    "current_lon": -83.68724245955,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "659",
+    "name": "Hays Service, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.825901446114,
+    "current_lon": -83.729231432052,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "660",
+    "name": "Heart of Georgia Insurance Brokers",
+    "current_source": "census_batch",
+    "current_lat": 32.842160055833,
+    "current_lon": -83.628504877765,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "676",
+    "name": "Hofstadter & Associates, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.914511824089,
+    "current_lon": -83.695991786018,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "693",
+    "name": "Howard, Moore & McDuffie, P.C.",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "699",
+    "name": "Hudspeth Animal Hospital",
+    "current_source": "census_batch",
+    "current_lat": 32.841650226159,
+    "current_lon": -83.662319312705,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "700",
+    "name": "Triple Point Engineering, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.927575958456,
+    "current_lon": -83.709376732662,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "702",
+    "name": "Hutchings Funeral Home, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.836598122825,
+    "current_lon": -83.633554825686,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "719",
+    "name": "Internal Medicine Associates, P.C.",
+    "current_source": "census_batch",
+    "current_lat": 32.846067196903,
+    "current_lon": -83.617683233813,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "729",
+    "name": "Mercedes Benz/Volvo/Subaru of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.922131212278,
+    "current_lon": -83.710293100112,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "733",
+    "name": "James Bates Brannan Groover LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.837036045702,
+    "current_lon": -83.619789518104,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "737",
+    "name": "Jean and Hall Florists, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.838229587512,
+    "current_lon": -83.631858479148,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "744",
+    "name": "Jones Cork, LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.836197135909,
+    "current_lon": -83.629431245003,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "745",
+    "name": "Ocmulgee Fields, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.897266166828,
+    "current_lon": -83.717213506944,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "755",
+    "name": "Kaybee of Macon, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.834976664195,
+    "current_lon": -83.627792863355,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "758",
+    "name": "Cherry Blossom Festival, Macon GA International",
+    "current_source": "census_batch",
+    "current_lat": 32.838340595558,
+    "current_lon": -83.63203938112,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "762",
+    "name": "Ken's Stereo Macon and Warner Robins",
+    "current_source": "census_batch",
+    "current_lat": 32.821534605609,
+    "current_lon": -83.696754888242,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "786",
+    "name": "Lamb & Braswell, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.911546117623,
+    "current_lon": -83.691351525013,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "798",
+    "name": "Bob Lewis & Associates, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.839198408166,
+    "current_lon": -83.626894190008,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "812",
+    "name": "Lintech International",
+    "current_source": "census_batch",
+    "current_lat": 32.698912586369,
+    "current_lon": -83.663800104447,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "831",
+    "name": "McNair, McLemore, Middlebrooks & Co., LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.836172210297,
+    "current_lon": -83.624617627667,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "834",
+    "name": "Middle Georgia Community Food Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.805414879663,
+    "current_lon": -83.568623051906,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "836",
+    "name": "Macon Milledgeville Regional Habitat for Humanity",
+    "current_source": "census_batch",
+    "current_lat": 32.838609620449,
+    "current_lon": -83.652845550683,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "841",
+    "name": "Beverage South of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.698919764894,
+    "current_lon": -83.663593495029,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "842",
+    "name": "Macon-Bibb County Health Department",
+    "current_source": "census_batch",
+    "current_lat": 32.838735065764,
+    "current_lon": -83.645488944098,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "844",
+    "name": "Macon Water Authority",
+    "current_source": "census_batch",
+    "current_lat": 32.831886921089,
+    "current_lon": -83.632902445259,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "848",
+    "name": "Middle Georgia Association of Realtors",
+    "current_source": "census_batch",
+    "current_lat": 32.853404618917,
+    "current_lon": -83.677738658898,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "853",
+    "name": "SPP Investments, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.87632775981,
+    "current_lon": -83.762042398213,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "865",
+    "name": "Macon Magazine",
+    "current_source": "census_batch",
+    "current_lat": 32.838642496483,
+    "current_lon": -83.637497681425,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "876",
+    "name": "OrthoGeorgia",
+    "current_source": "census_batch",
+    "current_lat": 32.897149342881,
+    "current_lon": -83.692169749199,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "879",
+    "name": "MetroPower, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.832273047093,
+    "current_lon": -83.628538044823,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "883",
+    "name": "Macon Supply Company, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.813565351149,
+    "current_lon": -83.632293885131,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "904",
+    "name": "Marshall Lumber Company, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.839183861587,
+    "current_lon": -83.672223038037,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "907",
+    "name": "Martin Snow, LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.837913729688,
+    "current_lon": -83.625308921969,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "911",
+    "name": "Adams, Jordan & Herrington, P.C.",
+    "current_source": "census_batch",
+    "current_lat": 32.841538229292,
+    "current_lon": -83.632346966838,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "912",
+    "name": "Mauldin & Jenkins, CPAs, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.835790928294,
+    "current_lon": -83.624342476716,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "913",
+    "name": "Bert Maxwell Furniture Company",
+    "current_source": "census_batch",
+    "current_lat": 32.835688615231,
+    "current_lon": -83.629858301109,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "918",
+    "name": "Atrium Health Navicent Urgent Care Northwest",
+    "current_source": "census_batch",
+    "current_lat": 32.879913917283,
+    "current_lon": -83.758397923091,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "919",
+    "name": "The Wellness Center",
+    "current_source": "census_batch",
+    "current_lat": 32.897622066317,
+    "current_lon": -83.693014845496,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "922",
+    "name": "Central Georgia Home Health Services, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.815975028329,
+    "current_lon": -83.702698992384,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "927",
+    "name": "Macon-Bibb County Hospital Authority",
+    "current_source": "census_batch",
+    "current_lat": 32.833119615795,
+    "current_lon": -83.636290487022,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "929",
+    "name": "Atrium Health Navicent Business Office",
+    "current_source": "census_batch",
+    "current_lat": 32.869163228214,
+    "current_lon": -83.658870222108,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "930",
+    "name": "Atrium Health Navicent Imaging & Laboratory",
+    "current_source": "census_batch",
+    "current_lat": 32.840721521184,
+    "current_lon": -83.645329775435,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "932",
+    "name": "Children's Hospital, Atrium Health Navicent",
+    "current_source": "census_batch",
+    "current_lat": 32.835161172709,
+    "current_lon": -83.636572461694,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "935",
+    "name": "Scott's Health Mart Pharmacy #1",
+    "current_source": "census_batch",
+    "current_lat": 32.84091799896,
+    "current_lon": -83.662471085791,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "938",
+    "name": "The Mentors Project of Bibb County",
+    "current_source": "census_batch",
+    "current_lat": 32.836662470997,
+    "current_lon": -83.626241856742,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "939",
+    "name": "River Edge Behavioral Health",
+    "current_source": "census_batch",
+    "current_lat": 32.848145437666,
+    "current_lon": -83.62332436408,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "944",
+    "name": "Merrill Lynch Wealth Management",
+    "current_source": "census_batch",
+    "current_lat": 32.905905361091,
+    "current_lon": -83.68724245955,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "947",
+    "name": "Methodist Home for Children & Youth",
+    "current_source": "census_batch",
+    "current_lat": 32.850890112589,
+    "current_lon": -83.662513682193,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "958",
+    "name": "Middle Georgia Consortium, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.61385549342,
+    "current_lon": -83.684237087949,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "959",
+    "name": "Girl Scouts of Historic GA, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.807062491859,
+    "current_lon": -83.775010115475,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "974",
+    "name": "Midwestern Industries",
+    "current_source": "census_batch",
+    "current_lat": 32.702405050895,
+    "current_lon": -83.666466293505,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "978",
+    "name": "Minton Lawn & Garden",
+    "current_source": "census_batch",
+    "current_lat": 32.783658218929,
+    "current_lon": -83.66597784618,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "999",
+    "name": "Mulberry Street Investment Company",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1001",
+    "name": "Murphey, Taylor & Ellis Comm. Real Estate",
+    "current_source": "census_batch",
+    "current_lat": 32.85038455731,
+    "current_lon": -83.674301633771,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1010",
+    "name": "The Mutual Financial Group",
+    "current_source": "census_batch",
+    "current_lat": 32.840743265705,
+    "current_lon": -83.641236717191,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1022",
+    "name": "NewTown Macon, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.83479866719,
+    "current_lon": -83.629550032183,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1039",
+    "name": "NBP Engineers, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.928518697142,
+    "current_lon": -83.709945272078,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1068",
+    "name": "H2 Capital, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.839198408166,
+    "current_lon": -83.626894190008,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1069",
+    "name": "Panaprint, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.692412878791,
+    "current_lon": -83.670984815409,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1077",
+    "name": "The Peyton Anderson Foundation",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1090",
+    "name": "Piedmont Construction Group, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.927847808157,
+    "current_lon": -83.709737092155,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1094",
+    "name": "Pilot International",
+    "current_source": "census_batch",
+    "current_lat": 32.940172418846,
+    "current_lon": -83.731479830004,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1109",
+    "name": "Freudenberg Performance Materials Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.77603785737,
+    "current_lon": -83.645610458486,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1117",
+    "name": "Prince Service & Manufacturing",
+    "current_source": "census_batch",
+    "current_lat": 32.727319526778,
+    "current_lon": -83.654665041123,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1122",
+    "name": "Public Service Telephone Co.",
+    "current_source": "census_batch",
+    "current_lat": 32.557739617098,
+    "current_lon": -84.096227142668,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1127",
+    "name": "Pyles Plumbing & Utility Contractors, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.840284598276,
+    "current_lon": -83.673115244429,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1137",
+    "name": "Raffield Tire Masters, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.892918070525,
+    "current_lon": -83.682091798784,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1146",
+    "name": "Reeves Construction Company",
+    "current_source": "census_batch",
+    "current_lat": 32.885402153997,
+    "current_lon": -83.602063555838,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1153",
+    "name": "Reynolds, Horne & Survant",
+    "current_source": "census_batch",
+    "current_lat": 32.873082328166,
+    "current_lon": -83.759054827979,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1156",
+    "name": "River North Country Club",
+    "current_source": "census_batch",
+    "current_lat": 32.942433385419,
+    "current_lon": -83.660057710621,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1181",
+    "name": "Rutherford Trophies Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.784774631622,
+    "current_lon": -83.666639046802,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1187",
+    "name": "St. Paul Apartments",
+    "current_source": "census_batch",
+    "current_lat": 32.837012060046,
+    "current_lon": -83.642480900972,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1200",
+    "name": "SCANA Energy",
+    "current_source": "census_batch",
+    "current_lat": 33.849020466793,
+    "current_lon": -84.365717670225,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1202",
+    "name": "Schell Acoustical & Drywall Company",
+    "current_source": "census_batch",
+    "current_lat": 32.878127515213,
+    "current_lon": -83.566125826341,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1208",
+    "name": "L. E. Schwartz & Son, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.817404118154,
+    "current_lon": -83.638042902087,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1211",
+    "name": "Huntington Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.866098138428,
+    "current_lon": -83.693947366197,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1213",
+    "name": "Huntington Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.816550560599,
+    "current_lon": -83.708677097517,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1214",
+    "name": "Huntington Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.859654026197,
+    "current_lon": -83.613522088497,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1215",
+    "name": "Huntington Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.84011720196,
+    "current_lon": -83.628419843547,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1216",
+    "name": "Huntington Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.742648732879,
+    "current_lon": -83.713406286025,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1228",
+    "name": "Sheridan Construction",
+    "current_source": "census_batch",
+    "current_lat": 32.848777657868,
+    "current_lon": -83.639797666603,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1231",
+    "name": "Sheridan, Solomon & Associates, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.874095558691,
+    "current_lon": -83.663313056725,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1232",
+    "name": "Midtowne Mortgage, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.874026758577,
+    "current_lon": -83.663255939658,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1244",
+    "name": "Smiley's Flea Market",
+    "current_source": "census_batch",
+    "current_lat": 32.724636343652,
+    "current_lon": -83.654397123745,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1260",
+    "name": "Southern Safety Supply Company",
+    "current_source": "census_batch",
+    "current_lat": 32.816002390874,
+    "current_lon": -83.640066275224,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1261",
+    "name": "Audio Visual Services",
+    "current_source": "census_batch",
+    "current_lat": 32.814869134032,
+    "current_lon": -83.627880999114,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1287",
+    "name": "Stone and Baxter, LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.833421191566,
+    "current_lon": -83.629700229963,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1292",
+    "name": "The Summit Group",
+    "current_source": "census_batch",
+    "current_lat": 32.911846059835,
+    "current_lon": -83.691848627669,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1300",
+    "name": "FusionPoint",
+    "current_source": "census_batch",
+    "current_lat": 32.833948861296,
+    "current_lon": -83.742663188856,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1307",
+    "name": "Dr. Larry V. Thigpen, D.D.S.",
+    "current_source": "census_batch",
+    "current_lat": 32.849611622234,
+    "current_lon": -83.673424248144,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1308",
+    "name": "Third Wave Digital",
+    "current_source": "census_batch",
+    "current_lat": 32.840598892827,
+    "current_lon": -83.628020008602,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1310",
+    "name": "Thornton Realty Company",
+    "current_source": "census_batch",
+    "current_lat": 32.835706005253,
+    "current_lon": -83.631274018417,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1312",
+    "name": "Tidwell & Hilburn Insurance, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.883006390753,
+    "current_lon": -83.729558589668,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1317",
+    "name": "Trading Post Moving & Storage",
+    "current_source": "census_batch",
+    "current_lat": 32.802110736554,
+    "current_lon": -83.735877754206,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1321",
+    "name": "Tri-County E.M.C.",
+    "current_source": "census_batch",
+    "current_lat": 33.012909388763,
+    "current_lon": -83.526451029806,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1322",
+    "name": "Triangle Chemical Company",
+    "current_source": "census_batch",
+    "current_lat": 32.937601485973,
+    "current_lon": -83.730437376924,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1330",
+    "name": "Truck and Trailer of Macon, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.741240873168,
+    "current_lon": -83.659690237833,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1344",
+    "name": "Tubman African American Museum",
+    "current_source": "census_batch",
+    "current_lat": 32.834226923419,
+    "current_lon": -83.625229924731,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1357",
+    "name": "United Way of Central Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.835573719524,
+    "current_lon": -83.623567848447,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1381",
+    "name": "FOX 24/ABC16 WGXA - Sinclair Communications, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.83281136194,
+    "current_lon": -83.627667432624,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1382",
+    "name": "13 WMAZ - TV",
+    "current_source": "census_batch",
+    "current_lat": 32.860124563265,
+    "current_lon": -83.614698389274,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1384",
+    "name": "WMGT 41NBC",
+    "current_source": "census_batch",
+    "current_lat": 32.832568506029,
+    "current_lon": -83.625519999376,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1388",
+    "name": "Oakbridge Insurance Agency",
+    "current_source": "census_batch",
+    "current_lat": 32.84148714407,
+    "current_lon": -83.630692677615,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1389",
+    "name": "John R. Walker, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.833086481831,
+    "current_lon": -83.727935329103,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1394",
+    "name": "Walthall Oil Company",
+    "current_source": "census_batch",
+    "current_lat": 32.741161459945,
+    "current_lon": -83.662300153203,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1396",
+    "name": "Warno-Cam Paint Company, Inc. - Benjamin Moore Paints",
+    "current_source": "census_batch",
+    "current_lat": 32.853798730886,
+    "current_lon": -83.656816071373,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1397",
+    "name": "Warren Associates, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.843320415559,
+    "current_lon": -83.66677711086,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1409",
+    "name": "First Quality",
+    "current_source": "census_batch",
+    "current_lat": 32.683303822387,
+    "current_lon": -83.633914482285,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1433",
+    "name": "WM2A Architects",
+    "current_source": "census_batch",
+    "current_lat": 32.837221625911,
+    "current_lon": -83.62933280468,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1434",
+    "name": "Ambassador Personnel, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.926164636631,
+    "current_lon": -83.736862781114,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1446",
+    "name": "Butler Chevrolet",
+    "current_source": "census_batch",
+    "current_lat": 32.856287827363,
+    "current_lon": -83.645447110709,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "3149",
+    "name": "Adams, Hemingway, Wilson & Rutledge, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837289870657,
+    "current_lon": -83.627272079228,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "3280",
+    "name": "Builder Sales & Services, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.825497162729,
+    "current_lon": -83.729235777138,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "3306",
+    "name": "Casteel Construction",
+    "current_source": "census_batch",
+    "current_lat": 32.809746269737,
+    "current_lon": -83.74759941154,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "3482",
+    "name": "Mercer Medicine",
+    "current_source": "census_batch",
+    "current_lat": 32.828639774055,
+    "current_lon": -83.648975434726,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "4023",
+    "name": "Otis Redding Museum",
+    "current_source": "census_batch",
+    "current_lat": 32.836944173052,
+    "current_lon": -83.630226890417,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "4082",
+    "name": "Mr. Electric",
+    "current_source": "census_batch",
+    "current_lat": 32.831143883401,
+    "current_lon": -83.72509605033,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "4115",
+    "name": "Jim Shaw's Seafood Restaurant",
+    "current_source": "census_batch",
+    "current_lat": 32.849532539385,
+    "current_lon": -83.673522961079,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "4674",
+    "name": "Middle Georgia Graphic Resource, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.842524726824,
+    "current_lon": -83.630887806168,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "5172",
+    "name": "Sphinx, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.71069836835,
+    "current_lon": -83.649112915947,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8292",
+    "name": "Renfroe Construction",
+    "current_source": "census_batch",
+    "current_lat": 32.798650819269,
+    "current_lon": -83.736070093057,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8307",
+    "name": "Office Services Company of Macon, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.847362983724,
+    "current_lon": -83.635566085769,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8345",
+    "name": "Piedmont Occupational Medicine",
+    "current_source": "census_batch",
+    "current_lat": 32.838929551819,
+    "current_lon": -83.624647750195,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8459",
+    "name": "ENT Center of Central Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.830524443205,
+    "current_lon": -83.632215619182,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8508",
+    "name": "Central Georgia Health Network",
+    "current_source": "census_batch",
+    "current_lat": 32.936821288417,
+    "current_lon": -83.721588822795,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8527",
+    "name": "St. Peter Claver Catholic School",
+    "current_source": "census_batch",
+    "current_lat": 32.84413362043,
+    "current_lon": -83.649588517076,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8534",
+    "name": "O'Mahony Insurance Agency, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.84761978087,
+    "current_lon": -83.670419686709,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8580",
+    "name": "Mills Industrial Construction, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.819579412057,
+    "current_lon": -83.078465963639,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8595",
+    "name": "Greene & Associates, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.842127228449,
+    "current_lon": -83.66436695214,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8663",
+    "name": "Macon Tent Rentals",
+    "current_source": "census_batch",
+    "current_lat": 32.845611901864,
+    "current_lon": -83.583891437457,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8875",
+    "name": "Southern Trust",
+    "current_source": "census_batch",
+    "current_lat": 32.938385627895,
+    "current_lon": -83.718634812626,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8887",
+    "name": "Law Offices of R. Lars Anderson",
+    "current_source": "census_batch",
+    "current_lat": 32.846214184397,
+    "current_lon": -83.658897171645,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "8943",
+    "name": "Sellers Contracting Services, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.892353785723,
+    "current_lon": -83.311061564895,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "9343",
+    "name": "The Sanford Company, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.870089520468,
+    "current_lon": -83.701491219185,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "9451",
+    "name": "Patton Albertson & Miller, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837036045702,
+    "current_lon": -83.619789518104,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "9457",
+    "name": "Macon Volunteer Clinic",
+    "current_source": "census_batch",
+    "current_lat": 32.840724956256,
+    "current_lon": -83.629423691839,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "9480",
+    "name": "Historic Riverside Cemetery Conservancy",
+    "current_source": "census_batch",
+    "current_lat": 32.848841323476,
+    "current_lon": -83.63900203668,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "9490",
+    "name": "Pediatric Care of Macon, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.864978740615,
+    "current_lon": -83.690410240693,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "9606",
+    "name": "Layson Advisory Group",
+    "current_source": "census_batch",
+    "current_lat": 32.937007009891,
+    "current_lon": -83.730412953904,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "9647",
+    "name": "Northwestern Mutual Central Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.905905361091,
+    "current_lon": -83.68724245955,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10313",
+    "name": "Macon Rehabilitation and Healthcare Center",
+    "current_source": "census_batch",
+    "current_lat": 32.846575280301,
+    "current_lon": -83.616711963169,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10349",
+    "name": "SERVPRO of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.805724073153,
+    "current_lon": -83.57251537482,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10364",
+    "name": "Amanda Jane Salon",
+    "current_source": "census_batch",
+    "current_lat": 32.867114091026,
+    "current_lon": -83.695702093919,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10480",
+    "name": "Shred-cycle, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.577074480437,
+    "current_lon": -82.864381999031,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10482",
+    "name": "Elite Flooring Contractors",
+    "current_source": "census_batch",
+    "current_lat": 32.833444550839,
+    "current_lon": -83.631586921785,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10491",
+    "name": "Regency Hospital Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.847036004299,
+    "current_lon": -83.616632645595,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10495",
+    "name": "Shadow Sound Studio",
+    "current_source": "census_batch",
+    "current_lat": 32.834962332122,
+    "current_lon": -83.628359602717,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10521",
+    "name": "John S. & James L. Knight Foundation",
+    "current_source": "census_batch",
+    "current_lat": 32.836065779971,
+    "current_lon": -83.634823852059,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10534",
+    "name": "Community Health Systems",
+    "current_source": "census_batch",
+    "current_lat": 32.838295110737,
+    "current_lon": -83.62554493233,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10537",
+    "name": "Vineville Internal Medicine",
+    "current_source": "census_batch",
+    "current_lat": 32.857052797632,
+    "current_lon": -83.681859719434,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10786",
+    "name": "The Progressive Group",
+    "current_source": "census_batch",
+    "current_lat": 32.925425347585,
+    "current_lon": -83.711746830326,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10916",
+    "name": "MidSouth Community FCU",
+    "current_source": "census_batch",
+    "current_lat": 32.746602392741,
+    "current_lon": -83.677370908621,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10918",
+    "name": "Higginbotham Insurance Agency, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.854774362505,
+    "current_lon": -83.679444544791,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10927",
+    "name": "Mayer Electric Supply",
+    "current_source": "census_batch",
+    "current_lat": 32.822044466616,
+    "current_lon": -83.629306182546,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10932",
+    "name": "Russell G. O'Neal, MD. LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.936598769833,
+    "current_lon": -83.721511511296,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10975",
+    "name": "Jack's Saw Shop, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.844368915152,
+    "current_lon": -83.754610049053,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11035",
+    "name": "California Cereal Products, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.784130349437,
+    "current_lon": -83.639071442787,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11107",
+    "name": "Nichiha USA",
+    "current_source": "census_batch",
+    "current_lat": 32.691759593832,
+    "current_lon": -83.676948943998,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11114",
+    "name": "SP Design Group, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.816220832595,
+    "current_lon": -83.732185567829,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11116",
+    "name": "Griffin Animal Hospital",
+    "current_source": "census_batch",
+    "current_lat": 32.780076570422,
+    "current_lon": -83.663917865977,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11193",
+    "name": "Rookery",
+    "current_source": "census_batch",
+    "current_lat": 32.836134502167,
+    "current_lon": -83.62817994321,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11337",
+    "name": "MBG Office Systems",
+    "current_source": "census_batch",
+    "current_lat": 32.84577117402,
+    "current_lon": -83.672952666643,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11354",
+    "name": "Center Parc Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.86413336037,
+    "current_lon": -83.691168287534,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11393",
+    "name": "SD Polymers",
+    "current_source": "census_batch",
+    "current_lat": 32.780089554354,
+    "current_lon": -83.647164619098,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11494",
+    "name": "Choice Premiums",
+    "current_source": "census_batch",
+    "current_lat": 32.838894550395,
+    "current_lon": -83.641016259439,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11542",
+    "name": "SA Recycling",
+    "current_source": "census_batch",
+    "current_lat": 32.781046391159,
+    "current_lon": -83.654703403199,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11545",
+    "name": "First Choice Primary Care",
+    "current_source": "census_batch",
+    "current_lat": 32.833294949885,
+    "current_lon": -83.627276789058,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11574",
+    "name": "ABC Supply Co. Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.702431542457,
+    "current_lon": -83.65145365648,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11617",
+    "name": "AT&T Store - Mercer University",
+    "current_source": "census_batch",
+    "current_lat": 32.8256364717,
+    "current_lon": -83.654084718424,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11777",
+    "name": "Stifel Nicolaus Company",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11852",
+    "name": "Two Men And A Truck",
+    "current_source": "census_batch",
+    "current_lat": 32.8293600371,
+    "current_lon": -83.735586582941,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11956",
+    "name": "Magnolia Manor",
+    "current_source": "census_batch",
+    "current_lat": 32.850041256844,
+    "current_lon": -83.662503662482,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11964",
+    "name": "The Big House Foundation, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.845744707534,
+    "current_lon": -83.65591346051,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37237",
+    "name": "Parrish Construction Group",
+    "current_source": "census_batch",
+    "current_lat": 32.458080411364,
+    "current_lon": -83.772435821993,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37417",
+    "name": "Mercer Advisors",
+    "current_source": "census_batch",
+    "current_lat": 32.943189613534,
+    "current_lon": -83.745217549421,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37539",
+    "name": "Bug House Pest Control",
+    "current_source": "census_batch",
+    "current_lat": 32.860560303407,
+    "current_lon": -83.685488590024,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37645",
+    "name": "Jani-King of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.837289870657,
+    "current_lon": -83.627272079228,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37665",
+    "name": "Clark General Dentistry Center",
+    "current_source": "census_batch",
+    "current_lat": 32.840900606672,
+    "current_lon": -83.648533207875,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37712",
+    "name": "MidSouth Community FCU",
+    "current_source": "census_batch",
+    "current_lat": 32.838070444998,
+    "current_lon": -83.659328982899,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "37803",
+    "name": "Miller-Motte College",
+    "current_source": "census_batch",
+    "current_lat": 32.898923013787,
+    "current_lon": -83.688802431679,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56034",
+    "name": "Habersham Enterprises",
+    "current_source": "census_batch",
+    "current_lat": 32.835774013004,
+    "current_lon": -83.634132203489,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56040",
+    "name": "Central Georgia CASA, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.897906400317,
+    "current_lon": -83.696063707776,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56053",
+    "name": "Excess Incorporated",
+    "current_source": "census_batch",
+    "current_lat": 32.804161493359,
+    "current_lon": -83.533387951571,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56270",
+    "name": "Robins Regional Chamber",
+    "current_source": "census_batch",
+    "current_lat": 32.618304989309,
+    "current_lon": -83.618913522092,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56315",
+    "name": "M&R Marketing Group",
+    "current_source": "census_batch",
+    "current_lat": 32.836598598672,
+    "current_lon": -83.626976423523,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56678",
+    "name": "Spivey Pope Green, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.925425347585,
+    "current_lon": -83.711746830326,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56817",
+    "name": "UGA Small Business Development Center",
+    "current_source": "census_batch",
+    "current_lat": 32.925425347585,
+    "current_lon": -83.711746830326,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56827",
+    "name": "Macon Urban Ministries",
+    "current_source": "census_batch",
+    "current_lat": 32.834892100769,
+    "current_lon": -83.661838810667,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56839",
+    "name": "Sunbelt Credit",
+    "current_source": "census_batch",
+    "current_lat": 32.791587545376,
+    "current_lon": -83.670921285965,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57075",
+    "name": "Renasant Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.881139320328,
+    "current_lon": -83.725998357166,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57129",
+    "name": "MidSouth Community FCU",
+    "current_source": "census_batch",
+    "current_lat": 32.928980771943,
+    "current_lon": -83.73037806009,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57175",
+    "name": "Keep Macon-Bibb Beautiful Commission",
+    "current_source": "census_batch",
+    "current_lat": 32.838340595558,
+    "current_lon": -83.63203938112,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57197",
+    "name": "GMFS Mortgage",
+    "current_source": "census_batch",
+    "current_lat": 32.863625525475,
+    "current_lon": -83.690164375743,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57222",
+    "name": "Total Computer Solutions",
+    "current_source": "census_batch",
+    "current_lat": 32.614407730596,
+    "current_lon": -83.677863788646,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57277",
+    "name": "Raymond James",
+    "current_source": "census_batch",
+    "current_lat": 32.93704300677,
+    "current_lon": -83.721664455674,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57312",
+    "name": "Tractor Supply Co. Distribution Center",
+    "current_source": "census_batch",
+    "current_lat": 32.727224500599,
+    "current_lon": -83.729157159298,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57361",
+    "name": "B. Turners Macon Mall",
+    "current_source": "census_batch",
+    "current_lat": 32.815835932692,
+    "current_lon": -83.694154720999,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57413",
+    "name": "Mo.s Cleaning Services, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.835103410853,
+    "current_lon": -83.628239685793,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57422",
+    "name": "Historic Macon Foundation, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.829088512195,
+    "current_lon": -83.63289452139,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57462",
+    "name": "Air Conditioning Specialist Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.826983331479,
+    "current_lon": -83.729359529522,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57517",
+    "name": "Dovetail",
+    "current_source": "census_batch",
+    "current_lat": 32.836134502167,
+    "current_lon": -83.62817994321,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57572",
+    "name": "Harley-Davidson of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.830775142115,
+    "current_lon": -83.72534747747,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57597",
+    "name": "Acres & Oak Kitchen",
+    "current_source": "census_batch",
+    "current_lat": 32.869427910652,
+    "current_lon": -83.700239357951,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57606",
+    "name": "Wembly at Overlook Apartments",
+    "current_source": "census_batch",
+    "current_lat": 32.937469146856,
+    "current_lon": -83.725534388041,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57614",
+    "name": "NECCO",
+    "current_source": "census_batch",
+    "current_lat": 32.904061477864,
+    "current_lon": -83.69193797559,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57786",
+    "name": "Apparel Authority",
+    "current_source": "census_batch",
+    "current_lat": 32.815930448383,
+    "current_lon": -83.686659071946,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "57894",
+    "name": "All-State Electrical Contractors, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.82359318281,
+    "current_lon": -83.729250169015,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58017",
+    "name": "Rescom Cabinets, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.853924166428,
+    "current_lon": -83.678314976349,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58039",
+    "name": "All Wired Up",
+    "current_source": "census_batch",
+    "current_lat": 33.035036569939,
+    "current_lon": -83.942652099059,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58052",
+    "name": "Huntington Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.926315761673,
+    "current_lon": -83.73632711949,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58090",
+    "name": "Meals On Wheels of Middle Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.85714536449,
+    "current_lon": -83.616613900247,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58104",
+    "name": "A-COM Integrated Solutions",
+    "current_source": "census_batch",
+    "current_lat": 32.863549219728,
+    "current_lon": -83.690269661253,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58202",
+    "name": "Adams Law Firm",
+    "current_source": "census_batch",
+    "current_lat": 32.841538229292,
+    "current_lon": -83.632346966838,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58307",
+    "name": "Georgia CEO",
+    "current_source": "census_batch",
+    "current_lat": 31.613462731355,
+    "current_lon": -84.222743759974,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58592",
+    "name": "Huntington Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.879804325032,
+    "current_lon": -83.759537810901,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58635",
+    "name": "Macon Medical Group, PC",
+    "current_source": "census_batch",
+    "current_lat": 32.831177559396,
+    "current_lon": -83.62889996844,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58686",
+    "name": "The Rockefeller Law Center",
+    "current_source": "census_batch",
+    "current_lat": 32.611657820972,
+    "current_lon": -83.693633984738,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58738",
+    "name": "Buzzell Plumbing, Heating & AC, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.841181084844,
+    "current_lon": -83.646796577862,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58747",
+    "name": "Pellicano Construction",
+    "current_source": "census_batch",
+    "current_lat": 32.928097420434,
+    "current_lon": -83.711295497149,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58753",
+    "name": "SourceOne Insurance and Benefits Group",
+    "current_source": "census_batch",
+    "current_lat": 32.893378268921,
+    "current_lon": -83.6822482045,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58754",
+    "name": "Morris Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.868912202993,
+    "current_lon": -83.697951605856,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58780",
+    "name": "Wilson Bryant Air Conditioning",
+    "current_source": "census_batch",
+    "current_lat": 32.829871815054,
+    "current_lon": -83.629576448829,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58798",
+    "name": "All Care Home Health, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.741403282375,
+    "current_lon": -83.675023256453,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "58860",
+    "name": "Zaxby's of Middle GA",
+    "current_source": "census_batch",
+    "current_lat": 32.843387026792,
+    "current_lon": -83.630564462671,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59035",
+    "name": "The Academy For Classical Education",
+    "current_source": "census_batch",
+    "current_lat": 32.93802027232,
+    "current_lon": -83.733302884263,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59061",
+    "name": "Ameris Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.742094361018,
+    "current_lon": -83.711680292428,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59368",
+    "name": "Five Star Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.865547284791,
+    "current_lon": -83.693329760273,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59576",
+    "name": "Premier Staffing Unlimited",
+    "current_source": "census_batch",
+    "current_lat": 32.742064632055,
+    "current_lon": -83.674520929556,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59669",
+    "name": "Mr. Chips, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.803250691154,
+    "current_lon": -83.554718933228,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59680",
+    "name": "The Next Level Community Development Center",
+    "current_source": "census_batch",
+    "current_lat": 32.696452442692,
+    "current_lon": -83.680560518526,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59701",
+    "name": "Portable Air and Power, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.672336601784,
+    "current_lon": -83.723430568179,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59750",
+    "name": "Lisenby & Associates",
+    "current_source": "census_batch",
+    "current_lat": 32.840884891472,
+    "current_lon": -83.629454674568,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "59948",
+    "name": "ShuBee, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.812879070413,
+    "current_lon": -83.745462780947,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60047",
+    "name": "Margarita's Mexican Grill - Mercer Village",
+    "current_source": "census_batch",
+    "current_lat": 32.83274780529,
+    "current_lon": -83.650382267976,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60140",
+    "name": "Stafford Builders and Consultants, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.836827223674,
+    "current_lon": -83.671817474764,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60257",
+    "name": "Grant's Tire & Auto, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.879158962164,
+    "current_lon": -83.667547033135,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60262",
+    "name": "SCORE Middle Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.832645560733,
+    "current_lon": -83.625889969175,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60296",
+    "name": "In-Fill Housing, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.823097790122,
+    "current_lon": -83.649306585552,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60313",
+    "name": "Houston Transportation Solutions, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837289870657,
+    "current_lon": -83.627272079228,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60422",
+    "name": "Magda Law, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60529",
+    "name": "Bank of Dudley",
+    "current_source": "census_batch",
+    "current_lat": 33.0357299992,
+    "current_lon": -83.940310308224,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60540",
+    "name": "Lifespan Wealth Management, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.925425347585,
+    "current_lon": -83.711746830326,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60580",
+    "name": "Seay Felton, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60585",
+    "name": "Clearwave Fiber",
+    "current_source": "census_batch",
+    "current_lat": 32.927575958456,
+    "current_lon": -83.709376732662,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60661",
+    "name": "Physician Consultants of Georgia, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.840669488254,
+    "current_lon": -83.642869579413,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60663",
+    "name": "Kristy Jones, CPA, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.842160055833,
+    "current_lon": -83.628504877765,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60679",
+    "name": "Kelvin Epps Painting Company",
+    "current_source": "census_batch",
+    "current_lat": 32.649182109643,
+    "current_lon": -83.73633794274,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60722",
+    "name": "Cross Roads Recovery Ministries, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.847228723428,
+    "current_lon": -83.669556567215,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60743",
+    "name": "Pin Strikes Family Entertainment Center",
+    "current_source": "census_batch",
+    "current_lat": 32.910573152702,
+    "current_lon": -83.694607431893,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60896",
+    "name": "Planters First Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.920825141163,
+    "current_lon": -83.707155201135,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "60996",
+    "name": "Brasserie Circa",
+    "current_source": "census_batch",
+    "current_lat": 32.869427910652,
+    "current_lon": -83.700239357951,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61195",
+    "name": "Grant's Lounge",
+    "current_source": "census_batch",
+    "current_lat": 32.834878117208,
+    "current_lon": -83.62991270751,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61210",
+    "name": "Love's Travel Stops",
+    "current_source": "census_batch",
+    "current_lat": 32.719176173911,
+    "current_lon": -83.734473899988,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61445",
+    "name": "Buzzell, Welsh & Hill, LLP",
+    "current_source": "census_batch",
+    "current_lat": 32.838132810589,
+    "current_lon": -83.625122703199,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61503",
+    "name": "Community Health Care Systems",
+    "current_source": "census_batch",
+    "current_lat": 32.835449160841,
+    "current_lon": -83.623177830815,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61516",
+    "name": "Builders First Source",
+    "current_source": "census_batch",
+    "current_lat": 32.81478819266,
+    "current_lon": -83.673118646197,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61528",
+    "name": "Specialized Information Environments, Inc. (dba SPINEN, Inc.)",
+    "current_source": "census_batch",
+    "current_lat": 32.798650819269,
+    "current_lon": -83.736070093057,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61535",
+    "name": "Riverside Imaging Specialist, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.85887391696,
+    "current_lon": -83.647591163124,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61551",
+    "name": "Turning Point Accounting & Financial Services",
+    "current_source": "census_batch",
+    "current_lat": 32.925273998022,
+    "current_lon": -83.731627691829,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61555",
+    "name": "Freeman Cabinets",
+    "current_source": "census_batch",
+    "current_lat": 32.841092439472,
+    "current_lon": -83.673090692355,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61609",
+    "name": "U-Save-It Pharmacy",
+    "current_source": "census_batch",
+    "current_lat": 32.798750001959,
+    "current_lon": -83.665363857477,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61612",
+    "name": "Macon Bacon",
+    "current_source": "census_batch",
+    "current_lat": 32.833775823376,
+    "current_lon": -83.6167371379,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61628",
+    "name": "Langford Allergy, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.87632775981,
+    "current_lon": -83.762042398213,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61652",
+    "name": "Mary Pinson, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.838588406387,
+    "current_lon": -83.637667659472,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61679",
+    "name": "Optim Neurosurgery",
+    "current_source": "census_batch",
+    "current_lat": 32.904696336918,
+    "current_lon": -83.691141525078,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61745",
+    "name": "Gateway Development Center, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 33.019904502112,
+    "current_lon": -83.531451631595,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61769",
+    "name": "Mid Georgia MLS",
+    "current_source": "census_batch",
+    "current_lat": 32.846178479353,
+    "current_lon": -83.65698731851,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61774",
+    "name": "Georgia Artisan",
+    "current_source": "census_batch",
+    "current_lat": 32.791668931888,
+    "current_lon": -83.650663915004,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61907",
+    "name": "Spillers Orthodontics",
+    "current_source": "census_batch",
+    "current_lat": 32.936639204841,
+    "current_lon": -83.729429521066,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61912",
+    "name": "Synovus",
+    "current_source": "census_batch",
+    "current_lat": 32.925084445172,
+    "current_lon": -83.731186233296,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61944",
+    "name": "Kelly Tours Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.810717461519,
+    "current_lon": -83.632296573533,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62003",
+    "name": "Dunwody Design Development",
+    "current_source": "census_batch",
+    "current_lat": 32.835483359549,
+    "current_lon": -83.627274479201,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62083",
+    "name": "Pi-Tech, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.863088846961,
+    "current_lon": -83.688972286138,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62085",
+    "name": "Z Beans Coffee",
+    "current_source": "manual_override",
+    "current_lat": 32.8328457,
+    "current_lon": -83.650907,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62163",
+    "name": "Skin Care Physicians of GA, PC",
+    "current_source": "census_batch",
+    "current_lat": 32.843612236952,
+    "current_lon": -83.617494200119,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62188",
+    "name": "ICB Construction Group",
+    "current_source": "census_batch",
+    "current_lat": 32.831791681874,
+    "current_lon": -83.62617873608,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62344",
+    "name": "ClaytonCarter, LLC, CPA",
+    "current_source": "census_batch",
+    "current_lat": 32.835340330323,
+    "current_lon": -83.626789084426,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62486",
+    "name": "North Central Health District",
+    "current_source": "census_batch",
+    "current_lat": 32.839198408166,
+    "current_lon": -83.626894190008,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62519",
+    "name": "Air Temp Control",
+    "current_source": "census_batch",
+    "current_lat": 32.717120409606,
+    "current_lon": -83.652486997424,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62663",
+    "name": "Next Step Recovery Ministries",
+    "current_source": "census_batch",
+    "current_lat": 32.783752379891,
+    "current_lon": -83.658867893063,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62722",
+    "name": "B. Monroe Salon, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.926266694512,
+    "current_lon": -83.736924862447,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62740",
+    "name": "Tyler Landress - State Farm",
+    "current_source": "census_batch",
+    "current_lat": 32.820627951231,
+    "current_lon": -83.711613639523,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62885",
+    "name": "Southern Majority, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837289870657,
+    "current_lon": -83.627272079228,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62927",
+    "name": "Southeast Regional Technology Group",
+    "current_source": "census_batch",
+    "current_lat": 32.927911469557,
+    "current_lon": -83.709846731214,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62933",
+    "name": "Charles E. Cox, Jr. LLC Attorney at Law",
+    "current_source": "census_batch",
+    "current_lat": 32.835720230135,
+    "current_lon": -83.63064013296,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62935",
+    "name": "Quantum HC",
+    "current_source": "census_batch",
+    "current_lat": 32.833119615795,
+    "current_lon": -83.636290487022,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62986",
+    "name": "1st Franklin Financial Corp Macon #2",
+    "current_source": "census_batch",
+    "current_lat": 32.849168877406,
+    "current_lon": -83.625421779713,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63009",
+    "name": "Interstate Batteries of Greater Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.835201850449,
+    "current_lon": -83.74092166692,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63017",
+    "name": "Todd Mitchell - State Farm Insurance Agent",
+    "current_source": "census_batch",
+    "current_lat": 32.85009828506,
+    "current_lon": -83.673976676131,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63036",
+    "name": "Northside Hospital Cancer Institute, Radiation Oncology",
+    "current_source": "census_batch",
+    "current_lat": 32.843612236952,
+    "current_lon": -83.617494200119,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63069",
+    "name": "Jones Glass Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.784601419892,
+    "current_lon": -83.757045130423,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63115",
+    "name": "Accounting Associates of Middle GA",
+    "current_source": "census_batch",
+    "current_lat": 32.888113756411,
+    "current_lon": -83.674972083123,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63204",
+    "name": "Advent Business Interiors",
+    "current_source": "census_batch",
+    "current_lat": 32.836992930996,
+    "current_lon": -83.740853192334,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63271",
+    "name": "O'Brien Heating and Air",
+    "current_source": "census_batch",
+    "current_lat": 32.741930934704,
+    "current_lon": -83.908287312481,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63293",
+    "name": "Florida Governors Council on Indian Affairs",
+    "current_source": "census_batch",
+    "current_lat": 30.446676631261,
+    "current_lon": -84.264962510656,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63367",
+    "name": "The Sign Store Online, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.81878224321,
+    "current_lon": -83.639171784289,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63379",
+    "name": "PeoplesSouth Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.859741083376,
+    "current_lon": -83.614962597335,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63384",
+    "name": "Foothills Regional High School",
+    "current_source": "census_batch",
+    "current_lat": 32.855923374456,
+    "current_lon": -83.645149683307,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63421",
+    "name": "Grant & Cook Equipment, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.80796442233,
+    "current_lon": -83.745933889925,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63431",
+    "name": "AREY Group",
+    "current_source": "census_batch",
+    "current_lat": 32.834813590156,
+    "current_lon": -83.625994487414,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63442",
+    "name": "Hall Comprehensive Dentistry, L.L.C.",
+    "current_source": "census_batch",
+    "current_lat": 32.910988797875,
+    "current_lon": -83.69044422026,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63535",
+    "name": "EOS Worldwide",
+    "current_source": "census_batch",
+    "current_lat": 32.926359545925,
+    "current_lon": -83.712160807869,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63536",
+    "name": "Surcheros Fresh Mex",
+    "current_source": "census_batch",
+    "current_lat": 32.933541408501,
+    "current_lon": -83.725431563712,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "63578",
+    "name": "Destiny Fitness",
+    "current_source": "census_batch",
+    "current_lat": 32.746441728404,
+    "current_lon": -83.673168079736,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "64597",
+    "name": "Siding Supply, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.805882724115,
+    "current_lon": -83.64035502911,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "65621",
+    "name": "CB Smith & Associates, PC",
+    "current_source": "census_batch",
+    "current_lat": 32.905905361091,
+    "current_lon": -83.68724245955,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "65648",
+    "name": "Solomon Investments & Financial Planning, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.893720350188,
+    "current_lon": -83.668817744521,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "66717",
+    "name": "Superior Document Solutions",
+    "current_source": "census_batch",
+    "current_lat": 32.926359545925,
+    "current_lon": -83.712160807869,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "67813",
+    "name": "ASTRE Wellness",
+    "current_source": "census_batch",
+    "current_lat": 32.897146799242,
+    "current_lon": -83.70441578272,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "67832",
+    "name": "Moonhanger Group",
+    "current_source": "census_batch",
+    "current_lat": 32.836134502167,
+    "current_lon": -83.62817994321,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "67857",
+    "name": "Brightmoor Hospice",
+    "current_source": "census_batch",
+    "current_lat": 32.914117759253,
+    "current_lon": -83.695770841543,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "67961",
+    "name": "Mobile Space Sales & Rental, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.55952759359,
+    "current_lon": -83.597545124287,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "68000",
+    "name": "Lowcountry Foundation Repair",
+    "current_source": "census_batch",
+    "current_lat": 32.834825558884,
+    "current_lon": -83.73205292043,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "68104",
+    "name": "Beyond The Bell, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.892210368697,
+    "current_lon": -83.678339630665,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "68208",
+    "name": "McCallum Metal Works",
+    "current_source": "census_batch",
+    "current_lat": 32.862665284732,
+    "current_lon": -83.875859588994,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "69241",
+    "name": "Towering Your Success, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837764661374,
+    "current_lon": -83.627311312065,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "69323",
+    "name": "Century 21 Crowe Realty",
+    "current_source": "census_batch",
+    "current_lat": 32.8537100702,
+    "current_lon": -83.651060758458,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "70335",
+    "name": "The Miner Agency",
+    "current_source": "census_batch",
+    "current_lat": 32.59987642779,
+    "current_lon": -83.672116550333,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71555",
+    "name": "Atlanta Sand & Supply Co.",
+    "current_source": "census_batch",
+    "current_lat": 32.87632775981,
+    "current_lon": -83.762042398213,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71576",
+    "name": "Griggers Wealth Management",
+    "current_source": "census_batch",
+    "current_lat": 32.614473880229,
+    "current_lon": -83.649988824798,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71582",
+    "name": "Windows Plus Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.825595363035,
+    "current_lon": -83.677959006689,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71607",
+    "name": "Macon Golf Carts, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.783109506665,
+    "current_lon": -83.665667463539,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71612",
+    "name": "Invision Technologies, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.840012392693,
+    "current_lon": -83.672987086464,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71618",
+    "name": "Liberty Disposal, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.565570877698,
+    "current_lon": -83.595958150597,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71662",
+    "name": "Piedmont Urgent Care",
+    "current_source": "census_batch",
+    "current_lat": 32.879805928918,
+    "current_lon": -83.751525158451,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71668",
+    "name": "Liberty Technology",
+    "current_source": "census_batch",
+    "current_lat": 32.89831175211,
+    "current_lon": -83.705050649512,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71700",
+    "name": "Luxe Park Apartments",
+    "current_source": "census_batch",
+    "current_lat": 32.914619639989,
+    "current_lon": -83.704712396328,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71709",
+    "name": "Colony Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.922483408535,
+    "current_lon": -83.74065924874,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71735",
+    "name": "Neal Weinberg, Attorney",
+    "current_source": "census_batch",
+    "current_lat": 32.943189613534,
+    "current_lon": -83.745217549421,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71743",
+    "name": "C & C Manufacturing, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.698677316687,
+    "current_lon": -83.663324023422,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71750",
+    "name": "Christy Capital Management, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.833633314468,
+    "current_lon": -83.738793513695,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71782",
+    "name": "Minuteman Press Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.826143603956,
+    "current_lon": -83.729365949497,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71832",
+    "name": "Flint Building Company, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.923618531149,
+    "current_lon": -83.865118277488,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71838",
+    "name": "Oconee State Bank",
+    "current_source": "census_batch",
+    "current_lat": 32.836900922487,
+    "current_lon": -83.626713809981,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72848",
+    "name": "Clark, Smith & Sizemore, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.845411631033,
+    "current_lon": -83.636256960571,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72852",
+    "name": "Piedmont Orthopedic OrthoAtlanta",
+    "current_source": "census_batch",
+    "current_lat": 32.924939331293,
+    "current_lon": -83.738325990112,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72870",
+    "name": "The Florrest Awakens LLC",
+    "current_source": "census_batch",
+    "current_lat": 33.085633663254,
+    "current_lon": -83.591653336834,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72876",
+    "name": "NotiVisi\u00f3n Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.564266908453,
+    "current_lon": -83.66890533716,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72878",
+    "name": "Hawkinsville-Pulaski County Chamber of Commerce",
+    "current_source": "census_batch",
+    "current_lat": 32.28215021468,
+    "current_lon": -83.466010002605,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72916",
+    "name": "Hollywood Farms",
+    "current_source": "census_batch",
+    "current_lat": 32.671809778773,
+    "current_lon": -83.352228079663,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72926",
+    "name": "The Woodward Hotel & Quill Cocktail Bar",
+    "current_source": "census_batch",
+    "current_lat": 32.837125538637,
+    "current_lon": -83.628460793499,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72928",
+    "name": "Capricorn Sound Studios and Museum",
+    "current_source": "census_batch",
+    "current_lat": 32.833031638042,
+    "current_lon": -83.62732332989,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72938",
+    "name": "AF Realty Group",
+    "current_source": "census_batch",
+    "current_lat": 32.458441915895,
+    "current_lon": -83.73535945826,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72971",
+    "name": "Cleaning General Janitorial Services, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.819166888568,
+    "current_lon": -83.713578083759,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72975",
+    "name": "Total Fuze Spine and Pain Center",
+    "current_source": "census_batch",
+    "current_lat": 32.8348930132,
+    "current_lon": -83.626130556476,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74024",
+    "name": "Macon Outdoor Power",
+    "current_source": "census_batch",
+    "current_lat": 32.831436450927,
+    "current_lon": -83.727249340626,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74026",
+    "name": "Childress & Justice, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837354495571,
+    "current_lon": -83.633335130325,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74028",
+    "name": "Hometown Occupational Medicine",
+    "current_source": "census_batch",
+    "current_lat": 32.568295889784,
+    "current_lon": -83.592676988834,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74054",
+    "name": "Unified Defense",
+    "current_source": "census_batch",
+    "current_lat": 32.656855266808,
+    "current_lon": -83.748619065578,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74057",
+    "name": "Truss US",
+    "current_source": "census_batch",
+    "current_lat": 32.656571454895,
+    "current_lon": -83.749120715593,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74058",
+    "name": "Sweet Briar Gardens",
+    "current_source": "census_batch",
+    "current_lat": 32.708446026389,
+    "current_lon": -83.820411538877,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74061",
+    "name": "Jamtek Electrical LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.841899915817,
+    "current_lon": -83.663451173647,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74073",
+    "name": "Prevailing Woman Ministries, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.879799680055,
+    "current_lon": -83.759170858823,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74079",
+    "name": "Leah Yetter Photographer",
+    "current_source": "census_batch",
+    "current_lat": 32.859872286195,
+    "current_lon": -83.681261431809,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74090",
+    "name": "Macon Bibb Economic Opportunity Council, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.827048646337,
+    "current_lon": -83.633731644251,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74096",
+    "name": "Middle Georgia Access to Justice Council, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.838454632536,
+    "current_lon": -83.625411124539,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74113",
+    "name": "551 Hospitality LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.836700338161,
+    "current_lon": -83.629094267089,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74149",
+    "name": "Southern Center for Choice Theory, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.839804846831,
+    "current_lon": -83.651765669245,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74154",
+    "name": "SARA Ventures, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.838072310804,
+    "current_lon": -83.63476953437,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74160",
+    "name": "Miramar Raw Bar and Tapas",
+    "current_source": "census_batch",
+    "current_lat": 32.869427910652,
+    "current_lon": -83.700239357951,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74161",
+    "name": "Grit's Cafe",
+    "current_source": "census_batch",
+    "current_lat": 33.034982999319,
+    "current_lon": -83.939067395461,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75161",
+    "name": "Advanced Dental Arts, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.90387243028,
+    "current_lon": -83.713891139585,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75185",
+    "name": "Greens Home Repair LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.78975227114,
+    "current_lon": -83.794556143974,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75240",
+    "name": "Ocmulgee National Park and Preserve Initiative",
+    "current_source": "census_batch",
+    "current_lat": 32.835367444788,
+    "current_lon": -83.6304692061,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75296",
+    "name": "JPMorgan Chase",
+    "current_source": "census_batch",
+    "current_lat": 33.849900958157,
+    "current_lon": -84.362760192971,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75313",
+    "name": "ITVantix",
+    "current_source": "census_batch",
+    "current_lat": 32.585475882275,
+    "current_lon": -83.622834398229,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75387",
+    "name": "Fresh Air Bar-B-Que",
+    "current_source": "census_batch",
+    "current_lat": 32.88930423804,
+    "current_lon": -83.675962606901,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75389",
+    "name": "Dab's Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.701868027485,
+    "current_lon": -83.651328505998,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75391",
+    "name": "Zebulon Park Health and Rehabilitation",
+    "current_source": "census_batch",
+    "current_lat": 32.885093261798,
+    "current_lon": -83.760960029903,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75393",
+    "name": "Rhythm & Rally Sports & Events",
+    "current_source": "census_batch",
+    "current_lat": 32.815835932692,
+    "current_lon": -83.694154720999,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75398",
+    "name": "Roberts Academy at Mercer University",
+    "current_source": "census_batch",
+    "current_lat": 32.836224765114,
+    "current_lon": -83.647548733526,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "75417",
+    "name": "Harmon & Harmon Realtors, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.828074977259,
+    "current_lon": -83.729351183553,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76424",
+    "name": "Stardust Consulting LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.632380439252,
+    "current_lon": -83.852339651975,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76430",
+    "name": "Heart of Georgia Hospice",
+    "current_source": "census_batch",
+    "current_lat": 32.615664746559,
+    "current_lon": -83.679611874355,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76436",
+    "name": "Stetson-Hatcher School of Business",
+    "current_source": "census_batch",
+    "current_lat": 32.825863252811,
+    "current_lon": -83.651702293643,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76440",
+    "name": "First Street Ace Hardware",
+    "current_source": "census_batch",
+    "current_lat": 32.833920113903,
+    "current_lon": -83.633497501953,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76443",
+    "name": "Diamond Odell Jude, MD LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.831871850243,
+    "current_lon": -83.634209489517,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76470",
+    "name": "Snowco General Contractors, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.838404550228,
+    "current_lon": -83.245336794387,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76507",
+    "name": "Noland Law Firm LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.937849361202,
+    "current_lon": -83.718264636691,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76515",
+    "name": "Gonzales Cleaning Services, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.790775656428,
+    "current_lon": -83.671953015904,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76522",
+    "name": "Ricky Heath Plumbing LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.845838496983,
+    "current_lon": -83.672950758701,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76524",
+    "name": "Turner Job Corps",
+    "current_source": "census_batch",
+    "current_lat": 31.603130717677,
+    "current_lon": -84.104426790773,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76534",
+    "name": "Logistics & Generation Technology Services, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.697707456462,
+    "current_lon": -83.662243472791,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76537",
+    "name": "Macon Hope, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.836065779971,
+    "current_lon": -83.634823852059,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76546",
+    "name": "Reliable Heating & Air",
+    "current_source": "census_batch",
+    "current_lat": 32.832112655318,
+    "current_lon": -83.724888050135,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76580",
+    "name": "Steel Forest Range and Academy LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.921067929742,
+    "current_lon": -83.707299794947,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76618",
+    "name": "Comcast Business",
+    "current_source": "census_batch",
+    "current_lat": 33.887395125223,
+    "current_lon": -84.469367908281,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76635",
+    "name": "Holistic Healing Resources",
+    "current_source": "census_batch",
+    "current_lat": 32.904767813282,
+    "current_lon": -83.691248206744,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76639",
+    "name": "OVG - The Macon Centreplex & Atrium Health Amphitheater",
+    "current_source": "census_batch",
+    "current_lat": 32.841424653531,
+    "current_lon": -83.618494471639,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76647",
+    "name": "Georgia Trust for Local News",
+    "current_source": "census_batch",
+    "current_lat": 32.832811574719,
+    "current_lon": -83.651427444193,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76679",
+    "name": "Macon Me Wander",
+    "current_source": "census_batch",
+    "current_lat": 32.852111083757,
+    "current_lon": -83.623345262732,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76683",
+    "name": "Robison Venture Group, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.879805928918,
+    "current_lon": -83.751525158451,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76690",
+    "name": "Gilbert's Prom and Formalwear",
+    "current_source": "census_batch",
+    "current_lat": 32.87092702583,
+    "current_lon": -83.703077916248,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76703",
+    "name": "WiReD Technology, LLC",
+    "current_source": "census_batch",
+    "current_lat": 33.409293583226,
+    "current_lon": -84.195002539529,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76707",
+    "name": "Ocmulgee Physicians LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.833677403871,
+    "current_lon": -83.62788445491,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76711",
+    "name": "Lesley Myrick Art + Design, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.838642496483,
+    "current_lon": -83.637497681425,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76728",
+    "name": "Stroud Industries, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.830234785212,
+    "current_lon": -83.620641162381,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76765",
+    "name": "CoreSouth Systems LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.809916350802,
+    "current_lon": -83.748236980444,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76776",
+    "name": "Heart City Marketing",
+    "current_source": "census_batch",
+    "current_lat": 32.573735144047,
+    "current_lon": -83.701805144218,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77784",
+    "name": "TJ Sutter - State Farm",
+    "current_source": "census_batch",
+    "current_lat": 32.814192197579,
+    "current_lon": -83.707461502866,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77790",
+    "name": "Northside Animal Hospital",
+    "current_source": "census_batch",
+    "current_lat": 32.868650548739,
+    "current_lon": -83.693523318588,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77792",
+    "name": "Three Rivers Area Health Education Center, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.481821839952,
+    "current_lon": -84.969940273552,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77797",
+    "name": "Pawn Max, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.816479622891,
+    "current_lon": -83.662738670539,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77799",
+    "name": "Clark & Clark Law Group, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837289870657,
+    "current_lon": -83.627272079228,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77812",
+    "name": "Zebulon475.Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.879788529796,
+    "current_lon": -83.758007446866,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77830",
+    "name": "Nomad Capital",
+    "current_source": "census_batch",
+    "current_lat": 32.814245550098,
+    "current_lon": -83.661356203834,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77833",
+    "name": "John Wesley Villas",
+    "current_source": "census_batch",
+    "current_lat": 32.833977157578,
+    "current_lon": -83.740243177032,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77840",
+    "name": "LongBridge Macon, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.920845038802,
+    "current_lon": -83.7257214267,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77844",
+    "name": "Rash Investors, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.929498702275,
+    "current_lon": -83.713976046306,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77864",
+    "name": "Rosas Management, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.853689437478,
+    "current_lon": -83.652773237629,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77907",
+    "name": "Lamar Advertising",
+    "current_source": "census_batch",
+    "current_lat": 32.831062694182,
+    "current_lon": -83.725699717306,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77909",
+    "name": "Law Office of Christi James LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.849955148934,
+    "current_lon": -83.673814197311,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77913",
+    "name": "Realty Unlimited, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.90387243028,
+    "current_lon": -83.713891139585,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77917",
+    "name": "Out Fox Professional Solution",
+    "current_source": "census_batch",
+    "current_lat": 32.713450089415,
+    "current_lon": -83.69028515467,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77931",
+    "name": "Lazarus - 2, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.849754758359,
+    "current_lon": -83.673586726963,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77966",
+    "name": "Lowe Electric Supply",
+    "current_source": "census_batch",
+    "current_lat": 32.838297710055,
+    "current_lon": -83.644488128921,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "77970",
+    "name": "Brodie Law Group",
+    "current_source": "census_batch",
+    "current_lat": 32.918662345894,
+    "current_lon": -83.704781055815,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78069",
+    "name": "Ballard Benefits Group, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.87206338634,
+    "current_lon": -83.71120126458,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78083",
+    "name": "Childs & Curreli, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.839198408166,
+    "current_lon": -83.626894190008,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78115",
+    "name": "Albany State University/Child Care Resource and Referral of SWGA",
+    "current_source": "census_batch",
+    "current_lat": 31.585873814222,
+    "current_lon": -84.210677441002,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78117",
+    "name": "HWH of Macon, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.923493855629,
+    "current_lon": -83.739767785439,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78127",
+    "name": "Macon Sweet Treats LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.923493855629,
+    "current_lon": -83.739767785439,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78130",
+    "name": "Spearman Investments, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.83729933516,
+    "current_lon": -83.626537494129,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78146",
+    "name": "Skipper Family Farms",
+    "current_source": "census_batch",
+    "current_lat": 32.731564494598,
+    "current_lon": -83.70260431492,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78148",
+    "name": "AllenSelfCo",
+    "current_source": "census_batch",
+    "current_lat": 32.880008790438,
+    "current_lon": -83.765653213992,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78150",
+    "name": "FBC Macon LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.837544118788,
+    "current_lon": -83.627701879572,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78153",
+    "name": "1st Franklin Financial Corp - Macon 1",
+    "current_source": "census_batch",
+    "current_lat": 32.897917632791,
+    "current_lon": -83.689539490497,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78157",
+    "name": "Going to Macon to Get the Bacon LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.836815695448,
+    "current_lon": -83.632548663491,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78160",
+    "name": "Georgia Pulmonary Institute, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.920825141163,
+    "current_lon": -83.707155201135,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78167",
+    "name": "Accelecom",
+    "current_source": "census_batch",
+    "current_lat": 33.91046214064,
+    "current_lon": -84.43374520642,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78171",
+    "name": "Ramaker",
+    "current_source": "census_batch",
+    "current_lat": 43.091546407245,
+    "current_lon": -89.356130220572,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78188",
+    "name": "Onelife Fitness",
+    "current_source": "census_batch",
+    "current_lat": 32.89757457341,
+    "current_lon": -83.689576423316,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78201",
+    "name": "Rex Supply",
+    "current_source": "census_batch",
+    "current_lat": 32.831607367876,
+    "current_lon": -83.624153454725,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78219",
+    "name": "Synovus",
+    "current_source": "census_batch",
+    "current_lat": 32.836662470997,
+    "current_lon": -83.626241856742,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78220",
+    "name": "Synovus",
+    "current_source": "census_batch",
+    "current_lat": 32.613853958096,
+    "current_lon": -83.680282765697,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78221",
+    "name": "Synovus",
+    "current_source": "census_batch",
+    "current_lat": 32.554833095107,
+    "current_lon": -83.668000019943,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78235",
+    "name": "Macon GA Caregiving LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.827900881502,
+    "current_lon": -83.633741459771,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78240",
+    "name": "Pet Party Palace",
+    "current_source": "census_batch",
+    "current_lat": 32.833609690357,
+    "current_lon": -83.628949569713,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78271",
+    "name": "Ashah Photography",
+    "current_source": "census_batch",
+    "current_lat": 32.933977905301,
+    "current_lon": -83.666695937562,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78273",
+    "name": "Still Waters Professional Counseling Services, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.834085811994,
+    "current_lon": -83.631542330074,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78283",
+    "name": "Crofutt Careers and Consulting LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.618535081501,
+    "current_lon": -83.680445170347,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78317",
+    "name": "eco-X.travel, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.855984776908,
+    "current_lon": -83.717418293293,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78321",
+    "name": "Elizabeth Schorr & Co.",
+    "current_source": "census_batch",
+    "current_lat": 32.838642496483,
+    "current_lon": -83.637497681425,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78324",
+    "name": "Boss Salon Suites LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.925084445172,
+    "current_lon": -83.731186233296,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78359",
+    "name": "Ocmulgee Mounds Association",
+    "current_source": "census_batch",
+    "current_lat": 32.84807341838,
+    "current_lon": -83.604493919286,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78361",
+    "name": "Alex's PC Solutions LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.844449189959,
+    "current_lon": -83.632086495754,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78368",
+    "name": "Hardcore Storage Solutions",
+    "current_source": "census_batch",
+    "current_lat": 33.89292306842,
+    "current_lon": -84.47393241359,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78370",
+    "name": "Gordon Animal Clinic, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.913738762874,
+    "current_lon": -83.339724150779,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78374",
+    "name": "Wimberly Treadwell Designs",
+    "current_source": "census_batch",
+    "current_lat": 32.836065779971,
+    "current_lon": -83.634823852059,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78377",
+    "name": "Baker Roofing Company",
+    "current_source": "census_batch",
+    "current_lat": 32.089747746138,
+    "current_lon": -81.159362788445,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78379",
+    "name": "America's Home Place",
+    "current_source": "census_batch",
+    "current_lat": 32.931878560454,
+    "current_lon": -83.727006248441,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78402",
+    "name": "Dream SAJ Corporation",
+    "current_source": "census_batch",
+    "current_lat": 32.815689643,
+    "current_lon": -83.706637337152,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78411",
+    "name": "Cherry Street Energy",
+    "current_source": "census_batch",
+    "current_lat": 33.778745811799,
+    "current_lon": -84.409782257162,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78416",
+    "name": "Macon Bibb Citizen Advocacy, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.83671866917,
+    "current_lon": -83.629124742387,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78426",
+    "name": "Sweet Affairz LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.853702908497,
+    "current_lon": -83.654711110815,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78430",
+    "name": "The Loaves and Fishes Ministry of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.831184390231,
+    "current_lon": -83.629062416074,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78437",
+    "name": "JBW Installations, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.742482619963,
+    "current_lon": -83.772602111283,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78447",
+    "name": "AngHubb Georgia Properties, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.843679303771,
+    "current_lon": -83.636063251325,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78450",
+    "name": "Marketing USA and Civic Swag",
+    "current_source": "census_batch",
+    "current_lat": 33.115128362772,
+    "current_lon": -83.255487174476,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78452",
+    "name": "Covenant Plumbing",
+    "current_source": "census_batch",
+    "current_lat": 32.827171533992,
+    "current_lon": -83.729221721838,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78455",
+    "name": "Caring Transitions of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.866737026749,
+    "current_lon": -83.673790724363,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78458",
+    "name": "105holidayllc",
+    "current_source": "census_batch",
+    "current_lat": 32.899990085176,
+    "current_lon": -83.685804808138,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78470",
+    "name": "Longleaf Distilling Co.",
+    "current_source": "census_batch",
+    "current_lat": 32.833089233384,
+    "current_lon": -83.631886425957,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78478",
+    "name": "Liset's Accessories LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.641310110092,
+    "current_lon": -83.643599695194,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78504",
+    "name": "Rooted & Rounded Wellness LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.834066050442,
+    "current_lon": -83.742747792831,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78516",
+    "name": "Macon Women's Health",
+    "current_source": "census_batch",
+    "current_lat": 32.835757244943,
+    "current_lon": -83.638553121348,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78526",
+    "name": "Robins, Eskew, Smith & Jordan",
+    "current_source": "census_batch",
+    "current_lat": 33.494347161489,
+    "current_lon": -84.218389763558,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78530",
+    "name": "Gilmer Warehouse",
+    "current_source": "census_batch",
+    "current_lat": 32.832998441208,
+    "current_lon": -83.629633374631,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78535",
+    "name": "MAC.BID",
+    "current_source": "census_batch",
+    "current_lat": 32.820057757433,
+    "current_lon": -83.713857045567,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78538",
+    "name": "Georgia Cancer Specialists - Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.843612236952,
+    "current_lon": -83.617494200119,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78539",
+    "name": "The Imaging Center of Warner Robins",
+    "current_source": "census_batch",
+    "current_lat": 32.618364081222,
+    "current_lon": -83.671262174302,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78541",
+    "name": "Macon Northside PET",
+    "current_source": "census_batch",
+    "current_lat": 32.832192921117,
+    "current_lon": -83.634963444436,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78543",
+    "name": "OrthoGeorgia Orthopaedic Urgent Care Warner Robins",
+    "current_source": "census_batch",
+    "current_lat": 32.613796154228,
+    "current_lon": -83.689949995099,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78544",
+    "name": "OrthoGeorgia Bone Health Clinic",
+    "current_source": "census_batch",
+    "current_lat": 32.897149342881,
+    "current_lon": -83.692169749199,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78545",
+    "name": "OrthoGeorgia Orthopaedic Urgent Care Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.897149342881,
+    "current_lon": -83.692169749199,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78549",
+    "name": "Goodrich Flooring Solutions",
+    "current_source": "census_batch",
+    "current_lat": 32.860857929284,
+    "current_lon": -83.595055204974,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78564",
+    "name": "Mr. Davis Lawn Service LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.888630147488,
+    "current_lon": -83.703362036385,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78566",
+    "name": "Nicky's Janitorial Service LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.884459480141,
+    "current_lon": -83.495893064967,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78568",
+    "name": "YourHealth Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.892918070525,
+    "current_lon": -83.682091798784,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78576",
+    "name": "Alternative Youth Services",
+    "current_source": "census_batch",
+    "current_lat": 32.892918070525,
+    "current_lon": -83.682091798784,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78578",
+    "name": "Macon Drinks LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.836689284573,
+    "current_lon": -83.631207601089,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78595",
+    "name": "AnchorPoint Retirement",
+    "current_source": "census_batch",
+    "current_lat": 32.879799680055,
+    "current_lon": -83.759170858823,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78600",
+    "name": "PBK",
+    "current_source": "census_batch",
+    "current_lat": 33.247031249581,
+    "current_lon": -84.256296005644,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78602",
+    "name": "Piedmont Macon Primary Care at Charter Blvd.",
+    "current_source": "census_batch",
+    "current_lat": 32.868075295953,
+    "current_lon": -83.693371477761,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78612",
+    "name": "George S. Stefanis, MD, PC",
+    "current_source": "census_batch",
+    "current_lat": 32.931366724001,
+    "current_lon": -83.714502360283,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78620",
+    "name": "Dream Clean Housekeeping Company LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.856200070551,
+    "current_lon": -83.648119791717,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78622",
+    "name": "Pruitt Place Peake Assisted and Independent Living",
+    "current_source": "census_batch",
+    "current_lat": 32.873240357774,
+    "current_lon": -83.746037837348,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78633",
+    "name": "Pruitt Healthcare",
+    "current_source": "census_batch",
+    "current_lat": 32.867394243372,
+    "current_lon": -83.692261016381,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78639",
+    "name": "ACE I Access to Capital for Entrepreneurs",
+    "current_source": "census_batch",
+    "current_lat": 31.462232230342,
+    "current_lon": -83.505777000609,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78646",
+    "name": "Get Busy Living Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.747504073107,
+    "current_lon": -83.736630163186,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78671",
+    "name": "FreeUP Storage",
+    "current_source": "census_batch",
+    "current_lat": 32.82352194868,
+    "current_lon": -83.654862996057,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78676",
+    "name": "Gallagher Benefit Services",
+    "current_source": "census_batch",
+    "current_lat": 32.905905361091,
+    "current_lon": -83.68724245955,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78681",
+    "name": "Merle Norman and Day Spa",
+    "current_source": "census_batch",
+    "current_lat": 32.925273998022,
+    "current_lon": -83.731627691829,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78683",
+    "name": "DHM Macon LP",
+    "current_source": "census_batch",
+    "current_lat": 32.880012531799,
+    "current_lon": -83.766542544337,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78690",
+    "name": "Whole Child - Whole World School, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.90677023763,
+    "current_lon": -83.702124929162,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78699",
+    "name": "Robin Gatti Photography",
+    "current_source": "census_batch",
+    "current_lat": 32.850891070481,
+    "current_lon": -83.674877315701,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78701",
+    "name": "Spark By Hilton Macon North",
+    "current_source": "census_batch",
+    "current_lat": 32.910023556933,
+    "current_lon": -83.693573100067,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78733",
+    "name": "Storage Sense - Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.814495145199,
+    "current_lon": -83.671555827022,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78735",
+    "name": "DKH Entertainment, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.907667795042,
+    "current_lon": -83.724520183221,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78738",
+    "name": "St. Joseph's Catholic School",
+    "current_source": "census_batch",
+    "current_lat": 32.837214087575,
+    "current_lon": -83.635917143595,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78740",
+    "name": "Affordable Plumbing Solutions, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.444872586779,
+    "current_lon": -83.749194407561,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78744",
+    "name": "SCB Minerals, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.285000451667,
+    "current_lon": -84.070511297341,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78756",
+    "name": "ReFrame Weight Loss & Wellness Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.936598769833,
+    "current_lon": -83.721511511296,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78758",
+    "name": "Carter Engineering Group, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.871606881838,
+    "current_lon": -83.757784821771,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78764",
+    "name": "PAMG, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.81233382056,
+    "current_lon": -83.632238102031,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78774",
+    "name": "Qalam wa Lawh",
+    "current_source": "census_batch",
+    "current_lat": 32.843933591019,
+    "current_lon": -83.556933418195,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78777",
+    "name": "Piedmont Macon Primary Care at Bass Rd.",
+    "current_source": "census_batch",
+    "current_lat": 32.830813486935,
+    "current_lon": -83.725160186649,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78782",
+    "name": "Julie Dominy Floral Artistry",
+    "current_source": "census_batch",
+    "current_lat": 32.852158187771,
+    "current_lon": -83.674802648443,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78784",
+    "name": "Macon-Bibb Employees Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.832177949761,
+    "current_lon": -83.615670313235,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78786",
+    "name": "Wanna Tuft Studios",
+    "current_source": "census_batch",
+    "current_lat": 32.827900881502,
+    "current_lon": -83.633741459771,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78793",
+    "name": "Bey and Associates, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.838278087522,
+    "current_lon": -83.63619720288,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78795",
+    "name": "Macon AIM, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.850890112589,
+    "current_lon": -83.662513682193,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78801",
+    "name": "Westhill Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.925827210866,
+    "current_lon": -83.741182494119,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78807",
+    "name": "Emory Healthcare Warner Robins",
+    "current_source": "census_batch",
+    "current_lat": 32.618150488432,
+    "current_lon": -83.629517598086,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78813",
+    "name": "Ballard Construction Group",
+    "current_source": "census_batch",
+    "current_lat": 32.860322350753,
+    "current_lon": -83.70709208325,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78818",
+    "name": "Pharmacy Bar LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.836816704281,
+    "current_lon": -83.628729980205,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78845",
+    "name": "Conner Gun Supply",
+    "current_source": "census_batch",
+    "current_lat": 32.616373469333,
+    "current_lon": -83.681734054376,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78857",
+    "name": "Sculpting Choices LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.839974643916,
+    "current_lon": -83.641489469277,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78860",
+    "name": "CGR Credit Union",
+    "current_source": "census_batch",
+    "current_lat": 32.85513509659,
+    "current_lon": -83.64637673141,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78862",
+    "name": "Crisis Line & Safe House of Central Georgia, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.841538229292,
+    "current_lon": -83.632346966838,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78866",
+    "name": "Ronald McDonald House Charities of Central Georgia",
+    "current_source": "census_batch",
+    "current_lat": 32.83602346658,
+    "current_lon": -83.639821006131,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78873",
+    "name": "Eiszner & Kelly Restaurants LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.836380816552,
+    "current_lon": -83.628760705026,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78875",
+    "name": "Our Gift to You, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.880107285049,
+    "current_lon": -83.772303546183,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78877",
+    "name": "Stokes Land Management",
+    "current_source": "census_batch",
+    "current_lat": 32.923618531149,
+    "current_lon": -83.865118277488,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78889",
+    "name": "Steve's Corner Cafe, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.90856588772,
+    "current_lon": -83.688001783967,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78922",
+    "name": "Blue Chip Branding & Headshots",
+    "current_source": "census_batch",
+    "current_lat": 32.847931008206,
+    "current_lon": -83.659480406908,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78929",
+    "name": "Blue Chip Custom Website Design",
+    "current_source": "census_batch",
+    "current_lat": 32.847931008206,
+    "current_lon": -83.659480406908,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78946",
+    "name": "NAG Enterprise Group",
+    "current_source": "census_batch",
+    "current_lat": 32.89831175211,
+    "current_lon": -83.705050649512,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78948",
+    "name": "Partners Benefit Group, LLC",
+    "current_source": "census_batch",
+    "current_lat": 31.962682871708,
+    "current_lon": -83.769037852341,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78950",
+    "name": "Wire 3",
+    "current_source": "census_batch",
+    "current_lat": 29.203060284198,
+    "current_lon": -81.086592346996,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78953",
+    "name": "Cornerstone Academy of Art and Design, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.839974643916,
+    "current_lon": -83.641489469277,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78957",
+    "name": "The Darby & Munroe Private Family Foundation",
+    "current_source": "census_batch",
+    "current_lat": 32.819166888568,
+    "current_lon": -83.713578083759,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78959",
+    "name": "Dental Care Center of Macon Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.820506410917,
+    "current_lon": -83.690384465554,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78964",
+    "name": "Big City Tax LLC. JJ",
+    "current_source": "census_batch",
+    "current_lat": 32.834231568633,
+    "current_lon": -83.744616975759,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78966",
+    "name": "MJR Solutions",
+    "current_source": "census_batch",
+    "current_lat": 32.861597253874,
+    "current_lon": -84.623396670105,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78969",
+    "name": "Big Brothers Big Sisters of the Heart of Georgia, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.848145437666,
+    "current_lon": -83.62332436408,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78971",
+    "name": "Piedmont Primary Care at Macon Medical",
+    "current_source": "census_batch",
+    "current_lat": 32.846071991984,
+    "current_lon": -83.617305850894,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78974",
+    "name": "Orangetheory Fitness",
+    "current_source": "census_batch",
+    "current_lat": 32.867114091026,
+    "current_lon": -83.695702093919,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78976",
+    "name": "TwelveStone Infusion Center",
+    "current_source": "census_batch",
+    "current_lat": 32.931366724001,
+    "current_lon": -83.714502360283,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78978",
+    "name": "Sweet Eleanor's Divine Desserts",
+    "current_source": "census_batch",
+    "current_lat": 32.834487534441,
+    "current_lon": -83.629233935027,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78984",
+    "name": "Goshen and Burns Enterprises, Inc",
+    "current_source": "census_batch",
+    "current_lat": 32.927746615856,
+    "current_lon": -83.712776224059,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78994",
+    "name": "Cassidy Dental Associates",
+    "current_source": "census_batch",
+    "current_lat": 32.845518368193,
+    "current_lon": -83.636210814714,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78996",
+    "name": "MFA Program Management",
+    "current_source": "census_batch",
+    "current_lat": 35.110565109486,
+    "current_lon": -89.866437214469,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79000",
+    "name": "T-Fiber by T-Mobile",
+    "current_source": "census_batch",
+    "current_lat": 32.929498702275,
+    "current_lon": -83.713976046306,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79010",
+    "name": "Salvation Army (Macon Corps)",
+    "current_source": "census_batch",
+    "current_lat": 32.817938864891,
+    "current_lon": -83.639742438735,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79013",
+    "name": "Neel's Lofts Operating LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.8352764985,
+    "current_lon": -83.626918936831,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79015",
+    "name": "Rebecca Moody Coaching",
+    "current_source": "census_batch",
+    "current_lat": 32.931831035965,
+    "current_lon": -83.889114799124,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79021",
+    "name": "Direct Auto Insurance",
+    "current_source": "census_batch",
+    "current_lat": 32.861266270238,
+    "current_lon": -83.613962902571,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79024",
+    "name": "Leonard USA",
+    "current_source": "census_batch",
+    "current_lat": 32.78958875367,
+    "current_lon": -83.66844814929,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79028",
+    "name": "Amwaste of Georgia, LLC",
+    "current_source": "census_batch",
+    "current_lat": 33.037367592052,
+    "current_lon": -83.937034197115,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79030",
+    "name": "MJM Consolidated Services, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 32.833080756459,
+    "current_lon": -83.627283421175,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79041",
+    "name": "Autism Behavioral Institute, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.926359545925,
+    "current_lon": -83.712160807869,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79047",
+    "name": "Rebel Fox",
+    "current_source": "census_batch",
+    "current_lat": 40.665879870781,
+    "current_lon": -80.125221770857,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79052",
+    "name": "EDWARD Transportation and Media Consulting LLC",
+    "current_source": "census_batch",
+    "current_lat": 31.106754837265,
+    "current_lon": -81.589598598105,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79098",
+    "name": "Alzheimer's Disease and Related Disorders Association",
+    "current_source": "census_batch",
+    "current_lat": 32.888113756411,
+    "current_lon": -83.674972083123,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79102",
+    "name": "KDD Smash LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.880554783035,
+    "current_lon": -83.775328255166,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79107",
+    "name": "Crawlspace Medic of Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.816283698812,
+    "current_lon": -83.676588557318,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79112",
+    "name": "Groome Transportation of Georgia LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.917788025009,
+    "current_lon": -83.703570743397,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79115",
+    "name": "The King Firm",
+    "current_source": "census_batch",
+    "current_lat": 32.840417913227,
+    "current_lon": -83.632437729115,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79117",
+    "name": "S&ME, Inc.",
+    "current_source": "census_batch",
+    "current_lat": 34.018331666678,
+    "current_lon": -84.168222790959,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79119",
+    "name": "House Cocktails",
+    "current_source": "census_batch",
+    "current_lat": 32.836927002265,
+    "current_lon": -83.628633842096,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79128",
+    "name": "The Dress Bar",
+    "current_source": "census_batch",
+    "current_lat": 32.836230823258,
+    "current_lon": -83.628276034214,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79130",
+    "name": "Nick Schnyder Law Firm, LLC",
+    "current_source": "census_batch",
+    "current_lat": 32.848129175674,
+    "current_lon": -83.671271363152,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79140",
+    "name": "TwentyOne Macon",
+    "current_source": "census_batch",
+    "current_lat": 32.839974643916,
+    "current_lon": -83.641489469277,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "79150",
+    "name": "Hawk Injury Law",
+    "current_source": "census_batch",
+    "current_lat": 32.931366724001,
+    "current_lon": -83.714502360283,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "229",
+    "name": "Boys & Girls Clubs of Central Georgia",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8208188,
+    "current_lon": -83.6504212,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "592",
+    "name": "Goodwill Industries of Middle Georgia, Inc.",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8033088,
+    "current_lon": -83.732625,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "832",
+    "name": "Visit Macon",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8337554,
+    "current_lon": -83.6261825,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "839",
+    "name": "The Arc Macon",
+    "current_source": "nominatim_address",
+    "current_lat": 32.9200176,
+    "current_lon": -83.7066913,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "925",
+    "name": "Navicent Health Foundation, Inc.",
+    "current_source": "nominatim_address",
+    "current_lat": 32.898086,
+    "current_lon": -83.6959982,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "1007",
+    "name": "Museum of Aviation Foundation",
+    "current_source": "nominatim_address",
+    "current_lat": 32.5918603,
+    "current_lon": -83.5868744,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "3766",
+    "name": "Donny's Propane Gas",
+    "current_source": "nominatim_address",
+    "current_lat": 32.7292106,
+    "current_lon": -83.65732,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10144",
+    "name": "Lullwater at Bass Apartments",
+    "current_source": "nominatim_address",
+    "current_lat": 32.9338548,
+    "current_lon": -83.7251754,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11564",
+    "name": "Hotel Management & Consulting",
+    "current_source": "nominatim_address",
+    "current_lat": 32.9253178,
+    "current_lon": -83.72767,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "11865",
+    "name": "ServiceMaster of Middle GA",
+    "current_source": "nominatim_address",
+    "current_lat": 32.6216094,
+    "current_lon": -83.7426395,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "56082",
+    "name": "Communities In Schools of Central Georgia",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8208188,
+    "current_lon": -83.6504212,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "61288",
+    "name": "Archway Transitional Care Center",
+    "current_source": "nominatim_address",
+    "current_lat": 32.7856778,
+    "current_lon": -83.6588081,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "71644",
+    "name": "Adams Homes AEC, LLC",
+    "current_source": "nominatim_address",
+    "current_lat": 33.4349891,
+    "current_lon": -84.1731271,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "72993",
+    "name": "Riverside Storage",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8367176,
+    "current_lon": -83.6218137,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74007",
+    "name": "Budget Blinds of Warner Robins",
+    "current_source": "nominatim_address",
+    "current_lat": 32.59395,
+    "current_lon": -83.637351,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78267",
+    "name": "Magnolia Claim Management",
+    "current_source": "nominatim_address",
+    "current_lat": 33.0380609,
+    "current_lon": -83.9295147,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78312",
+    "name": "Baldwin Communication Solutions LLC",
+    "current_source": "nominatim_address",
+    "current_lat": 33.3474901,
+    "current_lon": -84.0977138,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78815",
+    "name": "Inees\u2019s Faithful Steps Learning Center",
+    "current_source": "nominatim_address",
+    "current_lat": 32.8208188,
+    "current_lon": -83.6504212,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "55",
+    "name": "American Red Cross of Central Georgia",
+    "current_source": "manual_override",
+    "current_lat": 32.9281229,
+    "current_lon": -83.7314672,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "10893",
+    "name": "Elite Environmental Services, Inc",
+    "current_source": "manual_override",
+    "current_lat": 32.8341817,
+    "current_lon": -83.6265536,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62205",
+    "name": "YKK AP America Inc.",
+    "current_source": "manual_override",
+    "current_lat": 32.8205229,
+    "current_lon": -83.5428117,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "62387",
+    "name": "Middle Georgia Heart",
+    "current_source": "manual_override",
+    "current_lat": 32.9281229,
+    "current_lon": -83.7314672,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "66684",
+    "name": "Ashley's Business Solutions, Inc.",
+    "current_source": "manual_override",
+    "current_lat": 32.9281229,
+    "current_lon": -83.7314672,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "74099",
+    "name": "PruittHealth Hospice and Palliative Care of Macon",
+    "current_source": "manual_override",
+    "current_lat": 32.9281229,
+    "current_lon": -83.7314672,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "76733",
+    "name": "BrightFarms, Inc",
+    "current_source": "manual_override",
+    "current_lat": 32.6980089,
+    "current_lon": -83.6314647,
+    "name_search_found": false,
+    "distance_km": null
+  },
+  {
+    "id": "78688",
+    "name": "Katherine L McArthur LLC",
+    "current_source": "manual_override",
+    "current_lat": 32.9281229,
+    "current_lon": -83.7314672,
+    "name_search_found": false,
+    "distance_km": null
+  }
+]

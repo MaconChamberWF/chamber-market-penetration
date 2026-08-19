@@ -1,0 +1,6563 @@
+[
+  {
+    "id": "15",
+    "name": "Ackerman Wrecker Service, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.810767742542,
+    "lon": -83.63095548412,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "18",
+    "name": "Active Imaging Services LLC",
+    "tier": "Basic Membership",
+    "lat": 32.724950364696,
+    "lon": -83.659409139382,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "32",
+    "name": "Air Compressor Sales, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.833928985008,
+    "lon": -83.742027049847,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "35",
+    "name": "Wesley Glen Ministries",
+    "tier": "Key Stakeholder",
+    "lat": 32.847763377396,
+    "lon": -83.704534124824,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "37",
+    "name": "Akridge Realty, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.788221045151,
+    "lon": -83.707750197071,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56",
+    "name": "American Service Industries",
+    "tier": "Business Catalyst",
+    "lat": 32.928585740668,
+    "lon": -83.70997363664,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "60",
+    "name": "Anderson, Walker & Reichert, LLP",
+    "tier": "Basic Membership",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61",
+    "name": "Andrews, Hammock, & Powell, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.869720205603,
+    "lon": -83.697013384519,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "72",
+    "name": "Appling Brothers Company",
+    "tier": "Business Catalyst",
+    "lat": 32.897702737376,
+    "lon": -83.595760884635,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "86",
+    "name": "Macon Coca-Cola Bottling Co.",
+    "tier": "Community Advocate",
+    "lat": 32.782200252296,
+    "lon": -83.677914830215,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "88",
+    "name": "Atlanta Gas Light Company",
+    "tier": "Community Advocate",
+    "lat": 32.934155241961,
+    "lon": -83.722810835565,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "113",
+    "name": "Carol Bashuk Beltone Hearing Care Center",
+    "tier": "Basic Membership",
+    "lat": 32.85367856271,
+    "lon": -83.658506786215,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "123",
+    "name": "B & D Industrial",
+    "tier": "Community Advocate",
+    "lat": 32.826395339226,
+    "lon": -83.614452345509,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "128",
+    "name": "AT&T Store - Riverside",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.923646972742,
+    "lon": -83.710965609177,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "140",
+    "name": "Better Business Bureau",
+    "tier": "Community Partner",
+    "lat": 32.835573719524,
+    "lon": -83.623567848447,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "152",
+    "name": "Bibb County School District",
+    "tier": "Business Catalyst",
+    "lat": 32.836662470997,
+    "lon": -83.626241856742,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "201",
+    "name": "Bibb Distributing Company",
+    "tier": "Regional Influencer",
+    "lat": 32.731006598083,
+    "lon": -83.655617241252,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "202",
+    "name": "Bibb Home Improvement Service",
+    "tier": "Basic Membership",
+    "lat": 32.811140154962,
+    "lon": -83.660884818567,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "205",
+    "name": "MidSouth Community Federal Credit Union",
+    "tier": "Business Catalyst",
+    "lat": 32.827672032544,
+    "lon": -83.72060380875,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "214",
+    "name": "Blake & Pendleton, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.832329862005,
+    "lon": -83.623377078808,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "217",
+    "name": "BTV Systems",
+    "tier": "Basic Membership",
+    "lat": 32.786552125668,
+    "lon": -83.701597722704,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "218",
+    "name": "Blue Bird Corporation",
+    "tier": "Leading Investor",
+    "lat": 32.905905361091,
+    "lon": -83.68724245955,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "222",
+    "name": "Dr. Shawn Scott, D.D.S., LLC",
+    "tier": "Basic Membership",
+    "lat": 32.893112818695,
+    "lon": -83.681655862833,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "228",
+    "name": "Boy Scouts of America, Central Georgia Council",
+    "tier": "Basic Membership",
+    "lat": 32.801188898966,
+    "lon": -83.571746162831,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "234",
+    "name": "Smith, Brown & Groover, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.863529163232,
+    "lon": -83.69001773757,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "239",
+    "name": "Buford and Buford",
+    "tier": "Basic Membership",
+    "lat": 32.845824800195,
+    "lon": -83.636074622706,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "244",
+    "name": "Schuster Enterprises, Inc. dba Burger King",
+    "tier": "Basic Membership",
+    "lat": 32.808383763766,
+    "lon": -83.663093121318,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "246",
+    "name": "Burgess Pigment Company",
+    "tier": "Basic Membership",
+    "lat": 32.848767998032,
+    "lon": -83.662384352962,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "252",
+    "name": "Butler Automotive Group",
+    "tier": "Economic Driver",
+    "lat": 32.870940861424,
+    "lon": -83.702851123991,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "256",
+    "name": "Butler, Williams & Wyche, LLP",
+    "tier": "Basic Membership",
+    "lat": 32.93132978183,
+    "lon": -83.714484244414,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "260",
+    "name": "C & H Bus Lines, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.830976041071,
+    "lon": -83.629681267037,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "287",
+    "name": "Carlyle Place",
+    "tier": "Basic Membership",
+    "lat": 32.879530245335,
+    "lon": -83.738626843487,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "304",
+    "name": "Central Georgia Electric Membership Corp.",
+    "tier": "Economic Driver",
+    "lat": 33.285772379341,
+    "lon": -83.969085982478,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "305",
+    "name": "Eye Center of Central Georgia, PC",
+    "tier": "Business Catalyst",
+    "lat": 32.834706592369,
+    "lon": -83.646265345016,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "306",
+    "name": "Central Georgia Cancer Care",
+    "tier": "Business Catalyst",
+    "lat": 32.925233851899,
+    "lon": -83.731234425293,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "307",
+    "name": "Atrium Health Navicent Rehabilitation Hospital",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.893621841485,
+    "lon": -83.682913928364,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "339",
+    "name": "Clark Memorials",
+    "tier": "Basic Membership",
+    "lat": 32.853365446442,
+    "lon": -83.677882240191,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "358",
+    "name": "Community Foundation of Central Georgia",
+    "tier": "Business Catalyst",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "370",
+    "name": "Courtyard by Marriott",
+    "tier": "Basic Membership",
+    "lat": 32.907322244621,
+    "lon": -83.689934074045,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "373",
+    "name": "Cox Communications",
+    "tier": "Leading Investor",
+    "lat": 32.726167311179,
+    "lon": -83.654732989257,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "386",
+    "name": "C-W-C Macon",
+    "tier": "Basic Membership",
+    "lat": 32.892210368697,
+    "lon": -83.678339630665,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "421",
+    "name": "Dismas Charities - Macon",
+    "tier": "Basic Membership",
+    "lat": 32.832275300706,
+    "lon": -83.632571189693,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "432",
+    "name": "The Douglass Theatre",
+    "tier": "Basic Membership",
+    "lat": 32.835350309921,
+    "lon": -83.624812739294,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "438",
+    "name": "Dunwody/Beeland Architects, Inc.",
+    "tier": "Economic Driver",
+    "lat": 32.835790928294,
+    "lon": -83.624342476716,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "441",
+    "name": "1842 Inn, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.841898920823,
+    "lon": -83.637923220949,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "444",
+    "name": "Coldwell Banker Commercial Eberhardt & Barry",
+    "tier": "Basic Membership",
+    "lat": 32.84411193119,
+    "lon": -83.63175903041,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "476",
+    "name": "Family Counseling Center of Central Ga, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.835573719524,
+    "lon": -83.623567848447,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "490",
+    "name": "Fickling & Company, Inc.",
+    "tier": "Economic Driver",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "494",
+    "name": "Fincher's Barbecue and Catering, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.852452187171,
+    "lon": -83.619478497084,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "508",
+    "name": "First Presbyterian Day School",
+    "tier": "Basic Membership",
+    "lat": 32.87169192619,
+    "lon": -83.750215595258,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "510",
+    "name": "Capital City Bank",
+    "tier": "Basic Membership",
+    "lat": 32.834421513507,
+    "lon": -83.624010591277,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "550",
+    "name": "Triple-S Steel of Georgia",
+    "tier": "Economic Driver",
+    "lat": 32.790905604838,
+    "lon": -83.650398894139,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "554",
+    "name": "Georgia Industrial Children's Home/Twin Cedars Inc",
+    "tier": "Basic Membership",
+    "lat": 32.84850906661,
+    "lon": -83.715757546008,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "559",
+    "name": "Georgia Employers' Association",
+    "tier": "Basic Membership",
+    "lat": 32.905905361091,
+    "lon": -83.68724245955,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "560",
+    "name": "Georgia Farm Bureau",
+    "tier": "Leading Investor",
+    "lat": 32.929058690345,
+    "lon": -83.730478166085,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "571",
+    "name": "Georgia Power Company",
+    "tier": "Regional Influencer",
+    "lat": 32.817832513153,
+    "lon": -83.675285105918,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "573",
+    "name": "Georgia Sports Hall of Fame",
+    "tier": "Basic Membership",
+    "lat": 32.833892033561,
+    "lon": -83.624458492422,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "581",
+    "name": "Terracon Consultants, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.845667461923,
+    "lon": -83.672819173714,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "583",
+    "name": "GIGA Inc",
+    "tier": "Business Catalyst",
+    "lat": 32.706229546982,
+    "lon": -83.657068549078,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "597",
+    "name": "GEICO",
+    "tier": "Key Stakeholder",
+    "lat": 32.810986937033,
+    "lon": -83.569233610577,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "601",
+    "name": "The Grand Opera House",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.838509271253,
+    "lon": -83.628564498107,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "614",
+    "name": "Collins Manufacturing Company",
+    "tier": "Business Catalyst",
+    "lat": 32.813086761189,
+    "lon": -83.630476077791,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "623",
+    "name": "H&H Soul Food",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.835745518699,
+    "lon": -83.63456999747,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "624",
+    "name": "Piedmont Macon Medical Center",
+    "tier": "Regional Influencer",
+    "lat": 32.845932457479,
+    "lon": -83.61802395696,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "627",
+    "name": "Atrium Health Navicent Wound Care",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.835543147678,
+    "lon": -83.635498729802,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "631",
+    "name": "Piedmont Macon North Hospital",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.867578223169,
+    "lon": -83.693308866678,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "658",
+    "name": "Constangy, Brooks, Smith & Prophete, LLP",
+    "tier": "Basic Membership",
+    "lat": 32.905905361091,
+    "lon": -83.68724245955,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "659",
+    "name": "Hays Service, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.825901446114,
+    "lon": -83.729231432052,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "660",
+    "name": "Heart of Georgia Insurance Brokers",
+    "tier": "Basic Membership",
+    "lat": 32.842160055833,
+    "lon": -83.628504877765,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "676",
+    "name": "Hofstadter & Associates, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.914511824089,
+    "lon": -83.695991786018,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "693",
+    "name": "Howard, Moore & McDuffie, P.C.",
+    "tier": "Basic Membership",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "699",
+    "name": "Hudspeth Animal Hospital",
+    "tier": "Basic Membership",
+    "lat": 32.841650226159,
+    "lon": -83.662319312705,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "700",
+    "name": "Triple Point Engineering, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.927575958456,
+    "lon": -83.709376732662,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "702",
+    "name": "Hutchings Funeral Home, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.836598122825,
+    "lon": -83.633554825686,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "705",
+    "name": "Idle Hour Club",
+    "tier": "Economic Driver",
+    "lat": 32.869796137186,
+    "lon": -83.70813242231,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "719",
+    "name": "Internal Medicine Associates, P.C.",
+    "tier": "Economic Driver",
+    "lat": 32.846067196903,
+    "lon": -83.617683233813,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "729",
+    "name": "Mercedes Benz/Volvo/Subaru of Macon",
+    "tier": "Business Catalyst",
+    "lat": 32.922131212278,
+    "lon": -83.710293100112,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "733",
+    "name": "James Bates Brannan Groover LLP",
+    "tier": "Economic Driver",
+    "lat": 32.837036045702,
+    "lon": -83.619789518104,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "737",
+    "name": "Jean and Hall Florists, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.838229587512,
+    "lon": -83.631858479148,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "744",
+    "name": "Jones Cork, LLP",
+    "tier": "Community Advocate",
+    "lat": 32.836197135909,
+    "lon": -83.629431245003,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "745",
+    "name": "Ocmulgee Fields, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.897266166828,
+    "lon": -83.717213506944,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "755",
+    "name": "Kaybee of Macon, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.834976664195,
+    "lon": -83.627792863355,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "758",
+    "name": "Cherry Blossom Festival, Macon GA International",
+    "tier": "Basic Membership",
+    "lat": 32.838340595558,
+    "lon": -83.63203938112,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "762",
+    "name": "Ken's Stereo Macon and Warner Robins",
+    "tier": "Basic Membership",
+    "lat": 32.821534605609,
+    "lon": -83.696754888242,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "786",
+    "name": "Lamb & Braswell, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.911546117623,
+    "lon": -83.691351525013,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "798",
+    "name": "Bob Lewis & Associates, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.839198408166,
+    "lon": -83.626894190008,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "812",
+    "name": "Lintech International",
+    "tier": "Business Catalyst",
+    "lat": 32.698912586369,
+    "lon": -83.663800104447,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "831",
+    "name": "McNair, McLemore, Middlebrooks & Co., LLC",
+    "tier": "Community Advocate",
+    "lat": 32.836172210297,
+    "lon": -83.624617627667,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "834",
+    "name": "Middle Georgia Community Food Bank",
+    "tier": "Basic Membership",
+    "lat": 32.805414879663,
+    "lon": -83.568623051906,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "836",
+    "name": "Macon Milledgeville Regional Habitat for Humanity",
+    "tier": "Basic Membership",
+    "lat": 32.838609620449,
+    "lon": -83.652845550683,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "841",
+    "name": "Beverage South of Macon",
+    "tier": "Economic Driver",
+    "lat": 32.698919764894,
+    "lon": -83.663593495029,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "842",
+    "name": "Macon-Bibb County Health Department",
+    "tier": "Business Catalyst",
+    "lat": 32.838735065764,
+    "lon": -83.645488944098,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "844",
+    "name": "Macon Water Authority",
+    "tier": "Basic Membership",
+    "lat": 32.831886921089,
+    "lon": -83.632902445259,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "848",
+    "name": "Middle Georgia Association of Realtors",
+    "tier": "Basic Membership",
+    "lat": 32.853404618917,
+    "lon": -83.677738658898,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "853",
+    "name": "SPP Investments, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.87632775981,
+    "lon": -83.762042398213,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "865",
+    "name": "Macon Magazine",
+    "tier": "Basic Membership",
+    "lat": 32.838642496483,
+    "lon": -83.637497681425,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "876",
+    "name": "OrthoGeorgia",
+    "tier": "Community Advocate",
+    "lat": 32.897149342881,
+    "lon": -83.692169749199,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "879",
+    "name": "MetroPower, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.832273047093,
+    "lon": -83.628538044823,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "883",
+    "name": "Macon Supply Company, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.813565351149,
+    "lon": -83.632293885131,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "885",
+    "name": "Central Georgia Technical College",
+    "tier": "Leading Investor",
+    "lat": 32.81426524694,
+    "lon": -83.690675935899,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "904",
+    "name": "Marshall Lumber Company, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.839183861587,
+    "lon": -83.672223038037,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "907",
+    "name": "Martin Snow, LLP",
+    "tier": "Business Catalyst",
+    "lat": 32.837913729688,
+    "lon": -83.625308921969,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "911",
+    "name": "Adams, Jordan & Herrington, P.C.",
+    "tier": "Basic Membership",
+    "lat": 32.841538229292,
+    "lon": -83.632346966838,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "912",
+    "name": "Mauldin & Jenkins, CPAs, LLC",
+    "tier": "Economic Driver",
+    "lat": 32.835790928294,
+    "lon": -83.624342476716,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "913",
+    "name": "Bert Maxwell Furniture Company",
+    "tier": "Basic Membership",
+    "lat": 32.835688615231,
+    "lon": -83.629858301109,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "916",
+    "name": "Atrium Health Navicent",
+    "tier": "Regional Influencer",
+    "lat": 32.833119615795,
+    "lon": -83.636290487022,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "918",
+    "name": "Atrium Health Navicent Urgent Care Northwest",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.879913917283,
+    "lon": -83.758397923091,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "919",
+    "name": "The Wellness Center",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.897622066317,
+    "lon": -83.693014845496,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "922",
+    "name": "Central Georgia Home Health Services, Inc.",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.815975028329,
+    "lon": -83.702698992384,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "927",
+    "name": "Macon-Bibb County Hospital Authority",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.833119615795,
+    "lon": -83.636290487022,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "929",
+    "name": "Atrium Health Navicent Business Office",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.869163228214,
+    "lon": -83.658870222108,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "930",
+    "name": "Atrium Health Navicent Imaging & Laboratory",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.840721521184,
+    "lon": -83.645329775435,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "932",
+    "name": "Children's Hospital, Atrium Health Navicent",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.835161172709,
+    "lon": -83.636572461694,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "935",
+    "name": "Scott's Health Mart Pharmacy #1",
+    "tier": "Basic Membership",
+    "lat": 32.84091799896,
+    "lon": -83.662471085791,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "938",
+    "name": "The Mentors Project of Bibb County",
+    "tier": "Basic Membership",
+    "lat": 32.836662470997,
+    "lon": -83.626241856742,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "939",
+    "name": "River Edge Behavioral Health",
+    "tier": "Leading Investor",
+    "lat": 32.848145437666,
+    "lon": -83.62332436408,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "940",
+    "name": "Mercer University",
+    "tier": "Key Stakeholder",
+    "lat": 32.825863252811,
+    "lon": -83.651702293643,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "941",
+    "name": "Mercer Engineering Research Center",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.613766723696,
+    "lon": -83.687085959866,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "944",
+    "name": "Merrill Lynch Wealth Management",
+    "tier": "Economic Driver",
+    "lat": 32.905905361091,
+    "lon": -83.68724245955,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "947",
+    "name": "Methodist Home for Children & Youth",
+    "tier": "Basic Membership",
+    "lat": 32.850890112589,
+    "lon": -83.662513682193,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "958",
+    "name": "Middle Georgia Consortium, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.61385549342,
+    "lon": -83.684237087949,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "959",
+    "name": "Girl Scouts of Historic GA, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.807062491859,
+    "lon": -83.775010115475,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "974",
+    "name": "Midwestern Industries",
+    "tier": "Basic Membership",
+    "lat": 32.702405050895,
+    "lon": -83.666466293505,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "978",
+    "name": "Minton Lawn & Garden",
+    "tier": "Basic Membership",
+    "lat": 32.783658218929,
+    "lon": -83.66597784618,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "998",
+    "name": "Mount De Sales Academy",
+    "tier": "Basic Membership",
+    "lat": 32.834271814236,
+    "lon": -83.63924961339,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "999",
+    "name": "Mulberry Street Investment Company",
+    "tier": "Basic Membership",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1001",
+    "name": "Murphey, Taylor & Ellis Comm. Real Estate",
+    "tier": "Basic Membership",
+    "lat": 32.85038455731,
+    "lon": -83.674301633771,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1008",
+    "name": "Museum of Arts & Sciences",
+    "tier": "Basic Membership",
+    "lat": 32.866772023339,
+    "lon": -83.695371457667,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1010",
+    "name": "The Mutual Financial Group",
+    "tier": "Basic Membership",
+    "lat": 32.840743265705,
+    "lon": -83.641236717191,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1022",
+    "name": "NewTown Macon, Inc.",
+    "tier": "Community Advocate",
+    "lat": 32.83479866719,
+    "lon": -83.629550032183,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1036",
+    "name": "Ocmulgee Mounds National Historical Park",
+    "tier": "Basic Membership",
+    "lat": 32.84807341838,
+    "lon": -83.604493919286,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1039",
+    "name": "NBP Engineers, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.928518697142,
+    "lon": -83.709945272078,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1068",
+    "name": "H2 Capital, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.839198408166,
+    "lon": -83.626894190008,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1069",
+    "name": "Panaprint, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.692412878791,
+    "lon": -83.670984815409,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1077",
+    "name": "The Peyton Anderson Foundation",
+    "tier": "Regional Influencer",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "1090",
+    "name": "Piedmont Construction Group, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.927847808157,
+    "lon": -83.709737092155,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1094",
+    "name": "Pilot International",
+    "tier": "Basic Membership",
+    "lat": 32.940172418846,
+    "lon": -83.731479830004,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1109",
+    "name": "Freudenberg Performance Materials Macon",
+    "tier": "Economic Driver",
+    "lat": 32.77603785737,
+    "lon": -83.645610458486,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "1117",
+    "name": "Prince Service & Manufacturing",
+    "tier": "Regional Influencer",
+    "lat": 32.727319526778,
+    "lon": -83.654665041123,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "1122",
+    "name": "Public Service Telephone Co.",
+    "tier": "Business Catalyst",
+    "lat": 32.557739617098,
+    "lon": -84.096227142668,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1127",
+    "name": "Pyles Plumbing & Utility Contractors, Inc.",
+    "tier": "Economic Driver",
+    "lat": 32.840284598276,
+    "lon": -83.673115244429,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "1137",
+    "name": "Raffield Tire Masters, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.892918070525,
+    "lon": -83.682091798784,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1146",
+    "name": "Reeves Construction Company",
+    "tier": "Economic Driver",
+    "lat": 32.885402153997,
+    "lon": -83.602063555838,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "1149",
+    "name": "Residence Inn by Marriott",
+    "tier": "Basic Membership",
+    "lat": 32.905183238149,
+    "lon": -83.687130402496,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1153",
+    "name": "Reynolds, Horne & Survant",
+    "tier": "Business Catalyst",
+    "lat": 32.873082328166,
+    "lon": -83.759054827979,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1156",
+    "name": "River North Country Club",
+    "tier": "Business Catalyst",
+    "lat": 32.942433385419,
+    "lon": -83.660057710621,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1169",
+    "name": "Robins Financial Credit Union",
+    "tier": "Community Advocate",
+    "lat": 32.826485760044,
+    "lon": -83.709723710789,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1181",
+    "name": "Rutherford Trophies Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.784774631622,
+    "lon": -83.666639046802,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1186",
+    "name": "Saddle Creek Corporation",
+    "tier": "Economic Driver",
+    "lat": 32.795868134507,
+    "lon": -83.564488132025,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "1187",
+    "name": "St. Paul Apartments",
+    "tier": "Basic Membership",
+    "lat": 32.837012060046,
+    "lon": -83.642480900972,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1200",
+    "name": "SCANA Energy",
+    "tier": "Business Catalyst",
+    "lat": 33.849020466793,
+    "lon": -84.365717670225,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1202",
+    "name": "Schell Acoustical & Drywall Company",
+    "tier": "Basic Membership",
+    "lat": 32.878127515213,
+    "lon": -83.566125826341,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1208",
+    "name": "L. E. Schwartz & Son, Inc.",
+    "tier": "Community Advocate",
+    "lat": 32.817404118154,
+    "lon": -83.638042902087,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1211",
+    "name": "Huntington Bank",
+    "tier": "Key Stakeholder",
+    "lat": 32.866098138428,
+    "lon": -83.693947366197,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "1213",
+    "name": "Huntington Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.816550560599,
+    "lon": -83.708677097517,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1214",
+    "name": "Huntington Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.859654026197,
+    "lon": -83.613522088497,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1215",
+    "name": "Huntington Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.84011720196,
+    "lon": -83.628419843547,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1216",
+    "name": "Huntington Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.742648732879,
+    "lon": -83.713406286025,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1228",
+    "name": "Sheridan Construction",
+    "tier": "Leading Investor",
+    "lat": 32.848777657868,
+    "lon": -83.639797666603,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "1231",
+    "name": "Sheridan, Solomon & Associates, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.874095558691,
+    "lon": -83.663313056725,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1232",
+    "name": "Midtowne Mortgage, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.874026758577,
+    "lon": -83.663255939658,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1244",
+    "name": "Smiley's Flea Market",
+    "tier": "Basic Membership",
+    "lat": 32.724636343652,
+    "lon": -83.654397123745,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1250",
+    "name": "Snow's Memorial Chapel",
+    "tier": "Basic Membership",
+    "lat": 32.922583618601,
+    "lon": -83.740400964427,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1252",
+    "name": "AT&T",
+    "tier": "Community Advocate",
+    "lat": 32.840873222707,
+    "lon": -83.635294447812,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1260",
+    "name": "Southern Safety Supply Company",
+    "tier": "Basic Membership",
+    "lat": 32.816002390874,
+    "lon": -83.640066275224,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1261",
+    "name": "Audio Visual Services",
+    "tier": "Basic Membership",
+    "lat": 32.814869134032,
+    "lon": -83.627880999114,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1283",
+    "name": "Stratford Academy",
+    "tier": "Community Advocate",
+    "lat": 32.860860744105,
+    "lon": -83.750952706568,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1287",
+    "name": "Stone and Baxter, LLP",
+    "tier": "Basic Membership",
+    "lat": 32.833421191566,
+    "lon": -83.629700229963,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1292",
+    "name": "The Summit Group",
+    "tier": "Basic Membership",
+    "lat": 32.911846059835,
+    "lon": -83.691848627669,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1300",
+    "name": "FusionPoint",
+    "tier": "Basic Membership",
+    "lat": 32.833948861296,
+    "lon": -83.742663188856,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1302",
+    "name": "Tattnall Square Academy",
+    "tier": "Basic Membership",
+    "lat": 32.893017022559,
+    "lon": -83.718527068193,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1307",
+    "name": "Dr. Larry V. Thigpen, D.D.S.",
+    "tier": "Basic Membership",
+    "lat": 32.849611622234,
+    "lon": -83.673424248144,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1308",
+    "name": "Third Wave Digital",
+    "tier": "Basic Membership",
+    "lat": 32.840598892827,
+    "lon": -83.628020008602,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1310",
+    "name": "Thornton Realty Company",
+    "tier": "Basic Membership",
+    "lat": 32.835706005253,
+    "lon": -83.631274018417,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1312",
+    "name": "Tidwell & Hilburn Insurance, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.883006390753,
+    "lon": -83.729558589668,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1317",
+    "name": "Trading Post Moving & Storage",
+    "tier": "Basic Membership",
+    "lat": 32.802110736554,
+    "lon": -83.735877754206,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1321",
+    "name": "Tri-County E.M.C.",
+    "tier": "Business Catalyst",
+    "lat": 33.012909388763,
+    "lon": -83.526451029806,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1322",
+    "name": "Triangle Chemical Company",
+    "tier": "Basic Membership",
+    "lat": 32.937601485973,
+    "lon": -83.730437376924,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1330",
+    "name": "Truck and Trailer of Macon, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.741240873168,
+    "lon": -83.659690237833,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1331",
+    "name": "Truist Bank",
+    "tier": "Regional Influencer",
+    "lat": 32.836608755869,
+    "lon": -83.62917630555,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "1333",
+    "name": "Truist Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.886084550373,
+    "lon": -83.673298003635,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1334",
+    "name": "Truist Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.821001911561,
+    "lon": -83.695752192991,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1336",
+    "name": "Truist Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.879807071866,
+    "lon": -83.75875998491,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1340",
+    "name": "Truist Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.855774128014,
+    "lon": -83.617492738195,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1341",
+    "name": "Truist Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.798123733304,
+    "lon": -83.665871671844,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "1344",
+    "name": "Tubman African American Museum",
+    "tier": "Basic Membership",
+    "lat": 32.834226923419,
+    "lon": -83.625229924731,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1357",
+    "name": "United Way of Central Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.835573719524,
+    "lon": -83.623567848447,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1381",
+    "name": "FOX 24/ABC16 WGXA - Sinclair Communications, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.83281136194,
+    "lon": -83.627667432624,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1382",
+    "name": "13 WMAZ - TV",
+    "tier": "Community Advocate",
+    "lat": 32.860124563265,
+    "lon": -83.614698389274,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1384",
+    "name": "WMGT 41NBC",
+    "tier": "Business Catalyst",
+    "lat": 32.832568506029,
+    "lon": -83.625519999376,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1388",
+    "name": "Oakbridge Insurance Agency",
+    "tier": "Economic Driver",
+    "lat": 32.84148714407,
+    "lon": -83.630692677615,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "1389",
+    "name": "John R. Walker, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.833086481831,
+    "lon": -83.727935329103,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1393",
+    "name": "Walsh Honda",
+    "tier": "Business Catalyst",
+    "lat": 32.814667831926,
+    "lon": -83.68396931254,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1394",
+    "name": "Walthall Oil Company",
+    "tier": "Business Catalyst",
+    "lat": 32.741161459945,
+    "lon": -83.662300153203,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "1396",
+    "name": "Warno-Cam Paint Company, Inc. - Benjamin Moore Paints",
+    "tier": "Basic Membership",
+    "lat": 32.853798730886,
+    "lon": -83.656816071373,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1397",
+    "name": "Warren Associates, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.843320415559,
+    "lon": -83.66677711086,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1404",
+    "name": "Wesleyan College",
+    "tier": "Community Advocate",
+    "lat": 32.877556022329,
+    "lon": -83.718122158132,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1409",
+    "name": "First Quality",
+    "tier": "Community Advocate",
+    "lat": 32.683303822387,
+    "lon": -83.633914482285,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "1433",
+    "name": "WM2A Architects",
+    "tier": "Basic Membership",
+    "lat": 32.837221625911,
+    "lon": -83.62933280468,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1434",
+    "name": "Ambassador Personnel, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.926164636631,
+    "lon": -83.736862781114,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1443",
+    "name": "YKK",
+    "tier": "Leading Investor",
+    "lat": 32.822114917412,
+    "lon": -83.537067617731,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "1446",
+    "name": "Butler Chevrolet",
+    "tier": "Basic Membership",
+    "lat": 32.856287827363,
+    "lon": -83.645447110709,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "3149",
+    "name": "Adams, Hemingway, Wilson & Rutledge, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837289870657,
+    "lon": -83.627272079228,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "3280",
+    "name": "Builder Sales & Services, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.825497162729,
+    "lon": -83.729235777138,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "3306",
+    "name": "Casteel Construction",
+    "tier": "Basic Membership",
+    "lat": 32.809746269737,
+    "lon": -83.74759941154,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "3482",
+    "name": "Mercer Medicine",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.828639774055,
+    "lon": -83.648975434726,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "4023",
+    "name": "Otis Redding Museum",
+    "tier": "Basic Membership",
+    "lat": 32.836944173052,
+    "lon": -83.630226890417,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "4082",
+    "name": "Mr. Electric",
+    "tier": "Basic Membership",
+    "lat": 32.831143883401,
+    "lon": -83.72509605033,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "4115",
+    "name": "Jim Shaw's Seafood Restaurant",
+    "tier": "Additional Listing",
+    "lat": 32.849532539385,
+    "lon": -83.673522961079,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "4674",
+    "name": "Middle Georgia Graphic Resource, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.842524726824,
+    "lon": -83.630887806168,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "5172",
+    "name": "Sphinx, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.71069836835,
+    "lon": -83.649112915947,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8292",
+    "name": "Renfroe Construction",
+    "tier": "Basic Membership",
+    "lat": 32.798650819269,
+    "lon": -83.736070093057,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8307",
+    "name": "Office Services Company of Macon, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.847362983724,
+    "lon": -83.635566085769,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8345",
+    "name": "Piedmont Occupational Medicine",
+    "tier": "Economic Driver",
+    "lat": 32.838929551819,
+    "lon": -83.624647750195,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "8459",
+    "name": "ENT Center of Central Georgia",
+    "tier": "Business Catalyst",
+    "lat": 32.830524443205,
+    "lon": -83.632215619182,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "8508",
+    "name": "Central Georgia Health Network",
+    "tier": "Basic Membership",
+    "lat": 32.936821288417,
+    "lon": -83.721588822795,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8510",
+    "name": "Grow",
+    "tier": "Basic Membership",
+    "lat": 32.844482800496,
+    "lon": -83.632143446933,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8525",
+    "name": "Bashinski Fine Gems & Jewelry, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.846159789088,
+    "lon": -83.634960520918,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "8527",
+    "name": "St. Peter Claver Catholic School",
+    "tier": "Basic Membership",
+    "lat": 32.84413362043,
+    "lon": -83.649588517076,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8534",
+    "name": "O'Mahony Insurance Agency, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.84761978087,
+    "lon": -83.670419686709,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8580",
+    "name": "Mills Industrial Construction, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.819579412057,
+    "lon": -83.078465963639,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8595",
+    "name": "Greene & Associates, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.842127228449,
+    "lon": -83.66436695214,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8663",
+    "name": "Macon Tent Rentals",
+    "tier": "Basic Membership",
+    "lat": 32.845611901864,
+    "lon": -83.583891437457,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8678",
+    "name": "Robins Financial Credit Union",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.743989403722,
+    "lon": -83.703922674077,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "8762",
+    "name": "Sonny's BBQ",
+    "tier": "Basic Membership",
+    "lat": 32.879859026724,
+    "lon": -83.755183294715,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8875",
+    "name": "Southern Trust",
+    "tier": "Business Catalyst",
+    "lat": 32.938385627895,
+    "lon": -83.718634812626,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "8887",
+    "name": "Law Offices of R. Lars Anderson",
+    "tier": "Basic Membership",
+    "lat": 32.846214184397,
+    "lon": -83.658897171645,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "8943",
+    "name": "Sellers Contracting Services, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.892353785723,
+    "lon": -83.311061564895,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "9343",
+    "name": "The Sanford Company, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.870089520468,
+    "lon": -83.701491219185,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "9451",
+    "name": "Patton Albertson & Miller, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837036045702,
+    "lon": -83.619789518104,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "9457",
+    "name": "Macon Volunteer Clinic",
+    "tier": "Basic Membership",
+    "lat": 32.840724956256,
+    "lon": -83.629423691839,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "9480",
+    "name": "Historic Riverside Cemetery Conservancy",
+    "tier": "Basic Membership",
+    "lat": 32.848841323476,
+    "lon": -83.63900203668,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "9490",
+    "name": "Pediatric Care of Macon, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.864978740615,
+    "lon": -83.690410240693,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "9606",
+    "name": "Layson Advisory Group",
+    "tier": "Community Advocate",
+    "lat": 32.937007009891,
+    "lon": -83.730412953904,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "9647",
+    "name": "Northwestern Mutual Central Georgia",
+    "tier": "Business Catalyst",
+    "lat": 32.905905361091,
+    "lon": -83.68724245955,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "9939",
+    "name": "Middle Georgia Regional Airport",
+    "tier": "Community Partner",
+    "lat": 32.701868027485,
+    "lon": -83.651328505998,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "10313",
+    "name": "Macon Rehabilitation and Healthcare Center",
+    "tier": "Basic Membership",
+    "lat": 32.846575280301,
+    "lon": -83.616711963169,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10349",
+    "name": "SERVPRO of Macon",
+    "tier": "Basic Membership",
+    "lat": 32.805724073153,
+    "lon": -83.57251537482,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10364",
+    "name": "Amanda Jane Salon",
+    "tier": "Basic Membership",
+    "lat": 32.867114091026,
+    "lon": -83.695702093919,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10480",
+    "name": "Shred-cycle, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.577074480437,
+    "lon": -82.864381999031,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10482",
+    "name": "Elite Flooring Contractors",
+    "tier": "Basic Membership",
+    "lat": 32.833444550839,
+    "lon": -83.631586921785,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10491",
+    "name": "Regency Hospital Macon",
+    "tier": "Economic Driver",
+    "lat": 32.847036004299,
+    "lon": -83.616632645595,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "10495",
+    "name": "Shadow Sound Studio",
+    "tier": "Basic Membership",
+    "lat": 32.834962332122,
+    "lon": -83.628359602717,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10521",
+    "name": "John S. & James L. Knight Foundation",
+    "tier": "Basic Membership",
+    "lat": 32.836065779971,
+    "lon": -83.634823852059,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10534",
+    "name": "Community Health Systems",
+    "tier": "Basic Membership",
+    "lat": 32.838295110737,
+    "lon": -83.62554493233,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10537",
+    "name": "Vineville Internal Medicine",
+    "tier": "Business Catalyst",
+    "lat": 32.857052797632,
+    "lon": -83.681859719434,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "10786",
+    "name": "The Progressive Group",
+    "tier": "Economic Driver",
+    "lat": 32.925425347585,
+    "lon": -83.711746830326,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "10885",
+    "name": "Fish N' Pig",
+    "tier": "Basic Membership",
+    "lat": 32.831259354271,
+    "lon": -83.769928646901,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10916",
+    "name": "MidSouth Community FCU",
+    "tier": "Additional Listing",
+    "lat": 32.746602392741,
+    "lon": -83.677370908621,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "10918",
+    "name": "Higginbotham Insurance Agency, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.854774362505,
+    "lon": -83.679444544791,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10919",
+    "name": "Robins Financial Credit Union",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.879937015616,
+    "lon": -83.760797463926,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "10927",
+    "name": "Mayer Electric Supply",
+    "tier": "Basic Membership",
+    "lat": 32.822044466616,
+    "lon": -83.629306182546,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10932",
+    "name": "Russell G. O'Neal, MD. LLC",
+    "tier": "Basic Membership",
+    "lat": 32.936598769833,
+    "lon": -83.721511511296,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10975",
+    "name": "Jack's Saw Shop, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.844368915152,
+    "lon": -83.754610049053,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11026",
+    "name": "Ace Hardware - Riverside",
+    "tier": "Basic Membership",
+    "lat": 32.898644174292,
+    "lon": -83.683673321782,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11035",
+    "name": "California Cereal Products, Inc",
+    "tier": "Business Catalyst",
+    "lat": 32.784130349437,
+    "lon": -83.639071442787,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "11107",
+    "name": "Nichiha USA",
+    "tier": "Economic Driver",
+    "lat": 32.691759593832,
+    "lon": -83.676948943998,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "11114",
+    "name": "SP Design Group, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.816220832595,
+    "lon": -83.732185567829,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11116",
+    "name": "Griffin Animal Hospital",
+    "tier": "Basic Membership",
+    "lat": 32.780076570422,
+    "lon": -83.663917865977,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11193",
+    "name": "Rookery",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.836134502167,
+    "lon": -83.62817994321,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "11337",
+    "name": "MBG Office Systems",
+    "tier": "Basic Membership",
+    "lat": 32.84577117402,
+    "lon": -83.672952666643,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11354",
+    "name": "Center Parc Credit Union",
+    "tier": "Basic Membership",
+    "lat": 32.86413336037,
+    "lon": -83.691168287534,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11364",
+    "name": "Georgia Aquarium, Inc",
+    "tier": "Basic Membership",
+    "lat": 33.76235385876,
+    "lon": -84.394783753091,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11393",
+    "name": "SD Polymers",
+    "tier": "Basic Membership",
+    "lat": 32.780089554354,
+    "lon": -83.647164619098,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11479",
+    "name": "Capitol Theatre Macon",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.836772585087,
+    "lon": -83.628768435449,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "11491",
+    "name": "American Pride Bank",
+    "tier": "Community Advocate",
+    "lat": 32.815285550016,
+    "lon": -83.707750326096,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "11494",
+    "name": "Choice Premiums",
+    "tier": "Basic Membership",
+    "lat": 32.838894550395,
+    "lon": -83.641016259439,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11542",
+    "name": "SA Recycling",
+    "tier": "Basic Membership",
+    "lat": 32.781046391159,
+    "lon": -83.654703403199,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11545",
+    "name": "First Choice Primary Care",
+    "tier": "Basic Membership",
+    "lat": 32.833294949885,
+    "lon": -83.627276789058,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11574",
+    "name": "ABC Supply Co. Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.702431542457,
+    "lon": -83.65145365648,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11617",
+    "name": "AT&T Store - Mercer University",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.8256364717,
+    "lon": -83.654084718424,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "11679",
+    "name": "Fountain of Juice",
+    "tier": "Basic Membership",
+    "lat": 32.865006330889,
+    "lon": -83.692296792682,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11699",
+    "name": "Candlewood Suites",
+    "tier": "Basic Membership",
+    "lat": 32.902998255306,
+    "lon": -83.682613111858,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11701",
+    "name": "Homewood Suites by Hilton",
+    "tier": "Basic Membership",
+    "lat": 32.925972634026,
+    "lon": -83.737474886018,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11732",
+    "name": "Macon Marriott City Center",
+    "tier": "Economic Driver",
+    "lat": 32.84228837993,
+    "lon": -83.617778052994,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "11777",
+    "name": "Stifel Nicolaus Company",
+    "tier": "Basic Membership",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11783",
+    "name": "Robins Financial Credit Union",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.83729933516,
+    "lon": -83.626537494129,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "11852",
+    "name": "Two Men And A Truck",
+    "tier": "Basic Membership",
+    "lat": 32.8293600371,
+    "lon": -83.735586582941,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11956",
+    "name": "Magnolia Manor",
+    "tier": "Basic Membership",
+    "lat": 32.850041256844,
+    "lon": -83.662503662482,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11964",
+    "name": "The Big House Foundation, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.845744707534,
+    "lon": -83.65591346051,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "37237",
+    "name": "Parrish Construction Group",
+    "tier": "Leading Investor",
+    "lat": 32.458080411364,
+    "lon": -83.772435821993,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "37417",
+    "name": "Mercer Advisors",
+    "tier": "Basic Membership",
+    "lat": 32.943189613534,
+    "lon": -83.745217549421,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "37512",
+    "name": "SpringHill Suites by Marriott",
+    "tier": "Basic Membership",
+    "lat": 32.919801178796,
+    "lon": -83.706380545828,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "37539",
+    "name": "Bug House Pest Control",
+    "tier": "Basic Membership",
+    "lat": 32.860560303407,
+    "lon": -83.685488590024,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "37645",
+    "name": "Jani-King of Macon",
+    "tier": "Basic Membership",
+    "lat": 32.837289870657,
+    "lon": -83.627272079228,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "37665",
+    "name": "Clark General Dentistry Center",
+    "tier": "Basic Membership",
+    "lat": 32.840900606672,
+    "lon": -83.648533207875,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "37712",
+    "name": "MidSouth Community FCU",
+    "tier": "Additional Listing",
+    "lat": 32.838070444998,
+    "lon": -83.659328982899,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "37803",
+    "name": "Miller-Motte College",
+    "tier": "Basic Membership",
+    "lat": 32.898923013787,
+    "lon": -83.688802431679,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56034",
+    "name": "Habersham Enterprises",
+    "tier": "Business Catalyst",
+    "lat": 32.835774013004,
+    "lon": -83.634132203489,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "56040",
+    "name": "Central Georgia CASA, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.897906400317,
+    "lon": -83.696063707776,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56053",
+    "name": "Excess Incorporated",
+    "tier": "Basic Membership",
+    "lat": 32.804161493359,
+    "lon": -83.533387951571,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56270",
+    "name": "Robins Regional Chamber",
+    "tier": "Community Partner",
+    "lat": 32.618304989309,
+    "lon": -83.618913522092,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "56297",
+    "name": "American Pride Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.870781139556,
+    "lon": -83.702555087817,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "56315",
+    "name": "M&R Marketing Group",
+    "tier": "Basic Membership",
+    "lat": 32.836598598672,
+    "lon": -83.626976423523,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56678",
+    "name": "Spivey Pope Green, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.925425347585,
+    "lon": -83.711746830326,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56788",
+    "name": "Texas Roadhouse",
+    "tier": "Basic Membership",
+    "lat": 32.929498702275,
+    "lon": -83.713976046306,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56817",
+    "name": "UGA Small Business Development Center",
+    "tier": "Community Partner",
+    "lat": 32.925425347585,
+    "lon": -83.711746830326,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "56827",
+    "name": "Macon Urban Ministries",
+    "tier": "Basic Membership",
+    "lat": 32.834892100769,
+    "lon": -83.661838810667,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56839",
+    "name": "Sunbelt Credit",
+    "tier": "Basic Membership",
+    "lat": 32.791587545376,
+    "lon": -83.670921285965,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57075",
+    "name": "Renasant Bank",
+    "tier": "Community Advocate",
+    "lat": 32.881139320328,
+    "lon": -83.725998357166,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "57129",
+    "name": "MidSouth Community FCU",
+    "tier": "Additional Listing",
+    "lat": 32.928980771943,
+    "lon": -83.73037806009,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "57175",
+    "name": "Keep Macon-Bibb Beautiful Commission",
+    "tier": "Basic Membership",
+    "lat": 32.838340595558,
+    "lon": -83.63203938112,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57197",
+    "name": "GMFS Mortgage",
+    "tier": "Basic Membership",
+    "lat": 32.863625525475,
+    "lon": -83.690164375743,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57222",
+    "name": "Total Computer Solutions",
+    "tier": "Economic Driver",
+    "lat": 32.614407730596,
+    "lon": -83.677863788646,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "57277",
+    "name": "Raymond James",
+    "tier": "Basic Membership",
+    "lat": 32.93704300677,
+    "lon": -83.721664455674,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57312",
+    "name": "Tractor Supply Co. Distribution Center",
+    "tier": "Leading Investor",
+    "lat": 32.727224500599,
+    "lon": -83.729157159298,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "57361",
+    "name": "B. Turners Macon Mall",
+    "tier": "Basic Membership",
+    "lat": 32.815835932692,
+    "lon": -83.694154720999,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57413",
+    "name": "Mo.s Cleaning Services, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.835103410853,
+    "lon": -83.628239685793,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57422",
+    "name": "Historic Macon Foundation, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.829088512195,
+    "lon": -83.63289452139,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57462",
+    "name": "Air Conditioning Specialist Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.826983331479,
+    "lon": -83.729359529522,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57517",
+    "name": "Dovetail",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.836134502167,
+    "lon": -83.62817994321,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "57572",
+    "name": "Harley-Davidson of Macon",
+    "tier": "Basic Membership",
+    "lat": 32.830775142115,
+    "lon": -83.72534747747,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57597",
+    "name": "Acres & Oak Kitchen",
+    "tier": "Community Advocate",
+    "lat": 32.869427910652,
+    "lon": -83.700239357951,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "57606",
+    "name": "Wembly at Overlook Apartments",
+    "tier": "Basic Membership",
+    "lat": 32.937469146856,
+    "lon": -83.725534388041,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57614",
+    "name": "NECCO",
+    "tier": "Basic Membership",
+    "lat": 32.904061477864,
+    "lon": -83.69193797559,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "57786",
+    "name": "Apparel Authority",
+    "tier": "Community Advocate",
+    "lat": 32.815930448383,
+    "lon": -83.686659071946,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "57894",
+    "name": "All-State Electrical Contractors, LLC",
+    "tier": "Leading Investor",
+    "lat": 32.82359318281,
+    "lon": -83.729250169015,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "58017",
+    "name": "Rescom Cabinets, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.853924166428,
+    "lon": -83.678314976349,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58039",
+    "name": "All Wired Up",
+    "tier": "Basic Membership",
+    "lat": 33.035036569939,
+    "lon": -83.942652099059,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58052",
+    "name": "Huntington Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.926315761673,
+    "lon": -83.73632711949,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "58090",
+    "name": "Meals On Wheels of Middle Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.85714536449,
+    "lon": -83.616613900247,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58104",
+    "name": "A-COM Integrated Solutions",
+    "tier": "Basic Membership",
+    "lat": 32.863549219728,
+    "lon": -83.690269661253,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58202",
+    "name": "Adams Law Firm",
+    "tier": "Basic Membership",
+    "lat": 32.841538229292,
+    "lon": -83.632346966838,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58307",
+    "name": "Georgia CEO",
+    "tier": "Community Partner",
+    "lat": 31.613462731355,
+    "lon": -84.222743759974,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "58346",
+    "name": "The Bohemian Den",
+    "tier": "Basic Membership",
+    "lat": 32.835729522454,
+    "lon": -83.627750001317,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58592",
+    "name": "Huntington Bank",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.879804325032,
+    "lon": -83.759537810901,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "58635",
+    "name": "Macon Medical Group, PC",
+    "tier": "Basic Membership",
+    "lat": 32.831177559396,
+    "lon": -83.62889996844,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58686",
+    "name": "The Rockefeller Law Center",
+    "tier": "Basic Membership",
+    "lat": 32.611657820972,
+    "lon": -83.693633984738,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58738",
+    "name": "Buzzell Plumbing, Heating & AC, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.841181084844,
+    "lon": -83.646796577862,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58747",
+    "name": "Pellicano Construction",
+    "tier": "Economic Driver",
+    "lat": 32.928097420434,
+    "lon": -83.711295497149,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "58753",
+    "name": "SourceOne Insurance and Benefits Group",
+    "tier": "Basic Membership",
+    "lat": 32.893378268921,
+    "lon": -83.6822482045,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58754",
+    "name": "Morris Bank",
+    "tier": "Basic Membership",
+    "lat": 32.868912202993,
+    "lon": -83.697951605856,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "58780",
+    "name": "Wilson Bryant Air Conditioning",
+    "tier": "Business Catalyst",
+    "lat": 32.829871815054,
+    "lon": -83.629576448829,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "58798",
+    "name": "All Care Home Health, LLC",
+    "tier": "Community Advocate",
+    "lat": 32.741403282375,
+    "lon": -83.675023256453,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "58860",
+    "name": "Zaxby's of Middle GA",
+    "tier": "Business Catalyst",
+    "lat": 32.843387026792,
+    "lon": -83.630564462671,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "59035",
+    "name": "The Academy For Classical Education",
+    "tier": "Leading Investor",
+    "lat": 32.93802027232,
+    "lon": -83.733302884263,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "59061",
+    "name": "Ameris Bank",
+    "tier": "Business Catalyst",
+    "lat": 32.742094361018,
+    "lon": -83.711680292428,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "59368",
+    "name": "Five Star Credit Union",
+    "tier": "Economic Driver",
+    "lat": 32.865547284791,
+    "lon": -83.693329760273,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "59576",
+    "name": "Premier Staffing Unlimited",
+    "tier": "Basic Membership",
+    "lat": 32.742064632055,
+    "lon": -83.674520929556,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "59669",
+    "name": "Mr. Chips, Inc.",
+    "tier": "Economic Driver",
+    "lat": 32.803250691154,
+    "lon": -83.554718933228,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "59680",
+    "name": "The Next Level Community Development Center",
+    "tier": "Basic Membership",
+    "lat": 32.696452442692,
+    "lon": -83.680560518526,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "59701",
+    "name": "Portable Air and Power, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.672336601784,
+    "lon": -83.723430568179,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "59750",
+    "name": "Lisenby & Associates",
+    "tier": "Basic Membership",
+    "lat": 32.840884891472,
+    "lon": -83.629454674568,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "59948",
+    "name": "ShuBee, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.812879070413,
+    "lon": -83.745462780947,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60047",
+    "name": "Margarita's Mexican Grill - Mercer Village",
+    "tier": "Basic Membership",
+    "lat": 32.83274780529,
+    "lon": -83.650382267976,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60140",
+    "name": "Stafford Builders and Consultants, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.836827223674,
+    "lon": -83.671817474764,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "60257",
+    "name": "Grant's Tire & Auto, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.879158962164,
+    "lon": -83.667547033135,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60262",
+    "name": "SCORE Middle Georgia",
+    "tier": "Community Partner",
+    "lat": 32.832645560733,
+    "lon": -83.625889969175,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "60296",
+    "name": "In-Fill Housing, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.823097790122,
+    "lon": -83.649306585552,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60313",
+    "name": "Houston Transportation Solutions, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837289870657,
+    "lon": -83.627272079228,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60422",
+    "name": "Magda Law, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60529",
+    "name": "Bank of Dudley",
+    "tier": "Basic Membership",
+    "lat": 33.0357299992,
+    "lon": -83.940310308224,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60540",
+    "name": "Lifespan Wealth Management, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.925425347585,
+    "lon": -83.711746830326,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60580",
+    "name": "Seay Felton, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60585",
+    "name": "Clearwave Fiber",
+    "tier": "Business Catalyst",
+    "lat": 32.927575958456,
+    "lon": -83.709376732662,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "60661",
+    "name": "Physician Consultants of Georgia, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.840669488254,
+    "lon": -83.642869579413,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60663",
+    "name": "Kristy Jones, CPA, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.842160055833,
+    "lon": -83.628504877765,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60679",
+    "name": "Kelvin Epps Painting Company",
+    "tier": "Basic Membership",
+    "lat": 32.649182109643,
+    "lon": -83.73633794274,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60722",
+    "name": "Cross Roads Recovery Ministries, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.847228723428,
+    "lon": -83.669556567215,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60743",
+    "name": "Pin Strikes Family Entertainment Center",
+    "tier": "Basic Membership",
+    "lat": 32.910573152702,
+    "lon": -83.694607431893,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "60896",
+    "name": "Planters First Bank",
+    "tier": "Business Catalyst",
+    "lat": 32.920825141163,
+    "lon": -83.707155201135,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "60900",
+    "name": "Ocmulgee Brewpub",
+    "tier": "Additional Listing",
+    "lat": 32.835572307066,
+    "lon": -83.629789154796,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "60996",
+    "name": "Brasserie Circa",
+    "tier": "Additional Listing",
+    "lat": 32.869427910652,
+    "lon": -83.700239357951,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "61195",
+    "name": "Grant's Lounge",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.834878117208,
+    "lon": -83.62991270751,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "61210",
+    "name": "Love's Travel Stops",
+    "tier": "Basic Membership",
+    "lat": 32.719176173911,
+    "lon": -83.734473899988,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61445",
+    "name": "Buzzell, Welsh & Hill, LLP",
+    "tier": "Basic Membership",
+    "lat": 32.838132810589,
+    "lon": -83.625122703199,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61503",
+    "name": "Community Health Care Systems",
+    "tier": "Basic Membership",
+    "lat": 32.835449160841,
+    "lon": -83.623177830815,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61516",
+    "name": "Builders First Source",
+    "tier": "Basic Membership",
+    "lat": 32.81478819266,
+    "lon": -83.673118646197,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61528",
+    "name": "Specialized Information Environments, Inc. (dba SPINEN, Inc.)",
+    "tier": "Key Stakeholder",
+    "lat": 32.798650819269,
+    "lon": -83.736070093057,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "61535",
+    "name": "Riverside Imaging Specialist, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.85887391696,
+    "lon": -83.647591163124,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61551",
+    "name": "Turning Point Accounting & Financial Services",
+    "tier": "Basic Membership",
+    "lat": 32.925273998022,
+    "lon": -83.731627691829,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61555",
+    "name": "Freeman Cabinets",
+    "tier": "Basic Membership",
+    "lat": 32.841092439472,
+    "lon": -83.673090692355,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61609",
+    "name": "U-Save-It Pharmacy",
+    "tier": "Basic Membership",
+    "lat": 32.798750001959,
+    "lon": -83.665363857477,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61612",
+    "name": "Macon Bacon",
+    "tier": "Basic Membership",
+    "lat": 32.833775823376,
+    "lon": -83.6167371379,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61628",
+    "name": "Langford Allergy, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.87632775981,
+    "lon": -83.762042398213,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61652",
+    "name": "Mary Pinson, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.838588406387,
+    "lon": -83.637667659472,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61679",
+    "name": "Optim Neurosurgery",
+    "tier": "Basic Membership",
+    "lat": 32.904696336918,
+    "lon": -83.691141525078,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61745",
+    "name": "Gateway Development Center, Inc.",
+    "tier": "Basic Membership",
+    "lat": 33.019904502112,
+    "lon": -83.531451631595,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61765",
+    "name": "Amici Macon",
+    "tier": "Basic Membership",
+    "lat": 32.825628978347,
+    "lon": -83.653747518104,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61769",
+    "name": "Mid Georgia MLS",
+    "tier": "Basic Membership",
+    "lat": 32.846178479353,
+    "lon": -83.65698731851,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61774",
+    "name": "Georgia Artisan",
+    "tier": "Basic Membership",
+    "lat": 32.791668931888,
+    "lon": -83.650663915004,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61907",
+    "name": "Spillers Orthodontics",
+    "tier": "Basic Membership",
+    "lat": 32.936639204841,
+    "lon": -83.729429521066,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "61912",
+    "name": "Synovus",
+    "tier": "Community Advocate",
+    "lat": 32.925084445172,
+    "lon": -83.731186233296,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "61944",
+    "name": "Kelly Tours Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.810717461519,
+    "lon": -83.632296573533,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "62003",
+    "name": "Dunwody Design Development",
+    "tier": "Basic Membership",
+    "lat": 32.835483359549,
+    "lon": -83.627274479201,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62083",
+    "name": "Pi-Tech, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.863088846961,
+    "lon": -83.688972286138,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62085",
+    "name": "Z Beans Coffee",
+    "tier": "Basic Membership",
+    "lat": 32.8328457,
+    "lon": -83.650907,
+    "geocode_source": "manual_override",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62124",
+    "name": "Irving Consumer Products, Inc.",
+    "tier": "Community Advocate",
+    "lat": 32.741129505592,
+    "lon": -83.643808399043,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "62163",
+    "name": "Skin Care Physicians of GA, PC",
+    "tier": "Business Catalyst",
+    "lat": 32.843612236952,
+    "lon": -83.617494200119,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "62188",
+    "name": "ICB Construction Group",
+    "tier": "Basic Membership",
+    "lat": 32.831791681874,
+    "lon": -83.62617873608,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62314",
+    "name": "Holiday Inn Express Macon North",
+    "tier": "Basic Membership",
+    "lat": 32.9265408,
+    "lon": -83.7369819,
+    "geocode_source": "manual_override",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62344",
+    "name": "ClaytonCarter, LLC, CPA",
+    "tier": "Basic Membership",
+    "lat": 32.835340330323,
+    "lon": -83.626789084426,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62486",
+    "name": "North Central Health District",
+    "tier": "Business Catalyst",
+    "lat": 32.839198408166,
+    "lon": -83.626894190008,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "62519",
+    "name": "Air Temp Control",
+    "tier": "Basic Membership",
+    "lat": 32.717120409606,
+    "lon": -83.652486997424,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62663",
+    "name": "Next Step Recovery Ministries",
+    "tier": "Basic Membership",
+    "lat": 32.783752379891,
+    "lon": -83.658867893063,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62670",
+    "name": "Gordon State College",
+    "tier": "Basic Membership",
+    "lat": 33.047447568594,
+    "lon": -84.153457323357,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62722",
+    "name": "B. Monroe Salon, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.926266694512,
+    "lon": -83.736924862447,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "62740",
+    "name": "Tyler Landress - State Farm",
+    "tier": "Basic Membership",
+    "lat": 32.820627951231,
+    "lon": -83.711613639523,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62885",
+    "name": "Southern Majority, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837289870657,
+    "lon": -83.627272079228,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62927",
+    "name": "Southeast Regional Technology Group",
+    "tier": "Basic Membership",
+    "lat": 32.927911469557,
+    "lon": -83.709846731214,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62933",
+    "name": "Charles E. Cox, Jr. LLC Attorney at Law",
+    "tier": "Basic Membership",
+    "lat": 32.835720230135,
+    "lon": -83.63064013296,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62935",
+    "name": "Quantum HC",
+    "tier": "Business Catalyst",
+    "lat": 32.833119615795,
+    "lon": -83.636290487022,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "62986",
+    "name": "1st Franklin Financial Corp Macon #2",
+    "tier": "Additional Listing",
+    "lat": 32.849168877406,
+    "lon": -83.625421779713,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "63009",
+    "name": "Interstate Batteries of Greater Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.835201850449,
+    "lon": -83.74092166692,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63017",
+    "name": "Todd Mitchell - State Farm Insurance Agent",
+    "tier": "Basic Membership",
+    "lat": 32.85009828506,
+    "lon": -83.673976676131,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63036",
+    "name": "Northside Hospital Cancer Institute, Radiation Oncology",
+    "tier": "Community Advocate",
+    "lat": 32.843612236952,
+    "lon": -83.617494200119,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "63069",
+    "name": "Jones Glass Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.784601419892,
+    "lon": -83.757045130423,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63115",
+    "name": "Accounting Associates of Middle GA",
+    "tier": "Basic Membership",
+    "lat": 32.888113756411,
+    "lon": -83.674972083123,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63204",
+    "name": "Advent Business Interiors",
+    "tier": "Basic Membership",
+    "lat": 32.836992930996,
+    "lon": -83.740853192334,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63271",
+    "name": "O'Brien Heating and Air",
+    "tier": "Basic Membership",
+    "lat": 32.741930934704,
+    "lon": -83.908287312481,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63293",
+    "name": "Florida Governors Council on Indian Affairs",
+    "tier": "Basic Membership",
+    "lat": 30.446676631261,
+    "lon": -84.264962510656,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63367",
+    "name": "The Sign Store Online, Inc",
+    "tier": "Business Catalyst",
+    "lat": 32.81878224321,
+    "lon": -83.639171784289,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "63379",
+    "name": "PeoplesSouth Bank",
+    "tier": "Basic Membership",
+    "lat": 32.859741083376,
+    "lon": -83.614962597335,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63384",
+    "name": "Foothills Regional High School",
+    "tier": "Basic Membership",
+    "lat": 32.855923374456,
+    "lon": -83.645149683307,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63421",
+    "name": "Grant & Cook Equipment, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.80796442233,
+    "lon": -83.745933889925,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63431",
+    "name": "AREY Group",
+    "tier": "Business Catalyst",
+    "lat": 32.834813590156,
+    "lon": -83.625994487414,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "63442",
+    "name": "Hall Comprehensive Dentistry, L.L.C.",
+    "tier": "Basic Membership",
+    "lat": 32.910988797875,
+    "lon": -83.69044422026,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63535",
+    "name": "EOS Worldwide",
+    "tier": "Leading Investor",
+    "lat": 32.926359545925,
+    "lon": -83.712160807869,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "63536",
+    "name": "Surcheros Fresh Mex",
+    "tier": "Basic Membership",
+    "lat": 32.933541408501,
+    "lon": -83.725431563712,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "63578",
+    "name": "Destiny Fitness",
+    "tier": "Basic Membership",
+    "lat": 32.746441728404,
+    "lon": -83.673168079736,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "64597",
+    "name": "Siding Supply, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.805882724115,
+    "lon": -83.64035502911,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "65621",
+    "name": "CB Smith & Associates, PC",
+    "tier": "Basic Membership",
+    "lat": 32.905905361091,
+    "lon": -83.68724245955,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "65648",
+    "name": "Solomon Investments & Financial Planning, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.893720350188,
+    "lon": -83.668817744521,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "66717",
+    "name": "Superior Document Solutions",
+    "tier": "Basic Membership",
+    "lat": 32.926359545925,
+    "lon": -83.712160807869,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "67813",
+    "name": "ASTRE Wellness",
+    "tier": "Basic Membership",
+    "lat": 32.897146799242,
+    "lon": -83.70441578272,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "67832",
+    "name": "Moonhanger Group",
+    "tier": "Leading Investor",
+    "lat": 32.836134502167,
+    "lon": -83.62817994321,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "67857",
+    "name": "Brightmoor Hospice",
+    "tier": "Basic Membership",
+    "lat": 32.914117759253,
+    "lon": -83.695770841543,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "67873",
+    "name": "Tru by Hilton Macon North",
+    "tier": "Basic Membership",
+    "lat": 32.925408016229,
+    "lon": -83.740167810595,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "67961",
+    "name": "Mobile Space Sales & Rental, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.55952759359,
+    "lon": -83.597545124287,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "68000",
+    "name": "Lowcountry Foundation Repair",
+    "tier": "Basic Membership",
+    "lat": 32.834825558884,
+    "lon": -83.73205292043,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "68104",
+    "name": "Beyond The Bell, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.892210368697,
+    "lon": -83.678339630665,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "68188",
+    "name": "Hotel Forty Five",
+    "tier": "Business Catalyst",
+    "lat": 32.837140466388,
+    "lon": -83.629977692627,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "68208",
+    "name": "McCallum Metal Works",
+    "tier": "Basic Membership",
+    "lat": 32.862665284732,
+    "lon": -83.875859588994,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "69241",
+    "name": "Towering Your Success, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837764661374,
+    "lon": -83.627311312065,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "69323",
+    "name": "Century 21 Crowe Realty",
+    "tier": "Basic Membership",
+    "lat": 32.8537100702,
+    "lon": -83.651060758458,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "70335",
+    "name": "The Miner Agency",
+    "tier": "Basic Membership",
+    "lat": 32.59987642779,
+    "lon": -83.672116550333,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71555",
+    "name": "Atlanta Sand & Supply Co.",
+    "tier": "Basic Membership",
+    "lat": 32.87632775981,
+    "lon": -83.762042398213,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71562",
+    "name": "Fall Line Brewing Co.",
+    "tier": "Basic Membership",
+    "lat": 32.833726927838,
+    "lon": -83.630708874687,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71576",
+    "name": "Griggers Wealth Management",
+    "tier": "Basic Membership",
+    "lat": 32.614473880229,
+    "lon": -83.649988824798,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71582",
+    "name": "Windows Plus Inc",
+    "tier": "Basic Membership",
+    "lat": 32.825595363035,
+    "lon": -83.677959006689,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71607",
+    "name": "Macon Golf Carts, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.783109506665,
+    "lon": -83.665667463539,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71612",
+    "name": "Invision Technologies, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.840012392693,
+    "lon": -83.672987086464,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71618",
+    "name": "Liberty Disposal, Inc",
+    "tier": "Business Catalyst",
+    "lat": 32.565570877698,
+    "lon": -83.595958150597,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "71662",
+    "name": "Piedmont Urgent Care",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.879805928918,
+    "lon": -83.751525158451,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "71668",
+    "name": "Liberty Technology",
+    "tier": "Basic Membership",
+    "lat": 32.89831175211,
+    "lon": -83.705050649512,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71700",
+    "name": "Luxe Park Apartments",
+    "tier": "Basic Membership",
+    "lat": 32.914619639989,
+    "lon": -83.704712396328,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71709",
+    "name": "Colony Bank",
+    "tier": "Business Catalyst",
+    "lat": 32.922483408535,
+    "lon": -83.74065924874,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "71735",
+    "name": "Neal Weinberg, Attorney",
+    "tier": "Basic Membership",
+    "lat": 32.943189613534,
+    "lon": -83.745217549421,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71743",
+    "name": "C & C Manufacturing, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.698677316687,
+    "lon": -83.663324023422,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71750",
+    "name": "Christy Capital Management, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.833633314468,
+    "lon": -83.738793513695,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "71782",
+    "name": "Minuteman Press Macon",
+    "tier": "Basic Membership",
+    "lat": 32.826143603956,
+    "lon": -83.729365949497,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71832",
+    "name": "Flint Building Company, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.923618531149,
+    "lon": -83.865118277488,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "71838",
+    "name": "Oconee State Bank",
+    "tier": "Business Catalyst",
+    "lat": 32.836900922487,
+    "lon": -83.626713809981,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "72848",
+    "name": "Clark, Smith & Sizemore, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.845411631033,
+    "lon": -83.636256960571,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "72852",
+    "name": "Piedmont Orthopedic OrthoAtlanta",
+    "tier": "Business Catalyst",
+    "lat": 32.924939331293,
+    "lon": -83.738325990112,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "72870",
+    "name": "The Florrest Awakens LLC",
+    "tier": "Basic Membership",
+    "lat": 33.085633663254,
+    "lon": -83.591653336834,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "72876",
+    "name": "NotiVisi\u00f3n Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.564266908453,
+    "lon": -83.66890533716,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "72878",
+    "name": "Hawkinsville-Pulaski County Chamber of Commerce",
+    "tier": "Community Partner",
+    "lat": 32.28215021468,
+    "lon": -83.466010002605,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "72906",
+    "name": "Muscogee Nation Businesses, LLC",
+    "tier": "Community Partner",
+    "lat": 35.613735121586,
+    "lon": -95.961860974727,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "72916",
+    "name": "Hollywood Farms",
+    "tier": "Basic Membership",
+    "lat": 32.671809778773,
+    "lon": -83.352228079663,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "72926",
+    "name": "The Woodward Hotel & Quill Cocktail Bar",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.837125538637,
+    "lon": -83.628460793499,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "72928",
+    "name": "Capricorn Sound Studios and Museum",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.833031638042,
+    "lon": -83.62732332989,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "72938",
+    "name": "AF Realty Group",
+    "tier": "Basic Membership",
+    "lat": 32.458441915895,
+    "lon": -83.73535945826,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "72971",
+    "name": "Cleaning General Janitorial Services, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.819166888568,
+    "lon": -83.713578083759,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "72975",
+    "name": "Total Fuze Spine and Pain Center",
+    "tier": "Basic Membership",
+    "lat": 32.8348930132,
+    "lon": -83.626130556476,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74024",
+    "name": "Macon Outdoor Power",
+    "tier": "Basic Membership",
+    "lat": 32.831436450927,
+    "lon": -83.727249340626,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74026",
+    "name": "Childress & Justice, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837354495571,
+    "lon": -83.633335130325,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74028",
+    "name": "Hometown Occupational Medicine",
+    "tier": "Basic Membership",
+    "lat": 32.568295889784,
+    "lon": -83.592676988834,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74054",
+    "name": "Unified Defense",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.656855266808,
+    "lon": -83.748619065578,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "74057",
+    "name": "Truss US",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.656571454895,
+    "lon": -83.749120715593,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "74058",
+    "name": "Sweet Briar Gardens",
+    "tier": "Economic Driver",
+    "lat": 32.708446026389,
+    "lon": -83.820411538877,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "74061",
+    "name": "Jamtek Electrical LLC",
+    "tier": "Basic Membership",
+    "lat": 32.841899915817,
+    "lon": -83.663451173647,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74073",
+    "name": "Prevailing Woman Ministries, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.879799680055,
+    "lon": -83.759170858823,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74079",
+    "name": "Leah Yetter Photographer",
+    "tier": "Basic Membership",
+    "lat": 32.859872286195,
+    "lon": -83.681261431809,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74090",
+    "name": "Macon Bibb Economic Opportunity Council, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.827048646337,
+    "lon": -83.633731644251,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "74096",
+    "name": "Middle Georgia Access to Justice Council, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.838454632536,
+    "lon": -83.625411124539,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74113",
+    "name": "551 Hospitality LLC",
+    "tier": "Basic Membership",
+    "lat": 32.836700338161,
+    "lon": -83.629094267089,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74147",
+    "name": "Masonic Home of Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.864488498935,
+    "lon": -83.637769894861,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74149",
+    "name": "Southern Center for Choice Theory, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.839804846831,
+    "lon": -83.651765669245,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74154",
+    "name": "SARA Ventures, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.838072310804,
+    "lon": -83.63476953437,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74160",
+    "name": "Miramar Raw Bar and Tapas",
+    "tier": "Additional Listing",
+    "lat": 32.869427910652,
+    "lon": -83.700239357951,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "74161",
+    "name": "Grit's Cafe",
+    "tier": "Additional Listing",
+    "lat": 33.034982999319,
+    "lon": -83.939067395461,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "75161",
+    "name": "Advanced Dental Arts, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.90387243028,
+    "lon": -83.713891139585,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75167",
+    "name": "Taco Mac",
+    "tier": "Basic Membership",
+    "lat": 32.925179221597,
+    "lon": -83.731406962563,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75185",
+    "name": "Greens Home Repair LLC",
+    "tier": "Basic Membership",
+    "lat": 32.78975227114,
+    "lon": -83.794556143974,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75240",
+    "name": "Ocmulgee National Park and Preserve Initiative",
+    "tier": "Basic Membership",
+    "lat": 32.835367444788,
+    "lon": -83.6304692061,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75296",
+    "name": "JPMorgan Chase",
+    "tier": "Basic Membership",
+    "lat": 33.849900958157,
+    "lon": -84.362760192971,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75298",
+    "name": "Oliver's Corner Bistro, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.835455844407,
+    "lon": -83.629887177536,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75313",
+    "name": "ITVantix",
+    "tier": "Basic Membership",
+    "lat": 32.585475882275,
+    "lon": -83.622834398229,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75387",
+    "name": "Fresh Air Bar-B-Que",
+    "tier": "Basic Membership",
+    "lat": 32.88930423804,
+    "lon": -83.675962606901,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75389",
+    "name": "Dab's Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.701868027485,
+    "lon": -83.651328505998,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75391",
+    "name": "Zebulon Park Health and Rehabilitation",
+    "tier": "Basic Membership",
+    "lat": 32.885093261798,
+    "lon": -83.760960029903,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "75393",
+    "name": "Rhythm & Rally Sports & Events",
+    "tier": "Business Catalyst",
+    "lat": 32.815835932692,
+    "lon": -83.694154720999,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "75398",
+    "name": "Roberts Academy at Mercer University",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.836224765114,
+    "lon": -83.647548733526,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "75417",
+    "name": "Harmon & Harmon Realtors, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.828074977259,
+    "lon": -83.729351183553,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76424",
+    "name": "Stardust Consulting LLC",
+    "tier": "Basic Membership",
+    "lat": 32.632380439252,
+    "lon": -83.852339651975,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76430",
+    "name": "Heart of Georgia Hospice",
+    "tier": "Basic Membership",
+    "lat": 32.615664746559,
+    "lon": -83.679611874355,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76436",
+    "name": "Stetson-Hatcher School of Business",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.825863252811,
+    "lon": -83.651702293643,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "76440",
+    "name": "First Street Ace Hardware",
+    "tier": "Additional Listing",
+    "lat": 32.833920113903,
+    "lon": -83.633497501953,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "76443",
+    "name": "Diamond Odell Jude, MD LLC",
+    "tier": "Basic Membership",
+    "lat": 32.831871850243,
+    "lon": -83.634209489517,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76470",
+    "name": "Snowco General Contractors, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.838404550228,
+    "lon": -83.245336794387,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76507",
+    "name": "Noland Law Firm LLC",
+    "tier": "Basic Membership",
+    "lat": 32.937849361202,
+    "lon": -83.718264636691,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76515",
+    "name": "Gonzales Cleaning Services, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.790775656428,
+    "lon": -83.671953015904,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76522",
+    "name": "Ricky Heath Plumbing LLC",
+    "tier": "Basic Membership",
+    "lat": 32.845838496983,
+    "lon": -83.672950758701,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76524",
+    "name": "Turner Job Corps",
+    "tier": "Community Advocate",
+    "lat": 31.603130717677,
+    "lon": -84.104426790773,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "76534",
+    "name": "Logistics & Generation Technology Services, LLC",
+    "tier": "Economic Driver",
+    "lat": 32.697707456462,
+    "lon": -83.662243472791,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "76537",
+    "name": "Macon Hope, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.836065779971,
+    "lon": -83.634823852059,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76546",
+    "name": "Reliable Heating & Air",
+    "tier": "Leading Investor",
+    "lat": 32.832112655318,
+    "lon": -83.724888050135,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "76580",
+    "name": "Steel Forest Range and Academy LLC",
+    "tier": "Basic Membership",
+    "lat": 32.921067929742,
+    "lon": -83.707299794947,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76618",
+    "name": "Comcast Business",
+    "tier": "Basic Membership",
+    "lat": 33.887395125223,
+    "lon": -84.469367908281,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76635",
+    "name": "Holistic Healing Resources",
+    "tier": "Basic Membership",
+    "lat": 32.904767813282,
+    "lon": -83.691248206744,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76639",
+    "name": "OVG - The Macon Centreplex & Atrium Health Amphitheater",
+    "tier": "Basic Membership",
+    "lat": 32.841424653531,
+    "lon": -83.618494471639,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76647",
+    "name": "Georgia Trust for Local News",
+    "tier": "Basic Membership",
+    "lat": 32.832811574719,
+    "lon": -83.651427444193,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76668",
+    "name": "Georgia College & State University",
+    "tier": "Business Catalyst",
+    "lat": 33.080854061664,
+    "lon": -83.229354190915,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "76679",
+    "name": "Macon Me Wander",
+    "tier": "Basic Membership",
+    "lat": 32.852111083757,
+    "lon": -83.623345262732,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76683",
+    "name": "Robison Venture Group, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.879805928918,
+    "lon": -83.751525158451,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76690",
+    "name": "Gilbert's Prom and Formalwear",
+    "tier": "Basic Membership",
+    "lat": 32.87092702583,
+    "lon": -83.703077916248,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76703",
+    "name": "WiReD Technology, LLC",
+    "tier": "Basic Membership",
+    "lat": 33.409293583226,
+    "lon": -84.195002539529,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76707",
+    "name": "Ocmulgee Physicians LLC",
+    "tier": "Basic Membership",
+    "lat": 32.833677403871,
+    "lon": -83.62788445491,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76711",
+    "name": "Lesley Myrick Art + Design, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.838642496483,
+    "lon": -83.637497681425,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76716",
+    "name": "315 LLC",
+    "tier": "Basic Membership",
+    "lat": 32.87632775981,
+    "lon": -83.762042398213,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76724",
+    "name": "Nu-Way Weiners, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.879815693161,
+    "lon": -83.760353388903,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "76728",
+    "name": "Stroud Industries, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.830234785212,
+    "lon": -83.620641162381,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76765",
+    "name": "CoreSouth Systems LLC",
+    "tier": "Basic Membership",
+    "lat": 32.809916350802,
+    "lon": -83.748236980444,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76776",
+    "name": "Heart City Marketing",
+    "tier": "Basic Membership",
+    "lat": 32.573735144047,
+    "lon": -83.701805144218,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77784",
+    "name": "TJ Sutter - State Farm",
+    "tier": "Basic Membership",
+    "lat": 32.814192197579,
+    "lon": -83.707461502866,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77790",
+    "name": "Northside Animal Hospital",
+    "tier": "Basic Membership",
+    "lat": 32.868650548739,
+    "lon": -83.693523318588,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77792",
+    "name": "Three Rivers Area Health Education Center, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.481821839952,
+    "lon": -84.969940273552,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77797",
+    "name": "Pawn Max, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.816479622891,
+    "lon": -83.662738670539,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77799",
+    "name": "Clark & Clark Law Group, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.837289870657,
+    "lon": -83.627272079228,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77812",
+    "name": "Zebulon475.Inc",
+    "tier": "Basic Membership",
+    "lat": 32.879788529796,
+    "lon": -83.758007446866,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77830",
+    "name": "Nomad Capital",
+    "tier": "Basic Membership",
+    "lat": 32.814245550098,
+    "lon": -83.661356203834,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77833",
+    "name": "John Wesley Villas",
+    "tier": "Business Catalyst",
+    "lat": 32.833977157578,
+    "lon": -83.740243177032,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "77840",
+    "name": "LongBridge Macon, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.920845038802,
+    "lon": -83.7257214267,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77844",
+    "name": "Rash Investors, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.929498702275,
+    "lon": -83.713976046306,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "77864",
+    "name": "Rosas Management, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.853689437478,
+    "lon": -83.652773237629,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77907",
+    "name": "Lamar Advertising",
+    "tier": "Basic Membership",
+    "lat": 32.831062694182,
+    "lon": -83.725699717306,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77909",
+    "name": "Law Office of Christi James LLC",
+    "tier": "Basic Membership",
+    "lat": 32.849955148934,
+    "lon": -83.673814197311,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77913",
+    "name": "Realty Unlimited, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.90387243028,
+    "lon": -83.713891139585,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77917",
+    "name": "Out Fox Professional Solution",
+    "tier": "Basic Membership",
+    "lat": 32.713450089415,
+    "lon": -83.69028515467,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77931",
+    "name": "Lazarus - 2, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.849754758359,
+    "lon": -83.673586726963,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "77966",
+    "name": "Lowe Electric Supply",
+    "tier": "Economic Driver",
+    "lat": 32.838297710055,
+    "lon": -83.644488128921,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "77970",
+    "name": "Brodie Law Group",
+    "tier": "Basic Membership",
+    "lat": 32.918662345894,
+    "lon": -83.704781055815,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78069",
+    "name": "Ballard Benefits Group, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.87206338634,
+    "lon": -83.71120126458,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78083",
+    "name": "Childs & Curreli, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.839198408166,
+    "lon": -83.626894190008,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78115",
+    "name": "Albany State University/Child Care Resource and Referral of SWGA",
+    "tier": "Basic Membership",
+    "lat": 31.585873814222,
+    "lon": -84.210677441002,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78117",
+    "name": "HWH of Macon, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.923493855629,
+    "lon": -83.739767785439,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78127",
+    "name": "Macon Sweet Treats LLC",
+    "tier": "Basic Membership",
+    "lat": 32.923493855629,
+    "lon": -83.739767785439,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78130",
+    "name": "Spearman Investments, Inc.",
+    "tier": "Leading Investor",
+    "lat": 32.83729933516,
+    "lon": -83.626537494129,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "78146",
+    "name": "Skipper Family Farms",
+    "tier": "Basic Membership",
+    "lat": 32.731564494598,
+    "lon": -83.70260431492,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78148",
+    "name": "AllenSelfCo",
+    "tier": "Basic Membership",
+    "lat": 32.880008790438,
+    "lon": -83.765653213992,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78150",
+    "name": "FBC Macon LLC",
+    "tier": "Economic Driver",
+    "lat": 32.837544118788,
+    "lon": -83.627701879572,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "78153",
+    "name": "1st Franklin Financial Corp - Macon 1",
+    "tier": "Basic Membership",
+    "lat": 32.897917632791,
+    "lon": -83.689539490497,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78157",
+    "name": "Going to Macon to Get the Bacon LLC",
+    "tier": "Basic Membership",
+    "lat": 32.836815695448,
+    "lon": -83.632548663491,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78160",
+    "name": "Georgia Pulmonary Institute, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.920825141163,
+    "lon": -83.707155201135,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78167",
+    "name": "Accelecom",
+    "tier": "Basic Membership",
+    "lat": 33.91046214064,
+    "lon": -84.43374520642,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78171",
+    "name": "Ramaker",
+    "tier": "Basic Membership",
+    "lat": 43.091546407245,
+    "lon": -89.356130220572,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78188",
+    "name": "Onelife Fitness",
+    "tier": "Basic Membership",
+    "lat": 32.89757457341,
+    "lon": -83.689576423316,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78201",
+    "name": "Rex Supply",
+    "tier": "Business Catalyst",
+    "lat": 32.831607367876,
+    "lon": -83.624153454725,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78219",
+    "name": "Synovus",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.836662470997,
+    "lon": -83.626241856742,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78220",
+    "name": "Synovus",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.613853958096,
+    "lon": -83.680282765697,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78221",
+    "name": "Synovus",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.554833095107,
+    "lon": -83.668000019943,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78235",
+    "name": "Macon GA Caregiving LLC",
+    "tier": "Basic Membership",
+    "lat": 32.827900881502,
+    "lon": -83.633741459771,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78240",
+    "name": "Pet Party Palace",
+    "tier": "Basic Membership",
+    "lat": 32.833609690357,
+    "lon": -83.628949569713,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78271",
+    "name": "Ashah Photography",
+    "tier": "Business Catalyst",
+    "lat": 32.933977905301,
+    "lon": -83.666695937562,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78273",
+    "name": "Still Waters Professional Counseling Services, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.834085811994,
+    "lon": -83.631542330074,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78283",
+    "name": "Crofutt Careers and Consulting LLC",
+    "tier": "Basic Membership",
+    "lat": 32.618535081501,
+    "lon": -83.680445170347,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78317",
+    "name": "eco-X.travel, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.855984776908,
+    "lon": -83.717418293293,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78321",
+    "name": "Elizabeth Schorr & Co.",
+    "tier": "Basic Membership",
+    "lat": 32.838642496483,
+    "lon": -83.637497681425,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78324",
+    "name": "Boss Salon Suites LLC",
+    "tier": "Basic Membership",
+    "lat": 32.925084445172,
+    "lon": -83.731186233296,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78359",
+    "name": "Ocmulgee Mounds Association",
+    "tier": "Additional Listing",
+    "lat": 32.84807341838,
+    "lon": -83.604493919286,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78361",
+    "name": "Alex's PC Solutions LLC",
+    "tier": "Community Advocate",
+    "lat": 32.844449189959,
+    "lon": -83.632086495754,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "78368",
+    "name": "Hardcore Storage Solutions",
+    "tier": "Basic Membership",
+    "lat": 33.89292306842,
+    "lon": -84.47393241359,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78370",
+    "name": "Gordon Animal Clinic, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.913738762874,
+    "lon": -83.339724150779,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78374",
+    "name": "Wimberly Treadwell Designs",
+    "tier": "Basic Membership",
+    "lat": 32.836065779971,
+    "lon": -83.634823852059,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78377",
+    "name": "Baker Roofing Company",
+    "tier": "Basic Membership",
+    "lat": 32.089747746138,
+    "lon": -81.159362788445,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78379",
+    "name": "America's Home Place",
+    "tier": "Basic Membership",
+    "lat": 32.931878560454,
+    "lon": -83.727006248441,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78402",
+    "name": "Dream SAJ Corporation",
+    "tier": "Basic Membership",
+    "lat": 32.815689643,
+    "lon": -83.706637337152,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78411",
+    "name": "Cherry Street Energy",
+    "tier": "Community Advocate",
+    "lat": 33.778745811799,
+    "lon": -84.409782257162,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "78416",
+    "name": "Macon Bibb Citizen Advocacy, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.83671866917,
+    "lon": -83.629124742387,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78426",
+    "name": "Sweet Affairz LLC",
+    "tier": "Basic Membership",
+    "lat": 32.853702908497,
+    "lon": -83.654711110815,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78430",
+    "name": "The Loaves and Fishes Ministry of Macon",
+    "tier": "Basic Membership",
+    "lat": 32.831184390231,
+    "lon": -83.629062416074,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78437",
+    "name": "JBW Installations, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.742482619963,
+    "lon": -83.772602111283,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78447",
+    "name": "AngHubb Georgia Properties, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.843679303771,
+    "lon": -83.636063251325,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78450",
+    "name": "Marketing USA and Civic Swag",
+    "tier": "Basic Membership",
+    "lat": 33.115128362772,
+    "lon": -83.255487174476,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78452",
+    "name": "Covenant Plumbing",
+    "tier": "Basic Membership",
+    "lat": 32.827171533992,
+    "lon": -83.729221721838,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78455",
+    "name": "Caring Transitions of Macon",
+    "tier": "Business Catalyst",
+    "lat": 32.866737026749,
+    "lon": -83.673790724363,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78458",
+    "name": "105holidayllc",
+    "tier": "Basic Membership",
+    "lat": 32.899990085176,
+    "lon": -83.685804808138,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78470",
+    "name": "Longleaf Distilling Co.",
+    "tier": "Basic Membership",
+    "lat": 32.833089233384,
+    "lon": -83.631886425957,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78478",
+    "name": "Liset's Accessories LLC",
+    "tier": "Basic Membership",
+    "lat": 32.641310110092,
+    "lon": -83.643599695194,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78488",
+    "name": "Theatre Macon",
+    "tier": "Basic Membership",
+    "lat": 32.835001782034,
+    "lon": -83.626517977884,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78504",
+    "name": "Rooted & Rounded Wellness LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.834066050442,
+    "lon": -83.742747792831,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78516",
+    "name": "Macon Women's Health",
+    "tier": "Basic Membership",
+    "lat": 32.835757244943,
+    "lon": -83.638553121348,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78526",
+    "name": "Robins, Eskew, Smith & Jordan",
+    "tier": "Basic Membership",
+    "lat": 33.494347161489,
+    "lon": -84.218389763558,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78530",
+    "name": "Gilmer Warehouse",
+    "tier": "Leading Investor",
+    "lat": 32.832998441208,
+    "lon": -83.629633374631,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "78535",
+    "name": "MAC.BID",
+    "tier": "Basic Membership",
+    "lat": 32.820057757433,
+    "lon": -83.713857045567,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78538",
+    "name": "Georgia Cancer Specialists - Macon",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.843612236952,
+    "lon": -83.617494200119,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78539",
+    "name": "The Imaging Center of Warner Robins",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.618364081222,
+    "lon": -83.671262174302,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78541",
+    "name": "Macon Northside PET",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.832192921117,
+    "lon": -83.634963444436,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78543",
+    "name": "OrthoGeorgia Orthopaedic Urgent Care Warner Robins",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.613796154228,
+    "lon": -83.689949995099,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78544",
+    "name": "OrthoGeorgia Bone Health Clinic",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.897149342881,
+    "lon": -83.692169749199,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78545",
+    "name": "OrthoGeorgia Orthopaedic Urgent Care Macon",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.897149342881,
+    "lon": -83.692169749199,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78549",
+    "name": "Goodrich Flooring Solutions",
+    "tier": "Economic Driver",
+    "lat": 32.860857929284,
+    "lon": -83.595055204974,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "78564",
+    "name": "Mr. Davis Lawn Service LLC",
+    "tier": "Basic Membership",
+    "lat": 32.888630147488,
+    "lon": -83.703362036385,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78566",
+    "name": "Nicky's Janitorial Service LLC",
+    "tier": "Basic Membership",
+    "lat": 32.884459480141,
+    "lon": -83.495893064967,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78568",
+    "name": "YourHealth Macon",
+    "tier": "Basic Membership",
+    "lat": 32.892918070525,
+    "lon": -83.682091798784,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78576",
+    "name": "Alternative Youth Services",
+    "tier": "Basic Membership",
+    "lat": 32.892918070525,
+    "lon": -83.682091798784,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78578",
+    "name": "Macon Drinks LLC",
+    "tier": "Basic Membership",
+    "lat": 32.836689284573,
+    "lon": -83.631207601089,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78595",
+    "name": "AnchorPoint Retirement",
+    "tier": "Basic Membership",
+    "lat": 32.879799680055,
+    "lon": -83.759170858823,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78600",
+    "name": "PBK",
+    "tier": "Community Advocate",
+    "lat": 33.247031249581,
+    "lon": -84.256296005644,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "78602",
+    "name": "Piedmont Macon Primary Care at Charter Blvd.",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.868075295953,
+    "lon": -83.693371477761,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78612",
+    "name": "George S. Stefanis, MD, PC",
+    "tier": "Basic Membership",
+    "lat": 32.931366724001,
+    "lon": -83.714502360283,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78620",
+    "name": "Dream Clean Housekeeping Company LLC",
+    "tier": "Basic Membership",
+    "lat": 32.856200070551,
+    "lon": -83.648119791717,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78622",
+    "name": "Pruitt Place Peake Assisted and Independent Living",
+    "tier": "Basic Membership",
+    "lat": 32.873240357774,
+    "lon": -83.746037837348,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78633",
+    "name": "Pruitt Healthcare",
+    "tier": "Basic Membership",
+    "lat": 32.867394243372,
+    "lon": -83.692261016381,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78639",
+    "name": "ACE I Access to Capital for Entrepreneurs",
+    "tier": "Business Catalyst",
+    "lat": 31.462232230342,
+    "lon": -83.505777000609,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78646",
+    "name": "Get Busy Living Inc",
+    "tier": "Basic Membership",
+    "lat": 32.747504073107,
+    "lon": -83.736630163186,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78671",
+    "name": "FreeUP Storage",
+    "tier": "Basic Membership",
+    "lat": 32.82352194868,
+    "lon": -83.654862996057,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78676",
+    "name": "Gallagher Benefit Services",
+    "tier": "Basic Membership",
+    "lat": 32.905905361091,
+    "lon": -83.68724245955,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78681",
+    "name": "Merle Norman and Day Spa",
+    "tier": "Basic Membership",
+    "lat": 32.925273998022,
+    "lon": -83.731627691829,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78683",
+    "name": "DHM Macon LP",
+    "tier": "Business Catalyst",
+    "lat": 32.880012531799,
+    "lon": -83.766542544337,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78690",
+    "name": "Whole Child - Whole World School, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.90677023763,
+    "lon": -83.702124929162,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78699",
+    "name": "Robin Gatti Photography",
+    "tier": "Business Catalyst",
+    "lat": 32.850891070481,
+    "lon": -83.674877315701,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78701",
+    "name": "Spark By Hilton Macon North",
+    "tier": "Basic Membership",
+    "lat": 32.910023556933,
+    "lon": -83.693573100067,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78733",
+    "name": "Storage Sense - Macon",
+    "tier": "Basic Membership",
+    "lat": 32.814495145199,
+    "lon": -83.671555827022,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78735",
+    "name": "DKH Entertainment, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.907667795042,
+    "lon": -83.724520183221,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78738",
+    "name": "St. Joseph's Catholic School",
+    "tier": "Basic Membership",
+    "lat": 32.837214087575,
+    "lon": -83.635917143595,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78740",
+    "name": "Affordable Plumbing Solutions, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.444872586779,
+    "lon": -83.749194407561,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78744",
+    "name": "SCB Minerals, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.285000451667,
+    "lon": -84.070511297341,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78756",
+    "name": "ReFrame Weight Loss & Wellness Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.936598769833,
+    "lon": -83.721511511296,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78758",
+    "name": "Carter Engineering Group, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.871606881838,
+    "lon": -83.757784821771,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78764",
+    "name": "PAMG, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.81233382056,
+    "lon": -83.632238102031,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78772",
+    "name": "TownePlace Suites Macon - Mercer University",
+    "tier": "Basic Membership",
+    "lat": 32.825643965052,
+    "lon": -83.654421918743,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78774",
+    "name": "Qalam wa Lawh",
+    "tier": "Basic Membership",
+    "lat": 32.843933591019,
+    "lon": -83.556933418195,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78777",
+    "name": "Piedmont Macon Primary Care at Bass Rd.",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.830813486935,
+    "lon": -83.725160186649,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78782",
+    "name": "Julie Dominy Floral Artistry",
+    "tier": "Basic Membership",
+    "lat": 32.852158187771,
+    "lon": -83.674802648443,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78784",
+    "name": "Macon-Bibb Employees Credit Union",
+    "tier": "Basic Membership",
+    "lat": 32.832177949761,
+    "lon": -83.615670313235,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78786",
+    "name": "Wanna Tuft Studios",
+    "tier": "Micro Membership",
+    "lat": 32.827900881502,
+    "lon": -83.633741459771,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78793",
+    "name": "Bey and Associates, LLC",
+    "tier": "Community Advocate",
+    "lat": 32.838278087522,
+    "lon": -83.63619720288,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "78795",
+    "name": "Macon AIM, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.850890112589,
+    "lon": -83.662513682193,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78801",
+    "name": "Westhill Macon",
+    "tier": "Business Catalyst",
+    "lat": 32.925827210866,
+    "lon": -83.741182494119,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78807",
+    "name": "Emory Healthcare Warner Robins",
+    "tier": "Basic Membership",
+    "lat": 32.618150488432,
+    "lon": -83.629517598086,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78813",
+    "name": "Ballard Construction Group",
+    "tier": "Basic Membership",
+    "lat": 32.860322350753,
+    "lon": -83.70709208325,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78818",
+    "name": "Pharmacy Bar LLC",
+    "tier": "Basic Membership",
+    "lat": 32.836816704281,
+    "lon": -83.628729980205,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78845",
+    "name": "Conner Gun Supply",
+    "tier": "Basic Membership",
+    "lat": 32.616373469333,
+    "lon": -83.681734054376,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78857",
+    "name": "Sculpting Choices LLC",
+    "tier": "Basic Membership",
+    "lat": 32.839974643916,
+    "lon": -83.641489469277,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78860",
+    "name": "CGR Credit Union",
+    "tier": "Business Catalyst",
+    "lat": 32.85513509659,
+    "lon": -83.64637673141,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78862",
+    "name": "Crisis Line & Safe House of Central Georgia, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.841538229292,
+    "lon": -83.632346966838,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78866",
+    "name": "Ronald McDonald House Charities of Central Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.83602346658,
+    "lon": -83.639821006131,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78873",
+    "name": "Eiszner & Kelly Restaurants LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.836380816552,
+    "lon": -83.628760705026,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78875",
+    "name": "Our Gift to You, LLC",
+    "tier": "Community Advocate",
+    "lat": 32.880107285049,
+    "lon": -83.772303546183,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "78877",
+    "name": "Stokes Land Management",
+    "tier": "Business Catalyst",
+    "lat": 32.923618531149,
+    "lon": -83.865118277488,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78889",
+    "name": "Steve's Corner Cafe, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.90856588772,
+    "lon": -83.688001783967,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78922",
+    "name": "Blue Chip Branding & Headshots",
+    "tier": "Basic Membership",
+    "lat": 32.847931008206,
+    "lon": -83.659480406908,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78929",
+    "name": "Blue Chip Custom Website Design",
+    "tier": "Additional Listing",
+    "lat": 32.847931008206,
+    "lon": -83.659480406908,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78946",
+    "name": "NAG Enterprise Group",
+    "tier": "Economic Driver",
+    "lat": 32.89831175211,
+    "lon": -83.705050649512,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "78948",
+    "name": "Partners Benefit Group, LLC",
+    "tier": "Basic Membership",
+    "lat": 31.962682871708,
+    "lon": -83.769037852341,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78950",
+    "name": "Wire 3",
+    "tier": "Business Catalyst",
+    "lat": 29.203060284198,
+    "lon": -81.086592346996,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78953",
+    "name": "Cornerstone Academy of Art and Design, Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.839974643916,
+    "lon": -83.641489469277,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78957",
+    "name": "The Darby & Munroe Private Family Foundation",
+    "tier": "Basic Membership",
+    "lat": 32.819166888568,
+    "lon": -83.713578083759,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78959",
+    "name": "Dental Care Center of Macon Inc.",
+    "tier": "Business Catalyst",
+    "lat": 32.820506410917,
+    "lon": -83.690384465554,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78964",
+    "name": "Big City Tax LLC. JJ",
+    "tier": "Business Catalyst",
+    "lat": 32.834231568633,
+    "lon": -83.744616975759,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78966",
+    "name": "MJR Solutions",
+    "tier": "Basic Membership",
+    "lat": 32.861597253874,
+    "lon": -84.623396670105,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78969",
+    "name": "Big Brothers Big Sisters of the Heart of Georgia, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.848145437666,
+    "lon": -83.62332436408,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78971",
+    "name": "Piedmont Primary Care at Macon Medical",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.846071991984,
+    "lon": -83.617305850894,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78974",
+    "name": "Orangetheory Fitness",
+    "tier": "Basic Membership",
+    "lat": 32.867114091026,
+    "lon": -83.695702093919,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78976",
+    "name": "TwelveStone Infusion Center",
+    "tier": "Basic Membership",
+    "lat": 32.931366724001,
+    "lon": -83.714502360283,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78978",
+    "name": "Sweet Eleanor's Divine Desserts",
+    "tier": "Additional Listing",
+    "lat": 32.834487534441,
+    "lon": -83.629233935027,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "78984",
+    "name": "Goshen and Burns Enterprises, Inc",
+    "tier": "Economic Driver",
+    "lat": 32.927746615856,
+    "lon": -83.712776224059,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "78988",
+    "name": "Highland Pointe",
+    "tier": "Business Catalyst",
+    "lat": 32.736254120389,
+    "lon": -83.71940761446,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "78994",
+    "name": "Cassidy Dental Associates",
+    "tier": "Basic Membership",
+    "lat": 32.845518368193,
+    "lon": -83.636210814714,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78996",
+    "name": "MFA Program Management",
+    "tier": "Economic Driver",
+    "lat": 35.110565109486,
+    "lon": -89.866437214469,
+    "geocode_source": "census_batch",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "79000",
+    "name": "T-Fiber by T-Mobile",
+    "tier": "Basic Membership",
+    "lat": 32.929498702275,
+    "lon": -83.713976046306,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79010",
+    "name": "Salvation Army (Macon Corps)",
+    "tier": "Basic Membership",
+    "lat": 32.817938864891,
+    "lon": -83.639742438735,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79013",
+    "name": "Neel's Lofts Operating LLC",
+    "tier": "Basic Membership",
+    "lat": 32.8352764985,
+    "lon": -83.626918936831,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79015",
+    "name": "Rebecca Moody Coaching",
+    "tier": "Basic Membership",
+    "lat": 32.931831035965,
+    "lon": -83.889114799124,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79021",
+    "name": "Direct Auto Insurance",
+    "tier": "Basic Membership",
+    "lat": 32.861266270238,
+    "lon": -83.613962902571,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79024",
+    "name": "Leonard USA",
+    "tier": "Business Catalyst",
+    "lat": 32.78958875367,
+    "lon": -83.66844814929,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "79028",
+    "name": "Amwaste of Georgia, LLC",
+    "tier": "Community Advocate",
+    "lat": 33.037367592052,
+    "lon": -83.937034197115,
+    "geocode_source": "census_batch",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "79030",
+    "name": "MJM Consolidated Services, Inc.",
+    "tier": "Micro Membership",
+    "lat": 32.833080756459,
+    "lon": -83.627283421175,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79041",
+    "name": "Autism Behavioral Institute, LLC",
+    "tier": "Business Catalyst",
+    "lat": 32.926359545925,
+    "lon": -83.712160807869,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "79047",
+    "name": "Rebel Fox",
+    "tier": "Basic Membership",
+    "lat": 40.665879870781,
+    "lon": -80.125221770857,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79052",
+    "name": "EDWARD Transportation and Media Consulting LLC",
+    "tier": "Basic Membership",
+    "lat": 31.106754837265,
+    "lon": -81.589598598105,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79067",
+    "name": "Andalusia",
+    "tier": "Additional Listing - Cornerstone (Paid)",
+    "lat": 32.835521200158,
+    "lon": -83.629999208797,
+    "geocode_source": "census_batch",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "79092",
+    "name": "Kinder Morgan",
+    "tier": "Key Stakeholder",
+    "lat": 29.758442000617,
+    "lon": -95.367495824586,
+    "geocode_source": "census_batch",
+    "bucket": "tier4_regional_stakeholder"
+  },
+  {
+    "id": "79098",
+    "name": "Alzheimer's Disease and Related Disorders Association",
+    "tier": "Basic Membership",
+    "lat": 32.888113756411,
+    "lon": -83.674972083123,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79102",
+    "name": "KDD Smash LLC",
+    "tier": "Basic Membership",
+    "lat": 32.880554783035,
+    "lon": -83.775328255166,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79107",
+    "name": "Crawlspace Medic of Macon",
+    "tier": "Basic Membership",
+    "lat": 32.816283698812,
+    "lon": -83.676588557318,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79112",
+    "name": "Groome Transportation of Georgia LLC",
+    "tier": "Basic Membership",
+    "lat": 32.917788025009,
+    "lon": -83.703570743397,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79115",
+    "name": "The King Firm",
+    "tier": "Basic Membership",
+    "lat": 32.840417913227,
+    "lon": -83.632437729115,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79117",
+    "name": "S&ME, Inc.",
+    "tier": "Basic Membership",
+    "lat": 34.018331666678,
+    "lon": -84.168222790959,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79119",
+    "name": "House Cocktails",
+    "tier": "Basic Membership",
+    "lat": 32.836927002265,
+    "lon": -83.628633842096,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79128",
+    "name": "The Dress Bar",
+    "tier": "Business Catalyst",
+    "lat": 32.836230823258,
+    "lon": -83.628276034214,
+    "geocode_source": "census_batch",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "79130",
+    "name": "Nick Schnyder Law Firm, LLC",
+    "tier": "Basic Membership",
+    "lat": 32.848129175674,
+    "lon": -83.671271363152,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79140",
+    "name": "TwentyOne Macon",
+    "tier": "Basic Membership",
+    "lat": 32.839974643916,
+    "lon": -83.641489469277,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "79150",
+    "name": "Hawk Injury Law",
+    "tier": "Basic Membership",
+    "lat": 32.931366724001,
+    "lon": -83.714502360283,
+    "geocode_source": "census_batch",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "229",
+    "name": "Boys & Girls Clubs of Central Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.8208188,
+    "lon": -83.6504212,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "315",
+    "name": "Cherokee Brick",
+    "tier": "Community Advocate",
+    "lat": 32.8142848,
+    "lon": -83.6361933,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "526",
+    "name": "Fort Valley State University",
+    "tier": "Basic Membership",
+    "lat": 32.5336633,
+    "lon": -83.8950462,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "592",
+    "name": "Goodwill Industries of Middle Georgia, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.8033088,
+    "lon": -83.732625,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "832",
+    "name": "Visit Macon",
+    "tier": "Basic Membership",
+    "lat": 32.8337554,
+    "lon": -83.6261825,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "839",
+    "name": "The Arc Macon",
+    "tier": "Basic Membership",
+    "lat": 32.9133417,
+    "lon": -83.6983545,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "858",
+    "name": "Middle Georgia State University",
+    "tier": "Leading Investor",
+    "lat": 32.8091578,
+    "lon": -83.7350392,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "925",
+    "name": "Navicent Health Foundation, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.898086,
+    "lon": -83.6959982,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1007",
+    "name": "Museum of Aviation Foundation",
+    "tier": "Basic Membership",
+    "lat": 32.5918603,
+    "lon": -83.5868744,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "1015",
+    "name": "Natalia's",
+    "tier": "Additional Listing - Cornerstone (Unpaid)",
+    "lat": 32.9273327,
+    "lon": -83.7369775,
+    "geocode_source": "nominatim_address",
+    "bucket": "additional_listing"
+  },
+  {
+    "id": "3766",
+    "name": "Donny's Propane Gas",
+    "tier": "Basic Membership",
+    "lat": 32.7292106,
+    "lon": -83.65732,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10144",
+    "name": "Lullwater at Bass Apartments",
+    "tier": "Basic Membership",
+    "lat": 32.8846838,
+    "lon": -83.7458857,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11027",
+    "name": "Hilton Garden Inn",
+    "tier": "Basic Membership",
+    "lat": 32.8263493,
+    "lon": -83.6557234,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11564",
+    "name": "Hotel Management & Consulting",
+    "tier": "Basic Membership",
+    "lat": 32.9253178,
+    "lon": -83.72767,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "11865",
+    "name": "ServiceMaster of Middle GA",
+    "tier": "Basic Membership",
+    "lat": 32.6216094,
+    "lon": -83.7426395,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "56082",
+    "name": "Communities In Schools of Central Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.8208188,
+    "lon": -83.6504212,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "59710",
+    "name": "Kumho Tire Georgia, Inc.",
+    "tier": "Community Advocate",
+    "lat": 32.7435832,
+    "lon": -83.6550431,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "61288",
+    "name": "Archway Transitional Care Center",
+    "tier": "Business Catalyst",
+    "lat": 32.7856778,
+    "lon": -83.6588081,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "71644",
+    "name": "Adams Homes AEC, LLC",
+    "tier": "Basic Membership",
+    "lat": 33.4349891,
+    "lon": -84.1731271,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "72993",
+    "name": "Riverside Storage",
+    "tier": "Basic Membership",
+    "lat": 32.8367176,
+    "lon": -83.6218137,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74007",
+    "name": "Budget Blinds of Warner Robins",
+    "tier": "Basic Membership",
+    "lat": 32.5928651,
+    "lon": -83.6662259,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78267",
+    "name": "Magnolia Claim Management",
+    "tier": "Basic Membership",
+    "lat": 33.0331657,
+    "lon": -83.9238359,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78312",
+    "name": "Baldwin Communication Solutions LLC",
+    "tier": "Basic Membership",
+    "lat": 33.3474427,
+    "lon": -84.0977148,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "78815",
+    "name": "Inees\u2019s Faithful Steps Learning Center",
+    "tier": "Micro Membership",
+    "lat": 32.8208188,
+    "lon": -83.6504212,
+    "geocode_source": "nominatim_address",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "860",
+    "name": "Graphic Packaging International, Inc.",
+    "tier": "Leading Investor",
+    "lat": 32.7724363,
+    "lon": -83.6300755,
+    "geocode_source": "nominatim_name",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "55",
+    "name": "American Red Cross of Central Georgia",
+    "tier": "Basic Membership",
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "geocode_source": "manual_override",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "10893",
+    "name": "Elite Environmental Services, Inc",
+    "tier": "Basic Membership",
+    "lat": 32.8341817,
+    "lon": -83.6265536,
+    "geocode_source": "manual_override",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "62205",
+    "name": "YKK AP America Inc.",
+    "tier": "Community Advocate",
+    "lat": 32.8205229,
+    "lon": -83.5428117,
+    "geocode_source": "manual_override",
+    "bucket": "tier3_community"
+  },
+  {
+    "id": "62387",
+    "name": "Middle Georgia Heart",
+    "tier": "Business Catalyst",
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "geocode_source": "manual_override",
+    "bucket": "tier2_catalyst"
+  },
+  {
+    "id": "66684",
+    "name": "Ashley's Business Solutions, Inc.",
+    "tier": "Basic Membership",
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "geocode_source": "manual_override",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "74099",
+    "name": "PruittHealth Hospice and Palliative Care of Macon",
+    "tier": "Basic Membership",
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "geocode_source": "manual_override",
+    "bucket": "tier1_micro_basic"
+  },
+  {
+    "id": "76733",
+    "name": "BrightFarms, Inc",
+    "tier": "Leading Investor",
+    "lat": 32.6980089,
+    "lon": -83.6314647,
+    "geocode_source": "manual_override",
+    "bucket": "tier5_driver_investor"
+  },
+  {
+    "id": "78688",
+    "name": "Katherine L McArthur LLC",
+    "tier": "Basic Membership",
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "geocode_source": "manual_override",
+    "bucket": "tier1_micro_basic"
+  }
+]

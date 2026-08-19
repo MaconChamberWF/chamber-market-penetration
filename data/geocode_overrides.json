@@ -1,0 +1,52 @@
+{
+  "10893": {
+    "lat": 32.8341817,
+    "lon": -83.6265536,
+    "note": "Elite Environmental Services, Inc -- 440 Martin Luther King, Jr. Blvd., Macon. Nominatim structured search resolved to the street (Census/Nominatim address-point geocoding failed on the specific number); street-level precision, not exact."
+  },
+  "62205": {
+    "lat": 32.8205229,
+    "lon": -83.5428117,
+    "note": "YKK AP America Inc. -- 100 YKK AP Way, Macon. Address geocoding failed (private company road, same pattern confirmed for Kumho/Graphic Packaging). Reused the coordinates of 'YKK Americas', the same real industrial campus, found via OSM name search under a separate member profile ('YKK', id 1443) that already geocoded successfully at a nearby address."
+  },
+  "76733": {
+    "lat": 32.6980089,
+    "lon": -83.6314647,
+    "note": "BrightFarms, Inc -- listed on file as '3037 Airport East Road,' but confirmed via web search the real street name is 'Airport East Parkway,' not Road -- a data-entry mismatch, not an unmappable location. Geocodes precisely once corrected."
+  },
+  "55": {
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "note": "American Red Cross of Central Georgia -- 6080 Lakeside Commons Drive, Macon. Lakeside Commons is a real Class A medical/professional office park 'off I-75 and Bass Road' (confirmed via web search) that isn't in OSM or Census TIGER at all -- neither address nor street-name geocoding resolves any address in this development. Approximated to the Bass Road anchor point; office-park-level precision, not exact address."
+  },
+  "62387": {
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "note": "Middle Georgia Heart -- 6070 Lakeside Commons Drive, Macon. Same Lakeside Commons development as id 55 above (not in OSM/Census); same Bass Road approximation."
+  },
+  "66684": {
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "note": "Ashley's Business Solutions, Inc. -- 6030 Lake Commons Drive, Macon. Same Lakeside Commons development as id 55 above (not in OSM/Census); same Bass Road approximation."
+  },
+  "74099": {
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "note": "PruittHealth Hospice and Palliative Care of Macon -- 6060 Lakeside Commons Drive, Macon. Same Lakeside Commons development as id 55 above (not in OSM/Census); same Bass Road approximation."
+  },
+  "78688": {
+    "lat": 32.9281229,
+    "lon": -83.7314672,
+    "note": "Katherine L McArthur LLC -- 6055 Lakeside Commons Drive, Macon. Same Lakeside Commons development as id 55 above (not in OSM/Census); same Bass Road approximation."
+  },
+  "62085": {
+    "lat": 32.8328457,
+    "lon": -83.6509070,
+    "note": "Z Beans Coffee -- chamber's own profile address ('Bldg 106, 600 Guy Paine Road', a south-Macon industrial address) is wrong; that address actually belongs to a different member ('SD Polymers', id 11393), likely a copy-paste data-entry error in the chamber's CRM. Confirmed via web search Z Beans' real locations are downtown/Mercer Village; used the confirmed active Mercer Village location, 1635 Montpelier Ave, Macon GA 31201, geocoded via Nominatim (matches an existing cafe listing at that address/building)."
+  },
+  "62314": {
+    "lat": 32.9265408,
+    "lon": -83.7369819,
+    "note": "Holiday Inn Express Macon North -- chamber's own address on file ('240 North Macon Street, Macon, GA 31210') is correct, but the Census batch geocoder mismatched it to a different, unrelated street called plain 'Macon Street' in the Hillcrest Heights neighborhood, 11.6km away from the hotel's real location near Bass Road. Found by a full audit (scripts/audit_geocodes.py) cross-checking every geocoded member against an independent Nominatim business-name search, then confirmed by directly geocoding the on-file address, which resolves correctly to North Macon Street near Bass Road."
+  }
+}

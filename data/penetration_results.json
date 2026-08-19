@@ -1,0 +1,120 @@
+{
+  "denominators": {
+    "cbp_2023": {
+      "label": "CBP 2023 employer establishments (Bibb County)",
+      "value": 4147,
+      "source": "U.S. Census Bureau, County Business Patterns, 2023, Bibb County, GA",
+      "role": "primary",
+      "note": "Most methodologically transparent employer-establishment count; corroborated by JobsEQ/QCEW (~4,300)."
+    },
+    "esri_data_axle_2026": {
+      "label": "Esri/Data Axle \u20182026 Total Businesses (NAICS)\u2019 (MBCIA Local Data page)",
+      "value": 6713,
+      "source": "MBCIA Local Data page, embedded Esri Workforce Overview dashboard (business-listing file, April 2026 vintage)",
+      "role": "secondary",
+      "note": "Broader universe than CBP \u2014 Data Axle's own methodology says it includes freelancers, contractors, home-based businesses, and coworking spaces. Not a clean employer-establishment count. Geographic scope (Bibb County vs. broader labor market area) is ASSUMED, not confirmed \u2014 verify against MBCIA site before publishing externally."
+    }
+  },
+  "tiers": {
+    "tier_a": {
+      "label": "Tier A \u2014 Naive/Raw (all 783 investor profiles, no cleaning)",
+      "all_members": 783,
+      "in_county_members": 687
+    },
+    "tier_b": {
+      "label": "Tier B \u2014 Cleaned (excl. Government/Places of Worship; multi-location listings kept, not deduped)",
+      "all_members": 754,
+      "in_county_members": 664
+    }
+  },
+  "matrix": [
+    {
+      "tier": "tier_a",
+      "tier_label": "Tier A \u2014 Naive/Raw (all 783 investor profiles, no cleaning)",
+      "denominator": "cbp_2023",
+      "denominator_label": "CBP 2023 employer establishments (Bibb County)",
+      "denominator_value": 4147,
+      "scope": "all",
+      "scope_label": "All investor profiles (incl. out-of-county)",
+      "numerator": 783,
+      "penetration_pct": 18.88
+    },
+    {
+      "tier": "tier_a",
+      "tier_label": "Tier A \u2014 Naive/Raw (all 783 investor profiles, no cleaning)",
+      "denominator": "cbp_2023",
+      "denominator_label": "CBP 2023 employer establishments (Bibb County)",
+      "denominator_value": 4147,
+      "scope": "in_county",
+      "scope_label": "In-Bibb-County members only",
+      "numerator": 687,
+      "penetration_pct": 16.57
+    },
+    {
+      "tier": "tier_a",
+      "tier_label": "Tier A \u2014 Naive/Raw (all 783 investor profiles, no cleaning)",
+      "denominator": "esri_data_axle_2026",
+      "denominator_label": "Esri/Data Axle \u20182026 Total Businesses (NAICS)\u2019 (MBCIA Local Data page)",
+      "denominator_value": 6713,
+      "scope": "all",
+      "scope_label": "All investor profiles (incl. out-of-county)",
+      "numerator": 783,
+      "penetration_pct": 11.66
+    },
+    {
+      "tier": "tier_a",
+      "tier_label": "Tier A \u2014 Naive/Raw (all 783 investor profiles, no cleaning)",
+      "denominator": "esri_data_axle_2026",
+      "denominator_label": "Esri/Data Axle \u20182026 Total Businesses (NAICS)\u2019 (MBCIA Local Data page)",
+      "denominator_value": 6713,
+      "scope": "in_county",
+      "scope_label": "In-Bibb-County members only",
+      "numerator": 687,
+      "penetration_pct": 10.23
+    },
+    {
+      "tier": "tier_b",
+      "tier_label": "Tier B \u2014 Cleaned (excl. Government/Places of Worship; multi-location listings kept, not deduped)",
+      "denominator": "cbp_2023",
+      "denominator_label": "CBP 2023 employer establishments (Bibb County)",
+      "denominator_value": 4147,
+      "scope": "all",
+      "scope_label": "All investor profiles (incl. out-of-county)",
+      "numerator": 754,
+      "penetration_pct": 18.18
+    },
+    {
+      "tier": "tier_b",
+      "tier_label": "Tier B \u2014 Cleaned (excl. Government/Places of Worship; multi-location listings kept, not deduped)",
+      "denominator": "cbp_2023",
+      "denominator_label": "CBP 2023 employer establishments (Bibb County)",
+      "denominator_value": 4147,
+      "scope": "in_county",
+      "scope_label": "In-Bibb-County members only",
+      "numerator": 664,
+      "penetration_pct": 16.01
+    },
+    {
+      "tier": "tier_b",
+      "tier_label": "Tier B \u2014 Cleaned (excl. Government/Places of Worship; multi-location listings kept, not deduped)",
+      "denominator": "esri_data_axle_2026",
+      "denominator_label": "Esri/Data Axle \u20182026 Total Businesses (NAICS)\u2019 (MBCIA Local Data page)",
+      "denominator_value": 6713,
+      "scope": "all",
+      "scope_label": "All investor profiles (incl. out-of-county)",
+      "numerator": 754,
+      "penetration_pct": 11.23
+    },
+    {
+      "tier": "tier_b",
+      "tier_label": "Tier B \u2014 Cleaned (excl. Government/Places of Worship; multi-location listings kept, not deduped)",
+      "denominator": "esri_data_axle_2026",
+      "denominator_label": "Esri/Data Axle \u20182026 Total Businesses (NAICS)\u2019 (MBCIA Local Data page)",
+      "denominator_value": 6713,
+      "scope": "in_county",
+      "scope_label": "In-Bibb-County members only",
+      "numerator": 664,
+      "penetration_pct": 9.89
+    }
+  ]
+}
