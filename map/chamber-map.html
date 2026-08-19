@@ -106,6 +106,31 @@
         transition: opacity 0.3s; opacity: 1;
     }
     .scroll-badge.gone { opacity: 0; }
+
+    .search-box {
+        position: absolute; top: 12px; right: 12px; z-index: 5; width: 240px;
+    }
+    .search-input {
+        width: 100%; background: rgba(20,20,22,0.92); color: var(--text);
+        border: 1px solid var(--border); border-radius: 20px; padding: 8px 14px;
+        font-size: 0.8rem; font-family: inherit; outline: none;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+    .search-input::placeholder { color: var(--text-muted); }
+    .search-input:focus { border-color: #3f3f46; }
+    .search-results {
+        display: none; margin-top: 6px; background: rgba(20,20,22,0.96);
+        border: 1px solid var(--border); border-radius: 10px; overflow: hidden;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.4); max-height: 260px; overflow-y: auto;
+    }
+    .search-results.open { display: block; }
+    .search-result {
+        padding: 8px 14px; font-size: 0.78rem; color: var(--text); cursor: pointer;
+        border-bottom: 1px solid var(--border);
+    }
+    .search-result:last-child { border-bottom: none; }
+    .search-result:hover, .search-result.active { background: rgba(255,255,255,0.07); }
+    .search-result .match-sub { display: block; font-size: 0.66rem; color: var(--text-muted); margin-top: 1px; }
 </style>
 </head>
 <body>
@@ -113,6 +138,10 @@
 <div id="map"></div>
 <div class="chamber-popup" id="chamber-popup"></div>
 <div class="scroll-badge" id="scroll-badge">Click the map to enable scroll-zoom</div>
+<div class="search-box" id="search-box">
+    <input type="text" class="search-input" id="search-input" placeholder="Search businesses…" autocomplete="off">
+    <div class="search-results" id="search-results"></div>
+</div>
 
 <script>
 // Ordinal ramp matching the chamber penetration report for visual
@@ -273,6 +302,20 @@ map.on("load", () => {
         paint: { "circle-radius": 3.5, "circle-color": FILL_COLOR_EXPR },
     });
 
+    // A single-feature source that search-selection drops a point into --
+    // a bright ring drawn above every other layer so "snapping to" a
+    // business is unmistakable even in a dense cluster.
+    map.addSource("chamber-search-highlight", {
+        type: "geojson", data: { type: "FeatureCollection", features: [] },
+    });
+    map.addLayer({
+        id: "chamber-search-highlight-ring", type: "circle", source: "chamber-search-highlight",
+        paint: {
+            "circle-radius": 11, "circle-color": "transparent",
+            "circle-stroke-width": 2.5, "circle-stroke-color": "#ffffff",
+        },
+    });
+
     console.log(`chamber map: rendered ${CHAMBER_MEMBERS_GEOJSON.features.length} member points`);
 
     // ---- hover tooltip ----
@@ -399,6 +442,106 @@ map.on("load", () => {
     tabTier.addEventListener("click", () => setColorMode("tier"));
     tabIndustry.addEventListener("click", () => setColorMode("industry"));
 
+    // ---- business search: type a name, pick a result, the map flies to
+    // it and drops a highlight ring. Searches the FULL unfiltered
+    // dataset (not just what's currently shown) and auto-restores the
+    // result's own tier/sector if it had been filtered out, so search
+    // always finds what it says it found instead of flying to an
+    // invisible point. ----
+    const searchInput = document.getElementById("search-input");
+    const searchResultsEl = document.getElementById("search-results");
+    const searchBox = document.getElementById("search-box");
+    let searchActiveIndex = -1;
+
+    function renderSearchResults(query) {
+        searchResultsEl.innerHTML = "";
+        searchActiveIndex = -1;
+        const q = query.trim().toLowerCase();
+        if (!q) { searchResultsEl.classList.remove("open"); return; }
+        const matches = CHAMBER_MEMBERS_GEOJSON.features
+            .filter((f) => f.properties.name.toLowerCase().includes(q))
+            .slice(0, 8);
+        if (!matches.length) { searchResultsEl.classList.remove("open"); return; }
+        matches.forEach((f) => {
+            const row = document.createElement("div");
+            row.className = "search-result";
+            const label = colorMode === "tier"
+                ? (CHAMBER_BUCKET_LABEL[f.properties.bucket] || f.properties.bucket)
+                : (SECTOR_LABEL[f.properties.sector] || f.properties.sector);
+            row.innerHTML = `${f.properties.name}<span class="match-sub">${label}</span>`;
+            row.addEventListener("click", () => selectSearchResult(f));
+            searchResultsEl.appendChild(row);
+        });
+        searchResultsEl.classList.add("open");
+    }
+
+    function selectSearchResult(feature) {
+        searchInput.value = feature.properties.name;
+        searchResultsEl.classList.remove("open");
+        searchInput.blur();
+
+        // Make sure the result's own tier and sector are both turned on
+        // -- otherwise flying to it could center on a point hidden by
+        // whatever filter is currently active.
+        const bucket = feature.properties.bucket;
+        const sector = feature.properties.sector;
+        if (!activeBuckets.has(bucket)) {
+            activeBuckets.add(bucket);
+            const row = document.querySelector(`.legend-row[data-bucket="${bucket}"]`);
+            if (row) row.classList.remove("inactive");
+            syncToggleAllLabel(tierToggleAllEl, activeBuckets);
+        }
+        if (!activeSectors.has(sector)) {
+            activeSectors.add(sector);
+            const row = document.querySelector(`.legend-row[data-sector="${sector}"]`);
+            if (row) row.classList.remove("inactive");
+            syncToggleAllLabel(industryToggleAllEl, activeSectors);
+        }
+        map.getSource("chamber-members").setData(filteredMembersGeoJSON());
+
+        map.getSource("chamber-search-highlight").setData({ type: "FeatureCollection", features: [feature] });
+        map.flyTo({ center: feature.geometry.coordinates, zoom: Math.max(map.getZoom(), 15), duration: 1000 });
+
+        map.once("moveend", () => {
+            const label = colorMode === "tier"
+                ? (CHAMBER_BUCKET_LABEL[feature.properties.bucket] || feature.properties.bucket)
+                : (SECTOR_LABEL[feature.properties.sector] || feature.properties.sector);
+            const pt = map.project(feature.geometry.coordinates);
+            popup.textContent = `${feature.properties.name} — ${label}`;
+            popup.style.left = (pt.x + 14) + "px";
+            popup.style.top = (pt.y + 14) + "px";
+            popup.style.display = "block";
+            setTimeout(() => { popup.style.display = "none"; }, 3500);
+        });
+    }
+
+    function moveSearchActive(delta) {
+        const rows = searchResultsEl.querySelectorAll(".search-result");
+        if (!rows.length) return;
+        searchActiveIndex = (searchActiveIndex + delta + rows.length) % rows.length;
+        rows.forEach((r, i) => r.classList.toggle("active", i === searchActiveIndex));
+        rows[searchActiveIndex].scrollIntoView({ block: "nearest" });
+    }
+
+    searchInput.addEventListener("input", () => renderSearchResults(searchInput.value));
+    searchInput.addEventListener("keydown", (e) => {
+        const rows = searchResultsEl.querySelectorAll(".search-result");
+        if (e.key === "ArrowDown") { e.preventDefault(); moveSearchActive(1); }
+        else if (e.key === "ArrowUp") { e.preventDefault(); moveSearchActive(-1); }
+        else if (e.key === "Enter") {
+            e.preventDefault();
+            const target = searchActiveIndex >= 0 ? rows[searchActiveIndex] : rows[0];
+            if (target) target.click();
+        } else if (e.key === "Escape") {
+            searchInput.value = "";
+            searchResultsEl.classList.remove("open");
+            searchInput.blur();
+        }
+    });
+    document.addEventListener("click", (e) => {
+        if (!searchBox.contains(e.target)) searchResultsEl.classList.remove("open");
+    });
+
     // ---- buildings-visibility toggle: only real vector tiles can do this
     // at all -- a raster basemap is baked pixels with nothing to hide.
     // OpenFreeMap's Liberty style has exactly two building layers
@@ -437,27 +580,34 @@ map.on("load", () => {
     }
     if (any) map.fitBounds(bounds, { padding: 60, maxZoom: 13 });
 
-    // ---- Click-to-enable scroll-zoom: starts disabled, so a plain
-    // scroll over the map does nothing at all (and doesn't eat the
-    // page's scroll -- the classic "embedded map traps your scroll"
-    // problem, since this map is embedded in the report's iframe).
-    // The first click or touch anywhere on the map enables it
-    // permanently -- after that it's a completely normal map, no
-    // modifier key needed on every scroll (tried requiring Ctrl/Cmd
+    // ---- Click-to-enable scroll-zoom -- only needed when embedded (the
+    // report's iframe): a plain scroll over the map would otherwise eat
+    // the parent page's scroll, the classic "embedded map traps your
+    // scroll" problem. Standalone (this file opened directly, e.g. the
+    // site's "Map Only" link), there's no parent page to protect, so
+    // scroll-zoom just works immediately -- no click-first friction, no
+    // badge. The first click or touch anywhere on the embedded map
+    // enables it permanently -- after that it's a completely normal map,
+    // no modifier key needed on every scroll (tried requiring Ctrl/Cmd
     // held down for every scroll; too much friction for too little
     // benefit).
     const canvasContainer = map.getCanvasContainer();
     const mapContainer = map.getContainer();
     const scrollBadge = document.getElementById("scroll-badge");
-    map.scrollZoom.disable();
-    function enableScrollZoom() {
-        map.scrollZoom.enable();
-        scrollBadge.classList.add("gone");
-        mapContainer.removeEventListener("mousedown", enableScrollZoom);
-        mapContainer.removeEventListener("touchstart", enableScrollZoom);
+    const isEmbedded = window.self !== window.top;
+    if (isEmbedded) {
+        map.scrollZoom.disable();
+        function enableScrollZoom() {
+            map.scrollZoom.enable();
+            scrollBadge.classList.add("gone");
+            mapContainer.removeEventListener("mousedown", enableScrollZoom);
+            mapContainer.removeEventListener("touchstart", enableScrollZoom);
+        }
+        mapContainer.addEventListener("mousedown", enableScrollZoom);
+        mapContainer.addEventListener("touchstart", enableScrollZoom);
+    } else {
+        scrollBadge.remove();
     }
-    mapContainer.addEventListener("mousedown", enableScrollZoom);
-    mapContainer.addEventListener("touchstart", enableScrollZoom);
 
     // Tracked from here (not inside the idle setup below, which only runs
     // once the map's first "idle" event fires) so the very first time the
