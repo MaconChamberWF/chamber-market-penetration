@@ -24,6 +24,8 @@ truth, not a second copy fetched from elsewhere.
 Usage: python3 scripts/build_office_export.py
 Output: office-export.html (git-ignored, disposable)
 """
+import glob
+import gzip
 import json
 import os
 
@@ -32,7 +34,51 @@ from shapely.geometry import shape, Point
 BASE = os.path.dirname(__file__)
 CHAMBER_BUILDINGS = os.path.join(BASE, "..", "map", "data", "chamber_buildings.geojson")
 BIBB_BOUNDARY = os.path.join(BASE, "..", "data", "county_boundary", "bibb_county.geojson")
+MS_FOOTPRINTS_GLOB = os.path.join(BASE, "..", "data", "ms_footprints", "*.csv.gz")
 OUT_HTML = os.path.join(BASE, "..", "office-export.html")
+OUT_HTML_DOWNTOWN = os.path.join(BASE, "..", "office-export-downtown.html")
+
+# Downtown Macon core (around Poplar/Cherry St and the Ocmulgee River) --
+# a fixed, tight framing purely to show the poster palette's building
+# fills. OpenStreetMap (and so OpenFreeMap's tiles, built from it) turned
+# out to have ZERO building footprints anywhere in Bibb County -- checked
+# 5 spread-out locations at zoom 15.3, all empty, so this isn't a zoom or
+# style issue. Real building geometry instead comes from the Microsoft
+# Building Footprints data already sitting in data/ms_footprints/
+# (currently unused by the live map, which switched to point-rendering --
+# see build_map_data.py's docstring -- but the raw footprints are exactly
+# what a building-filled poster needs). Not meant to show "most
+# investors" the way the county view is -- this is a second, separate
+# image, by Reid's own call.
+DOWNTOWN_CENTER = [-83.6324, 32.8407]
+DOWNTOWN_ZOOM = 15.3
+DOWNTOWN_PAD_DEG = 0.03  # ~generous margin around DOWNTOWN_CENTER at zoom 15.3
+
+
+def load_ms_footprints_in_bbox(bbox):
+    """bbox = (west, south, east, north). Streams every quadkey_*.csv.gz
+    file (each line is one GeoJSON Feature -- Microsoft's actual on-disk
+    format despite the .csv extension) and keeps only buildings whose
+    first vertex falls in bbox. That's an approximation (not a true
+    polygon-in-bbox test), acceptable here since this layer is purely
+    visual flavor for the downtown poster, not a boundary computation
+    anything downstream depends on. ~756k total rows across all files,
+    ~9.4k typically match a zoom-15.3-sized bbox -- plenty fast to stream
+    in a few seconds, no need to pre-index."""
+    west, south, east, north = bbox
+    features = []
+    for path in sorted(glob.glob(MS_FOOTPRINTS_GLOB)):
+        with gzip.open(path, "rt") as f:
+            for line in f:
+                try:
+                    feat = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                lon, lat = feat["geometry"]["coordinates"][0][0]
+                if west <= lon <= east and south <= lat <= north:
+                    features.append({"type": "Feature", "geometry": feat["geometry"], "properties": {}})
+    print(f"MS Building Footprints: {len(features)} buildings in downtown bbox {bbox}")
+    return {"type": "FeatureCollection", "features": features}
 
 
 def filter_to_bibb(members_geojson, bibb_geojson):
@@ -53,13 +99,55 @@ def main():
         bibb_geojson = json.load(f)
 
     bibb_only_members = filter_to_bibb(members_geojson, bibb_geojson)
+    members_json = json.dumps(bibb_only_members)
+    bibb_json = json.dumps(bibb_geojson)
 
-    html = HTML_TEMPLATE.replace("__MEMBERS_GEOJSON__", json.dumps(bibb_only_members))
-    html = html.replace("__BIBB_GEOJSON__", json.dumps(bibb_geojson))
-
+    # County-wide: the main deliverable, fit to all of Bibb County.
+    county_view_js = """
+    const bounds = new maplibregl.LngLatBounds();
+    for (const ring of BIBB_GEOJSON.features[0].geometry.coordinates) {
+        for (const pt of ring) bounds.extend(pt);
+    }
+    map.fitBounds(bounds, { padding: 50, duration: 0 });
+    """
+    html = HTML_TEMPLATE.replace("__MEMBERS_GEOJSON__", members_json)
+    html = html.replace("__BIBB_GEOJSON__", bibb_json)
+    html = html.replace("__INITIAL_CENTER__", "[-83.65, 32.85]")
+    html = html.replace("__INITIAL_ZOOM__", "9")
+    html = html.replace("__VIEW_JS__", county_view_js)
+    html = html.replace("__MS_BUILDINGS_GEOJSON__", "null")
+    html = html.replace("__MS_BUILDINGS_JS__", "")
     with open(OUT_HTML, "w") as f:
         f.write(html)
     print(f"wrote {OUT_HTML}")
+
+    # Downtown detail: a second, separate image purely to show the poster
+    # palette's building fills via the Microsoft footprints data (see
+    # module docstring for why OSM's own building layer can't be used
+    # here). Fixed center/zoom, no fitBounds -- not trying to frame any
+    # particular set of points.
+    dt_bbox = (
+        DOWNTOWN_CENTER[0] - DOWNTOWN_PAD_DEG, DOWNTOWN_CENTER[1] - DOWNTOWN_PAD_DEG,
+        DOWNTOWN_CENTER[0] + DOWNTOWN_PAD_DEG, DOWNTOWN_CENTER[1] + DOWNTOWN_PAD_DEG,
+    )
+    ms_buildings_geojson = load_ms_footprints_in_bbox(dt_bbox)
+    ms_buildings_js = """
+    map.addSource("ms-buildings", { type: "geojson", data: MS_BUILDINGS_GEOJSON });
+    map.addLayer({
+        id: "ms-buildings-fill", type: "fill", source: "ms-buildings",
+        paint: { "fill-color": POSTER.building, "fill-opacity": 0.9 },
+    });
+    """
+    html_dt = HTML_TEMPLATE.replace("__MEMBERS_GEOJSON__", members_json)
+    html_dt = html_dt.replace("__BIBB_GEOJSON__", bibb_json)
+    html_dt = html_dt.replace("__INITIAL_CENTER__", json.dumps(DOWNTOWN_CENTER))
+    html_dt = html_dt.replace("__INITIAL_ZOOM__", str(DOWNTOWN_ZOOM))
+    html_dt = html_dt.replace("__VIEW_JS__", "")
+    html_dt = html_dt.replace("__MS_BUILDINGS_GEOJSON__", json.dumps(ms_buildings_geojson))
+    html_dt = html_dt.replace("__MS_BUILDINGS_JS__", ms_buildings_js)
+    with open(OUT_HTML_DOWNTOWN, "w") as f:
+        f.write(html_dt)
+    print(f"wrote {OUT_HTML_DOWNTOWN}")
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -118,14 +206,40 @@ const FILL_COLOR_EXPR = ["match", ["get", "bucket"], ...Object.entries(CHAMBER_B
 
 const MEMBERS_GEOJSON = __MEMBERS_GEOJSON__;
 const BIBB_GEOJSON = __BIBB_GEOJSON__;
+// Real Macon building footprints (Microsoft Building Footprints) --
+// null for the county-wide image, a FeatureCollection for the downtown
+// one. OSM has no buildings mapped in Bibb County at all, so this
+// replaces rather than supplements the style's own "building" layer.
+const MS_BUILDINGS_GEOJSON = __MS_BUILDINGS_GEOJSON__;
 
 const map = new maplibregl.Map({
     container: "map",
     style: "https://tiles.openfreemap.org/styles/liberty",
-    center: [-83.65, 32.85],
-    zoom: 9,
+    center: __INITIAL_CENTER__,
+    zoom: __INITIAL_ZOOM__,
     interactive: false,
 });
+
+// Poster palette -- a deliberate small set (not copied from any
+// reference image), applied to the Liberty style's real layers via
+// setPaintProperty rather than swapping basemaps. Layer IDs below were
+// read directly off map.getStyle().layers, not guessed.
+const POSTER = {
+    background:  "#f2ede1", // warm cream land
+    parkFill:    "#c9dbb0", parkLine: "#a8c48a",
+    woodFill:    "#b9d1a0",
+    grassFill:   "#d3e3bd",
+    pitchFill:   "#c9dbb0",
+    cemeteryFill:"#c7d3b8",
+    institFill:  "#e3dfd2", // school/hospital grounds -- neutral, not a park
+    water:       "#a9cbe8",
+    waterLine:   "#8ab4d9",
+    building:    "#a89478", // needs real contrast against the cream background -- a close tan/cream (#c9b8a0) rendered as near-invisible outlines-only in testing
+    roadFill:    "#fdfaf1",
+    roadCasing:  "#c9bfa8",
+    rail:        "#a89c86",
+    aeroway:     "#e5e1d5",
+};
 
 map.on("load", () => {
     // Declutter: hide every label/icon layer (MapLibre styles put place
@@ -134,6 +248,56 @@ map.on("load", () => {
     for (const layer of map.getStyle().layers) {
         if (layer.type === "symbol") map.setLayoutProperty(layer.id, "visibility", "none");
     }
+
+    map.setPaintProperty("background", "background-color", POSTER.background);
+    map.setPaintProperty("landuse_residential", "fill-color", POSTER.background);
+
+    map.setPaintProperty("park", "fill-color", POSTER.parkFill);
+    map.setPaintProperty("park_outline", "line-color", POSTER.parkLine);
+    map.setPaintProperty("landcover_wood", "fill-color", POSTER.woodFill);
+    map.setPaintProperty("landcover_grass", "fill-color", POSTER.grassFill);
+    map.setPaintProperty("landuse_pitch", "fill-color", POSTER.pitchFill);
+    map.setPaintProperty("landuse_track", "fill-color", POSTER.pitchFill);
+    map.setPaintProperty("landuse_cemetery", "fill-color", POSTER.cemeteryFill);
+    map.setPaintProperty("landuse_school", "fill-color", POSTER.institFill);
+    map.setPaintProperty("landuse_hospital", "fill-color", POSTER.institFill);
+
+    map.setPaintProperty("water", "fill-color", POSTER.water);
+    map.setPaintProperty("waterway_river", "line-color", POSTER.waterLine);
+    map.setPaintProperty("waterway_other", "line-color", POSTER.waterLine);
+
+    // OSM has zero building footprints anywhere in Bibb County (checked
+    // 5 locations county-wide) -- both style layers are empty here
+    // regardless, hidden explicitly for clarity rather than left to rely
+    // on that emptiness. Real buildings (downtown image only) come from
+    // MS_BUILDINGS_GEOJSON instead, added below.
+    map.setLayoutProperty("building", "visibility", "none");
+    map.setLayoutProperty("building-3d", "visibility", "none");
+
+    // Road hierarchy (motorway > trunk/primary > secondary/tertiary >
+    // minor) is already encoded in Liberty's width expressions per
+    // layer/zoom -- only recoloring, not re-widening.
+    const roadFillLayers = [
+        "road_motorway", "road_trunk_primary", "road_secondary_tertiary",
+        "road_minor", "road_link", "road_service_track", "road_path_pedestrian",
+    ];
+    const roadCasingLayers = [
+        "road_motorway_casing", "road_trunk_primary_casing", "road_secondary_tertiary_casing",
+        "road_minor_casing", "road_link_casing", "road_service_track_casing",
+    ];
+    for (const id of roadFillLayers) map.setPaintProperty(id, "line-color", POSTER.roadFill);
+    for (const id of roadCasingLayers) map.setPaintProperty(id, "line-color", POSTER.roadCasing);
+    map.setPaintProperty("road_major_rail", "line-color", POSTER.rail);
+    map.setPaintProperty("road_transit_rail", "line-color", POSTER.rail);
+    map.setPaintProperty("aeroway_fill", "fill-color", POSTER.aeroway);
+
+    // The base style's own state/country boundary lines aren't our focus
+    // (Bibb's own boundary, added below, is) -- muted low so they don't
+    // compete with it.
+    map.setPaintProperty("boundary_2", "line-opacity", 0.25);
+    map.setPaintProperty("boundary_3", "line-opacity", 0.15);
+
+    __MS_BUILDINGS_JS__
 
     map.addSource("bibb-county", { type: "geojson", data: BIBB_GEOJSON });
     map.addLayer({
@@ -148,20 +312,14 @@ map.on("load", () => {
     map.addSource("chamber-members", { type: "geojson", data: MEMBERS_GEOJSON });
     map.addLayer({
         id: "chamber-members-halo", type: "circle", source: "chamber-members",
-        paint: { "circle-radius": 6, "circle-color": "#ffffff", "circle-opacity": 0.9 },
+        paint: { "circle-radius": 7.5, "circle-color": "#ffffff", "circle-opacity": 0.95 },
     });
     map.addLayer({
         id: "chamber-members-dot", type: "circle", source: "chamber-members",
-        paint: { "circle-radius": 4.2, "circle-color": FILL_COLOR_EXPR },
+        paint: { "circle-radius": 5.5, "circle-color": FILL_COLOR_EXPR },
     });
 
-    // Fit tight to Bibb County's own extent -- nothing outside it is even
-    // in the data anymore, so this is the natural crop.
-    const bounds = new maplibregl.LngLatBounds();
-    for (const ring of BIBB_GEOJSON.features[0].geometry.coordinates) {
-        for (const pt of ring) bounds.extend(pt);
-    }
-    map.fitBounds(bounds, { padding: 50, duration: 0 });
+    __VIEW_JS__
 
     window.__mapReady = true;
 });
