@@ -21,3 +21,11 @@ __pycache__/
 
 # Claude Code session state, not project content
 .claude/
+
+# One-off exported images for print/office use, not site assets. The
+# generator (scripts/build_office_export.py) IS kept -- it's reusable --
+# but its inlined-data HTML output isn't, same reasoning as map/chamber-map.html
+# being generated rather than hand-edited, except this one never needs to
+# be live/served.
+map-tier-office.png
+office-export.html
