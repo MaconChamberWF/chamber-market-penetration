@@ -151,6 +151,7 @@ def main():
     }
     map.fitBounds(bounds, { padding: 50, duration: 0 });
     """
+    investor_count = len(bibb_only_members["features"])
     html = HTML_TEMPLATE.replace("__MEMBERS_GEOJSON__", members_json)
     html = html.replace("__BIBB_GEOJSON__", bibb_json)
     html = html.replace("__MASK_GEOJSON__", mask_json)
@@ -159,6 +160,8 @@ def main():
     html = html.replace("__VIEW_JS__", county_view_js)
     html = html.replace("__MS_BUILDINGS_GEOJSON__", "null")
     html = html.replace("__MS_BUILDINGS_JS__", "")
+    html = html.replace("__CHROME_CSS__", SIDEBAR_CSS)
+    html = html.replace("__CHROME_HTML__", SIDEBAR_HTML.replace("__INVESTOR_COUNT__", str(investor_count)))
     with open(OUT_HTML, "w") as f:
         f.write(html)
     print(f"wrote {OUT_HTML}")
@@ -188,22 +191,18 @@ def main():
     html_dt = html_dt.replace("__VIEW_JS__", "")
     html_dt = html_dt.replace("__MS_BUILDINGS_GEOJSON__", json.dumps(ms_buildings_geojson))
     html_dt = html_dt.replace("__MS_BUILDINGS_JS__", ms_buildings_js)
+    html_dt = html_dt.replace("__CHROME_CSS__", FLOATING_PANEL_CSS)
+    html_dt = html_dt.replace("__CHROME_HTML__", FLOATING_PANEL_HTML)
     with open(OUT_HTML_DOWNTOWN, "w") as f:
         f.write(html_dt)
     print(f"wrote {OUT_HTML_DOWNTOWN}")
 
 
-HTML_TEMPLATE = """<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Chamber Investor Map -- Office Export</title>
-<link rel="stylesheet" href="map/vendor/maplibre-gl.css">
-<script src="map/vendor/maplibre-gl.js"></script>
-<style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { height: 100%; overflow: hidden; }
-    body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+# Downtown detail image: the small floating legend from earlier
+# iterations, unchanged -- that image was never meant to dedicate real
+# layout space to itself, it's a corner annotation on a map that's the
+# whole point of the frame.
+FLOATING_PANEL_CSS = """
     #map { position: absolute; inset: 0; }
     .panel {
         position: absolute; left: 16px; bottom: 16px; z-index: 5;
@@ -219,10 +218,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     .legend-swatch { width: 13px; height: 13px; border-radius: 3px; flex-shrink: 0; }
     .boundary-key { display: flex; align-items: center; gap: 9px; margin-top: 8px; }
     .boundary-swatch { width: 18px; height: 3px; background: #3a332a; border-radius: 2px; flex-shrink: 0; }
-</style>
-</head>
-<body>
+"""
 
+FLOATING_PANEL_HTML = """
 <div id="map"></div>
 
 <div class="panel">
@@ -235,6 +233,79 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <div class="legend-row"><span class="legend-swatch" style="background:#6b7280"></span>Additional listing (extra location/brand)</div>
     <div class="boundary-key"><span class="boundary-swatch"></span>Bibb County</div>
 </div>
+"""
+
+# County-wide image: the main deliverable. A full-height title/legend
+# sidebar instead of a small floating box, so the map itself gets pushed
+# to the right and the legend gets real room to breathe -- Reid's ask.
+SIDEBAR_CSS = """
+    body { display: flex; }
+    #map { flex: 1 1 auto; height: 100%; position: relative; }
+    .sidebar {
+        width: 34%; max-width: 560px; height: 100%; flex-shrink: 0;
+        background: #1c1815; color: #ece7dc;
+        padding: 56px 44px; display: flex; flex-direction: column;
+    }
+    .eyebrow {
+        font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+        color: #06aed5; margin-bottom: 18px; display: flex; align-items: center; gap: 10px;
+    }
+    .eyebrow::before { content: ''; width: 26px; height: 3px; background: #06aed5; border-radius: 2px; }
+    .sidebar .title {
+        font-family: ui-serif, Georgia, "Times New Roman", serif; font-weight: 600;
+        font-size: 3rem; line-height: 1.08; letter-spacing: -0.01em; color: #fff; margin-bottom: 20px;
+    }
+    .sidebar .subtitle { font-size: 1.05rem; color: #b8b0a0; line-height: 1.55; }
+    .sidebar .subtitle b { color: #fff; font-variant-numeric: tabular-nums; }
+    .legend-heading {
+        font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+        color: #8a8272; margin: 40px 0 14px; padding-top: 28px; border-top: 1px solid #322d26;
+    }
+    .sidebar .legend-row { display: flex; align-items: center; gap: 15px; padding: 8px 0; font-size: 1.08rem; }
+    .sidebar .legend-swatch { width: 20px; height: 20px; border-radius: 6px; flex-shrink: 0; }
+    .sidebar .boundary-key {
+        display: flex; align-items: center; gap: 15px; margin-top: 22px;
+        padding-top: 22px; border-top: 1px solid #322d26; font-size: 1.08rem;
+    }
+    .sidebar .boundary-swatch { width: 28px; height: 3px; background: #ece7dc; border-radius: 2px; flex-shrink: 0; }
+    .sidebar-footer { margin-top: auto; padding-top: 28px; font-size: 0.74rem; color: #6b6456; }
+"""
+
+SIDEBAR_HTML = """
+<div class="sidebar">
+    <div class="eyebrow">Greater Macon Chamber of Commerce</div>
+    <div class="title">Where Macon<br>Invests</div>
+    <div class="subtitle"><b>__INVESTOR_COUNT__</b> chamber investors located across Bibb County, Georgia.</div>
+    <div class="legend-heading">Investor Tier</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#06aed5"></span>Micro / Basic Membership</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#3a86ff"></span>Business Catalyst</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#8338ec"></span>Community Advocate / Partner</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#fb5607"></span>Regional Influencer / Key Stakeholder</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#d62828"></span>Economic Driver / Leading Investor</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#6b7280"></span>Additional listing (extra location/brand)</div>
+    <div class="boundary-key"><span class="boundary-swatch"></span>Bibb County boundary</div>
+    <div class="sidebar-footer">Source: Chamber member directory, geocoded</div>
+</div>
+<div id="map"></div>
+"""
+
+HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chamber Investor Map -- Office Export</title>
+<link rel="stylesheet" href="map/vendor/maplibre-gl.css">
+<script src="map/vendor/maplibre-gl.js"></script>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; overflow: hidden; }
+    body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    __CHROME_CSS__
+</style>
+</head>
+<body>
+
+__CHROME_HTML__
 
 <script>
 const CHAMBER_BUCKET_COLOR = {
