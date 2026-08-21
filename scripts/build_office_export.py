@@ -29,7 +29,7 @@ import gzip
 import json
 import os
 
-from shapely.geometry import shape, Point
+from shapely.geometry import box, mapping, shape, Point
 
 BASE = os.path.dirname(__file__)
 CHAMBER_BUILDINGS = os.path.join(BASE, "..", "map", "data", "chamber_buildings.geojson")
@@ -81,6 +81,22 @@ def load_ms_footprints_in_bbox(bbox):
     return {"type": "FeatureCollection", "features": features}
 
 
+def build_outside_mask(bibb_geojson):
+    """A single polygon-with-a-hole: a generous box around Bibb County,
+    minus Bibb's own shape. Rendered as an opaque fill on top of
+    everything else, it blanks out roads/parks/water/etc. beyond the
+    county line -- "remove any visual detail outside of Bibb County" --
+    without needing per-layer clip logic on every basemap layer. Padding
+    is degrees, not km, but 1 degree (~110km at this latitude) comfortably
+    covers any framing this script uses, including the county-wide fitBounds."""
+    bibb_polygon = shape(bibb_geojson["features"][0]["geometry"])
+    minx, miny, maxx, maxy = bibb_polygon.bounds
+    pad = 1.0
+    mask_box = box(minx - pad, miny - pad, maxx + pad, maxy + pad)
+    mask_geom = mask_box.difference(bibb_polygon)
+    return {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": mapping(mask_geom), "properties": {}}]}
+
+
 def filter_to_bibb(members_geojson, bibb_geojson):
     bibb_polygon = shape(bibb_geojson["features"][0]["geometry"])
     kept, dropped = [], []
@@ -101,6 +117,7 @@ def main():
     bibb_only_members = filter_to_bibb(members_geojson, bibb_geojson)
     members_json = json.dumps(bibb_only_members)
     bibb_json = json.dumps(bibb_geojson)
+    mask_json = json.dumps(build_outside_mask(bibb_geojson))
 
     # County-wide: the main deliverable, fit to all of Bibb County.
     county_view_js = """
@@ -112,6 +129,7 @@ def main():
     """
     html = HTML_TEMPLATE.replace("__MEMBERS_GEOJSON__", members_json)
     html = html.replace("__BIBB_GEOJSON__", bibb_json)
+    html = html.replace("__MASK_GEOJSON__", mask_json)
     html = html.replace("__INITIAL_CENTER__", "[-83.65, 32.85]")
     html = html.replace("__INITIAL_ZOOM__", "9")
     html = html.replace("__VIEW_JS__", county_view_js)
@@ -140,6 +158,7 @@ def main():
     """
     html_dt = HTML_TEMPLATE.replace("__MEMBERS_GEOJSON__", members_json)
     html_dt = html_dt.replace("__BIBB_GEOJSON__", bibb_json)
+    html_dt = html_dt.replace("__MASK_GEOJSON__", mask_json)
     html_dt = html_dt.replace("__INITIAL_CENTER__", json.dumps(DOWNTOWN_CENTER))
     html_dt = html_dt.replace("__INITIAL_ZOOM__", str(DOWNTOWN_ZOOM))
     html_dt = html_dt.replace("__VIEW_JS__", "")
@@ -175,7 +194,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     .legend-row { display: flex; align-items: center; gap: 9px; padding: 2px 0; }
     .legend-swatch { width: 13px; height: 13px; border-radius: 3px; flex-shrink: 0; }
     .boundary-key { display: flex; align-items: center; gap: 9px; margin-top: 8px; }
-    .boundary-swatch { width: 18px; height: 3px; background: #ffcc33; border-radius: 2px; flex-shrink: 0; }
+    .boundary-swatch { width: 18px; height: 3px; background: #3a332a; border-radius: 2px; flex-shrink: 0; }
 </style>
 </head>
 <body>
@@ -206,6 +225,9 @@ const FILL_COLOR_EXPR = ["match", ["get", "bucket"], ...Object.entries(CHAMBER_B
 
 const MEMBERS_GEOJSON = __MEMBERS_GEOJSON__;
 const BIBB_GEOJSON = __BIBB_GEOJSON__;
+// A box-minus-Bibb polygon (with Bibb as the hole) -- painted opaque on
+// top of the basemap to blank out everything beyond the county line.
+const MASK_GEOJSON = __MASK_GEOJSON__;
 // Real Macon building footprints (Microsoft Building Footprints) --
 // null for the county-wide image, a FeatureCollection for the downtown
 // one. OSM has no buildings mapped in Bibb County at all, so this
@@ -239,6 +261,8 @@ const POSTER = {
     roadCasing:  "#c9bfa8",
     rail:        "#a89c86",
     aeroway:     "#e5e1d5",
+    outsideMask: "#ffffff",
+    boundary:    "#3a332a", // dark warm charcoal, not the old gold -- reads as a clean cartographic line instead of a highlighter
 };
 
 map.on("load", () => {
@@ -299,14 +323,19 @@ map.on("load", () => {
 
     __MS_BUILDINGS_JS__
 
+    // Blank out everything beyond Bibb County's own line -- painted after
+    // the basemap/buildings so it covers them, before the boundary line
+    // and investor dots so those still draw crisply on top.
+    map.addSource("outside-mask", { type: "geojson", data: MASK_GEOJSON });
+    map.addLayer({
+        id: "outside-mask-fill", type: "fill", source: "outside-mask",
+        paint: { "fill-color": POSTER.outsideMask, "fill-opacity": 1 },
+    });
+
     map.addSource("bibb-county", { type: "geojson", data: BIBB_GEOJSON });
     map.addLayer({
-        id: "bibb-county-halo", type: "line", source: "bibb-county",
-        paint: { "line-color": "#1a1400", "line-width": 6, "line-opacity": 0.5 },
-    });
-    map.addLayer({
         id: "bibb-county-line", type: "line", source: "bibb-county",
-        paint: { "line-color": "#ffcc33", "line-width": 3 },
+        paint: { "line-color": POSTER.boundary, "line-width": 2.5 },
     });
 
     map.addSource("chamber-members", { type: "geojson", data: MEMBERS_GEOJSON });
