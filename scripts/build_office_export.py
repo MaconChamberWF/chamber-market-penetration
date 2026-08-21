@@ -35,6 +35,7 @@ BASE = os.path.dirname(__file__)
 CHAMBER_BUILDINGS = os.path.join(BASE, "..", "map", "data", "chamber_buildings.geojson")
 BIBB_BOUNDARY = os.path.join(BASE, "..", "data", "county_boundary", "bibb_county.geojson")
 MS_FOOTPRINTS_GLOB = os.path.join(BASE, "..", "data", "ms_footprints", "*.csv.gz")
+CHAMBER_LOGO_SVG = os.path.join(BASE, "assets", "chamber-logo-white.svg")
 OUT_HTML = os.path.join(BASE, "..", "office-export.html")
 OUT_HTML_DOWNTOWN = os.path.join(BASE, "..", "office-export-downtown.html")
 
@@ -136,6 +137,8 @@ def main():
         members_geojson = json.load(f)
     with open(BIBB_BOUNDARY) as f:
         bibb_geojson = json.load(f)
+    with open(CHAMBER_LOGO_SVG) as f:
+        chamber_logo_svg = f.read()
 
     bibb_only_members = filter_to_bibb(members_geojson, bibb_geojson)
     bibb_only_members = sort_by_tier_priority(bibb_only_members)
@@ -161,7 +164,9 @@ def main():
     html = html.replace("__MS_BUILDINGS_GEOJSON__", "null")
     html = html.replace("__MS_BUILDINGS_JS__", "")
     html = html.replace("__CHROME_CSS__", SIDEBAR_CSS)
-    html = html.replace("__CHROME_HTML__", SIDEBAR_HTML.replace("__INVESTOR_COUNT__", str(investor_count)))
+    sidebar_html = SIDEBAR_HTML.replace("__INVESTOR_COUNT__", str(investor_count))
+    sidebar_html = sidebar_html.replace("__CHAMBER_LOGO_SVG__", chamber_logo_svg)
+    html = html.replace("__CHROME_HTML__", sidebar_html)
     with open(OUT_HTML, "w") as f:
         f.write(html)
     print(f"wrote {OUT_HTML}")
@@ -198,29 +203,39 @@ def main():
     print(f"wrote {OUT_HTML_DOWNTOWN}")
 
 
+# Real Greater Macon Chamber brand colors -- read directly off the
+# Chamber's own logo SVGs and live site CSS (maconchamber.com), not
+# invented. Logo (both real logo files) uses exactly these two:
+CHAMBER_CRIMSON = "#cf152d"
+CHAMBER_WHITE = "#ffffff"
+# The live site's actual CSS, most-frequent hex values beyond the logo:
+CHAMBER_NAVY = "#041d38"    # 11 occurrences -- the site's dark/background color
+CHAMBER_AMBER = "#fa8b0c"   # 6 occurrences (incl. #f28100) -- accent/CTA color
+
 # Downtown detail image: the small floating legend from earlier
-# iterations, unchanged -- that image was never meant to dedicate real
-# layout space to itself, it's a corner annotation on a map that's the
-# whole point of the frame.
-FLOATING_PANEL_CSS = """
-    #map { position: absolute; inset: 0; }
-    .panel {
+# iterations, retinted to the same brand navy as the sidebar so the two
+# images read as one branded set -- still just a corner annotation, not
+# given the full sidebar treatment (that would crowd out the close-up
+# building detail this image exists to show).
+FLOATING_PANEL_CSS = f"""
+    #map {{ position: absolute; inset: 0; }}
+    .panel {{
         position: absolute; left: 16px; bottom: 16px; z-index: 5;
-        background: rgba(20,20,22,0.94); border: 1px solid #27272a; border-radius: 10px;
+        background: rgba(4,29,56,0.94); border: 1px solid #0d2e4d; border-radius: 10px;
         padding: 16px 18px; font-size: 0.86rem; color: #d4d4d8; line-height: 1.7;
         box-shadow: 0 4px 20px rgba(0,0,0,0.5); max-width: 260px;
-    }
-    .panel-title {
+    }}
+    .panel-title {{
         font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
-        color: #898781; margin-bottom: 10px;
-    }
-    .legend-row { display: flex; align-items: center; gap: 9px; padding: 2px 0; }
-    .legend-swatch { width: 13px; height: 13px; border-radius: 3px; flex-shrink: 0; }
-    .boundary-key { display: flex; align-items: center; gap: 9px; margin-top: 8px; }
-    .boundary-swatch { width: 18px; height: 3px; background: #3a332a; border-radius: 2px; flex-shrink: 0; }
+        color: #9aa7b5; margin-bottom: 10px;
+    }}
+    .legend-row {{ display: flex; align-items: center; gap: 9px; padding: 2px 0; }}
+    .legend-swatch {{ width: 13px; height: 13px; border-radius: 3px; flex-shrink: 0; }}
+    .boundary-key {{ display: flex; align-items: center; gap: 9px; margin-top: 8px; }}
+    .boundary-swatch {{ width: 18px; height: 3px; background: {CHAMBER_WHITE}; border-radius: 2px; flex-shrink: 0; }}
 """
 
-FLOATING_PANEL_HTML = """
+FLOATING_PANEL_HTML = f"""
 <div id="map"></div>
 
 <div class="panel">
@@ -228,60 +243,63 @@ FLOATING_PANEL_HTML = """
     <div class="legend-row"><span class="legend-swatch" style="background:#06aed5"></span>Micro / Basic Membership</div>
     <div class="legend-row"><span class="legend-swatch" style="background:#3a86ff"></span>Business Catalyst</div>
     <div class="legend-row"><span class="legend-swatch" style="background:#8338ec"></span>Community Advocate / Partner</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#fb5607"></span>Regional Influencer / Key Stakeholder</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#d62828"></span>Economic Driver / Leading Investor</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:{CHAMBER_AMBER}"></span>Regional Influencer / Key Stakeholder</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:{CHAMBER_CRIMSON}"></span>Economic Driver / Leading Investor</div>
     <div class="legend-row"><span class="legend-swatch" style="background:#6b7280"></span>Additional listing (extra location/brand)</div>
     <div class="boundary-key"><span class="boundary-swatch"></span>Bibb County</div>
 </div>
 """
 
 # County-wide image: the main deliverable. A full-height title/legend
-# sidebar instead of a small floating box, so the map itself gets pushed
-# to the right and the legend gets real room to breathe -- Reid's ask.
-SIDEBAR_CSS = """
-    body { display: flex; }
-    #map { flex: 1 1 auto; height: 100%; position: relative; }
-    .sidebar {
+# sidebar in the Chamber's own navy, with their real logo, instead of an
+# invented dark palette -- so the map itself gets pushed to the right
+# and the legend gets real, on-brand room to breathe.
+SIDEBAR_CSS = f"""
+    body {{ display: flex; }}
+    #map {{ flex: 1 1 auto; height: 100%; position: relative; }}
+    .sidebar {{
         width: 34%; max-width: 560px; height: 100%; flex-shrink: 0;
-        background: #1c1815; color: #ece7dc;
-        padding: 56px 44px; display: flex; flex-direction: column;
-    }
-    .eyebrow {
+        background: {CHAMBER_NAVY}; color: #dbe2ea;
+        padding: 48px 44px; display: flex; flex-direction: column;
+    }}
+    .sidebar .logo {{ width: 210px; height: auto; margin-bottom: 28px; }}
+    .eyebrow {{
         font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
-        color: #06aed5; margin-bottom: 18px; display: flex; align-items: center; gap: 10px;
-    }
-    .eyebrow::before { content: ''; width: 26px; height: 3px; background: #06aed5; border-radius: 2px; }
-    .sidebar .title {
+        color: {CHAMBER_CRIMSON}; margin-bottom: 18px; display: flex; align-items: center; gap: 10px;
+    }}
+    .eyebrow::before {{ content: ''; width: 26px; height: 3px; background: {CHAMBER_CRIMSON}; border-radius: 2px; }}
+    .sidebar .title {{
         font-family: ui-serif, Georgia, "Times New Roman", serif; font-weight: 600;
         font-size: 3rem; line-height: 1.08; letter-spacing: -0.01em; color: #fff; margin-bottom: 20px;
-    }
-    .sidebar .subtitle { font-size: 1.05rem; color: #b8b0a0; line-height: 1.55; }
-    .sidebar .subtitle b { color: #fff; font-variant-numeric: tabular-nums; }
-    .legend-heading {
+    }}
+    .sidebar .subtitle {{ font-size: 1.05rem; color: #a9b7c4; line-height: 1.55; }}
+    .sidebar .subtitle b {{ color: {CHAMBER_AMBER}; font-variant-numeric: tabular-nums; }}
+    .legend-heading {{
         font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
-        color: #8a8272; margin: 40px 0 14px; padding-top: 28px; border-top: 1px solid #322d26;
-    }
-    .sidebar .legend-row { display: flex; align-items: center; gap: 15px; padding: 8px 0; font-size: 1.08rem; }
-    .sidebar .legend-swatch { width: 20px; height: 20px; border-radius: 6px; flex-shrink: 0; }
-    .sidebar .boundary-key {
+        color: #7488a0; margin: 40px 0 14px; padding-top: 28px; border-top: 1px solid #123351;
+    }}
+    .sidebar .legend-row {{ display: flex; align-items: center; gap: 15px; padding: 8px 0; font-size: 1.08rem; }}
+    .sidebar .legend-swatch {{ width: 20px; height: 20px; border-radius: 6px; flex-shrink: 0; }}
+    .sidebar .boundary-key {{
         display: flex; align-items: center; gap: 15px; margin-top: 22px;
-        padding-top: 22px; border-top: 1px solid #322d26; font-size: 1.08rem;
-    }
-    .sidebar .boundary-swatch { width: 28px; height: 3px; background: #ece7dc; border-radius: 2px; flex-shrink: 0; }
-    .sidebar-footer { margin-top: auto; padding-top: 28px; font-size: 0.74rem; color: #6b6456; }
+        padding-top: 22px; border-top: 1px solid #123351; font-size: 1.08rem;
+    }}
+    .sidebar .boundary-swatch {{ width: 28px; height: 3px; background: #dbe2ea; border-radius: 2px; flex-shrink: 0; }}
+    .sidebar-footer {{ margin-top: auto; padding-top: 28px; font-size: 0.74rem; color: #4d6076; }}
 """
 
-SIDEBAR_HTML = """
+SIDEBAR_HTML = f"""
 <div class="sidebar">
-    <div class="eyebrow">Greater Macon Chamber of Commerce</div>
+    <div class="logo">__CHAMBER_LOGO_SVG__</div>
+    <div class="eyebrow">Bibb County, Georgia</div>
     <div class="title">Where Macon<br>Invests</div>
     <div class="subtitle"><b>__INVESTOR_COUNT__</b> chamber investors located across Bibb County, Georgia.</div>
     <div class="legend-heading">Investor Tier</div>
     <div class="legend-row"><span class="legend-swatch" style="background:#06aed5"></span>Micro / Basic Membership</div>
     <div class="legend-row"><span class="legend-swatch" style="background:#3a86ff"></span>Business Catalyst</div>
     <div class="legend-row"><span class="legend-swatch" style="background:#8338ec"></span>Community Advocate / Partner</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#fb5607"></span>Regional Influencer / Key Stakeholder</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#d62828"></span>Economic Driver / Leading Investor</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:{CHAMBER_AMBER}"></span>Regional Influencer / Key Stakeholder</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:{CHAMBER_CRIMSON}"></span>Economic Driver / Leading Investor</div>
     <div class="legend-row"><span class="legend-swatch" style="background:#6b7280"></span>Additional listing (extra location/brand)</div>
     <div class="boundary-key"><span class="boundary-swatch"></span>Bibb County boundary</div>
     <div class="sidebar-footer">Source: Chamber member directory, geocoded</div>
@@ -312,8 +330,8 @@ const CHAMBER_BUCKET_COLOR = {
     tier1_micro_basic: "#06aed5",
     tier2_catalyst: "#3a86ff",
     tier3_community: "#8338ec",
-    tier4_regional_stakeholder: "#fb5607",
-    tier5_driver_investor: "#d62828",
+    tier4_regional_stakeholder: "#fa8b0c", // Chamber brand amber (was a close invented orange)
+    tier5_driver_investor: "#cf152d", // Chamber brand crimson (was a close invented red)
     additional_listing: "#6b7280",
 };
 const FILL_COLOR_EXPR = ["match", ["get", "bucket"], ...Object.entries(CHAMBER_BUCKET_COLOR).flat(), "#ffffff"];
@@ -357,7 +375,7 @@ const POSTER = {
     rail:        "#a89c86",
     aeroway:     "#e5e1d5",
     outsideMask: "#ffffff",
-    boundary:    "#3a332a", // dark warm charcoal, not the old gold -- reads as a clean cartographic line instead of a highlighter
+    boundary:    "#041d38", // Chamber brand navy -- ties the county outline itself back to the brand
 };
 
 map.on("load", () => {
