@@ -227,23 +227,23 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
 <div class="panel">
     <div class="panel-title">Chamber of Commerce Investors</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#7ec8f5"></span>Micro / Basic Membership</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#3fa9f5"></span>Business Catalyst</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#1487e8"></span>Community Advocate / Partner</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#0c66c9"></span>Regional Influencer / Key Stakeholder</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#0a4aa3"></span>Economic Driver / Leading Investor</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#a78bfa"></span>Additional listing (extra location/brand)</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#06aed5"></span>Micro / Basic Membership</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#3a86ff"></span>Business Catalyst</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#8338ec"></span>Community Advocate / Partner</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#fb5607"></span>Regional Influencer / Key Stakeholder</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#d62828"></span>Economic Driver / Leading Investor</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#6b7280"></span>Additional listing (extra location/brand)</div>
     <div class="boundary-key"><span class="boundary-swatch"></span>Bibb County</div>
 </div>
 
 <script>
 const CHAMBER_BUCKET_COLOR = {
-    tier1_micro_basic: "#7ec8f5",
-    tier2_catalyst: "#3fa9f5",
-    tier3_community: "#1487e8",
-    tier4_regional_stakeholder: "#0c66c9",
-    tier5_driver_investor: "#0a4aa3",
-    additional_listing: "#a78bfa",
+    tier1_micro_basic: "#06aed5",
+    tier2_catalyst: "#3a86ff",
+    tier3_community: "#8338ec",
+    tier4_regional_stakeholder: "#fb5607",
+    tier5_driver_investor: "#d62828",
+    additional_listing: "#6b7280",
 };
 const FILL_COLOR_EXPR = ["match", ["get", "bucket"], ...Object.entries(CHAMBER_BUCKET_COLOR).flat(), "#ffffff"];
 
