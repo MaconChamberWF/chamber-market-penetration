@@ -108,6 +108,29 @@ def filter_to_bibb(members_geojson, bibb_geojson):
     return {"type": "FeatureCollection", "features": kept}
 
 
+# Draw order within a single circle layer follows the source's feature
+# array order, not tier -- so wherever points overlap (downtown especially),
+# whichever bucket happened to come later in the raw export data won by
+# accident. Sorting the array itself, lowest tier first, fixes that: higher
+# tiers always draw on top in a cluster instead of getting buried.
+TIER_DRAW_PRIORITY = {
+    "additional_listing": 0,
+    "tier1_micro_basic": 1,
+    "tier2_catalyst": 2,
+    "tier3_community": 3,
+    "tier4_regional_stakeholder": 4,
+    "tier5_driver_investor": 5,
+}
+
+
+def sort_by_tier_priority(members_geojson):
+    features = sorted(
+        members_geojson["features"],
+        key=lambda f: TIER_DRAW_PRIORITY.get(f["properties"]["bucket"], 0),
+    )
+    return {"type": "FeatureCollection", "features": features}
+
+
 def main():
     with open(CHAMBER_BUILDINGS) as f:
         members_geojson = json.load(f)
@@ -115,6 +138,7 @@ def main():
         bibb_geojson = json.load(f)
 
     bibb_only_members = filter_to_bibb(members_geojson, bibb_geojson)
+    bibb_only_members = sort_by_tier_priority(bibb_only_members)
     members_json = json.dumps(bibb_only_members)
     bibb_json = json.dumps(bibb_geojson)
     mask_json = json.dumps(build_outside_mask(bibb_geojson))
@@ -203,23 +227,23 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
 <div class="panel">
     <div class="panel-title">Chamber of Commerce Investors</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#b7d3f6"></span>Micro / Basic Membership</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#6da7ec"></span>Business Catalyst</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#2a78d6"></span>Community Advocate / Partner</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#1c5cab"></span>Regional Influencer / Key Stakeholder</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#184f95"></span>Economic Driver / Leading Investor</div>
-    <div class="legend-row"><span class="legend-swatch" style="background:#9085e9"></span>Additional listing (extra location/brand)</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#7ec8f5"></span>Micro / Basic Membership</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#3fa9f5"></span>Business Catalyst</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#1487e8"></span>Community Advocate / Partner</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#0c66c9"></span>Regional Influencer / Key Stakeholder</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#0a4aa3"></span>Economic Driver / Leading Investor</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#a78bfa"></span>Additional listing (extra location/brand)</div>
     <div class="boundary-key"><span class="boundary-swatch"></span>Bibb County</div>
 </div>
 
 <script>
 const CHAMBER_BUCKET_COLOR = {
-    tier1_micro_basic: "#b7d3f6",
-    tier2_catalyst: "#6da7ec",
-    tier3_community: "#2a78d6",
-    tier4_regional_stakeholder: "#1c5cab",
-    tier5_driver_investor: "#184f95",
-    additional_listing: "#9085e9",
+    tier1_micro_basic: "#7ec8f5",
+    tier2_catalyst: "#3fa9f5",
+    tier3_community: "#1487e8",
+    tier4_regional_stakeholder: "#0c66c9",
+    tier5_driver_investor: "#0a4aa3",
+    additional_listing: "#a78bfa",
 };
 const FILL_COLOR_EXPR = ["match", ["get", "bucket"], ...Object.entries(CHAMBER_BUCKET_COLOR).flat(), "#ffffff"];
 
